@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "spellCount": 296,
+    "instant": 286,
+    "rune": 1,
+    "conjure": 9,
+    "damage": 239,
+    "healing": 8,
+    "condition": 25,
+    "utility": 24,
+    "singleTarget": 159,
+    "area": 81,
+    "self": 56,
+    "multiHit": 170,
+    "withEffect": 272,
+    "withMissile": 127,
+    "withFormula": 244,
+    "withCondition": 25,
+    "missingScripts": 0
+  },
+  "scriptsExtracted": 295,
+  "missingScripts": [],
+  "examples": {
+    "Regeneration": {
+      "level": 1,
+      "kiCost": 1000,
+      "cooldownMs": 1000,
+      "targetMode": "self",
+      "hitCount": 1,
+      "effectIds": [
+        87
+      ],
+      "missileIds": []
+    },
+    "Speed Up": {
+      "level": 1,
+      "kiCost": 1000,
+      "cooldownMs": 1000,
+      "targetMode": "self",
+      "hitCount": 1,
+      "effectIds": [
+        27
+      ],
+      "missileIds": []
+    },
+    "Renzoku Energy Dan": {
+      "level": 1,
+      "kiCost": 100,
+      "cooldownMs": 1000,
+      "targetMode": "single",
+      "hitCount": 2,
+      "effectIds": [
+        86
+      ],
+      "missileIds": [
+        27
+      ]
+    },
+    "Bakuhatsuha": {
+      "level": 30,
+      "kiCost": 2000,
+      "cooldownMs": 1000,
+      "targetMode": "area",
+      "hitCount": 1,
+      "effectIds": [
+        17
+      ],
+      "missileIds": []
+    },
+    "Kamehameha": {
+      "level": 100,
+      "kiCost": 4000,
+      "cooldownMs": 1000,
+      "targetMode": "area",
+      "hitCount": 16,
+      "effectIds": [
+        128,
+        129,
+        130,
+        133,
+        132,
+        131
+      ],
+      "missileIds": []
+    },
+    "Death Ball": {
+      "level": 100,
+      "kiCost": 3000,
+      "cooldownMs": 1000,
+      "targetMode": "single",
+      "hitCount": 1,
+      "effectIds": [
+        20
+      ],
+      "missileIds": [
+        43
+      ]
+    }
+  }
+}

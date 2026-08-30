@@ -1,0 +1,66 @@
+{
+  "source": "items.xml + items.otb + Tibia.dat + Tibia.spr",
+  "mode": "automatic-serverId-to-clientId",
+  "items": [
+    {
+      "id": "senzu",
+      "serverId": 12779,
+      "image": "generated/web/items/12779.png"
+    },
+    {
+      "id": "scouter",
+      "serverId": 2662,
+      "image": "generated/web/items/2662.png"
+    },
+    {
+      "id": "armor",
+      "serverId": 2463,
+      "image": "generated/web/items/2463.png"
+    },
+    {
+      "id": "gloves",
+      "serverId": 2640,
+      "image": "generated/web/items/2640.png"
+    },
+    {
+      "id": "z_sword",
+      "serverId": 2400,
+      "image": "generated/web/items/2400.png"
+    },
+    {
+      "id": "saiyan_legs",
+      "serverId": 2477,
+      "image": "generated/web/items/2477.png"
+    },
+    {
+      "id": "flying_boots",
+      "serverId": 2643,
+      "image": "generated/web/items/2643.png"
+    },
+    {
+      "id": "power_ring",
+      "serverId": 2164,
+      "image": "generated/web/items/2164.png"
+    },
+    {
+      "id": "dragon_necklace",
+      "serverId": 2171,
+      "image": "generated/web/items/2171.png"
+    },
+    {
+      "id": "capsule_pack",
+      "serverId": 1988,
+      "image": "generated/web/items/1988.png"
+    },
+    {
+      "id": "energy_shield",
+      "serverId": 2516,
+      "image": "generated/web/items/2516.png"
+    },
+    {
+      "id": "ki_ammo",
+      "serverId": 2544,
+      "image": "generated/web/items/2544.png"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "source": "/mnt/data/dbo-work/Dbo Abolsut BY TRINT/DBO Absolut BASE/data",
+  "counts": {
+    "vocations": 982,
+    "characters": 251,
+    "items": 9356,
+    "monsters": 254,
+    "spells": 298,
+    "monsterFailures": 0
+  },
+  "failures": []
+}

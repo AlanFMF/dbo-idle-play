@@ -1,0 +1,2824 @@
+{
+  "version": 1,
+  "tileSize": 32,
+  "floors": [
+    {
+      "id": "earth",
+      "name": "Grama",
+      "src": "./assets/generated/arena-floors-v1229/earth.png",
+      "layer": "ground"
+    },
+    {
+      "id": "dirt",
+      "name": "Terra",
+      "src": "./assets/generated/arena-floors-v1229/dirt.png",
+      "layer": "ground"
+    },
+    {
+      "id": "stone",
+      "name": "Pedra",
+      "src": "./assets/generated/arena-floors-v1229/stone.png",
+      "layer": "ground"
+    },
+    {
+      "id": "snow",
+      "name": "Neve",
+      "src": "./assets/generated/arena-floors-v1229/snow.png",
+      "layer": "ground"
+    },
+    {
+      "id": "time",
+      "name": "Sala do Tempo",
+      "src": "./assets/generated/arena-floors-v1229/time.png",
+      "layer": "ground"
+    }
+  ],
+  "objects": [
+    {
+      "id": "item-1487",
+      "serverId": 1487,
+      "name": "fire field",
+      "src": "./generated/web/items/1487.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-1551",
+      "serverId": 1551,
+      "name": "oriental pillar",
+      "src": "./generated/web/items/1551.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-1668",
+      "serverId": 1668,
+      "name": "red cushioned chair",
+      "src": "./generated/web/items/1668.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-1670",
+      "serverId": 1670,
+      "name": "green cushioned chair",
+      "src": "./generated/web/items/1670.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-1775",
+      "serverId": 1775,
+      "name": "trough",
+      "src": "./generated/web/items/1775.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-1988",
+      "serverId": 1988,
+      "name": "the backpack",
+      "src": "./generated/web/items/1988.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-2144",
+      "serverId": 2144,
+      "name": "Oblivion essence",
+      "src": "./generated/web/items/2144.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-2146",
+      "serverId": 2146,
+      "name": "Adora Coin",
+      "src": "./generated/web/items/2146.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-2148",
+      "serverId": 2148,
+      "name": "Cent",
+      "src": "./generated/web/items/2148.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-2149",
+      "serverId": 2149,
+      "name": "Green Bar",
+      "src": "./generated/web/items/2149.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-2150",
+      "serverId": 2150,
+      "name": "Pink Bar",
+      "src": "./generated/web/items/2150.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-2152",
+      "serverId": 2152,
+      "name": "Dollar",
+      "src": "./generated/web/items/2152.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-2153",
+      "serverId": 2153,
+      "name": "Upgrade Stone",
+      "src": "./generated/web/items/2153.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-2159",
+      "serverId": 2159,
+      "name": "Oblivion Root",
+      "src": "./generated/web/items/2159.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-2160",
+      "serverId": 2160,
+      "name": "Gold",
+      "src": "./generated/web/items/2160.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-2164",
+      "serverId": 2164,
+      "name": "might ring",
+      "src": "./generated/web/items/2164.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-2171",
+      "serverId": 2171,
+      "name": "platinum amulet",
+      "src": "./generated/web/items/2171.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-2328",
+      "serverId": 2328,
+      "name": "phoenix egg",
+      "src": "./generated/web/items/2328.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-2400",
+      "serverId": 2400,
+      "name": "Jiren Glove",
+      "src": "./generated/web/items/2400.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-2463",
+      "serverId": 2463,
+      "name": "Liquer Armor",
+      "src": "./generated/web/items/2463.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-2477",
+      "serverId": 2477,
+      "name": "Black Janemba Legs",
+      "src": "./generated/web/items/2477.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-2516",
+      "serverId": 2516,
+      "name": "dragon shield",
+      "src": "./generated/web/items/2516.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-2544",
+      "serverId": 2544,
+      "name": "Oblivion Bar",
+      "src": "./generated/web/items/2544.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-2640",
+      "serverId": 2640,
+      "name": "pair of soft boots",
+      "src": "./generated/web/items/2640.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-2643",
+      "serverId": 2643,
+      "name": "Black Janemba Boots",
+      "src": "./generated/web/items/2643.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-2662",
+      "serverId": 2662,
+      "name": "magician hat",
+      "src": "./generated/web/items/2662.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-2666",
+      "serverId": 2666,
+      "name": "Meat",
+      "src": "./generated/web/items/2666.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-2671",
+      "serverId": 2671,
+      "name": "Ham",
+      "src": "./generated/web/items/2671.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-2672",
+      "serverId": 2672,
+      "name": "Dragon Tail",
+      "src": "./generated/web/items/2672.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-2916",
+      "serverId": 2916,
+      "name": "slain demon",
+      "src": "./generated/web/items/2916.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-3840",
+      "serverId": 3840,
+      "name": "hammock",
+      "src": "./generated/web/items/3840.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-5022",
+      "serverId": 5022,
+      "name": "orichalcum pearl",
+      "src": "./generated/web/items/5022.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-6500",
+      "serverId": 6500,
+      "name": "Red Bar",
+      "src": "./generated/web/items/6500.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-6541",
+      "serverId": 6541,
+      "name": "Black Essence",
+      "src": "./generated/web/items/6541.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-6543",
+      "serverId": 6543,
+      "name": "Blue Essence",
+      "src": "./generated/web/items/6543.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-6544",
+      "serverId": 6544,
+      "name": "Green Egg",
+      "src": "./generated/web/items/6544.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-9971",
+      "serverId": 9971,
+      "name": "Ultra Souls Point",
+      "src": "./generated/web/items/9971.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12621",
+      "serverId": 12621,
+      "name": "Eye Mask",
+      "src": "./generated/web/items/12621.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12625",
+      "serverId": 12625,
+      "name": "Ninja Helmet",
+      "src": "./generated/web/items/12625.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12626",
+      "serverId": 12626,
+      "name": "Soldier Helmet",
+      "src": "./generated/web/items/12626.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12627",
+      "serverId": 12627,
+      "name": "Pai Pai Helmet",
+      "src": "./generated/web/items/12627.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12628",
+      "serverId": 12628,
+      "name": "Paul Cap",
+      "src": "./generated/web/items/12628.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12629",
+      "serverId": 12629,
+      "name": "Piccolo Cap",
+      "src": "./generated/web/items/12629.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12630",
+      "serverId": 12630,
+      "name": "Broly Amulation",
+      "src": "./generated/web/items/12630.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12631",
+      "serverId": 12631,
+      "name": "Great Saiyan Helmet",
+      "src": "./generated/web/items/12631.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12632",
+      "serverId": 12632,
+      "name": "Janemba Helmet",
+      "src": "./generated/web/items/12632.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12636",
+      "serverId": 12636,
+      "name": "Bardock Armor",
+      "src": "./generated/web/items/12636.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12637",
+      "serverId": 12637,
+      "name": "Future Trunks Armor",
+      "src": "./generated/web/items/12637.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12639",
+      "serverId": 12639,
+      "name": "Black Coat",
+      "src": "./generated/web/items/12639.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12640",
+      "serverId": 12640,
+      "name": "Fighter Armor",
+      "src": "./generated/web/items/12640.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12642",
+      "serverId": 12642,
+      "name": "Goten Armor",
+      "src": "./generated/web/items/12642.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12643",
+      "serverId": 12643,
+      "name": "Piccolo Armor",
+      "src": "./generated/web/items/12643.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12644",
+      "serverId": 12644,
+      "name": "Raditz Armor",
+      "src": "./generated/web/items/12644.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12645",
+      "serverId": 12645,
+      "name": "Saiyan Armor",
+      "src": "./generated/web/items/12645.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12646",
+      "serverId": 12646,
+      "name": "C18 Armor",
+      "src": "./generated/web/items/12646.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12647",
+      "serverId": 12647,
+      "name": "Gohan Armor",
+      "src": "./generated/web/items/12647.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12648",
+      "serverId": 12648,
+      "name": "C17 Armor",
+      "src": "./generated/web/items/12648.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12649",
+      "serverId": 12649,
+      "name": "C16 Armor",
+      "src": "./generated/web/items/12649.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12650",
+      "serverId": 12650,
+      "name": "Soldier Armor",
+      "src": "./generated/web/items/12650.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12651",
+      "serverId": 12651,
+      "name": "Ussj Armor",
+      "src": "./generated/web/items/12651.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12652",
+      "serverId": 12652,
+      "name": "Majin Armor",
+      "src": "./generated/web/items/12652.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12653",
+      "serverId": 12653,
+      "name": "Piccolo Robe",
+      "src": "./generated/web/items/12653.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12655",
+      "serverId": 12655,
+      "name": "Goku Armor",
+      "src": "./generated/web/items/12655.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12656",
+      "serverId": 12656,
+      "name": "Tsuful Armor",
+      "src": "./generated/web/items/12656.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12657",
+      "serverId": 12657,
+      "name": "Super C17 Armor",
+      "src": "./generated/web/items/12657.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12658",
+      "serverId": 12658,
+      "name": "Shin Armor",
+      "src": "./generated/web/items/12658.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12659",
+      "serverId": 12659,
+      "name": "Vegetovisk Armor",
+      "src": "./generated/web/items/12659.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12660",
+      "serverId": 12660,
+      "name": "Fusion Armor",
+      "src": "./generated/web/items/12660.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12661",
+      "serverId": 12661,
+      "name": "Cell Armor",
+      "src": "./generated/web/items/12661.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12665",
+      "serverId": 12665,
+      "name": "Red Armor",
+      "src": "./generated/web/items/12665.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12666",
+      "serverId": 12666,
+      "name": "Fighter Legs",
+      "src": "./generated/web/items/12666.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12667",
+      "serverId": 12667,
+      "name": "Scale Legs",
+      "src": "./generated/web/items/12667.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12668",
+      "serverId": 12668,
+      "name": "Majin Legs",
+      "src": "./generated/web/items/12668.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12669",
+      "serverId": 12669,
+      "name": "Soldier Legs",
+      "src": "./generated/web/items/12669.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12670",
+      "serverId": 12670,
+      "name": "Bardock Legs",
+      "src": "./generated/web/items/12670.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12671",
+      "serverId": 12671,
+      "name": "C17 Legs",
+      "src": "./generated/web/items/12671.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12672",
+      "serverId": 12672,
+      "name": "Ussj Legs",
+      "src": "./generated/web/items/12672.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12673",
+      "serverId": 12673,
+      "name": "Piccolo Legs",
+      "src": "./generated/web/items/12673.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12674",
+      "serverId": 12674,
+      "name": "Boo Legs",
+      "src": "./generated/web/items/12674.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12675",
+      "serverId": 12675,
+      "name": "Goku Legs",
+      "src": "./generated/web/items/12675.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12676",
+      "serverId": 12676,
+      "name": "Broly Legs",
+      "src": "./generated/web/items/12676.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12677",
+      "serverId": 12677,
+      "name": "Unknow Legs",
+      "src": "./generated/web/items/12677.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12678",
+      "serverId": 12678,
+      "name": "Goku SSJ5 Legs",
+      "src": "./generated/web/items/12678.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12686",
+      "serverId": 12686,
+      "name": "Saiyan Boots",
+      "src": "./generated/web/items/12686.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12687",
+      "serverId": 12687,
+      "name": "Future Trunks Boots",
+      "src": "./generated/web/items/12687.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12688",
+      "serverId": 12688,
+      "name": "Bardock Boots",
+      "src": "./generated/web/items/12688.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12690",
+      "serverId": 12690,
+      "name": "Broly Boots",
+      "src": "./generated/web/items/12690.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12691",
+      "serverId": 12691,
+      "name": "Majin Boots",
+      "src": "./generated/web/items/12691.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12692",
+      "serverId": 12692,
+      "name": "C17 Boots",
+      "src": "./generated/web/items/12692.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12693",
+      "serverId": 12693,
+      "name": "Goku Boots",
+      "src": "./generated/web/items/12693.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12697",
+      "serverId": 12697,
+      "name": "First Boots",
+      "src": "./generated/web/items/12697.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12699",
+      "serverId": 12699,
+      "name": "Yellow Glove",
+      "src": "./generated/web/items/12699.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12701",
+      "serverId": 12701,
+      "name": "White Glove",
+      "src": "./generated/web/items/12701.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12702",
+      "serverId": 12702,
+      "name": "Green Glove",
+      "src": "./generated/web/items/12702.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12703",
+      "serverId": 12703,
+      "name": "Stronge Glove",
+      "src": "./generated/web/items/12703.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12704",
+      "serverId": 12704,
+      "name": "Bardock Glove",
+      "src": "./generated/web/items/12704.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12705",
+      "serverId": 12705,
+      "name": "Saiyan Glove",
+      "src": "./generated/web/items/12705.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12706",
+      "serverId": 12706,
+      "name": "Majin Glove",
+      "src": "./generated/web/items/12706.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12707",
+      "serverId": 12707,
+      "name": "Vulcan Glove",
+      "src": "./generated/web/items/12707.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12708",
+      "serverId": 12708,
+      "name": "Silver Glove",
+      "src": "./generated/web/items/12708.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12710",
+      "serverId": 12710,
+      "name": "Golden Glove",
+      "src": "./generated/web/items/12710.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12711",
+      "serverId": 12711,
+      "name": "Magic Glove",
+      "src": "./generated/web/items/12711.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12713",
+      "serverId": 12713,
+      "name": "Dragon Glove",
+      "src": "./generated/web/items/12713.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12715",
+      "serverId": 12715,
+      "name": "Brancas Sword",
+      "src": "./generated/web/items/12715.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12716",
+      "serverId": 12716,
+      "name": "Small Sword",
+      "src": "./generated/web/items/12716.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12717",
+      "serverId": 12717,
+      "name": "Jin Sword",
+      "src": "./generated/web/items/12717.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12721",
+      "serverId": 12721,
+      "name": "Demons Sword",
+      "src": "./generated/web/items/12721.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12723",
+      "serverId": 12723,
+      "name": "Broly Sword",
+      "src": "./generated/web/items/12723.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12724",
+      "serverId": 12724,
+      "name": "Z Sword",
+      "src": "./generated/web/items/12724.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12726",
+      "serverId": 12726,
+      "name": "Spirit Sword",
+      "src": "./generated/web/items/12726.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12727",
+      "serverId": 12727,
+      "name": "Rapier",
+      "src": "./generated/web/items/12727.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12728",
+      "serverId": 12728,
+      "name": "Janemba Sword",
+      "src": "./generated/web/items/12728.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12729",
+      "serverId": 12729,
+      "name": "Sword Of Fire",
+      "src": "./generated/web/items/12729.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12730",
+      "serverId": 12730,
+      "name": "Saiyan Sword",
+      "src": "./generated/web/items/12730.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12731",
+      "serverId": 12731,
+      "name": "Sword Of Ice",
+      "src": "./generated/web/items/12731.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12736",
+      "serverId": 12736,
+      "name": "Makankosappo Power",
+      "src": "./generated/web/items/12736.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12737",
+      "serverId": 12737,
+      "name": "Makankosappo",
+      "src": "./generated/web/items/12737.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12738",
+      "serverId": 12738,
+      "name": "Strong Makankosappo",
+      "src": "./generated/web/items/12738.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12739",
+      "serverId": 12739,
+      "name": "Sniper",
+      "src": "./generated/web/items/12739.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12740",
+      "serverId": 12740,
+      "name": "Gun",
+      "src": "./generated/web/items/12740.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12741",
+      "serverId": 12741,
+      "name": "Uzi",
+      "src": "./generated/web/items/12741.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12742",
+      "serverId": 12742,
+      "name": "Green Gun",
+      "src": "./generated/web/items/12742.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12743",
+      "serverId": 12743,
+      "name": "Stronge Gun",
+      "src": "./generated/web/items/12743.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12744",
+      "serverId": 12744,
+      "name": "Namek Power",
+      "src": "./generated/web/items/12744.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12745",
+      "serverId": 12745,
+      "name": "Blaster",
+      "src": "./generated/web/items/12745.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12747",
+      "serverId": 12747,
+      "name": "Blue Ki",
+      "src": "./generated/web/items/12747.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12757",
+      "serverId": 12757,
+      "name": "Band Of Loss",
+      "src": "./generated/web/items/12757.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12760",
+      "serverId": 12760,
+      "name": "Green Capsule",
+      "src": "./generated/web/items/12760.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12761",
+      "serverId": 12761,
+      "name": "DBO Backpack",
+      "src": "./generated/web/items/12761.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12762",
+      "serverId": 12762,
+      "name": "Red Capsule",
+      "src": "./generated/web/items/12762.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12763",
+      "serverId": 12763,
+      "name": "Grey Capsule",
+      "src": "./generated/web/items/12763.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12764",
+      "serverId": 12764,
+      "name": "Backpack",
+      "src": "./generated/web/items/12764.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12765",
+      "serverId": 12765,
+      "name": "Talon",
+      "src": "./generated/web/items/12765.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12766",
+      "serverId": 12766,
+      "name": "Magic Leaf",
+      "src": "./generated/web/items/12766.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12768",
+      "serverId": 12768,
+      "name": "Blue Detector",
+      "src": "./generated/web/items/12768.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12769",
+      "serverId": 12769,
+      "name": "Red Detector",
+      "src": "./generated/web/items/12769.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12775",
+      "serverId": 12775,
+      "name": "HP Potion",
+      "src": "./generated/web/items/12775.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12776",
+      "serverId": 12776,
+      "name": "Ki Potion",
+      "src": "./generated/web/items/12776.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12777",
+      "serverId": 12777,
+      "name": "Senzu Leaf",
+      "src": "./generated/web/items/12777.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12778",
+      "serverId": 12778,
+      "name": "Senzu Root",
+      "src": "./generated/web/items/12778.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12779",
+      "serverId": 12779,
+      "name": "Senzu Bean",
+      "src": "./generated/web/items/12779.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12780",
+      "serverId": 12780,
+      "name": "Magic Senzu Bean",
+      "src": "./generated/web/items/12780.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12781",
+      "serverId": 12781,
+      "name": "Dead Chibi Gohan",
+      "src": "./generated/web/items/12781.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12782",
+      "serverId": 12782,
+      "name": "Dead Broly",
+      "src": "./generated/web/items/12782.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12783",
+      "serverId": 12783,
+      "name": "Dead Cooler",
+      "src": "./generated/web/items/12783.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12784",
+      "serverId": 12784,
+      "name": "Dead C16",
+      "src": "./generated/web/items/12784.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12788",
+      "serverId": 12788,
+      "name": "Dead Goku",
+      "src": "./generated/web/items/12788.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12789",
+      "serverId": 12789,
+      "name": "Dead Android",
+      "src": "./generated/web/items/12789.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12790",
+      "serverId": 12790,
+      "name": "Dead C18",
+      "src": "./generated/web/items/12790.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12791",
+      "serverId": 12791,
+      "name": "Dead Vegeta",
+      "src": "./generated/web/items/12791.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12792",
+      "serverId": 12792,
+      "name": "Dead Namekjin",
+      "src": "./generated/web/items/12792.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12794",
+      "serverId": 12794,
+      "name": "Dead Broly",
+      "src": "./generated/web/items/12794.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12796",
+      "serverId": 12796,
+      "name": "Dead Piccolo",
+      "src": "./generated/web/items/12796.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12797",
+      "serverId": 12797,
+      "name": "Dead Cell",
+      "src": "./generated/web/items/12797.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12798",
+      "serverId": 12798,
+      "name": "Dead Raditz",
+      "src": "./generated/web/items/12798.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12802",
+      "serverId": 12802,
+      "name": "Dead C17",
+      "src": "./generated/web/items/12802.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12803",
+      "serverId": 12803,
+      "name": "Dead Majin Boo",
+      "src": "./generated/web/items/12803.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12805",
+      "serverId": 12805,
+      "name": "Destroyed Android Warrior",
+      "src": "./generated/web/items/12805.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12807",
+      "serverId": 12807,
+      "name": "Destroyed Android",
+      "src": "./generated/web/items/12807.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12808",
+      "serverId": 12808,
+      "name": "Dead Freeza",
+      "src": "./generated/web/items/12808.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12809",
+      "serverId": 12809,
+      "name": "Dead Kaio",
+      "src": "./generated/web/items/12809.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12810",
+      "serverId": 12810,
+      "name": "Dead Gotenks",
+      "src": "./generated/web/items/12810.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12811",
+      "serverId": 12811,
+      "name": "Dead Tsuful",
+      "src": "./generated/web/items/12811.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12812",
+      "serverId": 12812,
+      "name": "Dead Janemba",
+      "src": "./generated/web/items/12812.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12813",
+      "serverId": 12813,
+      "name": "Dead Cell",
+      "src": "./generated/web/items/12813.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12815",
+      "serverId": 12815,
+      "name": "Dead Goku",
+      "src": "./generated/web/items/12815.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12816",
+      "serverId": 12816,
+      "name": "Dead Gogeta",
+      "src": "./generated/web/items/12816.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12819",
+      "serverId": 12819,
+      "name": "Dead Gohan",
+      "src": "./generated/web/items/12819.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12820",
+      "serverId": 12820,
+      "name": "Dead Trunks",
+      "src": "./generated/web/items/12820.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12821",
+      "serverId": 12821,
+      "name": "Dead Vegeta",
+      "src": "./generated/web/items/12821.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12823",
+      "serverId": 12823,
+      "name": "Dead Kuririn",
+      "src": "./generated/web/items/12823.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12824",
+      "serverId": 12824,
+      "name": "Dead Future Trunks",
+      "src": "./generated/web/items/12824.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12825",
+      "serverId": 12825,
+      "name": "Dead Super C17",
+      "src": "./generated/web/items/12825.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12826",
+      "serverId": 12826,
+      "name": "Dead Baby",
+      "src": "./generated/web/items/12826.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12831",
+      "serverId": 12831,
+      "name": "Dead Turles",
+      "src": "./generated/web/items/12831.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12833",
+      "serverId": 12833,
+      "name": "Dead Bardock",
+      "src": "./generated/web/items/12833.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12834",
+      "serverId": 12834,
+      "name": "Dead Cell Jr",
+      "src": "./generated/web/items/12834.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12835",
+      "serverId": 12835,
+      "name": "Dead Gogeta",
+      "src": "./generated/web/items/12835.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12836",
+      "serverId": 12836,
+      "name": "Dead Dino",
+      "src": "./generated/web/items/12836.png",
+      "layer": "object",
+      "blocking": false
+    },
+    {
+      "id": "item-12837",
+      "serverId": 12837,
+      "name": "Dead Zarbon",
+      "src": "./generated/web/items/12837.png",
+      "layer": "object",
+      "blocking": false
+    }
+  ],
+  "monsters": [
+    {
+      "id": "dino",
+      "name": "Dino",
+      "lookType": 390,
+      "src": "./generated/web/absolute-monsters-png/390.png"
+    },
+    {
+      "id": "wolf-beast",
+      "name": "Wolf Beast",
+      "lookType": 393,
+      "src": "./generated/web/absolute-monsters-png/393.png"
+    },
+    {
+      "id": "bandit-scout",
+      "name": "Bandit Scout",
+      "lookType": 386,
+      "src": "./generated/web/absolute-monsters-png/386.png"
+    },
+    {
+      "id": "crocodile",
+      "name": "Crocodile",
+      "lookType": 471,
+      "src": "./generated/web/absolute-monsters-png/471.png"
+    },
+    {
+      "id": "fighter",
+      "name": "Fighter",
+      "lookType": 409,
+      "src": "./generated/web/absolute-monsters-png/409.png"
+    },
+    {
+      "id": "android",
+      "name": "Android",
+      "lookType": 46,
+      "src": "./generated/web/absolute-monsters-png/46.png"
+    },
+    {
+      "id": "mummy",
+      "name": "Mummy",
+      "lookType": 401,
+      "src": "./generated/web/absolute-monsters-png/401.png"
+    },
+    {
+      "id": "human",
+      "name": "Human",
+      "lookType": 473,
+      "src": "./generated/web/absolute-monsters-png/473.png"
+    },
+    {
+      "id": "triceratops",
+      "name": "Triceratops",
+      "lookType": 430,
+      "src": "./generated/web/absolute-monsters-png/430.png"
+    },
+    {
+      "id": "dinosaur",
+      "name": "Dinosaur",
+      "lookType": 431,
+      "src": "./generated/web/absolute-monsters-png/431.png"
+    },
+    {
+      "id": "bandit-swordman",
+      "name": "Bandit Swordman",
+      "lookType": 387,
+      "src": "./generated/web/absolute-monsters-png/387.png"
+    },
+    {
+      "id": "vampire",
+      "name": "Vampire",
+      "lookType": 397,
+      "src": "./generated/web/absolute-monsters-png/397.png"
+    },
+    {
+      "id": "zombie",
+      "name": "Zombie",
+      "lookType": 479,
+      "src": "./generated/web/absolute-monsters-png/479.png"
+    },
+    {
+      "id": "wolf",
+      "name": "Wolf",
+      "lookType": 393,
+      "src": "./generated/web/absolute-monsters-png/393.png"
+    },
+    {
+      "id": "bandit-gun",
+      "name": "Bandit Gun",
+      "lookType": 475,
+      "src": "./generated/web/absolute-monsters-png/475.png"
+    },
+    {
+      "id": "bandit-human",
+      "name": "Bandit Human",
+      "lookType": 472,
+      "src": "./generated/web/absolute-monsters-png/472.png"
+    },
+    {
+      "id": "tao-pai-pai",
+      "name": "Tao Pai Pai",
+      "lookType": 469,
+      "src": "./generated/web/absolute-monsters-png/469.png"
+    },
+    {
+      "id": "assassin",
+      "name": "Assassin",
+      "lookType": 384,
+      "src": "./generated/web/absolute-monsters-png/384.png"
+    },
+    {
+      "id": "android-warrior",
+      "name": "Android Warrior",
+      "lookType": 47,
+      "src": "./generated/web/absolute-monsters-png/47.png"
+    },
+    {
+      "id": "android-fly",
+      "name": "Android Fly",
+      "lookType": 470,
+      "src": "./generated/web/absolute-monsters-png/470.png"
+    },
+    {
+      "id": "terminator",
+      "name": "Terminator",
+      "lookType": 122,
+      "src": "./generated/web/absolute-monsters-png/122.png"
+    },
+    {
+      "id": "bandit",
+      "name": "Bandit",
+      "lookType": 388,
+      "src": "./generated/web/absolute-monsters-png/388.png"
+    },
+    {
+      "id": "scorpion",
+      "name": "Scorpion",
+      "lookType": 435,
+      "src": "./generated/web/absolute-monsters-png/435.png"
+    },
+    {
+      "id": "saibamen",
+      "name": "Saibamen",
+      "lookType": 399,
+      "src": "./generated/web/absolute-monsters-png/399.png"
+    },
+    {
+      "id": "destroyer",
+      "name": "Destroyer",
+      "lookType": 48,
+      "src": "./generated/web/absolute-monsters-png/48.png"
+    },
+    {
+      "id": "tank",
+      "name": "Tank",
+      "lookType": 438,
+      "src": "./generated/web/absolute-monsters-png/438.png"
+    },
+    {
+      "id": "poison-fly",
+      "name": "Poison Fly",
+      "lookType": 413,
+      "src": "./generated/web/absolute-monsters-png/413.png"
+    },
+    {
+      "id": "ghost",
+      "name": "Ghost",
+      "lookType": 421,
+      "src": "./generated/web/absolute-monsters-png/421.png"
+    },
+    {
+      "id": "ice-elemental",
+      "name": "Ice Elemental",
+      "lookType": 428,
+      "src": "./generated/web/absolute-monsters-png/428.png"
+    },
+    {
+      "id": "fire-elemental",
+      "name": "Fire Elemental",
+      "lookType": 427,
+      "src": "./generated/web/absolute-monsters-png/427.png"
+    },
+    {
+      "id": "soldier",
+      "name": "Soldier",
+      "lookType": 400,
+      "src": "./generated/web/absolute-monsters-png/400.png"
+    },
+    {
+      "id": "pui-pui",
+      "name": "Pui Pui",
+      "lookType": 426,
+      "src": "./generated/web/absolute-monsters-png/426.png"
+    },
+    {
+      "id": "wind-elemental",
+      "name": "Wind Elemental",
+      "lookType": 441,
+      "src": "./generated/web/absolute-monsters-png/441.png"
+    },
+    {
+      "id": "dodoria",
+      "name": "Dodoria",
+      "lookType": 395,
+      "src": "./generated/web/absolute-monsters-png/395.png"
+    },
+    {
+      "id": "namekjin",
+      "name": "Namekjin",
+      "lookType": 34,
+      "src": "./generated/web/absolute-monsters-png/34.png"
+    },
+    {
+      "id": "bardock",
+      "name": "Bardock",
+      "lookType": 188,
+      "src": "./generated/web/absolute-monsters-png/188.png"
+    },
+    {
+      "id": "ghost-ssj3",
+      "name": "Ghost SSJ3",
+      "lookType": 421,
+      "src": "./generated/web/absolute-monsters-png/421.png"
+    },
+    {
+      "id": "robotron",
+      "name": "Robotron",
+      "lookType": 439,
+      "src": "./generated/web/absolute-monsters-png/439.png"
+    },
+    {
+      "id": "prince-oozaru",
+      "name": "Prince Oozaru",
+      "lookType": 20,
+      "src": "./generated/web/absolute-monsters-png/20.png"
+    },
+    {
+      "id": "zarbon",
+      "name": "Zarbon",
+      "lookType": 391,
+      "src": "./generated/web/absolute-monsters-png/391.png"
+    },
+    {
+      "id": "raditz",
+      "name": "Raditz",
+      "lookType": 267,
+      "src": "./generated/web/absolute-monsters-png/267.png"
+    },
+    {
+      "id": "c19",
+      "name": "C19",
+      "lookType": 423,
+      "src": "./generated/web/absolute-monsters-png/423.png"
+    },
+    {
+      "id": "ancient-triceratops",
+      "name": "Ancient Triceratops",
+      "lookType": 430,
+      "src": "./generated/web/absolute-monsters-png/430.png"
+    },
+    {
+      "id": "water-saibamen",
+      "name": "Water Saibamen",
+      "lookType": 404,
+      "src": "./generated/web/absolute-monsters-png/404.png"
+    },
+    {
+      "id": "swampper",
+      "name": "Swampper",
+      "lookType": 404,
+      "src": "./generated/web/absolute-monsters-png/404.png"
+    },
+    {
+      "id": "saiyan-oozaru",
+      "name": "Saiyan Oozaru",
+      "lookType": 189,
+      "src": "./generated/web/absolute-monsters-png/189.png"
+    },
+    {
+      "id": "ancient-dinosaur",
+      "name": "Ancient Dinosaur",
+      "lookType": 431,
+      "src": "./generated/web/absolute-monsters-png/431.png"
+    },
+    {
+      "id": "freeza",
+      "name": "Freeza",
+      "lookType": 92,
+      "src": "./generated/web/absolute-monsters-png/92.png"
+    },
+    {
+      "id": "namekjin-warrior",
+      "name": "Namekjin Warrior",
+      "lookType": 39,
+      "src": "./generated/web/absolute-monsters-png/39.png"
+    },
+    {
+      "id": "cell-jr",
+      "name": "Cell Jr",
+      "lookType": 81,
+      "src": "./generated/web/absolute-monsters-png/81.png"
+    },
+    {
+      "id": "yakon",
+      "name": "Yakon",
+      "lookType": 394,
+      "src": "./generated/web/absolute-monsters-png/394.png"
+    },
+    {
+      "id": "invader",
+      "name": "Invader",
+      "lookType": 405,
+      "src": "./generated/web/absolute-monsters-png/405.png"
+    },
+    {
+      "id": "kid-janemba",
+      "name": "Kid Janemba",
+      "lookType": 235,
+      "src": "./generated/web/absolute-monsters-png/235.png"
+    },
+    {
+      "id": "omega-destroyer",
+      "name": "Omega Destroyer",
+      "lookType": 286,
+      "src": "./generated/web/absolute-monsters-png/286.png"
+    },
+    {
+      "id": "fat-boo",
+      "name": "Fat Boo",
+      "lookType": 98,
+      "src": "./generated/web/absolute-monsters-png/98.png"
+    },
+    {
+      "id": "bojack",
+      "name": "Bojack",
+      "lookType": 408,
+      "src": "./generated/web/absolute-monsters-png/408.png"
+    },
+    {
+      "id": "c16",
+      "name": "C16",
+      "lookType": 275,
+      "src": "./generated/web/absolute-monsters-png/275.png"
+    },
+    {
+      "id": "c17",
+      "name": "C17",
+      "lookType": 49,
+      "src": "./generated/web/absolute-monsters-png/49.png"
+    },
+    {
+      "id": "namekjin-cultist",
+      "name": "Namekjin Cultist",
+      "lookType": 170,
+      "src": "./generated/web/absolute-monsters-png/170.png"
+    },
+    {
+      "id": "trunks-ssj2",
+      "name": "Trunks SSJ2",
+      "lookType": 73,
+      "src": "./generated/web/absolute-monsters-png/73.png"
+    },
+    {
+      "id": "baby",
+      "name": "Baby",
+      "lookType": 177,
+      "src": "./generated/web/absolute-monsters-png/177.png"
+    },
+    {
+      "id": "c18",
+      "name": "C18",
+      "lookType": 123,
+      "src": "./generated/web/absolute-monsters-png/123.png"
+    },
+    {
+      "id": "broly",
+      "name": "Broly",
+      "lookType": 436,
+      "src": "./generated/web/absolute-monsters-png/436.png"
+    },
+    {
+      "id": "oozaru",
+      "name": "Oozaru",
+      "lookType": 56,
+      "src": "./generated/web/absolute-monsters-png/56.png"
+    },
+    {
+      "id": "hellfire",
+      "name": "Hellfire",
+      "lookType": 404,
+      "src": "./generated/web/absolute-monsters-png/404.png"
+    },
+    {
+      "id": "ultra-namekjin",
+      "name": "Ultra Namekjin",
+      "lookType": 35,
+      "src": "./generated/web/absolute-monsters-png/35.png"
+    },
+    {
+      "id": "humanoid-cyborg",
+      "name": "Humanoid Cyborg",
+      "lookType": 440,
+      "src": "./generated/web/absolute-monsters-png/440.png"
+    },
+    {
+      "id": "ancestral-guardian",
+      "name": "Ancestral Guardian",
+      "lookType": 408,
+      "src": "./generated/web/absolute-monsters-png/408.png"
+    },
+    {
+      "id": "cell",
+      "name": "Cell",
+      "lookType": 83,
+      "src": "./generated/web/absolute-monsters-png/83.png"
+    },
+    {
+      "id": "ginyu-squad",
+      "name": "Ginyu Squad",
+      "lookType": 434,
+      "src": "./generated/web/absolute-monsters-png/434.png"
+    },
+    {
+      "id": "crusader",
+      "name": "Crusader",
+      "lookType": 438,
+      "src": "./generated/web/absolute-monsters-png/438.png"
+    },
+    {
+      "id": "kibito",
+      "name": "Kibito",
+      "lookType": 221,
+      "src": "./generated/web/absolute-monsters-png/221.png"
+    },
+    {
+      "id": "gohan-ssj2",
+      "name": "Gohan SSJ2",
+      "lookType": 58,
+      "src": "./generated/web/absolute-monsters-png/58.png"
+    },
+    {
+      "id": "c19-and-c20",
+      "name": "C19 And C20",
+      "lookType": 437,
+      "src": "./generated/web/absolute-monsters-png/437.png"
+    },
+    {
+      "id": "elder-namekjin",
+      "name": "Elder Namekjin",
+      "lookType": 41,
+      "src": "./generated/web/absolute-monsters-png/41.png"
+    },
+    {
+      "id": "djin",
+      "name": "Djin",
+      "lookType": 412,
+      "src": "./generated/web/absolute-monsters-png/412.png"
+    },
+    {
+      "id": "dabura",
+      "name": "Dabura",
+      "lookType": 432,
+      "src": "./generated/web/absolute-monsters-png/432.png"
+    },
+    {
+      "id": "namekjin-scout",
+      "name": "Namekjin Scout",
+      "lookType": 171,
+      "src": "./generated/web/absolute-monsters-png/171.png"
+    },
+    {
+      "id": "evil-boo",
+      "name": "Evil Boo",
+      "lookType": 99,
+      "src": "./generated/web/absolute-monsters-png/99.png"
+    },
+    {
+      "id": "maniraptora",
+      "name": "Maniraptora",
+      "lookType": 406,
+      "src": "./generated/web/absolute-monsters-png/406.png"
+    },
+    {
+      "id": "demon",
+      "name": "Demon",
+      "lookType": 403,
+      "src": "./generated/web/absolute-monsters-png/403.png"
+    },
+    {
+      "id": "undead-dragon",
+      "name": "Undead Dragon",
+      "lookType": 407,
+      "src": "./generated/web/absolute-monsters-png/407.png"
+    },
+    {
+      "id": "boar",
+      "name": "Boar",
+      "lookType": 396,
+      "src": "./generated/web/absolute-monsters-png/396.png"
+    },
+    {
+      "id": "clone",
+      "name": "Clone",
+      "lookType": 2,
+      "src": "./generated/web/absolute-monsters-png/2.png"
+    },
+    {
+      "id": "robot",
+      "name": "Robot",
+      "lookType": 122,
+      "src": "./generated/web/absolute-monsters-png/122.png"
+    },
+    {
+      "id": "boo",
+      "name": "Boo",
+      "lookType": 100,
+      "src": "./generated/web/absolute-monsters-png/100.png"
+    },
+    {
+      "id": "majin-boo",
+      "name": "Majin Boo",
+      "lookType": 104,
+      "src": "./generated/web/absolute-monsters-png/104.png"
+    },
+    {
+      "id": "space-soldier",
+      "name": "Space Soldier",
+      "lookType": 418,
+      "src": "./generated/web/absolute-monsters-png/418.png"
+    },
+    {
+      "id": "yamu",
+      "name": "Yamu",
+      "lookType": 445,
+      "src": "./generated/web/absolute-monsters-png/445.png"
+    },
+    {
+      "id": "licantropo",
+      "name": "Licantropo",
+      "lookType": 410,
+      "src": "./generated/web/absolute-monsters-png/410.png"
+    },
+    {
+      "id": "strong-namek",
+      "name": "Strong Namek",
+      "lookType": 36,
+      "src": "./generated/web/absolute-monsters-png/36.png"
+    },
+    {
+      "id": "dr-gero",
+      "name": "Dr. Gero",
+      "lookType": 422,
+      "src": "./generated/web/absolute-monsters-png/422.png"
+    },
+    {
+      "id": "dragon",
+      "name": "Dragon",
+      "lookType": 406,
+      "src": "./generated/web/absolute-monsters-png/406.png"
+    },
+    {
+      "id": "spopovitch",
+      "name": "Spopovitch",
+      "lookType": 442,
+      "src": "./generated/web/absolute-monsters-png/442.png"
+    },
+    {
+      "id": "janemba",
+      "name": "Janemba",
+      "lookType": 237,
+      "src": "./generated/web/absolute-monsters-png/237.png"
+    },
+    {
+      "id": "atlantid",
+      "name": "Atlantid",
+      "lookType": 385,
+      "src": "./generated/web/absolute-monsters-png/385.png"
+    },
+    {
+      "id": "cooler",
+      "name": "Cooler",
+      "lookType": 160,
+      "src": "./generated/web/absolute-monsters-png/160.png"
+    },
+    {
+      "id": "super-bojack",
+      "name": "Super Bojack",
+      "lookType": 424,
+      "src": "./generated/web/absolute-monsters-png/424.png"
+    },
+    {
+      "id": "c20",
+      "name": "C20",
+      "lookType": 425,
+      "src": "./generated/web/absolute-monsters-png/425.png"
+    },
+    {
+      "id": "black-dragon",
+      "name": "Black Dragon",
+      "lookType": 389,
+      "src": "./generated/web/absolute-monsters-png/389.png"
+    },
+    {
+      "id": "gotenks-ssj3",
+      "name": "Gotenks SSJ3",
+      "lookType": 141,
+      "src": "./generated/web/absolute-monsters-png/141.png"
+    },
+    {
+      "id": "paikuhan",
+      "name": "Paikuhan",
+      "lookType": 417,
+      "src": "./generated/web/absolute-monsters-png/417.png"
+    },
+    {
+      "id": "acqua",
+      "name": "Acqua",
+      "lookType": 383,
+      "src": "./generated/web/absolute-monsters-png/383.png"
+    },
+    {
+      "id": "super-paikuhan",
+      "name": "Super Paikuhan",
+      "lookType": 415,
+      "src": "./generated/web/absolute-monsters-png/415.png"
+    },
+    {
+      "id": "frontal-cyborg",
+      "name": "Frontal Cyborg",
+      "lookType": 414,
+      "src": "./generated/web/absolute-monsters-png/414.png"
+    },
+    {
+      "id": "uu-shenlong",
+      "name": "Uu Shenlong",
+      "lookType": 481,
+      "src": "./generated/web/absolute-monsters-png/481.png"
+    },
+    {
+      "id": "san-shenron",
+      "name": "San Shenron",
+      "lookType": 303,
+      "src": "./generated/web/absolute-monsters-png/303.png"
+    },
+    {
+      "id": "golden-djin",
+      "name": "Golden Djin",
+      "lookType": 411,
+      "src": "./generated/web/absolute-monsters-png/411.png"
+    },
+    {
+      "id": "majin-vegeta",
+      "name": "Majin Vegeta",
+      "lookType": 23,
+      "src": "./generated/web/absolute-monsters-png/23.png"
+    },
+    {
+      "id": "goku-ssj3",
+      "name": "Goku SSJ3",
+      "lookType": 7,
+      "src": "./generated/web/absolute-monsters-png/7.png"
+    },
+    {
+      "id": "suu-shenron",
+      "name": "Suu Shenron",
+      "lookType": 304,
+      "src": "./generated/web/absolute-monsters-png/304.png"
+    },
+    {
+      "id": "fat-janemba",
+      "name": "Fat Janemba",
+      "lookType": 236,
+      "src": "./generated/web/absolute-monsters-png/236.png"
+    },
+    {
+      "id": "supreme-kaio",
+      "name": "Supreme Kaio",
+      "lookType": 222,
+      "src": "./generated/web/absolute-monsters-png/222.png"
+    },
+    {
+      "id": "vegetto",
+      "name": "Vegetto",
+      "lookType": 312,
+      "src": "./generated/web/absolute-monsters-png/312.png"
+    },
+    {
+      "id": "goku-ginyu",
+      "name": "Goku Ginyu",
+      "lookType": 419,
+      "src": "./generated/web/absolute-monsters-png/419.png"
+    },
+    {
+      "id": "tsuful",
+      "name": "Tsuful",
+      "lookType": 183,
+      "src": "./generated/web/absolute-monsters-png/183.png"
+    },
+    {
+      "id": "perfect-cell",
+      "name": "Perfect Cell",
+      "lookType": 85,
+      "src": "./generated/web/absolute-monsters-png/85.png"
+    },
+    {
+      "id": "gogeta-ssj2",
+      "name": "Gogeta SSJ2",
+      "lookType": 6,
+      "src": "./generated/web/absolute-monsters-png/6.png"
+    },
+    {
+      "id": "frozen-king",
+      "name": "Frozen King",
+      "lookType": 404,
+      "src": "./generated/web/absolute-monsters-png/404.png"
+    },
+    {
+      "id": "ryan-shenlong",
+      "name": "Ryan Shenlong",
+      "lookType": 477,
+      "src": "./generated/web/absolute-monsters-png/477.png"
+    },
+    {
+      "id": "hell-scorpion",
+      "name": "Hell Scorpion",
+      "lookType": 435,
+      "src": "./generated/web/absolute-monsters-png/435.png"
+    },
+    {
+      "id": "baby-oozaru",
+      "name": "Baby Oozaru",
+      "lookType": 184,
+      "src": "./generated/web/absolute-monsters-png/184.png"
+    },
+    {
+      "id": "chii-shenlong",
+      "name": "Chii Shenlong",
+      "lookType": 480,
+      "src": "./generated/web/absolute-monsters-png/480.png"
+    },
+    {
+      "id": "hell-ghost",
+      "name": "Hell Ghost",
+      "lookType": 420,
+      "src": "./generated/web/absolute-monsters-png/420.png"
+    },
+    {
+      "id": "vegeta-ssj4",
+      "name": "Vegeta SSJ4",
+      "lookType": 29,
+      "src": "./generated/web/absolute-monsters-png/29.png"
+    },
+    {
+      "id": "namekjin-mindcontroller",
+      "name": "Namekjin Mindcontroller",
+      "lookType": 42,
+      "src": "./generated/web/absolute-monsters-png/42.png"
+    },
+    {
+      "id": "li-shenron",
+      "name": "Li Shenron",
+      "lookType": 305,
+      "src": "./generated/web/absolute-monsters-png/305.png"
+    },
+    {
+      "id": "false-saiyan",
+      "name": "False Saiyan",
+      "lookType": 194,
+      "src": "./generated/web/absolute-monsters-png/194.png"
+    },
+    {
+      "id": "evil-tsuful",
+      "name": "Evil Tsuful",
+      "lookType": 185,
+      "src": "./generated/web/absolute-monsters-png/185.png"
+    },
+    {
+      "id": "raditz-ssj4",
+      "name": "Raditz SSJ4",
+      "lookType": 269,
+      "src": "./generated/web/absolute-monsters-png/269.png"
+    },
+    {
+      "id": "giru",
+      "name": "Giru",
+      "lookType": 450,
+      "src": "./generated/web/absolute-monsters-png/450.png"
+    },
+    {
+      "id": "turles-ssj4",
+      "name": "Turles SSJ4",
+      "lookType": 289,
+      "src": "./generated/web/absolute-monsters-png/289.png"
+    },
+    {
+      "id": "trunks-ssj4",
+      "name": "Trunks SSJ4",
+      "lookType": 78,
+      "src": "./generated/web/absolute-monsters-png/78.png"
+    },
+    {
+      "id": "gohan-ssj4",
+      "name": "Gohan SSJ4",
+      "lookType": 66,
+      "src": "./generated/web/absolute-monsters-png/66.png"
+    },
+    {
+      "id": "broly-ssj4",
+      "name": "Broly SSJ4",
+      "lookType": 117,
+      "src": "./generated/web/absolute-monsters-png/117.png"
+    },
+    {
+      "id": "adora-droper",
+      "name": "Adora Droper",
+      "lookType": 696,
+      "src": "./generated/web/absolute-monsters-png/696.png"
+    },
+    {
+      "id": "golden-oozaru",
+      "name": "Golden Oozaru",
+      "lookType": 433,
+      "src": "./generated/web/absolute-monsters-png/433.png"
+    },
+    {
+      "id": "rou-dai-kaioshin",
+      "name": "Rou Dai Kaioshin",
+      "lookType": 224,
+      "src": "./generated/web/absolute-monsters-png/224.png"
+    },
+    {
+      "id": "bardock-ssj4",
+      "name": "Bardock SSJ4",
+      "lookType": 197,
+      "src": "./generated/web/absolute-monsters-png/197.png"
+    },
+    {
+      "id": "android-i",
+      "name": "Android I",
+      "lookType": 50,
+      "src": "./generated/web/absolute-monsters-png/50.png"
+    },
+    {
+      "id": "goku-ssj4",
+      "name": "Goku SSJ4",
+      "lookType": 14,
+      "src": "./generated/web/absolute-monsters-png/14.png"
+    },
+    {
+      "id": "vegetto-preto",
+      "name": "Vegetto Preto",
+      "lookType": 631,
+      "src": "./generated/web/absolute-monsters-png/631.png"
+    },
+    {
+      "id": "king-vegeta",
+      "name": "King Vegeta",
+      "lookType": 402,
+      "src": "./generated/web/absolute-monsters-png/402.png"
+    },
+    {
+      "id": "black-droper",
+      "name": "Black Droper",
+      "lookType": 325,
+      "src": "./generated/web/absolute-monsters-png/325.png"
+    },
+    {
+      "id": "blue-droper",
+      "name": "Blue Droper",
+      "lookType": 308,
+      "src": "./generated/web/absolute-monsters-png/308.png"
+    },
+    {
+      "id": "gold-ingot-droper",
+      "name": "Gold Ingot Droper",
+      "lookType": 869,
+      "src": "./generated/web/absolute-monsters-png/869.png"
+    },
+    {
+      "id": "green-droper",
+      "name": "Green Droper",
+      "lookType": 513,
+      "src": "./generated/web/absolute-monsters-png/513.png"
+    },
+    {
+      "id": "orichalcum-droper",
+      "name": "Orichalcum Droper",
+      "lookType": 828,
+      "src": "./generated/web/absolute-monsters-png/828.png"
+    },
+    {
+      "id": "phoenix-droper",
+      "name": "Phoenix Droper",
+      "lookType": 808,
+      "src": "./generated/web/absolute-monsters-png/808.png"
+    },
+    {
+      "id": "super-c17",
+      "name": "Super C17",
+      "lookType": 53,
+      "src": "./generated/web/absolute-monsters-png/53.png"
+    },
+    {
+      "id": "strong-boo",
+      "name": "Strong Boo",
+      "lookType": 105,
+      "src": "./generated/web/absolute-monsters-png/105.png"
+    },
+    {
+      "id": "hell-fighter",
+      "name": "Hell Fighter",
+      "lookType": 416,
+      "src": "./generated/web/absolute-monsters-png/416.png"
+    },
+    {
+      "id": "kuririn",
+      "name": "Kuririn",
+      "lookType": 209,
+      "src": "./generated/web/absolute-monsters-png/209.png"
+    },
+    {
+      "id": "baby-bills",
+      "name": "Baby Bills",
+      "lookType": 584,
+      "src": "./generated/web/absolute-monsters-png/584.png"
+    },
+    {
+      "id": "gogeta-ssj4",
+      "name": "Gogeta SSJ4",
+      "lookType": 15,
+      "src": "./generated/web/absolute-monsters-png/15.png"
+    },
+    {
+      "id": "trunks-ssj5",
+      "name": "Trunks SSJ5",
+      "lookType": 79,
+      "src": "./generated/web/absolute-monsters-png/79.png"
+    },
+    {
+      "id": "super-c18",
+      "name": "Super C18",
+      "lookType": 126,
+      "src": "./generated/web/absolute-monsters-png/126.png"
+    },
+    {
+      "id": "broly-ssj5",
+      "name": "Broly SSJ5",
+      "lookType": 119,
+      "src": "./generated/web/absolute-monsters-png/119.png"
+    },
+    {
+      "id": "gotenks-ssj4",
+      "name": "Gotenks SSJ4",
+      "lookType": 148,
+      "src": "./generated/web/absolute-monsters-png/148.png"
+    },
+    {
+      "id": "demonic",
+      "name": "Demonic",
+      "lookType": 494,
+      "src": "./generated/web/absolute-monsters-png/494.png"
+    },
+    {
+      "id": "vegeta-ssj5",
+      "name": "Vegeta SSJ5",
+      "lookType": 30,
+      "src": "./generated/web/absolute-monsters-png/30.png"
+    },
+    {
+      "id": "raditz-ssj5",
+      "name": "Raditz SSJ5",
+      "lookType": 270,
+      "src": "./generated/web/absolute-monsters-png/270.png"
+    },
+    {
+      "id": "gohan-ssj5",
+      "name": "Gohan SSJ5",
+      "lookType": 67,
+      "src": "./generated/web/absolute-monsters-png/67.png"
+    },
+    {
+      "id": "bardock-ssj5",
+      "name": "Bardock SSJ5",
+      "lookType": 198,
+      "src": "./generated/web/absolute-monsters-png/198.png"
+    },
+    {
+      "id": "furie-namek",
+      "name": "Furie Namek",
+      "lookType": 43,
+      "src": "./generated/web/absolute-monsters-png/43.png"
+    },
+    {
+      "id": "android-ii",
+      "name": "Android II",
+      "lookType": 474,
+      "src": "./generated/web/absolute-monsters-png/474.png"
+    },
+    {
+      "id": "tsuful-ssj5",
+      "name": "Tsuful SSJ5",
+      "lookType": 186,
+      "src": "./generated/web/absolute-monsters-png/186.png"
+    },
+    {
+      "id": "freeza-rage",
+      "name": "Freeza Rage",
+      "lookType": 96,
+      "src": "./generated/web/absolute-monsters-png/96.png"
+    },
+    {
+      "id": "purple-dragon",
+      "name": "Purple Dragon",
+      "lookType": 407,
+      "src": "./generated/web/absolute-monsters-png/407.png"
+    },
+    {
+      "id": "turles-ssj5",
+      "name": "Turles SSJ5",
+      "lookType": 290,
+      "src": "./generated/web/absolute-monsters-png/290.png"
+    },
+    {
+      "id": "goku-ssj5",
+      "name": "Goku SSJ5",
+      "lookType": 16,
+      "src": "./generated/web/absolute-monsters-png/16.png"
+    },
+    {
+      "id": "furie-cell",
+      "name": "Furie Cell",
+      "lookType": 86,
+      "src": "./generated/web/absolute-monsters-png/86.png"
+    },
+    {
+      "id": "lord-frost",
+      "name": "Lord Frost",
+      "lookType": 1048,
+      "src": "./generated/web/absolute-monsters-png/1048.png"
+    },
+    {
+      "id": "ultra-god-bills",
+      "name": "Ultra God Bills",
+      "lookType": 584,
+      "src": "./generated/web/absolute-monsters-png/584.png"
+    },
+    {
+      "id": "dabura-kids",
+      "name": "Dabura Kids",
+      "lookType": 849,
+      "src": "./generated/web/absolute-monsters-png/849.png"
+    },
+    {
+      "id": "soldier-cyborg",
+      "name": "Soldier Cyborg",
+      "lookType": 400,
+      "src": "./generated/web/absolute-monsters-png/400.png"
+    },
+    {
+      "id": "hell-janemba",
+      "name": "Hell Janemba",
+      "lookType": 429,
+      "src": "./generated/web/absolute-monsters-png/429.png"
+    },
+    {
+      "id": "android-iii",
+      "name": "Android III",
+      "lookType": 497,
+      "src": "./generated/web/absolute-monsters-png/497.png"
+    },
+    {
+      "id": "saiyan",
+      "name": "Saiyan",
+      "lookType": 495,
+      "src": "./generated/web/absolute-monsters-png/495.png"
+    },
+    {
+      "id": "furie-janemba",
+      "name": "Furie Janemba",
+      "lookType": 239,
+      "src": "./generated/web/absolute-monsters-png/239.png"
+    },
+    {
+      "id": "sidra-quest-monster",
+      "name": "Sidra Quest Monster",
+      "lookType": 829,
+      "src": "./generated/web/absolute-monsters-png/829.png"
+    },
+    {
+      "id": "black-janemba",
+      "name": "Black Janemba",
+      "lookType": 240,
+      "src": "./generated/web/absolute-monsters-png/240.png"
+    },
+    {
+      "id": "protetor-do-amuleto",
+      "name": "Protetor do Amuleto",
+      "lookType": 851,
+      "src": "./generated/web/absolute-monsters-png/851.png"
+    },
+    {
+      "id": "c8-quest-monster",
+      "name": "C8 Quest Monster",
+      "lookType": 579,
+      "src": "./generated/web/absolute-monsters-png/579.png"
+    },
+    {
+      "id": "vegetto-quest-monster",
+      "name": "Vegetto Quest Monster",
+      "lookType": 312,
+      "src": "./generated/web/absolute-monsters-png/312.png"
+    },
+    {
+      "id": "furie-gogeta",
+      "name": "Furie Gogeta",
+      "lookType": 525,
+      "src": "./generated/web/absolute-monsters-png/525.png"
+    },
+    {
+      "id": "hell-janemba-vip",
+      "name": "Hell Janemba VIP",
+      "lookType": 890,
+      "src": "./generated/web/absolute-monsters-png/890.png"
+    },
+    {
+      "id": "cooler-rage",
+      "name": "Cooler Rage",
+      "lookType": 162,
+      "src": "./generated/web/absolute-monsters-png/162.png"
+    },
+    {
+      "id": "ramushi-quest-monster",
+      "name": "Ramushi Quest Monster",
+      "lookType": 871,
+      "src": "./generated/web/absolute-monsters-png/871.png"
+    },
+    {
+      "id": "android-iv",
+      "name": "Android IV",
+      "lookType": 499,
+      "src": "./generated/web/absolute-monsters-png/499.png"
+    },
+    {
+      "id": "goku-god",
+      "name": "Goku God",
+      "lookType": 14,
+      "src": "./generated/web/absolute-monsters-png/14.png"
+    },
+    {
+      "id": "li-shenron-max",
+      "name": "Li Shenron Max",
+      "lookType": 306,
+      "src": "./generated/web/absolute-monsters-png/306.png"
+    },
+    {
+      "id": "tapion-quest-monster",
+      "name": "Tapion Quest Monster",
+      "lookType": 326,
+      "src": "./generated/web/absolute-monsters-png/326.png"
+    },
+    {
+      "id": "frost-doggen-max",
+      "name": "Frost Doggen Max",
+      "lookType": 836,
+      "src": "./generated/web/absolute-monsters-png/836.png"
+    },
+    {
+      "id": "ultra-god-bills-vip",
+      "name": "Ultra God Bills VIP",
+      "lookType": 584,
+      "src": "./generated/web/absolute-monsters-png/584.png"
+    },
+    {
+      "id": "gamemaxter",
+      "name": "Gamemaxter",
+      "lookType": 448,
+      "src": "./generated/web/absolute-monsters-png/448.png"
+    },
+    {
+      "id": "zamasu",
+      "name": "Zamasu",
+      "lookType": 610,
+      "src": "./generated/web/absolute-monsters-png/610.png"
+    },
+    {
+      "id": "giru-puto",
+      "name": "Giru Puto",
+      "lookType": 450,
+      "src": "./generated/web/absolute-monsters-png/450.png"
+    },
+    {
+      "id": "super-cyborg",
+      "name": "Super Cyborg",
+      "lookType": 48,
+      "src": "./generated/web/absolute-monsters-png/48.png"
+    },
+    {
+      "id": "lost-saiyan",
+      "name": "Lost Saiyan",
+      "lookType": 118,
+      "src": "./generated/web/absolute-monsters-png/118.png"
+    },
+    {
+      "id": "android-v",
+      "name": "Android V",
+      "lookType": 498,
+      "src": "./generated/web/absolute-monsters-png/498.png"
+    },
+    {
+      "id": "black-gattai",
+      "name": "Black Gattai",
+      "lookType": 614,
+      "src": "./generated/web/absolute-monsters-png/614.png"
+    },
+    {
+      "id": "hydrosaur",
+      "name": "Hydrosaur",
+      "lookType": 485,
+      "src": "./generated/web/absolute-monsters-png/485.png"
+    },
+    {
+      "id": "cavaleiro-negro",
+      "name": "Cavaleiro Negro",
+      "lookType": 825,
+      "src": "./generated/web/absolute-monsters-png/825.png"
+    },
+    {
+      "id": "ultra-cyborg",
+      "name": "Ultra Cyborg",
+      "lookType": 286,
+      "src": "./generated/web/absolute-monsters-png/286.png"
+    },
+    {
+      "id": "android-defense",
+      "name": "Android Defense",
+      "lookType": 474,
+      "src": "./generated/web/absolute-monsters-png/474.png"
+    },
+    {
+      "id": "zombie-event",
+      "name": "Zombie Event",
+      "lookType": 479,
+      "src": "./generated/web/absolute-monsters-png/479.png"
+    },
+    {
+      "id": "warlock",
+      "name": "Warlock",
+      "lookType": 489,
+      "src": "./generated/web/absolute-monsters-png/489.png"
+    },
+    {
+      "id": "fire-guardian1",
+      "name": "Fire Guardian1",
+      "lookType": 484,
+      "src": "./generated/web/absolute-monsters-png/484.png"
+    },
+    {
+      "id": "fire-guardian2",
+      "name": "Fire Guardian2",
+      "lookType": 484,
+      "src": "./generated/web/absolute-monsters-png/484.png"
+    },
+    {
+      "id": "fire-guardian3",
+      "name": "Fire Guardian3",
+      "lookType": 484,
+      "src": "./generated/web/absolute-monsters-png/484.png"
+    },
+    {
+      "id": "hawk",
+      "name": "Hawk",
+      "lookType": 488,
+      "src": "./generated/web/absolute-monsters-png/488.png"
+    },
+    {
+      "id": "black-janemba-boss",
+      "name": "Black Janemba Boss",
+      "lookType": 793,
+      "src": "./generated/web/absolute-monsters-png/793.png"
+    },
+    {
+      "id": "liquer-boss",
+      "name": "Liquer Boss",
+      "lookType": 971,
+      "src": "./generated/web/absolute-monsters-png/971.png"
+    },
+    {
+      "id": "hitto-boss",
+      "name": "Hitto Boss",
+      "lookType": 708,
+      "src": "./generated/web/absolute-monsters-png/708.png"
+    },
+    {
+      "id": "titanius",
+      "name": "Titanius",
+      "lookType": 493,
+      "src": "./generated/web/absolute-monsters-png/493.png"
+    },
+    {
+      "id": "golden-freeza",
+      "name": "Golden Freeza",
+      "lookType": 603,
+      "src": "./generated/web/absolute-monsters-png/603.png"
+    },
+    {
+      "id": "demonius",
+      "name": "Demonius",
+      "lookType": 901,
+      "src": "./generated/web/absolute-monsters-png/901.png"
+    },
+    {
+      "id": "diundrah",
+      "name": "Diundrah",
+      "lookType": 826,
+      "src": "./generated/web/absolute-monsters-png/826.png"
+    },
+    {
+      "id": "gattai-black-boss",
+      "name": "Gattai Black Boss",
+      "lookType": 614,
+      "src": "./generated/web/absolute-monsters-png/614.png"
+    },
+    {
+      "id": "black",
+      "name": "Black",
+      "lookType": 604,
+      "src": "./generated/web/absolute-monsters-png/604.png"
+    },
+    {
+      "id": "black-fusion",
+      "name": "Black Fusion",
+      "lookType": 604,
+      "src": "./generated/web/absolute-monsters-png/604.png"
+    },
+    {
+      "id": "goku-black",
+      "name": "Goku Black",
+      "lookType": 656,
+      "src": "./generated/web/absolute-monsters-png/656.png"
+    },
+    {
+      "id": "shenlong",
+      "name": "Shenlong",
+      "lookType": 446,
+      "src": "./generated/web/absolute-monsters-png/446.png"
+    }
+  ]
+}

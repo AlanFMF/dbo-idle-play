@@ -1,0 +1,113 @@
+{
+  "version": "12.28",
+  "spriteValidation": {
+    "directionConvention": {
+      "north": 0,
+      "east": 1,
+      "southFront": 2,
+      "west": 3
+    },
+    "vocationManifestEntries": 76,
+    "monsterManifestEntries": 200,
+    "vocationDirectionSheet": "generated/audit-v1228/vocation-directions.png",
+    "monsterDirectionSheet": "generated/audit-v1228/monster-directions.png",
+    "allVocationPortraitsFront": true,
+    "allMonsterPortraitsFront": true
+  },
+  "groundValidation": {
+    "earth": {
+      "clientId": 106,
+      "isGround": true,
+      "width": 1,
+      "height": 1,
+      "path": "./assets/generated/arena-tiles-v1228/earth.png"
+    },
+    "dirt": {
+      "clientId": 194,
+      "isGround": true,
+      "width": 1,
+      "height": 1,
+      "path": "./assets/generated/arena-tiles-v1228/dirt.png"
+    },
+    "stone": {
+      "clientId": 431,
+      "isGround": true,
+      "width": 1,
+      "height": 1,
+      "path": "./assets/generated/arena-tiles-v1228/stone.png"
+    },
+    "snow": {
+      "clientId": 453,
+      "isGround": true,
+      "width": 1,
+      "height": 1,
+      "path": "./assets/generated/arena-tiles-v1228/snow.png"
+    },
+    "time": {
+      "clientId": 409,
+      "isGround": true,
+      "width": 1,
+      "height": 1,
+      "path": "./assets/generated/arena-tiles-v1228/time.png"
+    }
+  },
+  "rooms": [
+    {
+      "id": "punching-bag",
+      "validated": true,
+      "skills": [
+        "Strength",
+        "Ki Blasting",
+        "Atk Speed",
+        "Defense"
+      ],
+      "damageToPlayer": 0,
+      "respawnSeconds": 2,
+      "regenerationPercentPerSecond": 99
+    },
+    {
+      "id": "time-chamber",
+      "validated": true,
+      "skills": [
+        "Agility"
+      ],
+      "originalGroundAsset": "./assets/generated/arena-tiles-v1228/time.png"
+    },
+    {
+      "id": "ki-barrier",
+      "validated": true,
+      "skills": [
+        "Ki Level",
+        "Barrier"
+      ],
+      "damageToPlayer": 0
+    }
+  ],
+  "systemsReviewed": {
+    "accountsAndCharacters": true,
+    "characterDeletion": true,
+    "equipmentSlotValidation": true,
+    "nestedContainers": true,
+    "liveInventoryCounts": true,
+    "manualAndAutomaticConsumables": true,
+    "huntTargetLock": true,
+    "xpLootAndRespawn": true,
+    "corpseExpiration": true,
+    "lootFilter": true,
+    "npcBuySell": true,
+    "trainingRooms": true,
+    "spellAvailability": true,
+    "spellKiCost": true,
+    "spellCooldown": true,
+    "spellHotbar": true,
+    "transformations": true,
+    "experienceStages": true,
+    "liveSkillUpdates": true
+  },
+  "futureRisks": [
+    "O estado ainda usa localStorage; multiplayer real exigirá autoridade no servidor.",
+    "Cálculo de spells Lua foi adaptado; equivalência integral exige interpretar cada script.",
+    "Mapas de Hunt usam tiles originais, mas ainda não são recortes OTBM completos.",
+    "Transações entre jogadores precisarão ser atômicas no backend."
+  ]
+}

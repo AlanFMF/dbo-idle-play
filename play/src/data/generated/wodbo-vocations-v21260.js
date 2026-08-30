@@ -1,0 +1,3666 @@
+// V21.26 — WoDBO vocation visual routes validated manually, sprite by sprite.
+// Generated from wodbo_transform_map_manual_corrected.json (702 validated slots).
+// The 36 active bindings only replace visuals/progression routes of vocations that
+// already exist in DBO IDLE. The 10 pending entries stay disabled until their
+// Free/VIP/Quest policy is decided.
+
+export const wodboVocationCatalog = Object.freeze({
+  "Baby Tsuful": {
+    "sourceName": "Baby Tsuful",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 167
+        },
+        {
+          "level": 50,
+          "lookType": 1703
+        },
+        {
+          "level": 100,
+          "lookType": 1937
+        },
+        {
+          "level": 150,
+          "lookType": 1704
+        },
+        {
+          "level": 200,
+          "lookType": 1705
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1706
+        },
+        {
+          "level": 50,
+          "lookType": 1707
+        },
+        {
+          "level": 100,
+          "lookType": 1708
+        },
+        {
+          "level": 150,
+          "lookType": 1709
+        },
+        {
+          "level": 200,
+          "lookType": 1710
+        },
+        {
+          "level": 400,
+          "lookType": 1713
+        },
+        {
+          "level": 600,
+          "lookType": 2240
+        },
+        {
+          "level": 1000,
+          "lookType": 1936
+        },
+        {
+          "level": 2000,
+          "lookType": 2308
+        }
+      ]
+    }
+  },
+  "Bardock": {
+    "sourceName": "Bardock",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1606
+        },
+        {
+          "level": 50,
+          "lookType": 1607
+        },
+        {
+          "level": 100,
+          "lookType": 1608
+        },
+        {
+          "level": 150,
+          "lookType": 1609
+        },
+        {
+          "level": 200,
+          "lookType": 1610
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1606
+        },
+        {
+          "level": 50,
+          "lookType": 1607
+        },
+        {
+          "level": 100,
+          "lookType": 1608
+        },
+        {
+          "level": 150,
+          "lookType": 1609
+        },
+        {
+          "level": 200,
+          "lookType": 1610
+        },
+        {
+          "level": 400,
+          "lookType": 1611
+        },
+        {
+          "level": 600,
+          "lookType": 1916
+        },
+        {
+          "level": 1000,
+          "lookType": 2311
+        },
+        {
+          "level": 2000,
+          "lookType": 2312
+        }
+      ]
+    }
+  },
+  "Bills": {
+    "sourceName": "Bills",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1985
+        },
+        {
+          "level": 50,
+          "lookType": 1986
+        },
+        {
+          "level": 100,
+          "lookType": 1987
+        },
+        {
+          "level": 150,
+          "lookType": 1988
+        },
+        {
+          "level": 200,
+          "lookType": 1989
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1985
+        },
+        {
+          "level": 50,
+          "lookType": 1986
+        },
+        {
+          "level": 100,
+          "lookType": 1987
+        },
+        {
+          "level": 150,
+          "lookType": 1988
+        },
+        {
+          "level": 200,
+          "lookType": 1989
+        },
+        {
+          "level": 400,
+          "lookType": 1990
+        },
+        {
+          "level": 600,
+          "lookType": 2057
+        },
+        {
+          "level": 1000,
+          "lookType": 1991
+        },
+        {
+          "level": 2000,
+          "lookType": 1992
+        }
+      ]
+    }
+  },
+  "Broly": {
+    "sourceName": "Broly",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1598
+        },
+        {
+          "level": 50,
+          "lookType": 1599
+        },
+        {
+          "level": 100,
+          "lookType": 1600
+        },
+        {
+          "level": 150,
+          "lookType": 1601
+        },
+        {
+          "level": 200,
+          "lookType": 1601
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1598
+        },
+        {
+          "level": 50,
+          "lookType": 1599
+        },
+        {
+          "level": 100,
+          "lookType": 1600
+        },
+        {
+          "level": 150,
+          "lookType": 1601
+        },
+        {
+          "level": 200,
+          "lookType": 1602
+        },
+        {
+          "level": 400,
+          "lookType": 1603
+        },
+        {
+          "level": 600,
+          "lookType": 2317
+        },
+        {
+          "level": 1000,
+          "lookType": 2318
+        },
+        {
+          "level": 2000,
+          "lookType": 2313
+        }
+      ],
+      "superReborn": [
+        {
+          "level": 1,
+          "lookType": 2425
+        },
+        {
+          "level": 50,
+          "lookType": 2426
+        },
+        {
+          "level": 100,
+          "lookType": 2427
+        },
+        {
+          "level": 150,
+          "lookType": 2428
+        },
+        {
+          "level": 200,
+          "lookType": 2429
+        },
+        {
+          "level": 400,
+          "lookType": 2430
+        },
+        {
+          "level": 600,
+          "lookType": 2431
+        },
+        {
+          "level": 1000,
+          "lookType": 2432
+        },
+        {
+          "level": 2000,
+          "lookType": 2459
+        }
+      ]
+    }
+  },
+  "C13": {
+    "sourceName": "C13",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1174
+        },
+        {
+          "level": 50,
+          "lookType": 1176
+        },
+        {
+          "level": 100,
+          "lookType": 1175
+        },
+        {
+          "level": 150,
+          "lookType": 1967
+        },
+        {
+          "level": 200,
+          "lookType": 1968
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1174
+        },
+        {
+          "level": 50,
+          "lookType": 1176
+        },
+        {
+          "level": 100,
+          "lookType": 1175
+        },
+        {
+          "level": 150,
+          "lookType": 1967
+        },
+        {
+          "level": 200,
+          "lookType": 1968
+        },
+        {
+          "level": 400,
+          "lookType": 1969
+        },
+        {
+          "level": 600,
+          "lookType": 2241
+        },
+        {
+          "level": 1000,
+          "lookType": 2157
+        },
+        {
+          "level": 2000,
+          "lookType": 2243
+        }
+      ]
+    }
+  },
+  "C16": {
+    "sourceName": "C16",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 585
+        },
+        {
+          "level": 50,
+          "lookType": 712
+        },
+        {
+          "level": 100,
+          "lookType": 437
+        },
+        {
+          "level": 150,
+          "lookType": 117
+        },
+        {
+          "level": 200,
+          "lookType": 581
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 585
+        },
+        {
+          "level": 50,
+          "lookType": 712
+        },
+        {
+          "level": 100,
+          "lookType": 437
+        },
+        {
+          "level": 150,
+          "lookType": 117
+        },
+        {
+          "level": 200,
+          "lookType": 581
+        },
+        {
+          "level": 400,
+          "lookType": 724
+        },
+        {
+          "level": 600,
+          "lookType": 573
+        },
+        {
+          "level": 1000,
+          "lookType": 656
+        },
+        {
+          "level": 2000,
+          "lookType": 1211
+        }
+      ]
+    }
+  },
+  "C17": {
+    "sourceName": "C17",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 15
+        },
+        {
+          "level": 50,
+          "lookType": 449
+        },
+        {
+          "level": 100,
+          "lookType": 435
+        },
+        {
+          "level": 150,
+          "lookType": 1683
+        },
+        {
+          "level": 200,
+          "lookType": 1683
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 15
+        },
+        {
+          "level": 50,
+          "lookType": 449
+        },
+        {
+          "level": 100,
+          "lookType": 435
+        },
+        {
+          "level": 150,
+          "lookType": 1683
+        },
+        {
+          "level": 200,
+          "lookType": 1683
+        },
+        {
+          "level": 400,
+          "lookType": 1688
+        },
+        {
+          "level": 600,
+          "lookType": 1690
+        },
+        {
+          "level": 1000,
+          "lookType": 1925
+        },
+        {
+          "level": 2000,
+          "lookType": 1950
+        }
+      ],
+      "superReborn": [
+        {
+          "level": 1,
+          "lookType": 15
+        },
+        {
+          "level": 50,
+          "lookType": 449
+        },
+        {
+          "level": 100,
+          "lookType": 435
+        },
+        {
+          "level": 150,
+          "lookType": 1683
+        },
+        {
+          "level": 200,
+          "lookType": 1684
+        },
+        {
+          "level": 400,
+          "lookType": 1685
+        },
+        {
+          "level": 600,
+          "lookType": 1687
+        },
+        {
+          "level": 1000,
+          "lookType": 1922
+        },
+        {
+          "level": 2000,
+          "lookType": 1924
+        }
+      ]
+    }
+  },
+  "C18": {
+    "sourceName": "C18",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 339
+        },
+        {
+          "level": 50,
+          "lookType": 574
+        },
+        {
+          "level": 100,
+          "lookType": 578
+        },
+        {
+          "level": 150,
+          "lookType": 1691
+        },
+        {
+          "level": 200,
+          "lookType": 1692
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 339
+        },
+        {
+          "level": 50,
+          "lookType": 574
+        },
+        {
+          "level": 100,
+          "lookType": 578
+        },
+        {
+          "level": 150,
+          "lookType": 1691
+        },
+        {
+          "level": 200,
+          "lookType": 1692
+        },
+        {
+          "level": 400,
+          "lookType": 1926
+        },
+        {
+          "level": 600,
+          "lookType": 1693
+        },
+        {
+          "level": 1000,
+          "lookType": 2458
+        },
+        {
+          "level": 2000,
+          "lookType": 1927
+        }
+      ]
+    }
+  },
+  "C21": {
+    "sourceName": "C21",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1973
+        },
+        {
+          "level": 50,
+          "lookType": 1974
+        },
+        {
+          "level": 100,
+          "lookType": 1975
+        },
+        {
+          "level": 150,
+          "lookType": 1976
+        },
+        {
+          "level": 200,
+          "lookType": 2287
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1973
+        },
+        {
+          "level": 50,
+          "lookType": 1974
+        },
+        {
+          "level": 100,
+          "lookType": 1975
+        },
+        {
+          "level": 150,
+          "lookType": 1976
+        },
+        {
+          "level": 200,
+          "lookType": 1977
+        },
+        {
+          "level": 400,
+          "lookType": 1978
+        },
+        {
+          "level": 600,
+          "lookType": 1981
+        },
+        {
+          "level": 1000,
+          "lookType": 2286
+        },
+        {
+          "level": 2000,
+          "lookType": 1982
+        }
+      ]
+    }
+  },
+  "Caulifla": {
+    "sourceName": "Caulifla",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1748
+        },
+        {
+          "level": 50,
+          "lookType": 1749
+        },
+        {
+          "level": 100,
+          "lookType": 1750
+        },
+        {
+          "level": 150,
+          "lookType": 1751
+        },
+        {
+          "level": 200,
+          "lookType": 1752
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1748
+        },
+        {
+          "level": 50,
+          "lookType": 1749
+        },
+        {
+          "level": 100,
+          "lookType": 1750
+        },
+        {
+          "level": 150,
+          "lookType": 1751
+        },
+        {
+          "level": 200,
+          "lookType": 1752
+        },
+        {
+          "level": 400,
+          "lookType": 1753
+        },
+        {
+          "level": 600,
+          "lookType": 2247
+        },
+        {
+          "level": 1000,
+          "lookType": 2249
+        },
+        {
+          "level": 2000,
+          "lookType": 1754
+        }
+      ]
+    }
+  },
+  "Cell": {
+    "sourceName": "Cell",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1906
+        },
+        {
+          "level": 50,
+          "lookType": 1906
+        },
+        {
+          "level": 100,
+          "lookType": 1907
+        },
+        {
+          "level": 150,
+          "lookType": 1907
+        },
+        {
+          "level": 200,
+          "lookType": 1696
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1906
+        },
+        {
+          "level": 50,
+          "lookType": 1906
+        },
+        {
+          "level": 100,
+          "lookType": 1907
+        },
+        {
+          "level": 150,
+          "lookType": 1907
+        },
+        {
+          "level": 200,
+          "lookType": 1696
+        },
+        {
+          "level": 400,
+          "lookType": 1696
+        },
+        {
+          "level": 600,
+          "lookType": 1928
+        },
+        {
+          "level": 1000,
+          "lookType": 1929
+        },
+        {
+          "level": 2000,
+          "lookType": 1697
+        }
+      ]
+    }
+  },
+  "Chibi Trunks": {
+    "sourceName": "Chibi Trunks",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1571
+        },
+        {
+          "level": 50,
+          "lookType": 1572
+        },
+        {
+          "level": 100,
+          "lookType": 1559
+        },
+        {
+          "level": 150,
+          "lookType": 1560
+        },
+        {
+          "level": 200,
+          "lookType": 1561
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1573
+        },
+        {
+          "level": 50,
+          "lookType": 1574
+        },
+        {
+          "level": 100,
+          "lookType": 1564
+        },
+        {
+          "level": 150,
+          "lookType": 1565
+        },
+        {
+          "level": 200,
+          "lookType": 1566
+        },
+        {
+          "level": 400,
+          "lookType": 1568
+        },
+        {
+          "level": 600,
+          "lookType": 1834
+        },
+        {
+          "level": 1000,
+          "lookType": 1835
+        },
+        {
+          "level": 2000,
+          "lookType": 2316
+        }
+      ]
+    }
+  },
+  "Cooler": {
+    "sourceName": "Cooler",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1673
+        },
+        {
+          "level": 50,
+          "lookType": 1674
+        },
+        {
+          "level": 100,
+          "lookType": 1675
+        },
+        {
+          "level": 150,
+          "lookType": 1677
+        },
+        {
+          "level": 200,
+          "lookType": 1679
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1673
+        },
+        {
+          "level": 50,
+          "lookType": 1674
+        },
+        {
+          "level": 100,
+          "lookType": 1675
+        },
+        {
+          "level": 150,
+          "lookType": 1677
+        },
+        {
+          "level": 200,
+          "lookType": 1679
+        },
+        {
+          "level": 400,
+          "lookType": 1680
+        },
+        {
+          "level": 600,
+          "lookType": 2321
+        },
+        {
+          "level": 1000,
+          "lookType": 2322
+        },
+        {
+          "level": 2000,
+          "lookType": 2325
+        }
+      ]
+    }
+  },
+  "Cumber": {
+    "sourceName": "Cumber",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1960
+        },
+        {
+          "level": 50,
+          "lookType": 1961
+        },
+        {
+          "level": 100,
+          "lookType": 1962
+        },
+        {
+          "level": 150,
+          "lookType": 1962
+        },
+        {
+          "level": 200,
+          "lookType": 1963
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1960
+        },
+        {
+          "level": 50,
+          "lookType": 1961
+        },
+        {
+          "level": 100,
+          "lookType": 1962
+        },
+        {
+          "level": 150,
+          "lookType": 1962
+        },
+        {
+          "level": 200,
+          "lookType": 1963
+        },
+        {
+          "level": 400,
+          "lookType": 1964
+        },
+        {
+          "level": 600,
+          "lookType": 1965
+        },
+        {
+          "level": 1000,
+          "lookType": 2061
+        },
+        {
+          "level": 2000,
+          "lookType": 2283
+        }
+      ]
+    }
+  },
+  "Dende": {
+    "sourceName": "Dende",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 2015
+        },
+        {
+          "level": 50,
+          "lookType": 2016
+        },
+        {
+          "level": 100,
+          "lookType": 2017
+        },
+        {
+          "level": 150,
+          "lookType": 2018
+        },
+        {
+          "level": 200,
+          "lookType": 2023
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 2015
+        },
+        {
+          "level": 50,
+          "lookType": 2016
+        },
+        {
+          "level": 100,
+          "lookType": 2017
+        },
+        {
+          "level": 150,
+          "lookType": 2018
+        },
+        {
+          "level": 200,
+          "lookType": 2023
+        },
+        {
+          "level": 400,
+          "lookType": 2024
+        },
+        {
+          "level": 600,
+          "lookType": 2019
+        },
+        {
+          "level": 1000,
+          "lookType": 2020
+        },
+        {
+          "level": 2000,
+          "lookType": 2022
+        }
+      ]
+    }
+  },
+  "Dyspo": {
+    "sourceName": "Dyspo",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1952
+        },
+        {
+          "level": 50,
+          "lookType": 1953
+        },
+        {
+          "level": 100,
+          "lookType": 1954
+        },
+        {
+          "level": 150,
+          "lookType": 1955
+        },
+        {
+          "level": 200,
+          "lookType": 1956
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1952
+        },
+        {
+          "level": 50,
+          "lookType": 1953
+        },
+        {
+          "level": 100,
+          "lookType": 1954
+        },
+        {
+          "level": 150,
+          "lookType": 1955
+        },
+        {
+          "level": 200,
+          "lookType": 1956
+        },
+        {
+          "level": 400,
+          "lookType": 1957
+        },
+        {
+          "level": 600,
+          "lookType": 2281
+        },
+        {
+          "level": 1000,
+          "lookType": 2282
+        },
+        {
+          "level": 2000,
+          "lookType": 2280
+        }
+      ]
+    }
+  },
+  "Freeza": {
+    "sourceName": "Freeza",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1664
+        },
+        {
+          "level": 50,
+          "lookType": 1665
+        },
+        {
+          "level": 100,
+          "lookType": 1666
+        },
+        {
+          "level": 150,
+          "lookType": 1667
+        },
+        {
+          "level": 200,
+          "lookType": 1668
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1664
+        },
+        {
+          "level": 50,
+          "lookType": 1665
+        },
+        {
+          "level": 100,
+          "lookType": 1666
+        },
+        {
+          "level": 150,
+          "lookType": 1667
+        },
+        {
+          "level": 200,
+          "lookType": 1668
+        },
+        {
+          "level": 400,
+          "lookType": 1670
+        },
+        {
+          "level": 600,
+          "lookType": 2319
+        },
+        {
+          "level": 1000,
+          "lookType": 2320
+        },
+        {
+          "level": 2000,
+          "lookType": 2324
+        }
+      ]
+    }
+  },
+  "Fu": {
+    "sourceName": "Fu",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1993
+        },
+        {
+          "level": 50,
+          "lookType": 1994
+        },
+        {
+          "level": 100,
+          "lookType": 1995
+        },
+        {
+          "level": 150,
+          "lookType": 1996
+        },
+        {
+          "level": 200,
+          "lookType": 1997
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1993
+        },
+        {
+          "level": 50,
+          "lookType": 1994
+        },
+        {
+          "level": 100,
+          "lookType": 1995
+        },
+        {
+          "level": 150,
+          "lookType": 1996
+        },
+        {
+          "level": 200,
+          "lookType": 1998
+        },
+        {
+          "level": 400,
+          "lookType": 2095
+        },
+        {
+          "level": 600,
+          "lookType": 1999
+        },
+        {
+          "level": 1000,
+          "lookType": 2259
+        },
+        {
+          "level": 2000,
+          "lookType": 2260
+        }
+      ]
+    }
+  },
+  "Gohan": {
+    "sourceName": "Gohan",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1534
+        },
+        {
+          "level": 50,
+          "lookType": 1535
+        },
+        {
+          "level": 100,
+          "lookType": 1536
+        },
+        {
+          "level": 150,
+          "lookType": 1537
+        },
+        {
+          "level": 200,
+          "lookType": 1538
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1540
+        },
+        {
+          "level": 50,
+          "lookType": 1541
+        },
+        {
+          "level": 100,
+          "lookType": 1542
+        },
+        {
+          "level": 150,
+          "lookType": 1778
+        },
+        {
+          "level": 200,
+          "lookType": 1543
+        },
+        {
+          "level": 400,
+          "lookType": 1544
+        },
+        {
+          "level": 600,
+          "lookType": 2231
+        },
+        {
+          "level": 1000,
+          "lookType": 1545
+        },
+        {
+          "level": 2000,
+          "lookType": 2234
+        }
+      ],
+      "superReborn": [
+        {
+          "level": 1,
+          "lookType": 1548
+        },
+        {
+          "level": 50,
+          "lookType": 1549
+        },
+        {
+          "level": 100,
+          "lookType": 1550
+        },
+        {
+          "level": 150,
+          "lookType": 1551
+        },
+        {
+          "level": 200,
+          "lookType": 1552
+        },
+        {
+          "level": 400,
+          "lookType": 1553
+        },
+        {
+          "level": 600,
+          "lookType": 2231
+        },
+        {
+          "level": 1000,
+          "lookType": 2232
+        },
+        {
+          "level": 2000,
+          "lookType": 2233
+        }
+      ]
+    }
+  },
+  "Goku": {
+    "sourceName": "Goku",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1489
+        },
+        {
+          "level": 50,
+          "lookType": 1490
+        },
+        {
+          "level": 100,
+          "lookType": 1491
+        },
+        {
+          "level": 150,
+          "lookType": 1492
+        },
+        {
+          "level": 200,
+          "lookType": 1493
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1499
+        },
+        {
+          "level": 50,
+          "lookType": 1500
+        },
+        {
+          "level": 100,
+          "lookType": 1501
+        },
+        {
+          "level": 150,
+          "lookType": 1502
+        },
+        {
+          "level": 200,
+          "lookType": 1503
+        },
+        {
+          "level": 400,
+          "lookType": 1504
+        },
+        {
+          "level": 600,
+          "lookType": 1804
+        },
+        {
+          "level": 1000,
+          "lookType": 1805
+        },
+        {
+          "level": 2000,
+          "lookType": 2229
+        }
+      ],
+      "superReborn": [
+        {
+          "level": 1,
+          "lookType": 1489
+        },
+        {
+          "level": 50,
+          "lookType": 1492
+        },
+        {
+          "level": 100,
+          "lookType": 1493
+        },
+        {
+          "level": 150,
+          "lookType": 1497
+        },
+        {
+          "level": 200,
+          "lookType": 1495
+        },
+        {
+          "level": 400,
+          "lookType": 1496
+        },
+        {
+          "level": 600,
+          "lookType": 2228
+        },
+        {
+          "level": 1000,
+          "lookType": 2230
+        },
+        {
+          "level": 2000,
+          "lookType": 1498
+        }
+      ]
+    }
+  },
+  "Goku Black": {
+    "sourceName": "Goku Black",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1614
+        },
+        {
+          "level": 50,
+          "lookType": 1615
+        },
+        {
+          "level": 100,
+          "lookType": 1616
+        },
+        {
+          "level": 150,
+          "lookType": 1617
+        },
+        {
+          "level": 200,
+          "lookType": 1618
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1627
+        },
+        {
+          "level": 50,
+          "lookType": 1628
+        },
+        {
+          "level": 100,
+          "lookType": 1629
+        },
+        {
+          "level": 150,
+          "lookType": 1630
+        },
+        {
+          "level": 200,
+          "lookType": 1631
+        },
+        {
+          "level": 400,
+          "lookType": 1632
+        },
+        {
+          "level": 600,
+          "lookType": 2059
+        },
+        {
+          "level": 1000,
+          "lookType": 2059
+        },
+        {
+          "level": 2000,
+          "lookType": 2461
+        }
+      ]
+    }
+  },
+  "Goten": {
+    "sourceName": "Goten",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1557
+        },
+        {
+          "level": 50,
+          "lookType": 1558
+        },
+        {
+          "level": 100,
+          "lookType": 1559
+        },
+        {
+          "level": 150,
+          "lookType": 1560
+        },
+        {
+          "level": 200,
+          "lookType": 1561
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1562
+        },
+        {
+          "level": 50,
+          "lookType": 1563
+        },
+        {
+          "level": 100,
+          "lookType": 1564
+        },
+        {
+          "level": 150,
+          "lookType": 1565
+        },
+        {
+          "level": 200,
+          "lookType": 1566
+        },
+        {
+          "level": 400,
+          "lookType": 1568
+        },
+        {
+          "level": 600,
+          "lookType": 1838
+        },
+        {
+          "level": 1000,
+          "lookType": 1839
+        },
+        {
+          "level": 2000,
+          "lookType": 2314
+        }
+      ]
+    }
+  },
+  "Hearts": {
+    "sourceName": "Hearts",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 2043
+        },
+        {
+          "level": 50,
+          "lookType": 2045
+        },
+        {
+          "level": 100,
+          "lookType": 2046
+        },
+        {
+          "level": 150,
+          "lookType": 2044
+        },
+        {
+          "level": 200,
+          "lookType": 2047
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 2043
+        },
+        {
+          "level": 50,
+          "lookType": 2045
+        },
+        {
+          "level": 100,
+          "lookType": 2046
+        },
+        {
+          "level": 150,
+          "lookType": 2047
+        },
+        {
+          "level": 200,
+          "lookType": 2048
+        },
+        {
+          "level": 400,
+          "lookType": 2049
+        },
+        {
+          "level": 600,
+          "lookType": 2160
+        },
+        {
+          "level": 1000,
+          "lookType": 2277
+        },
+        {
+          "level": 2000,
+          "lookType": 2070
+        }
+      ]
+    }
+  },
+  "Hitto": {
+    "sourceName": "Hitto",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1731
+        },
+        {
+          "level": 50,
+          "lookType": 1732
+        },
+        {
+          "level": 100,
+          "lookType": 1733
+        },
+        {
+          "level": 150,
+          "lookType": 1734
+        },
+        {
+          "level": 200,
+          "lookType": 1734
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1731
+        },
+        {
+          "level": 50,
+          "lookType": 1732
+        },
+        {
+          "level": 100,
+          "lookType": 1733
+        },
+        {
+          "level": 150,
+          "lookType": 1734
+        },
+        {
+          "level": 200,
+          "lookType": 1734
+        },
+        {
+          "level": 400,
+          "lookType": 1735
+        },
+        {
+          "level": 600,
+          "lookType": 2263
+        },
+        {
+          "level": 1000,
+          "lookType": 2264
+        },
+        {
+          "level": 2000,
+          "lookType": 2265
+        }
+      ]
+    }
+  },
+  "Janemba": {
+    "sourceName": "Janemba",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1722
+        },
+        {
+          "level": 50,
+          "lookType": 280
+        },
+        {
+          "level": 100,
+          "lookType": 120
+        },
+        {
+          "level": 150,
+          "lookType": 1723
+        },
+        {
+          "level": 200,
+          "lookType": 1724
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1722
+        },
+        {
+          "level": 50,
+          "lookType": 280
+        },
+        {
+          "level": 100,
+          "lookType": 120
+        },
+        {
+          "level": 150,
+          "lookType": 1723
+        },
+        {
+          "level": 200,
+          "lookType": 1724
+        },
+        {
+          "level": 400,
+          "lookType": 1725
+        },
+        {
+          "level": 600,
+          "lookType": 2257
+        },
+        {
+          "level": 1000,
+          "lookType": 2258
+        },
+        {
+          "level": 2000,
+          "lookType": 2256
+        }
+      ]
+    }
+  },
+  "Jiren": {
+    "sourceName": "Jiren",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 951
+        },
+        {
+          "level": 50,
+          "lookType": 952
+        },
+        {
+          "level": 100,
+          "lookType": 952
+        },
+        {
+          "level": 150,
+          "lookType": 953
+        },
+        {
+          "level": 200,
+          "lookType": 953
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 954
+        },
+        {
+          "level": 50,
+          "lookType": 954
+        },
+        {
+          "level": 100,
+          "lookType": 955
+        },
+        {
+          "level": 150,
+          "lookType": 956
+        },
+        {
+          "level": 200,
+          "lookType": 957
+        },
+        {
+          "level": 400,
+          "lookType": 1217
+        },
+        {
+          "level": 600,
+          "lookType": 1738
+        },
+        {
+          "level": 1000,
+          "lookType": 1847
+        },
+        {
+          "level": 2000,
+          "lookType": 1848
+        }
+      ]
+    }
+  },
+  "Kale": {
+    "sourceName": "Kale",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1740
+        },
+        {
+          "level": 50,
+          "lookType": 1741
+        },
+        {
+          "level": 100,
+          "lookType": 1742
+        },
+        {
+          "level": 150,
+          "lookType": 1743
+        },
+        {
+          "level": 200,
+          "lookType": 1744
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1740
+        },
+        {
+          "level": 50,
+          "lookType": 1741
+        },
+        {
+          "level": 100,
+          "lookType": 1742
+        },
+        {
+          "level": 150,
+          "lookType": 1743
+        },
+        {
+          "level": 200,
+          "lookType": 1744
+        },
+        {
+          "level": 400,
+          "lookType": 1745
+        },
+        {
+          "level": 600,
+          "lookType": 1746
+        },
+        {
+          "level": 1000,
+          "lookType": 2250
+        },
+        {
+          "level": 2000,
+          "lookType": 2251
+        }
+      ]
+    }
+  },
+  "Kame": {
+    "sourceName": "Kame",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 2028
+        },
+        {
+          "level": 50,
+          "lookType": 2029
+        },
+        {
+          "level": 100,
+          "lookType": 2033
+        },
+        {
+          "level": 150,
+          "lookType": 2027
+        },
+        {
+          "level": 200,
+          "lookType": 2031
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 2028
+        },
+        {
+          "level": 50,
+          "lookType": 2029
+        },
+        {
+          "level": 100,
+          "lookType": 2033
+        },
+        {
+          "level": 150,
+          "lookType": 2027
+        },
+        {
+          "level": 200,
+          "lookType": 2031
+        },
+        {
+          "level": 400,
+          "lookType": 2032
+        },
+        {
+          "level": 600,
+          "lookType": 2065
+        },
+        {
+          "level": 1000,
+          "lookType": 2066
+        },
+        {
+          "level": 2000,
+          "lookType": 2262
+        }
+      ]
+    }
+  },
+  "Kefla": {
+    "sourceName": "Kefla",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1755
+        },
+        {
+          "level": 50,
+          "lookType": 1756
+        },
+        {
+          "level": 100,
+          "lookType": 1757
+        },
+        {
+          "level": 150,
+          "lookType": 1758
+        },
+        {
+          "level": 200,
+          "lookType": 1759
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1755
+        },
+        {
+          "level": 50,
+          "lookType": 1756
+        },
+        {
+          "level": 100,
+          "lookType": 1757
+        },
+        {
+          "level": 150,
+          "lookType": 1758
+        },
+        {
+          "level": 200,
+          "lookType": 1760
+        },
+        {
+          "level": 400,
+          "lookType": 1199
+        },
+        {
+          "level": 600,
+          "lookType": 1761
+        },
+        {
+          "level": 1000,
+          "lookType": 2253
+        },
+        {
+          "level": 2000,
+          "lookType": 2254
+        }
+      ]
+    }
+  },
+  "Kuririn": {
+    "sourceName": "Kuririn",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1642
+        },
+        {
+          "level": 50,
+          "lookType": 1643
+        },
+        {
+          "level": 100,
+          "lookType": 1644
+        },
+        {
+          "level": 150,
+          "lookType": 1645
+        },
+        {
+          "level": 200,
+          "lookType": 1646
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1647
+        },
+        {
+          "level": 50,
+          "lookType": 1648
+        },
+        {
+          "level": 100,
+          "lookType": 1649
+        },
+        {
+          "level": 150,
+          "lookType": 1650
+        },
+        {
+          "level": 200,
+          "lookType": 1651
+        },
+        {
+          "level": 400,
+          "lookType": 1652
+        },
+        {
+          "level": 600,
+          "lookType": 1935
+        },
+        {
+          "level": 1000,
+          "lookType": 2294
+        },
+        {
+          "level": 2000,
+          "lookType": 2295
+        }
+      ]
+    }
+  },
+  "Kyabe": {
+    "sourceName": "Kyabe",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1763
+        },
+        {
+          "level": 50,
+          "lookType": 1764
+        },
+        {
+          "level": 100,
+          "lookType": 1765
+        },
+        {
+          "level": 150,
+          "lookType": 1766
+        },
+        {
+          "level": 200,
+          "lookType": 1766
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1763
+        },
+        {
+          "level": 50,
+          "lookType": 1764
+        },
+        {
+          "level": 100,
+          "lookType": 1765
+        },
+        {
+          "level": 150,
+          "lookType": 1766
+        },
+        {
+          "level": 200,
+          "lookType": 1766
+        },
+        {
+          "level": 400,
+          "lookType": 1767
+        },
+        {
+          "level": 600,
+          "lookType": 1768
+        },
+        {
+          "level": 1000,
+          "lookType": 2245
+        },
+        {
+          "level": 2000,
+          "lookType": 2244
+        }
+      ]
+    }
+  },
+  "Li Shenron": {
+    "sourceName": "Li Shenron",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1188
+        },
+        {
+          "level": 50,
+          "lookType": 1189
+        },
+        {
+          "level": 100,
+          "lookType": 1190
+        },
+        {
+          "level": 150,
+          "lookType": 1191
+        },
+        {
+          "level": 200,
+          "lookType": 1191
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1188
+        },
+        {
+          "level": 50,
+          "lookType": 1189
+        },
+        {
+          "level": 100,
+          "lookType": 1190
+        },
+        {
+          "level": 150,
+          "lookType": 1191
+        },
+        {
+          "level": 200,
+          "lookType": 1191
+        },
+        {
+          "level": 400,
+          "lookType": 1192
+        },
+        {
+          "level": 600,
+          "lookType": 2445
+        },
+        {
+          "level": 1000,
+          "lookType": 2446
+        },
+        {
+          "level": 2000,
+          "lookType": 1215
+        }
+      ]
+    }
+  },
+  "Majin Buu": {
+    "sourceName": "Majin Buu",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 502
+        },
+        {
+          "level": 50,
+          "lookType": 924
+        },
+        {
+          "level": 100,
+          "lookType": 925
+        },
+        {
+          "level": 150,
+          "lookType": 511
+        },
+        {
+          "level": 200,
+          "lookType": 926
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 502
+        },
+        {
+          "level": 50,
+          "lookType": 924
+        },
+        {
+          "level": 100,
+          "lookType": 925
+        },
+        {
+          "level": 150,
+          "lookType": 511
+        },
+        {
+          "level": 200,
+          "lookType": 926
+        },
+        {
+          "level": 400,
+          "lookType": 514
+        },
+        {
+          "level": 600,
+          "lookType": 1905
+        },
+        {
+          "level": 1000,
+          "lookType": 1844
+        },
+        {
+          "level": 2000,
+          "lookType": 2454
+        }
+      ],
+      "superReborn": [
+        {
+          "level": 1,
+          "lookType": 502
+        },
+        {
+          "level": 50,
+          "lookType": 924
+        },
+        {
+          "level": 100,
+          "lookType": 925
+        },
+        {
+          "level": 150,
+          "lookType": 511
+        },
+        {
+          "level": 200,
+          "lookType": 926
+        },
+        {
+          "level": 400,
+          "lookType": 927
+        },
+        {
+          "level": 600,
+          "lookType": 500
+        },
+        {
+          "level": 1000,
+          "lookType": 501
+        },
+        {
+          "level": 2000,
+          "lookType": 503
+        }
+      ]
+    }
+  },
+  "Pan": {
+    "sourceName": "Pan",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 329
+        },
+        {
+          "level": 50,
+          "lookType": 102
+        },
+        {
+          "level": 100,
+          "lookType": 330
+        },
+        {
+          "level": 150,
+          "lookType": 331
+        },
+        {
+          "level": 200,
+          "lookType": 332
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 329
+        },
+        {
+          "level": 50,
+          "lookType": 102
+        },
+        {
+          "level": 100,
+          "lookType": 330
+        },
+        {
+          "level": 150,
+          "lookType": 331
+        },
+        {
+          "level": 200,
+          "lookType": 332
+        },
+        {
+          "level": 400,
+          "lookType": 635
+        },
+        {
+          "level": 600,
+          "lookType": 2447
+        },
+        {
+          "level": 1000,
+          "lookType": 2448
+        },
+        {
+          "level": 2000,
+          "lookType": 2449
+        }
+      ]
+    }
+  },
+  "Piccolo": {
+    "sourceName": "Piccolo",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1635
+        },
+        {
+          "level": 50,
+          "lookType": 1636
+        },
+        {
+          "level": 100,
+          "lookType": 1637
+        },
+        {
+          "level": 150,
+          "lookType": 1637
+        },
+        {
+          "level": 200,
+          "lookType": 1638
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1635
+        },
+        {
+          "level": 50,
+          "lookType": 1636
+        },
+        {
+          "level": 100,
+          "lookType": 1637
+        },
+        {
+          "level": 150,
+          "lookType": 1637
+        },
+        {
+          "level": 200,
+          "lookType": 1638
+        },
+        {
+          "level": 400,
+          "lookType": 1639
+        },
+        {
+          "level": 600,
+          "lookType": 1640
+        },
+        {
+          "level": 1000,
+          "lookType": 2455
+        },
+        {
+          "level": 2000,
+          "lookType": 2456
+        }
+      ]
+    }
+  },
+  "Shin": {
+    "sourceName": "Shin",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1655
+        },
+        {
+          "level": 50,
+          "lookType": 1655
+        },
+        {
+          "level": 100,
+          "lookType": 1655
+        },
+        {
+          "level": 150,
+          "lookType": 1656
+        },
+        {
+          "level": 200,
+          "lookType": 1656
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1655
+        },
+        {
+          "level": 50,
+          "lookType": 1655
+        },
+        {
+          "level": 100,
+          "lookType": 1655
+        },
+        {
+          "level": 150,
+          "lookType": 1656
+        },
+        {
+          "level": 200,
+          "lookType": 1656
+        },
+        {
+          "level": 400,
+          "lookType": 1658
+        },
+        {
+          "level": 600,
+          "lookType": 1660
+        },
+        {
+          "level": 1000,
+          "lookType": 1662
+        },
+        {
+          "level": 2000,
+          "lookType": 2300
+        }
+      ],
+      "superReborn": [
+        {
+          "level": 1,
+          "lookType": 1656
+        },
+        {
+          "level": 50,
+          "lookType": 1656
+        },
+        {
+          "level": 100,
+          "lookType": 1656
+        },
+        {
+          "level": 150,
+          "lookType": 1655
+        },
+        {
+          "level": 200,
+          "lookType": 1655
+        },
+        {
+          "level": 400,
+          "lookType": 1657
+        },
+        {
+          "level": 600,
+          "lookType": 1659
+        },
+        {
+          "level": 1000,
+          "lookType": 1661
+        },
+        {
+          "level": 2000,
+          "lookType": 2299
+        }
+      ]
+    }
+  },
+  "Tapion": {
+    "sourceName": "Tapion",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 902
+        },
+        {
+          "level": 50,
+          "lookType": 903
+        },
+        {
+          "level": 100,
+          "lookType": 899
+        },
+        {
+          "level": 150,
+          "lookType": 900
+        },
+        {
+          "level": 200,
+          "lookType": 901
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 902
+        },
+        {
+          "level": 50,
+          "lookType": 903
+        },
+        {
+          "level": 100,
+          "lookType": 899
+        },
+        {
+          "level": 150,
+          "lookType": 900
+        },
+        {
+          "level": 200,
+          "lookType": 901
+        },
+        {
+          "level": 400,
+          "lookType": 928
+        },
+        {
+          "level": 600,
+          "lookType": 904
+        },
+        {
+          "level": 1000,
+          "lookType": 1205
+        },
+        {
+          "level": 2000,
+          "lookType": 1206
+        }
+      ]
+    }
+  },
+  "Tenshinhan": {
+    "sourceName": "Tenshinhan",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 2002
+        },
+        {
+          "level": 50,
+          "lookType": 2003
+        },
+        {
+          "level": 100,
+          "lookType": 2004
+        },
+        {
+          "level": 150,
+          "lookType": 2005
+        },
+        {
+          "level": 200,
+          "lookType": 2006
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 2007
+        },
+        {
+          "level": 50,
+          "lookType": 2008
+        },
+        {
+          "level": 100,
+          "lookType": 2009
+        },
+        {
+          "level": 150,
+          "lookType": 2010
+        },
+        {
+          "level": 200,
+          "lookType": 2011
+        },
+        {
+          "level": 400,
+          "lookType": 2013
+        },
+        {
+          "level": 600,
+          "lookType": 2272
+        },
+        {
+          "level": 1000,
+          "lookType": 2274
+        },
+        {
+          "level": 2000,
+          "lookType": 2273
+        }
+      ]
+    }
+  },
+  "Trunks": {
+    "sourceName": "Trunks",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1575
+        },
+        {
+          "level": 50,
+          "lookType": 1576
+        },
+        {
+          "level": 100,
+          "lookType": 1577
+        },
+        {
+          "level": 150,
+          "lookType": 1578
+        },
+        {
+          "level": 200,
+          "lookType": 1579
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1580
+        },
+        {
+          "level": 50,
+          "lookType": 1581
+        },
+        {
+          "level": 100,
+          "lookType": 1581
+        },
+        {
+          "level": 150,
+          "lookType": 1582
+        },
+        {
+          "level": 200,
+          "lookType": 1583
+        },
+        {
+          "level": 400,
+          "lookType": 1584
+        },
+        {
+          "level": 600,
+          "lookType": 1832
+        },
+        {
+          "level": 1000,
+          "lookType": 1585
+        },
+        {
+          "level": 2000,
+          "lookType": 2237
+        }
+      ]
+    }
+  },
+  "Turles": {
+    "sourceName": "Turles",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 2460
+        },
+        {
+          "level": 50,
+          "lookType": 2462
+        },
+        {
+          "level": 100,
+          "lookType": 2463
+        },
+        {
+          "level": 150,
+          "lookType": 2464
+        },
+        {
+          "level": 200,
+          "lookType": 2465
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 2460
+        },
+        {
+          "level": 50,
+          "lookType": 2462
+        },
+        {
+          "level": 100,
+          "lookType": 2463
+        },
+        {
+          "level": 150,
+          "lookType": 2464
+        },
+        {
+          "level": 200,
+          "lookType": 2465
+        },
+        {
+          "level": 400,
+          "lookType": 2466
+        },
+        {
+          "level": 600,
+          "lookType": 2467
+        },
+        {
+          "level": 1000,
+          "lookType": 2468
+        },
+        {
+          "level": 2000,
+          "lookType": 2469
+        }
+      ]
+    }
+  },
+  "Uub": {
+    "sourceName": "Uub",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1714
+        },
+        {
+          "level": 50,
+          "lookType": 1715
+        },
+        {
+          "level": 100,
+          "lookType": 1716
+        },
+        {
+          "level": 150,
+          "lookType": 1717
+        },
+        {
+          "level": 200,
+          "lookType": 1717
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1714
+        },
+        {
+          "level": 50,
+          "lookType": 1715
+        },
+        {
+          "level": 100,
+          "lookType": 1716
+        },
+        {
+          "level": 150,
+          "lookType": 1717
+        },
+        {
+          "level": 200,
+          "lookType": 1718
+        },
+        {
+          "level": 400,
+          "lookType": 1719
+        },
+        {
+          "level": 600,
+          "lookType": 2296
+        },
+        {
+          "level": 1000,
+          "lookType": 2297
+        },
+        {
+          "level": 2000,
+          "lookType": 2298
+        }
+      ]
+    }
+  },
+  "Vegeta": {
+    "sourceName": "Vegeta",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1511
+        },
+        {
+          "level": 50,
+          "lookType": 1513
+        },
+        {
+          "level": 100,
+          "lookType": 1514
+        },
+        {
+          "level": 150,
+          "lookType": 1515
+        },
+        {
+          "level": 200,
+          "lookType": 1517
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1526
+        },
+        {
+          "level": 50,
+          "lookType": 1527
+        },
+        {
+          "level": 100,
+          "lookType": 1528
+        },
+        {
+          "level": 150,
+          "lookType": 1556
+        },
+        {
+          "level": 200,
+          "lookType": 1531
+        },
+        {
+          "level": 400,
+          "lookType": 1529
+        },
+        {
+          "level": 600,
+          "lookType": 2303
+        },
+        {
+          "level": 1000,
+          "lookType": 1813
+        },
+        {
+          "level": 2000,
+          "lookType": 2307
+        }
+      ],
+      "superReborn": [
+        {
+          "level": 1,
+          "lookType": 1518
+        },
+        {
+          "level": 50,
+          "lookType": 1519
+        },
+        {
+          "level": 100,
+          "lookType": 1520
+        },
+        {
+          "level": 150,
+          "lookType": 1523
+        },
+        {
+          "level": 200,
+          "lookType": 1521
+        },
+        {
+          "level": 400,
+          "lookType": 1524
+        },
+        {
+          "level": 600,
+          "lookType": 2301
+        },
+        {
+          "level": 1000,
+          "lookType": 2302
+        },
+        {
+          "level": 2000,
+          "lookType": 2323
+        }
+      ]
+    }
+  },
+  "Vegetto": {
+    "sourceName": "Vegetto",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1587
+        },
+        {
+          "level": 50,
+          "lookType": 1588
+        },
+        {
+          "level": 100,
+          "lookType": 1589
+        },
+        {
+          "level": 150,
+          "lookType": 1590
+        },
+        {
+          "level": 200,
+          "lookType": 1590
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1587
+        },
+        {
+          "level": 50,
+          "lookType": 1588
+        },
+        {
+          "level": 100,
+          "lookType": 1589
+        },
+        {
+          "level": 150,
+          "lookType": 1590
+        },
+        {
+          "level": 200,
+          "lookType": 1590
+        },
+        {
+          "level": 400,
+          "lookType": 1593
+        },
+        {
+          "level": 600,
+          "lookType": 1818
+        },
+        {
+          "level": 1000,
+          "lookType": 1823
+        },
+        {
+          "level": 2000,
+          "lookType": 2310
+        }
+      ],
+      "superReborn": [
+        {
+          "level": 1,
+          "lookType": 1587
+        },
+        {
+          "level": 50,
+          "lookType": 1589
+        },
+        {
+          "level": 100,
+          "lookType": 1590
+        },
+        {
+          "level": 150,
+          "lookType": 1594
+        },
+        {
+          "level": 200,
+          "lookType": 1591
+        },
+        {
+          "level": 400,
+          "lookType": 2093
+        },
+        {
+          "level": 600,
+          "lookType": 1822
+        },
+        {
+          "level": 1000,
+          "lookType": 1819
+        },
+        {
+          "level": 2000,
+          "lookType": 2309
+        }
+      ]
+    }
+  },
+  "Yamcha": {
+    "sourceName": "Yamcha",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 2034
+        },
+        {
+          "level": 50,
+          "lookType": 2035
+        },
+        {
+          "level": 100,
+          "lookType": 2036
+        },
+        {
+          "level": 150,
+          "lookType": 2038
+        },
+        {
+          "level": 200,
+          "lookType": 2037
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 2034
+        },
+        {
+          "level": 50,
+          "lookType": 2035
+        },
+        {
+          "level": 100,
+          "lookType": 2038
+        },
+        {
+          "level": 150,
+          "lookType": 2039
+        },
+        {
+          "level": 200,
+          "lookType": 2040
+        },
+        {
+          "level": 400,
+          "lookType": 2041
+        },
+        {
+          "level": 600,
+          "lookType": 2268
+        },
+        {
+          "level": 1000,
+          "lookType": 2267
+        },
+        {
+          "level": 2000,
+          "lookType": 2269
+        }
+      ]
+    }
+  },
+  "Zamasu": {
+    "sourceName": "Zamasu",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1619
+        },
+        {
+          "level": 50,
+          "lookType": 1620
+        },
+        {
+          "level": 100,
+          "lookType": 1616
+        },
+        {
+          "level": 150,
+          "lookType": 1621
+        },
+        {
+          "level": 200,
+          "lookType": 1618
+        }
+      ],
+      "reborn": [
+        {
+          "level": 1,
+          "lookType": 1619
+        },
+        {
+          "level": 50,
+          "lookType": 1616
+        },
+        {
+          "level": 100,
+          "lookType": 1621
+        },
+        {
+          "level": 150,
+          "lookType": 1622
+        },
+        {
+          "level": 200,
+          "lookType": 1623
+        },
+        {
+          "level": 400,
+          "lookType": 1624
+        },
+        {
+          "level": 600,
+          "lookType": 1626
+        },
+        {
+          "level": 1000,
+          "lookType": 2064
+        },
+        {
+          "level": 2000,
+          "lookType": 2051
+        }
+      ]
+    }
+  },
+  "Champa": {
+    "sourceName": "Champa",
+    "paths": {
+      "normal": [
+        {
+          "level": 1,
+          "lookType": 1306
+        },
+        {
+          "level": 50,
+          "lookType": 1307
+        },
+        {
+          "level": 100,
+          "lookType": 1308
+        },
+        {
+          "level": 150,
+          "lookType": 1309
+        },
+        {
+          "level": 200,
+          "lookType": 1310
+        }
+      ],
+      "superReborn": [
+        {
+          "level": 1,
+          "lookType": 1309,
+          "sourceRef": "ID 1309"
+        },
+        {
+          "level": 50,
+          "lookType": 1310,
+          "sourceRef": "ID 1310"
+        },
+        {
+          "level": 100,
+          "lookType": 1311,
+          "sourceRef": "ID 1311"
+        },
+        {
+          "level": 150,
+          "lookType": 1370,
+          "sourceRef": "ID 1370"
+        },
+        {
+          "level": 200,
+          "lookType": 1371,
+          "sourceRef": "ID 1371"
+        },
+        {
+          "level": 400,
+          "lookType": 1372,
+          "sourceRef": "ID 1372"
+        },
+        {
+          "level": 600,
+          "lookType": 1373,
+          "sourceRef": "ID 1373"
+        },
+        {
+          "level": 1000,
+          "lookType": 1343,
+          "sourceRef": "ID 1343"
+        },
+        {
+          "level": 2000,
+          "lookType": 1313,
+          "sourceRef": "ID 1313"
+        }
+      ]
+    }
+  }
+});
+
+export const wodboActiveBindings = Object.freeze({
+  "tsuful": {
+    "sourceName": "Baby Tsuful",
+    "category": "free"
+  },
+  "bardock": {
+    "sourceName": "Bardock",
+    "category": "free"
+  },
+  "quest-bills": {
+    "sourceName": "Bills",
+    "category": "quest"
+  },
+  "broly": {
+    "sourceName": "Broly",
+    "category": "free"
+  },
+  "c16": {
+    "sourceName": "C16",
+    "category": "free"
+  },
+  "c17": {
+    "sourceName": "C17",
+    "category": "free"
+  },
+  "c18": {
+    "sourceName": "C18",
+    "category": "free"
+  },
+  "cell": {
+    "sourceName": "Cell",
+    "category": "free"
+  },
+  "chibi-trunks": {
+    "sourceName": "Chibi Trunks",
+    "category": "free"
+  },
+  "cooler": {
+    "sourceName": "Cooler",
+    "category": "free"
+  },
+  "dende": {
+    "sourceName": "Dende",
+    "category": "free"
+  },
+  "freeza": {
+    "sourceName": "Freeza",
+    "category": "free"
+  },
+  "gohan": {
+    "sourceName": "Gohan",
+    "category": "free"
+  },
+  "goku": {
+    "sourceName": "Goku",
+    "category": "free"
+  },
+  "quest-goku-black": {
+    "sourceName": "Goku Black",
+    "category": "quest"
+  },
+  "goten": {
+    "sourceName": "Goten",
+    "category": "free"
+  },
+  "janemba": {
+    "sourceName": "Janemba",
+    "category": "free"
+  },
+  "quest-jiren": {
+    "sourceName": "Jiren",
+    "category": "quest"
+  },
+  "kane": {
+    "sourceName": "Kame",
+    "category": "free"
+  },
+  "kuririn": {
+    "sourceName": "Kuririn",
+    "category": "free"
+  },
+  "kyabe": {
+    "sourceName": "Kyabe",
+    "category": "vip"
+  },
+  "shenron": {
+    "sourceName": "Li Shenron",
+    "category": "free"
+  },
+  "majin-buu": {
+    "sourceName": "Majin Buu",
+    "category": "free"
+  },
+  "pan": {
+    "sourceName": "Pan",
+    "category": "free"
+  },
+  "piccolo": {
+    "sourceName": "Piccolo",
+    "category": "free"
+  },
+  "kaio": {
+    "sourceName": "Shin",
+    "category": "free"
+  },
+  "tapion": {
+    "sourceName": "Tapion",
+    "category": "free"
+  },
+  "tenshinhan": {
+    "sourceName": "Tenshinhan",
+    "category": "free"
+  },
+  "trunks": {
+    "sourceName": "Trunks",
+    "category": "free"
+  },
+  "turles": {
+    "sourceName": "Turles",
+    "category": "free"
+  },
+  "uub": {
+    "sourceName": "Uub",
+    "category": "free"
+  },
+  "vegeta": {
+    "sourceName": "Vegeta",
+    "category": "free"
+  },
+  "quest-zamasu": {
+    "sourceName": "Zamasu",
+    "category": "quest"
+  },
+  "champa": {
+    "sourceName": "Champa",
+    "category": "vip"
+  },
+  "c13": {
+    "sourceName": "C13",
+    "category": "free"
+  },
+  "yamcha": {
+    "sourceName": "Yamcha",
+    "category": "free"
+  }
+});
+
+export const wodboPendingVocations = Object.freeze([
+  {
+    "sourceName": "C21",
+    "enabled": false,
+    "category": "pending"
+  },
+  {
+    "sourceName": "Caulifla",
+    "enabled": false,
+    "category": "pending"
+  },
+  {
+    "sourceName": "Cumber",
+    "enabled": false,
+    "category": "pending"
+  },
+  {
+    "sourceName": "Dyspo",
+    "enabled": false,
+    "category": "pending"
+  },
+  {
+    "sourceName": "Fu",
+    "enabled": false,
+    "category": "pending"
+  },
+  {
+    "sourceName": "Hearts",
+    "enabled": false,
+    "category": "pending"
+  },
+  {
+    "sourceName": "Hitto",
+    "enabled": false,
+    "category": "pending"
+  },
+  {
+    "sourceName": "Kale",
+    "enabled": false,
+    "category": "pending"
+  },
+  {
+    "sourceName": "Kefla",
+    "enabled": false,
+    "category": "pending"
+  },
+  {
+    "sourceName": "Vegetto",
+    "enabled": false,
+    "category": "pending"
+  }
+]);
+
+export const WODBO_PATH_LABELS = Object.freeze({
+  normal:'Normal',
+  reborn:'Reborn',
+  superReborn:'Super Reborn'
+});
+
+const numeric = value => Number.isFinite(Number(value)) ? Number(value) : 0;
+
+function splitLegacyRoutes(character, rebornVocationMap) {
+  const forms = Array.isArray(character?.forms) ? character.forms.map(form => ({...form})) : [];
+  let preRebornIndex = -1;
+  for (let index = forms.length - 1; index >= 0; index -= 1) {
+    if (rebornVocationMap?.[String(forms[index]?.vocationId)]) {
+      preRebornIndex = index;
+      break;
+    }
+  }
+  if (preRebornIndex < 0) return null;
+  const normal = forms.slice(0, preRebornIndex + 1);
+  const mapping = rebornVocationMap[String(normal.at(-1)?.vocationId)];
+  const rebornStart = forms.findIndex((form,index) =>
+    index > preRebornIndex && numeric(form?.vocationId) === numeric(mapping?.toVocation)
+  );
+  const reborn = rebornStart >= 0 ? forms.slice(rebornStart) : [];
+  return {normal,reborn,mapping};
+}
+
+function targetIndexForLevel(level, targetLevels) {
+  const numericLevel = Math.max(1,numeric(level));
+  let index = 0;
+  for (let i = 0; i < targetLevels.length; i += 1) {
+    if (numericLevel >= targetLevels[i]) index = i;
+    else break;
+  }
+  return Math.max(0,Math.min(targetLevels.length - 1,index));
+}
+
+function mapLegacyRoute(legacyForms, targetRows) {
+  const source = Array.isArray(legacyForms) ? legacyForms : [];
+  if (!Array.isArray(targetRows) || targetRows.length === 0) return [];
+  const levels = targetRows.map(row => numeric(row.level));
+  const groups = targetRows.map(() => []);
+  for (const form of source) groups[targetIndexForLevel(form?.level,levels)].push(form);
+
+  return targetRows.map((row,index) => {
+    const exact = source.find(form => numeric(form?.level) === numeric(row.level));
+    const lower = [...source].reverse().find(form => numeric(form?.level) <= numeric(row.level));
+    const canonical = exact || groups[index].at(-1) || lower || source[0] || null;
+    const aliases = groups[index];
+    return {row,canonical,aliases};
+  });
+}
+
+function formName(characterName,path,row,index) {
+  if (path === 'normal' && index === 0) return characterName;
+  const label = WODBO_PATH_LABELS[path] || path;
+  return `${characterName} · ${label} Lv ${row.level}`;
+}
+
+function makeRouteForms(character,path,targetRows,legacyForms,powerOffset) {
+  const mapped = mapLegacyRoute(legacyForms,targetRows);
+  // The last slot of a route always inherits the last legacy record. This keeps
+  // source vocation/balance compatibility for old saves whose final form used
+  // an unusually high source level (often 2000).
+  if (mapped.length && legacyForms?.length) {
+    mapped[mapped.length - 1].canonical = legacyForms.at(-1);
+    if (!mapped[mapped.length - 1].aliases.includes(legacyForms.at(-1)))
+      mapped[mapped.length - 1].aliases.push(legacyForms.at(-1));
+  }
+
+  return mapped.map((entry,index) => {
+    const row = entry.row;
+    const canonical = entry.canonical || legacyForms?.[0] || {};
+    const legacyVocationIds = [...new Set(
+      [canonical,...entry.aliases].map(form => numeric(form?.vocationId)).filter(Boolean)
+    )];
+    const legacyFormIds = [...new Set(
+      [canonical,...entry.aliases].map(form => String(form?.id || '')).filter(Boolean)
+    )];
+    const lookType = numeric(row.lookType);
+    return {
+      ...canonical,
+      id:`wodbo-${path}-${row.level}`,
+      name:formName(character.name,path,row,index),
+      level:numeric(row.level),
+      lookType,
+      outfitId:`wodbo-${lookType}`,
+      portrait:`./assets/generated/wodbo-vocations/portraits/${lookType}.png?v=22.4.4`,
+      wodboPath:path,
+      pathIndex:index,
+      powerStep:powerOffset + index,
+      legacyVocationIds,
+      legacyFormIds,
+      sourceVocationId:numeric(canonical?.vocationId),
+      vocationId:numeric(canonical?.vocationId) || numeric(character.vocationSourceId),
+      manualSpriteValidated:true
+    };
+  });
+}
+
+export function applyWodboVocationCatalog(characters,rebornVocationMap) {
+  const applied = [];
+  for (const [characterId,binding] of Object.entries(wodboActiveBindings)) {
+    const character = characters?.[characterId];
+    const source = wodboVocationCatalog[binding.sourceName];
+    if (!character || !source) continue;
+    const legacy = splitLegacyRoutes(character,rebornVocationMap);
+    if (!legacy?.normal?.length || !legacy?.reborn?.length) continue;
+
+    const legacyForms = character.forms.map(form => ({...form}));
+    const normal = makeRouteForms(character,'normal',source.paths.normal || [],legacy.normal,0);
+    const reborn = makeRouteForms(character,'reborn',source.paths.reborn || [],legacy.reborn,normal.length);
+    const superReborn = source.paths.superReborn?.length
+      ? makeRouteForms(character,'superReborn',source.paths.superReborn,legacy.reborn,normal.length)
+      : [];
+    const forms = [...normal,...reborn,...superReborn];
+    const legacyVocationIds = [...new Set(legacyForms.map(form => numeric(form?.vocationId)).filter(Boolean))];
+    const legacyFormIds = [...new Set(legacyForms.map(form => String(form?.id || '')).filter(Boolean))];
+
+    character.forms = forms;
+    character.legacyVocationIds = legacyVocationIds;
+    character.legacyFormIds = legacyFormIds;
+    character.wodboVocation = {
+      sourceName:binding.sourceName,
+      category:binding.category,
+      manualValidation:true,
+      normalLevels:normal.map(form => form.level),
+      rebornLevels:reborn.map(form => form.level),
+      superRebornLevels:superReborn.map(form => form.level)
+    };
+    character.wodboPaths = {
+      normal:{formIds:normal.map(form => form.id)},
+      ...(reborn.length ? {reborn:{formIds:reborn.map(form => form.id)}} : {}),
+      ...(superReborn.length ? {superReborn:{formIds:superReborn.map(form => form.id)}} : {})
+    };
+    const base = normal[0];
+    if (base) {
+      character.vocationSourceId = numeric(base.vocationId) || numeric(character.vocationSourceId);
+      character.sprite = base.portrait;
+      character.outfitId = base.outfitId;
+      character.lookType = base.lookType;
+      character.serverFormula = base.formula || character.serverFormula;
+    }
+    applied.push(characterId);
+  }
+  return applied;
+}
+
+export function pendingWodboVocationDefinitions() {
+  return wodboPendingVocations.map(meta => ({
+    ...meta,
+    ...(wodboVocationCatalog[meta.sourceName] || {})
+  }));
+}

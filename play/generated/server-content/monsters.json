@@ -1,0 +1,271 @@
+[
+  {
+    "id": "dino",
+    "name": "Dino",
+    "sourceFile": "Dino.xml",
+    "requiredLevel": 1,
+    "experience": 250,
+    "speed": 250,
+    "health": 100,
+    "lookType": 390,
+    "corpseId": 12836,
+    "attack": {
+      "interval": 1000,
+      "min": 10,
+      "max": 25
+    },
+    "loot": [
+      {
+        "serverId": 2666,
+        "chance": 100000,
+        "countMax": 10
+      }
+    ]
+  },
+  {
+    "id": "bandit-scout",
+    "name": "Bandit Scout",
+    "sourceFile": "Bandit Scout.xml",
+    "requiredLevel": 2,
+    "experience": 700,
+    "speed": 200,
+    "health": 250,
+    "lookType": 386,
+    "corpseId": 12838,
+    "attack": {
+      "interval": 1000,
+      "min": 0,
+      "max": 50
+    },
+    "loot": [
+      {
+        "serverId": 2148,
+        "chance": 100000,
+        "countMax": 50
+      },
+      {
+        "serverId": 2152,
+        "chance": 25000,
+        "countMax": 10
+      },
+      {
+        "serverId": 12621,
+        "chance": 1000,
+        "countMax": 1
+      },
+      {
+        "serverId": 12639,
+        "chance": 1000,
+        "countMax": 1
+      }
+    ]
+  },
+  {
+    "id": "bandit-swordman",
+    "name": "Bandit Swordman",
+    "sourceFile": "Bandit Swordman.xml",
+    "requiredLevel": 3,
+    "experience": 1500,
+    "speed": 300,
+    "health": 1500,
+    "lookType": 387,
+    "corpseId": 12849,
+    "attack": {
+      "interval": 1000,
+      "min": 100,
+      "max": 200
+    },
+    "loot": [
+      {
+        "serverId": 2148,
+        "chance": 100000,
+        "countMax": 75
+      },
+      {
+        "serverId": 2152,
+        "chance": 25000,
+        "countMax": 20
+      },
+      {
+        "serverId": 12775,
+        "chance": 2500,
+        "countMax": 5
+      },
+      {
+        "serverId": 12776,
+        "chance": 2500,
+        "countMax": 5
+      }
+    ]
+  },
+  {
+    "id": "bandit-human",
+    "name": "Bandit Human",
+    "sourceFile": "Bandit Human.xml",
+    "requiredLevel": 4,
+    "experience": 1500,
+    "speed": 300,
+    "health": 1500,
+    "lookType": 472,
+    "corpseId": 13360,
+    "attack": {
+      "interval": 1000,
+      "min": 100,
+      "max": 300
+    },
+    "loot": [
+      {
+        "serverId": 2148,
+        "chance": 100000,
+        "countMax": 75
+      },
+      {
+        "serverId": 2152,
+        "chance": 25000,
+        "countMax": 20
+      },
+      {
+        "serverId": 12775,
+        "chance": 2500,
+        "countMax": 5
+      },
+      {
+        "serverId": 12776,
+        "chance": 2500,
+        "countMax": 5
+      },
+      {
+        "serverId": 12717,
+        "chance": 1000,
+        "countMax": 1
+      }
+    ]
+  },
+  {
+    "id": "dinosaur",
+    "name": "Dinosaur",
+    "sourceFile": "Dinosaur.xml",
+    "requiredLevel": 5,
+    "experience": 2000,
+    "speed": 350,
+    "health": 3000,
+    "lookType": 431,
+    "corpseId": 12902,
+    "attack": {
+      "interval": 1000,
+      "min": 50,
+      "max": 150
+    },
+    "loot": [
+      {
+        "serverId": 2666,
+        "chance": 100000,
+        "countMax": 10
+      },
+      {
+        "serverId": 2671,
+        "chance": 50000,
+        "countMax": 5
+      }
+    ]
+  },
+  {
+    "id": "bandit",
+    "name": "Bandit",
+    "sourceFile": "Bandit.xml",
+    "requiredLevel": 6,
+    "experience": 1800,
+    "speed": 280,
+    "health": 5000,
+    "lookType": 388,
+    "corpseId": 12847,
+    "attack": {
+      "interval": 1000,
+      "min": 250,
+      "max": 1000
+    },
+    "loot": [
+      {
+        "serverId": 2148,
+        "chance": 100000,
+        "countMax": 100
+      },
+      {
+        "serverId": 2152,
+        "chance": 25000,
+        "countMax": 20
+      },
+      {
+        "serverId": 12775,
+        "chance": 2500,
+        "countMax": 5
+      },
+      {
+        "serverId": 12776,
+        "chance": 2500,
+        "countMax": 5
+      },
+      {
+        "serverId": 12717,
+        "chance": 1000,
+        "countMax": 1
+      }
+    ]
+  },
+  {
+    "id": "bandit-gun",
+    "name": "Bandit Gun",
+    "sourceFile": "Bandit Gun.xml",
+    "requiredLevel": 6,
+    "experience": 2500,
+    "speed": 300,
+    "health": 3000,
+    "lookType": 475,
+    "corpseId": 13362,
+    "attack": {
+      "interval": 1000,
+      "min": 100,
+      "max": 250
+    },
+    "loot": [
+      {
+        "serverId": 2148,
+        "chance": 100000,
+        "countMax": 100
+      },
+      {
+        "serverId": 2152,
+        "chance": 25000,
+        "countMax": 25
+      }
+    ]
+  },
+  {
+    "id": "ancient-dinosaur",
+    "name": "Ancient Dinosaur",
+    "sourceFile": "Ancient Dinosaur.xml",
+    "requiredLevel": 6,
+    "experience": 25000,
+    "speed": 400,
+    "health": 140000,
+    "lookType": 431,
+    "corpseId": 12902,
+    "attack": {
+      "interval": 1000,
+      "min": 1500,
+      "max": 4000
+    },
+    "loot": [
+      {
+        "serverId": 2666,
+        "chance": 100000,
+        "countMax": 15
+      },
+      {
+        "serverId": 2671,
+        "chance": 50000,
+        "countMax": 5
+      }
+    ]
+  }
+]

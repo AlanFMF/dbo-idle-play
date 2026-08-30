@@ -1,0 +1,212 @@
+{
+  "bandit": {
+    "name": "Bandit",
+    "lookType": 388,
+    "src": "./assets/generated/monsters/bandit.webp",
+    "portrait": "./assets/generated/monster-portraits/bandit.webp",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 179,
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "portraitDirection": "south"
+  },
+  "bandit-gun": {
+    "name": "Bandit Gun",
+    "lookType": 475,
+    "src": "./assets/generated/monsters/bandit-gun.webp",
+    "portrait": "./assets/generated/monster-portraits/bandit-gun.webp",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 167,
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "portraitDirection": "south"
+  },
+  "bandit-human": {
+    "name": "Bandit Human",
+    "lookType": 472,
+    "src": "./assets/generated/monsters/bandit-human.webp",
+    "portrait": "./assets/generated/monster-portraits/bandit-human.webp",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 167,
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "portraitDirection": "south"
+  },
+  "bandit-scout": {
+    "name": "Bandit Scout",
+    "lookType": 386,
+    "src": "./assets/generated/monsters/bandit-scout.webp",
+    "portrait": "./assets/generated/monster-portraits/bandit-scout.webp",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 220,
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "portraitDirection": "south"
+  },
+  "bandit-swordman": {
+    "name": "Bandit Swordman",
+    "lookType": 387,
+    "src": "./assets/generated/monsters/bandit-swordman.webp",
+    "portrait": "./assets/generated/monster-portraits/bandit-swordman.webp",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 167,
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "portraitDirection": "south"
+  },
+  "dino": {
+    "name": "Dino",
+    "lookType": 390,
+    "src": "./assets/generated/monsters/dino.webp",
+    "portrait": "./assets/generated/monster-portraits/dino.webp",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 200,
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "portraitDirection": "south"
+  },
+  "dinosaur": {
+    "name": "Dinosaur",
+    "lookType": 431,
+    "src": "./assets/generated/monsters/dinosaur.webp",
+    "portrait": "./assets/generated/monster-portraits/dinosaur.webp",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 143,
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "portraitDirection": "south"
+  }
+}

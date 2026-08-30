@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "clientVersion": 854,
+  "dat": {
+    "signature": "0x4C2C7993",
+    "items": 12618,
+    "outfits": 1115,
+    "effects": 317,
+    "missiles": 84
+  },
+  "spr": {
+    "signature": "0x4C220594",
+    "spriteCount": 63258,
+    "extended": false
+  },
+  "otbm": {
+    "identifier": "00000000",
+    "nodeStart": 254
+  },
+  "files": {
+    "dat": {
+      "path": "source-assets/absolute/client/Tibia.dat",
+      "size": 366030
+    },
+    "spr": {
+      "path": "source-assets/absolute/client/Tibia.spr",
+      "size": 84764272
+    },
+    "otb": {
+      "path": "source-assets/absolute/items/items.otb",
+      "size": 519126
+    },
+    "otbm": {
+      "path": "source-assets/absolute/world/DBZO.otbm",
+      "size": 29698858
+    }
+  },
+  "notes": [
+    "DAT e SPR possuem signatures independentes.",
+    "Nenhum gráfico web é ativado sem build concluído."
+  ]
+}

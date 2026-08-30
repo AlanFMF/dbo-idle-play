@@ -1,0 +1,1 @@
+export const absoluteTrainingCreatures = [{"id":"purching-bag","name":"Purching Bag","sourceFile":"Purching Bag.xml","hp":1550000000,"sourceHp":1550000000,"xp":1000000,"speed":0,"lookType":463,"corpseServerId":0,"attackMin":1,"attackMax":2,"attackInterval":1000,"attackRange":1,"damageType":"physical","armor":0,"defense":0,"loot":[],"power":38800003.6}];

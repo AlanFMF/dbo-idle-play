@@ -1,0 +1,12 @@
+{
+  "standardTransitions": 811,
+  "specialTransitions": 24,
+  "revertTransitions": 870,
+  "playableCharacters": 36,
+  "charactersWithStandardChains": 36,
+  "generatedFormAssets": 810,
+  "missingLookTypes": [],
+  "duplicateStandardSources": [],
+  "cycles": [],
+  "source": "talkactions/scripts/transforms/transformar.lua"
+}

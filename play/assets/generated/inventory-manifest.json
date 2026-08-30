@@ -1,0 +1,68 @@
+{
+  "1988": {
+    "serverId": 1988,
+    "clientId": 2854,
+    "sprite": "./assets/generated/items/1988_0.webp",
+    "status": "ok"
+  },
+  "2164": {
+    "serverId": 2164,
+    "clientId": 3048,
+    "sprite": "./assets/generated/items/2164_0.webp",
+    "status": "ok"
+  },
+  "2171": {
+    "serverId": 2171,
+    "clientId": 3055,
+    "sprite": "./assets/generated/items/2171_0.webp",
+    "status": "ok"
+  },
+  "2400": {
+    "serverId": 2400,
+    "clientId": 3288,
+    "sprite": "./assets/generated/items/2400_0.webp",
+    "status": "ok"
+  },
+  "2463": {
+    "serverId": 2463,
+    "clientId": 3357,
+    "sprite": "./assets/generated/items/2463_0.webp",
+    "status": "ok"
+  },
+  "2477": {
+    "serverId": 2477,
+    "clientId": 3371,
+    "sprite": "./assets/generated/items/2477_0.webp",
+    "status": "ok"
+  },
+  "2516": {
+    "serverId": 2516,
+    "clientId": 3416,
+    "sprite": "./assets/generated/items/2516_0.webp",
+    "status": "ok"
+  },
+  "2544": {
+    "serverId": 2544,
+    "clientId": 3447,
+    "sprite": "./assets/generated/items/2544_0.webp",
+    "status": "ok"
+  },
+  "2640": {
+    "serverId": 2640,
+    "clientId": 3549,
+    "sprite": "./assets/generated/items/2640_0.webp",
+    "status": "ok"
+  },
+  "2643": {
+    "serverId": 2643,
+    "clientId": 3552,
+    "sprite": "./assets/generated/items/2643_0.webp",
+    "status": "ok"
+  },
+  "2662": {
+    "serverId": 2662,
+    "clientId": 3573,
+    "sprite": "./assets/generated/items/2662_0.webp",
+    "status": "ok"
+  }
+}

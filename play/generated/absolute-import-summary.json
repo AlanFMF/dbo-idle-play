@@ -1,0 +1,15 @@
+{
+  "items": 4146,
+  "weapons": 273,
+  "monsters": 234,
+  "zones": 30,
+  "npcPricedItems": 127,
+  "derivedPricedItems": 4022,
+  "lookTypes": 201,
+  "corpseSprites": 126,
+  "zonesBeforeTrainingFilter": 30,
+  "trainingCreaturesRemovedFromHunts": 1,
+  "trainingCreatureNames": [
+    "Purching Bag"
+  ]
+}

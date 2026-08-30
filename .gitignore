@@ -1,0 +1,20 @@
+# backups e artefatos que nao vao para o repositorio publico
+*.online-bak
+*.bak-seo
+*.zip
+_backup-*/
+play-quebrado-*/
+node_modules/
+
+# A raiz duplicava o cliente que hoje vive em /play/ (mesmos assets, mesmos
+# catalogos gerados, versao antiga do codigo). A landing usa /play/assets/...,
+# a wiki tambem — entao nada aqui e servido. A barra inicial limita a regra a
+# raiz do repositorio: /play/assets/ e /play/generated/ continuam versionados.
+/assets/
+/generated/
+/src/
+
+# O dominio proprio foi reservado para outro projeto: o site vive em
+# alanfmf.github.io/dbo-idle-play. Um CNAME commitado faria o Pages servir
+# num dominio que nao aponta mais para ca.
+CNAME

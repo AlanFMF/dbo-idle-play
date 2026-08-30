@@ -1,0 +1,14 @@
+{
+  "effectiveFromVersion": "0.12.10",
+  "primarySource": "https://old.wodbo.net",
+  "sections": [
+    "items",
+    "quests",
+    "monsters",
+    "skills",
+    "extra-statistics"
+  ],
+  "migrationStatus": "configured-not-yet-fully-migrated",
+  "fallbackSource": "Absolute server XML",
+  "lastReviewed": "2026-08-05"
+}

@@ -1,0 +1,434 @@
+{
+  "source": "creaturescripts.zip",
+  "critical": {
+    "storage": 48903,
+    "rollMaximum": 1000,
+    "extraDamageMultiplier": 2.0,
+    "note": "O script aplica dano adicional quando o storage supera um sorteio de 0 a 1000. O multiplicador registrado é do dano adicional; o dano total exato depende da ordem do evento STATSCHANGE no servidor."
+  },
+  "skillStages": {
+    "SKILL_FIST": [
+      [
+        0,
+        30
+      ],
+      [
+        50,
+        0
+      ],
+      [
+        80,
+        0
+      ],
+      [
+        100,
+        0
+      ],
+      [
+        120,
+        0
+      ]
+    ],
+    "SKILL_CLUB": [
+      [
+        0,
+        10
+      ],
+      [
+        60,
+        10
+      ],
+      [
+        80,
+        4
+      ],
+      [
+        100,
+        2
+      ],
+      [
+        120,
+        1
+      ]
+    ],
+    "SKILL_SWORD": [
+      [
+        0,
+        10
+      ],
+      [
+        60,
+        10
+      ],
+      [
+        80,
+        4
+      ],
+      [
+        100,
+        2
+      ],
+      [
+        120,
+        1
+      ]
+    ],
+    "SKILL_AXE": [
+      [
+        0,
+        10
+      ],
+      [
+        60,
+        8
+      ],
+      [
+        80,
+        4
+      ],
+      [
+        100,
+        2
+      ],
+      [
+        120,
+        1
+      ]
+    ],
+    "SKILL_DISTANCE": [
+      [
+        0,
+        10
+      ],
+      [
+        60,
+        10
+      ],
+      [
+        80,
+        4
+      ],
+      [
+        100,
+        2
+      ],
+      [
+        120,
+        1
+      ]
+    ],
+    "SKILL_SHIELD": [
+      [
+        0,
+        10
+      ],
+      [
+        60,
+        10
+      ],
+      [
+        80,
+        4
+      ],
+      [
+        100,
+        2
+      ],
+      [
+        120,
+        1
+      ]
+    ],
+    "SKILL_FISHING": [
+      [
+        0,
+        10
+      ],
+      [
+        60,
+        10
+      ],
+      [
+        80,
+        4
+      ],
+      [
+        100,
+        2
+      ],
+      [
+        120,
+        1
+      ]
+    ],
+    "SKILL__MAGLEVEL": [
+      [
+        0,
+        4
+      ],
+      [
+        100,
+        3
+      ],
+      [
+        120,
+        2
+      ],
+      [
+        135,
+        1
+      ],
+      [
+        150,
+        1
+      ],
+      [
+        170,
+        0
+      ]
+    ]
+  },
+  "registeredEvents": [
+    {
+      "type": "login",
+      "name": "PlayerLogin",
+      "script": "login.lua"
+    },
+    {
+      "type": "death",
+      "name": "deathchannel",
+      "script": "deathchannel.lua"
+    },
+    {
+      "type": "login",
+      "name": "multipleexp",
+      "script": "multipleExpLogin.lua"
+    },
+    {
+      "type": "login",
+      "name": "vip",
+      "script": "vip.lua"
+    },
+    {
+      "type": "think",
+      "name": "tirabattle",
+      "script": "tirabattle.lua"
+    },
+    {
+      "type": "preparedeath",
+      "name": "onpreparedeathinifi",
+      "script": "aolinfinity.lua"
+    },
+    {
+      "type": "death",
+      "name": "Shenlong_Event",
+      "script": "Shenlong_Event.lua"
+    },
+    {
+      "type": "think",
+      "name": "skullcheck",
+      "script": "skullcheck.lua"
+    },
+    {
+      "type": "death",
+      "name": "playerdeath",
+      "script": "playerdeath.lua"
+    },
+    {
+      "type": "combat",
+      "name": "nopartyattack",
+      "script": "nopartyattack.lua"
+    },
+    {
+      "type": "login",
+      "name": "outfit",
+      "script": "outfit_vocation.lua"
+    },
+    {
+      "type": "death",
+      "name": "niwdeath",
+      "script": "niwdeath.lua"
+    },
+    {
+      "type": "statschange",
+      "name": "reflect",
+      "script": "reflect.lua"
+    },
+    {
+      "type": "advance",
+      "name": "levelrecompense",
+      "script": "recompenselvl.lua"
+    },
+    {
+      "type": "advance",
+      "name": "advancesave",
+      "script": "advancesave.lua"
+    },
+    {
+      "type": "login",
+      "name": "boasvindas",
+      "script": "boasvindas.lua"
+    },
+    {
+      "type": "advance",
+      "name": "fullhpmana",
+      "script": "fullhpmana.lua"
+    },
+    {
+      "type": "advance",
+      "name": "skillstagesadvance",
+      "script": "skillstagesadvance.lua"
+    },
+    {
+      "type": "death",
+      "name": "tp",
+      "script": "tpmonster.lua"
+    },
+    {
+      "type": "think",
+      "name": "vocshenron",
+      "script": "vocshenron.lua"
+    },
+    {
+      "type": "think",
+      "name": "vocvegetto",
+      "script": "vocvegetto.lua"
+    },
+    {
+      "type": "think",
+      "name": "voctapion",
+      "script": "voctapion.lua"
+    },
+    {
+      "type": "think",
+      "name": "vockame",
+      "script": "vockame.lua"
+    },
+    {
+      "type": "think",
+      "name": "vockagome",
+      "script": "vockagome.lua"
+    },
+    {
+      "type": "think",
+      "name": "vockingvegeta",
+      "script": "vockingvegeta.lua"
+    },
+    {
+      "type": "think",
+      "name": "voczaiko",
+      "script": "voczaiko.lua"
+    },
+    {
+      "type": "think",
+      "name": "vocgoku",
+      "script": "vocgoku.lua"
+    },
+    {
+      "type": "think",
+      "name": "vocchilled",
+      "script": "vocchilled.lua"
+    },
+    {
+      "type": "think",
+      "name": "vocc8",
+      "script": "vocc8.lua"
+    },
+    {
+      "type": "think",
+      "name": "vocbills",
+      "script": "vocbills.lua"
+    },
+    {
+      "type": "think",
+      "name": "vockitera",
+      "script": "vockitera.lua"
+    },
+    {
+      "type": "think",
+      "name": "voczamasu",
+      "script": "voczamasu.lua"
+    },
+    {
+      "type": "think",
+      "name": "vocbergamo",
+      "script": "vocbergamo.lua"
+    },
+    {
+      "type": "think",
+      "name": "voctrunks",
+      "script": "voctrunks.lua"
+    },
+    {
+      "type": "think",
+      "name": "vocdaishinkan",
+      "script": "vocdaishinkan.lua"
+    },
+    {
+      "type": "think",
+      "name": "voccukatail",
+      "script": "voccukatail.lua"
+    },
+    {
+      "type": "think",
+      "name": "vocgogeta",
+      "script": "vocgogeta.lua"
+    },
+    {
+      "type": "think",
+      "name": "vocwhiss",
+      "script": "vocwhiss.lua"
+    },
+    {
+      "type": "think",
+      "name": "vocultimatehitto",
+      "script": "vocultimatehitto.lua"
+    },
+    {
+      "type": "think",
+      "name": "vocvegettoblack",
+      "script": "vocvegettoblack.lua"
+    },
+    {
+      "type": "think",
+      "name": "vocvegettoblue",
+      "script": "vocvegettoblue.lua"
+    },
+    {
+      "type": "think",
+      "name": "vocshenronEvo",
+      "script": "vocshenronevo.lua"
+    },
+    {
+      "type": "think",
+      "name": "voczeno",
+      "script": "voczeno.lua"
+    },
+    {
+      "type": "think",
+      "name": "vocliquer",
+      "script": "vocliquer.lua"
+    },
+    {
+      "type": "think",
+      "name": "vocvermouth",
+      "script": "vocvermouth.lua"
+    },
+    {
+      "type": "think",
+      "name": "vocmajora",
+      "script": "vocmajora.lua"
+    },
+    {
+      "type": "think",
+      "name": "removedordefrags",
+      "script": "removedordefrags.lua"
+    },
+    {
+      "type": "login",
+      "name": "blesscheck",
+      "script": "blesscheck.lua"
+    }
+  ],
+  "skillStageSourceFile": "source-assets/absolute-import-v1219/creaturescripts/creaturescripts/scripts/stagesconfig.lua"
+}

@@ -1,0 +1,70 @@
+{
+  "version": "12.29",
+  "floors": {
+    "earth": {
+      "serverId": 4526,
+      "clientId": 4515,
+      "coverage": 1.0,
+      "path": "./assets/generated/arena-floors-v1229/earth.png"
+    },
+    "dirt": {
+      "serverId": 724,
+      "clientId": 870,
+      "coverage": 1.0,
+      "path": "./assets/generated/arena-floors-v1229/dirt.png"
+    },
+    "stone": {
+      "serverId": 919,
+      "clientId": 1128,
+      "coverage": 1.0,
+      "path": "./assets/generated/arena-floors-v1229/stone.png"
+    },
+    "snow": {
+      "serverId": 670,
+      "clientId": 799,
+      "coverage": 1.0,
+      "path": "./assets/generated/arena-floors-v1229/snow.png"
+    },
+    "time": {
+      "serverId": 407,
+      "clientId": 410,
+      "coverage": 1.0,
+      "path": "./assets/generated/arena-floors-v1229/time.png"
+    }
+  },
+  "bosqueDosDinos": [
+    {
+      "id": "dino",
+      "name": "Dino",
+      "lookType": 390,
+      "sheet": "./assets/generated/absolute-monsters-png/390.png",
+      "portrait": "./generated/web/absolute-monsters-png/390.png"
+    },
+    {
+      "id": "wolf-beast",
+      "name": "Wolf Beast",
+      "lookType": 393,
+      "sheet": "./assets/generated/absolute-monsters-png/393.png",
+      "portrait": "./generated/web/absolute-monsters-png/393.png"
+    },
+    {
+      "id": "bandit-scout",
+      "name": "Bandit Scout",
+      "lookType": 386,
+      "sheet": "./assets/generated/absolute-monsters-png/386.png",
+      "portrait": "./generated/web/absolute-monsters-png/386.png"
+    },
+    {
+      "id": "crocodile",
+      "name": "Crocodile",
+      "lookType": 471,
+      "sheet": "./assets/generated/absolute-monsters-png/471.png",
+      "portrait": "./generated/web/absolute-monsters-png/471.png"
+    }
+  ],
+  "zoneCount": 30,
+  "sharedDeathFunction": true,
+  "spellBarAutoFill": true,
+  "autoCastOnlyAggressive": true,
+  "offensiveSpellsClassified": 240
+}

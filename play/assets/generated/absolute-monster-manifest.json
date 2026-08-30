@@ -1,0 +1,5991 @@
+{
+  "2": {
+    "lookType": 2,
+    "src": "./assets/generated/absolute-monsters-png/2.png",
+    "portrait": "./generated/web/absolute-monsters-png/2.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "6": {
+    "lookType": 6,
+    "src": "./assets/generated/absolute-monsters-png/6.png",
+    "portrait": "./generated/web/absolute-monsters-png/6.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "7": {
+    "lookType": 7,
+    "src": "./assets/generated/absolute-monsters-png/7.png",
+    "portrait": "./generated/web/absolute-monsters-png/7.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "14": {
+    "lookType": 14,
+    "src": "./assets/generated/absolute-monsters-png/14.png",
+    "portrait": "./generated/web/absolute-monsters-png/14.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "15": {
+    "lookType": 15,
+    "src": "./assets/generated/absolute-monsters-png/15.png",
+    "portrait": "./generated/web/absolute-monsters-png/15.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "16": {
+    "lookType": 16,
+    "src": "./assets/generated/absolute-monsters-png/16.png",
+    "portrait": "./generated/web/absolute-monsters-png/16.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "20": {
+    "lookType": 20,
+    "src": "./assets/generated/absolute-monsters-png/20.png",
+    "portrait": "./generated/web/absolute-monsters-png/20.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "23": {
+    "lookType": 23,
+    "src": "./assets/generated/absolute-monsters-png/23.png",
+    "portrait": "./generated/web/absolute-monsters-png/23.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "29": {
+    "lookType": 29,
+    "src": "./assets/generated/absolute-monsters-png/29.png",
+    "portrait": "./generated/web/absolute-monsters-png/29.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "30": {
+    "lookType": 30,
+    "src": "./assets/generated/absolute-monsters-png/30.png",
+    "portrait": "./generated/web/absolute-monsters-png/30.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "34": {
+    "lookType": 34,
+    "src": "./assets/generated/absolute-monsters-png/34.png",
+    "portrait": "./generated/web/absolute-monsters-png/34.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "35": {
+    "lookType": 35,
+    "src": "./assets/generated/absolute-monsters-png/35.png",
+    "portrait": "./generated/web/absolute-monsters-png/35.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "36": {
+    "lookType": 36,
+    "src": "./assets/generated/absolute-monsters-png/36.png",
+    "portrait": "./generated/web/absolute-monsters-png/36.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "39": {
+    "lookType": 39,
+    "src": "./assets/generated/absolute-monsters-png/39.png",
+    "portrait": "./generated/web/absolute-monsters-png/39.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 2,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "41": {
+    "lookType": 41,
+    "src": "./assets/generated/absolute-monsters-png/41.png",
+    "portrait": "./generated/web/absolute-monsters-png/41.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "42": {
+    "lookType": 42,
+    "src": "./assets/generated/absolute-monsters-png/42.png",
+    "portrait": "./generated/web/absolute-monsters-png/42.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "43": {
+    "lookType": 43,
+    "src": "./assets/generated/absolute-monsters-png/43.png",
+    "portrait": "./generated/web/absolute-monsters-png/43.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "46": {
+    "lookType": 46,
+    "src": "./assets/generated/absolute-monsters-png/46.png",
+    "portrait": "./generated/web/absolute-monsters-png/46.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "47": {
+    "lookType": 47,
+    "src": "./assets/generated/absolute-monsters-png/47.png",
+    "portrait": "./generated/web/absolute-monsters-png/47.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "48": {
+    "lookType": 48,
+    "src": "./assets/generated/absolute-monsters-png/48.png",
+    "portrait": "./generated/web/absolute-monsters-png/48.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "49": {
+    "lookType": 49,
+    "src": "./assets/generated/absolute-monsters-png/49.png",
+    "portrait": "./generated/web/absolute-monsters-png/49.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "50": {
+    "lookType": 50,
+    "src": "./assets/generated/absolute-monsters-png/50.png",
+    "portrait": "./generated/web/absolute-monsters-png/50.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "53": {
+    "lookType": 53,
+    "src": "./assets/generated/absolute-monsters-png/53.png",
+    "portrait": "./generated/web/absolute-monsters-png/53.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "56": {
+    "lookType": 56,
+    "src": "./assets/generated/absolute-monsters-png/56.png",
+    "portrait": "./generated/web/absolute-monsters-png/56.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "58": {
+    "lookType": 58,
+    "src": "./assets/generated/absolute-monsters-png/58.png",
+    "portrait": "./generated/web/absolute-monsters-png/58.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "66": {
+    "lookType": 66,
+    "src": "./assets/generated/absolute-monsters-png/66.png",
+    "portrait": "./generated/web/absolute-monsters-png/66.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "67": {
+    "lookType": 67,
+    "src": "./assets/generated/absolute-monsters-png/67.png",
+    "portrait": "./generated/web/absolute-monsters-png/67.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "73": {
+    "lookType": 73,
+    "src": "./assets/generated/absolute-monsters-png/73.png",
+    "portrait": "./generated/web/absolute-monsters-png/73.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "78": {
+    "lookType": 78,
+    "src": "./assets/generated/absolute-monsters-png/78.png",
+    "portrait": "./generated/web/absolute-monsters-png/78.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "79": {
+    "lookType": 79,
+    "src": "./assets/generated/absolute-monsters-png/79.png",
+    "portrait": "./generated/web/absolute-monsters-png/79.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "81": {
+    "lookType": 81,
+    "src": "./assets/generated/absolute-monsters-png/81.png",
+    "portrait": "./generated/web/absolute-monsters-png/81.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "83": {
+    "lookType": 83,
+    "src": "./assets/generated/absolute-monsters-png/83.png",
+    "portrait": "./generated/web/absolute-monsters-png/83.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "85": {
+    "lookType": 85,
+    "src": "./assets/generated/absolute-monsters-png/85.png",
+    "portrait": "./generated/web/absolute-monsters-png/85.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "86": {
+    "lookType": 86,
+    "src": "./assets/generated/absolute-monsters-png/86.png",
+    "portrait": "./generated/web/absolute-monsters-png/86.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "92": {
+    "lookType": 92,
+    "src": "./assets/generated/absolute-monsters-png/92.png",
+    "portrait": "./generated/web/absolute-monsters-png/92.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "96": {
+    "lookType": 96,
+    "src": "./assets/generated/absolute-monsters-png/96.png",
+    "portrait": "./generated/web/absolute-monsters-png/96.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "98": {
+    "lookType": 98,
+    "src": "./assets/generated/absolute-monsters-png/98.png",
+    "portrait": "./generated/web/absolute-monsters-png/98.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "99": {
+    "lookType": 99,
+    "src": "./assets/generated/absolute-monsters-png/99.png",
+    "portrait": "./generated/web/absolute-monsters-png/99.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "100": {
+    "lookType": 100,
+    "src": "./assets/generated/absolute-monsters-png/100.png",
+    "portrait": "./generated/web/absolute-monsters-png/100.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "104": {
+    "lookType": 104,
+    "src": "./assets/generated/absolute-monsters-png/104.png",
+    "portrait": "./generated/web/absolute-monsters-png/104.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "105": {
+    "lookType": 105,
+    "src": "./assets/generated/absolute-monsters-png/105.png",
+    "portrait": "./generated/web/absolute-monsters-png/105.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "117": {
+    "lookType": 117,
+    "src": "./assets/generated/absolute-monsters-png/117.png",
+    "portrait": "./generated/web/absolute-monsters-png/117.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "118": {
+    "lookType": 118,
+    "src": "./assets/generated/absolute-monsters-png/118.png",
+    "portrait": "./generated/web/absolute-monsters-png/118.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "119": {
+    "lookType": 119,
+    "src": "./assets/generated/absolute-monsters-png/119.png",
+    "portrait": "./generated/web/absolute-monsters-png/119.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "122": {
+    "lookType": 122,
+    "src": "./assets/generated/absolute-monsters-png/122.png",
+    "portrait": "./generated/web/absolute-monsters-png/122.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "123": {
+    "lookType": 123,
+    "src": "./assets/generated/absolute-monsters-png/123.png",
+    "portrait": "./generated/web/absolute-monsters-png/123.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "126": {
+    "lookType": 126,
+    "src": "./assets/generated/absolute-monsters-png/126.png",
+    "portrait": "./generated/web/absolute-monsters-png/126.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "141": {
+    "lookType": 141,
+    "src": "./assets/generated/absolute-monsters-png/141.png",
+    "portrait": "./generated/web/absolute-monsters-png/141.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "148": {
+    "lookType": 148,
+    "src": "./assets/generated/absolute-monsters-png/148.png",
+    "portrait": "./generated/web/absolute-monsters-png/148.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "160": {
+    "lookType": 160,
+    "src": "./assets/generated/absolute-monsters-png/160.png",
+    "portrait": "./generated/web/absolute-monsters-png/160.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "162": {
+    "lookType": 162,
+    "src": "./assets/generated/absolute-monsters-png/162.png",
+    "portrait": "./generated/web/absolute-monsters-png/162.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "170": {
+    "lookType": 170,
+    "src": "./assets/generated/absolute-monsters-png/170.png",
+    "portrait": "./generated/web/absolute-monsters-png/170.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "171": {
+    "lookType": 171,
+    "src": "./assets/generated/absolute-monsters-png/171.png",
+    "portrait": "./generated/web/absolute-monsters-png/171.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "177": {
+    "lookType": 177,
+    "src": "./assets/generated/absolute-monsters-png/177.png",
+    "portrait": "./generated/web/absolute-monsters-png/177.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "183": {
+    "lookType": 183,
+    "src": "./assets/generated/absolute-monsters-png/183.png",
+    "portrait": "./generated/web/absolute-monsters-png/183.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "184": {
+    "lookType": 184,
+    "src": "./assets/generated/absolute-monsters-png/184.png",
+    "portrait": "./generated/web/absolute-monsters-png/184.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "185": {
+    "lookType": 185,
+    "src": "./assets/generated/absolute-monsters-png/185.png",
+    "portrait": "./generated/web/absolute-monsters-png/185.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "186": {
+    "lookType": 186,
+    "src": "./assets/generated/absolute-monsters-png/186.png",
+    "portrait": "./generated/web/absolute-monsters-png/186.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "188": {
+    "lookType": 188,
+    "src": "./assets/generated/absolute-monsters-png/188.png",
+    "portrait": "./generated/web/absolute-monsters-png/188.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "189": {
+    "lookType": 189,
+    "src": "./assets/generated/absolute-monsters-png/189.png",
+    "portrait": "./generated/web/absolute-monsters-png/189.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "194": {
+    "lookType": 194,
+    "src": "./assets/generated/absolute-monsters-png/194.png",
+    "portrait": "./generated/web/absolute-monsters-png/194.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "197": {
+    "lookType": 197,
+    "src": "./assets/generated/absolute-monsters-png/197.png",
+    "portrait": "./generated/web/absolute-monsters-png/197.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "198": {
+    "lookType": 198,
+    "src": "./assets/generated/absolute-monsters-png/198.png",
+    "portrait": "./generated/web/absolute-monsters-png/198.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "209": {
+    "lookType": 209,
+    "src": "./assets/generated/absolute-monsters-png/209.png",
+    "portrait": "./generated/web/absolute-monsters-png/209.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "221": {
+    "lookType": 221,
+    "src": "./assets/generated/absolute-monsters-png/221.png",
+    "portrait": "./generated/web/absolute-monsters-png/221.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "222": {
+    "lookType": 222,
+    "src": "./assets/generated/absolute-monsters-png/222.png",
+    "portrait": "./generated/web/absolute-monsters-png/222.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "224": {
+    "lookType": 224,
+    "src": "./assets/generated/absolute-monsters-png/224.png",
+    "portrait": "./generated/web/absolute-monsters-png/224.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "235": {
+    "lookType": 235,
+    "src": "./assets/generated/absolute-monsters-png/235.png",
+    "portrait": "./generated/web/absolute-monsters-png/235.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "236": {
+    "lookType": 236,
+    "src": "./assets/generated/absolute-monsters-png/236.png",
+    "portrait": "./generated/web/absolute-monsters-png/236.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "237": {
+    "lookType": 237,
+    "src": "./assets/generated/absolute-monsters-png/237.png",
+    "portrait": "./generated/web/absolute-monsters-png/237.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "239": {
+    "lookType": 239,
+    "src": "./assets/generated/absolute-monsters-png/239.png",
+    "portrait": "./generated/web/absolute-monsters-png/239.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "240": {
+    "lookType": 240,
+    "src": "./assets/generated/absolute-monsters-png/240.png",
+    "portrait": "./generated/web/absolute-monsters-png/240.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "267": {
+    "lookType": 267,
+    "src": "./assets/generated/absolute-monsters-png/267.png",
+    "portrait": "./generated/web/absolute-monsters-png/267.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "269": {
+    "lookType": 269,
+    "src": "./assets/generated/absolute-monsters-png/269.png",
+    "portrait": "./generated/web/absolute-monsters-png/269.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "270": {
+    "lookType": 270,
+    "src": "./assets/generated/absolute-monsters-png/270.png",
+    "portrait": "./generated/web/absolute-monsters-png/270.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "275": {
+    "lookType": 275,
+    "src": "./assets/generated/absolute-monsters-png/275.png",
+    "portrait": "./generated/web/absolute-monsters-png/275.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "286": {
+    "lookType": 286,
+    "src": "./assets/generated/absolute-monsters-png/286.png",
+    "portrait": "./generated/web/absolute-monsters-png/286.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "289": {
+    "lookType": 289,
+    "src": "./assets/generated/absolute-monsters-png/289.png",
+    "portrait": "./generated/web/absolute-monsters-png/289.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "290": {
+    "lookType": 290,
+    "src": "./assets/generated/absolute-monsters-png/290.png",
+    "portrait": "./generated/web/absolute-monsters-png/290.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "303": {
+    "lookType": 303,
+    "src": "./assets/generated/absolute-monsters-png/303.png",
+    "portrait": "./generated/web/absolute-monsters-png/303.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "304": {
+    "lookType": 304,
+    "src": "./assets/generated/absolute-monsters-png/304.png",
+    "portrait": "./generated/web/absolute-monsters-png/304.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "305": {
+    "lookType": 305,
+    "src": "./assets/generated/absolute-monsters-png/305.png",
+    "portrait": "./generated/web/absolute-monsters-png/305.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "306": {
+    "lookType": 306,
+    "src": "./assets/generated/absolute-monsters-png/306.png",
+    "portrait": "./generated/web/absolute-monsters-png/306.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "308": {
+    "lookType": 308,
+    "src": "./assets/generated/absolute-monsters-png/308.png",
+    "portrait": "./generated/web/absolute-monsters-png/308.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "312": {
+    "lookType": 312,
+    "src": "./assets/generated/absolute-monsters-png/312.png",
+    "portrait": "./generated/web/absolute-monsters-png/312.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "325": {
+    "lookType": 325,
+    "src": "./assets/generated/absolute-monsters-png/325.png",
+    "portrait": "./generated/web/absolute-monsters-png/325.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "326": {
+    "lookType": 326,
+    "src": "./assets/generated/absolute-monsters-png/326.png",
+    "portrait": "./generated/web/absolute-monsters-png/326.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "383": {
+    "lookType": 383,
+    "src": "./assets/generated/absolute-monsters-png/383.png",
+    "portrait": "./generated/web/absolute-monsters-png/383.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "384": {
+    "lookType": 384,
+    "src": "./assets/generated/absolute-monsters-png/384.png",
+    "portrait": "./generated/web/absolute-monsters-png/384.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "385": {
+    "lookType": 385,
+    "src": "./assets/generated/absolute-monsters-png/385.png",
+    "portrait": "./generated/web/absolute-monsters-png/385.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "386": {
+    "lookType": 386,
+    "src": "./assets/generated/absolute-monsters-png/386.png",
+    "portrait": "./generated/web/absolute-monsters-png/386.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "387": {
+    "lookType": 387,
+    "src": "./assets/generated/absolute-monsters-png/387.png",
+    "portrait": "./generated/web/absolute-monsters-png/387.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "388": {
+    "lookType": 388,
+    "src": "./assets/generated/absolute-monsters-png/388.png",
+    "portrait": "./generated/web/absolute-monsters-png/388.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "389": {
+    "lookType": 389,
+    "src": "./assets/generated/absolute-monsters-png/389.png",
+    "portrait": "./generated/web/absolute-monsters-png/389.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "390": {
+    "lookType": 390,
+    "src": "./assets/generated/absolute-monsters-png/390.png",
+    "portrait": "./generated/web/absolute-monsters-png/390.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "391": {
+    "lookType": 391,
+    "src": "./assets/generated/absolute-monsters-png/391.png",
+    "portrait": "./generated/web/absolute-monsters-png/391.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "392": {
+    "lookType": 392,
+    "src": "./assets/generated/absolute-monsters-png/392.png",
+    "portrait": "./generated/web/absolute-monsters-png/392.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 2,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "393": {
+    "lookType": 393,
+    "src": "./assets/generated/absolute-monsters-png/393.png",
+    "portrait": "./generated/web/absolute-monsters-png/393.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "394": {
+    "lookType": 394,
+    "src": "./assets/generated/absolute-monsters-png/394.png",
+    "portrait": "./generated/web/absolute-monsters-png/394.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "395": {
+    "lookType": 395,
+    "src": "./assets/generated/absolute-monsters-png/395.png",
+    "portrait": "./generated/web/absolute-monsters-png/395.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "396": {
+    "lookType": 396,
+    "src": "./assets/generated/absolute-monsters-png/396.png",
+    "portrait": "./generated/web/absolute-monsters-png/396.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 2,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "397": {
+    "lookType": 397,
+    "src": "./assets/generated/absolute-monsters-png/397.png",
+    "portrait": "./generated/web/absolute-monsters-png/397.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "398": {
+    "lookType": 398,
+    "src": "./assets/generated/absolute-monsters-png/398.png",
+    "portrait": "./generated/web/absolute-monsters-png/398.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 2,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "399": {
+    "lookType": 399,
+    "src": "./assets/generated/absolute-monsters-png/399.png",
+    "portrait": "./generated/web/absolute-monsters-png/399.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "400": {
+    "lookType": 400,
+    "src": "./assets/generated/absolute-monsters-png/400.png",
+    "portrait": "./generated/web/absolute-monsters-png/400.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "401": {
+    "lookType": 401,
+    "src": "./assets/generated/absolute-monsters-png/401.png",
+    "portrait": "./generated/web/absolute-monsters-png/401.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "402": {
+    "lookType": 402,
+    "src": "./assets/generated/absolute-monsters-png/402.png",
+    "portrait": "./generated/web/absolute-monsters-png/402.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "403": {
+    "lookType": 403,
+    "src": "./assets/generated/absolute-monsters-png/403.png",
+    "portrait": "./generated/web/absolute-monsters-png/403.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "404": {
+    "lookType": 404,
+    "src": "./assets/generated/absolute-monsters-png/404.png",
+    "portrait": "./generated/web/absolute-monsters-png/404.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "405": {
+    "lookType": 405,
+    "src": "./assets/generated/absolute-monsters-png/405.png",
+    "portrait": "./generated/web/absolute-monsters-png/405.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "406": {
+    "lookType": 406,
+    "src": "./assets/generated/absolute-monsters-png/406.png",
+    "portrait": "./generated/web/absolute-monsters-png/406.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "407": {
+    "lookType": 407,
+    "src": "./assets/generated/absolute-monsters-png/407.png",
+    "portrait": "./generated/web/absolute-monsters-png/407.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "408": {
+    "lookType": 408,
+    "src": "./assets/generated/absolute-monsters-png/408.png",
+    "portrait": "./generated/web/absolute-monsters-png/408.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "409": {
+    "lookType": 409,
+    "src": "./assets/generated/absolute-monsters-png/409.png",
+    "portrait": "./generated/web/absolute-monsters-png/409.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "410": {
+    "lookType": 410,
+    "src": "./assets/generated/absolute-monsters-png/410.png",
+    "portrait": "./generated/web/absolute-monsters-png/410.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "411": {
+    "lookType": 411,
+    "src": "./assets/generated/absolute-monsters-png/411.png",
+    "portrait": "./generated/web/absolute-monsters-png/411.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "412": {
+    "lookType": 412,
+    "src": "./assets/generated/absolute-monsters-png/412.png",
+    "portrait": "./generated/web/absolute-monsters-png/412.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "413": {
+    "lookType": 413,
+    "src": "./assets/generated/absolute-monsters-png/413.png",
+    "portrait": "./generated/web/absolute-monsters-png/413.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 1,
+    "idleFrame": 0,
+    "walkFrames": [
+      0
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "414": {
+    "lookType": 414,
+    "src": "./assets/generated/absolute-monsters-png/414.png",
+    "portrait": "./generated/web/absolute-monsters-png/414.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "415": {
+    "lookType": 415,
+    "src": "./assets/generated/absolute-monsters-png/415.png",
+    "portrait": "./generated/web/absolute-monsters-png/415.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "416": {
+    "lookType": 416,
+    "src": "./assets/generated/absolute-monsters-png/416.png",
+    "portrait": "./generated/web/absolute-monsters-png/416.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "417": {
+    "lookType": 417,
+    "src": "./assets/generated/absolute-monsters-png/417.png",
+    "portrait": "./generated/web/absolute-monsters-png/417.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "418": {
+    "lookType": 418,
+    "src": "./assets/generated/absolute-monsters-png/418.png",
+    "portrait": "./generated/web/absolute-monsters-png/418.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "419": {
+    "lookType": 419,
+    "src": "./assets/generated/absolute-monsters-png/419.png",
+    "portrait": "./generated/web/absolute-monsters-png/419.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "420": {
+    "lookType": 420,
+    "src": "./assets/generated/absolute-monsters-png/420.png",
+    "portrait": "./generated/web/absolute-monsters-png/420.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "421": {
+    "lookType": 421,
+    "src": "./assets/generated/absolute-monsters-png/421.png",
+    "portrait": "./generated/web/absolute-monsters-png/421.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 2,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "422": {
+    "lookType": 422,
+    "src": "./assets/generated/absolute-monsters-png/422.png",
+    "portrait": "./generated/web/absolute-monsters-png/422.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "423": {
+    "lookType": 423,
+    "src": "./assets/generated/absolute-monsters-png/423.png",
+    "portrait": "./generated/web/absolute-monsters-png/423.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "424": {
+    "lookType": 424,
+    "src": "./assets/generated/absolute-monsters-png/424.png",
+    "portrait": "./generated/web/absolute-monsters-png/424.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "425": {
+    "lookType": 425,
+    "src": "./assets/generated/absolute-monsters-png/425.png",
+    "portrait": "./generated/web/absolute-monsters-png/425.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "426": {
+    "lookType": 426,
+    "src": "./assets/generated/absolute-monsters-png/426.png",
+    "portrait": "./generated/web/absolute-monsters-png/426.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "427": {
+    "lookType": 427,
+    "src": "./assets/generated/absolute-monsters-png/427.png",
+    "portrait": "./generated/web/absolute-monsters-png/427.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "428": {
+    "lookType": 428,
+    "src": "./assets/generated/absolute-monsters-png/428.png",
+    "portrait": "./generated/web/absolute-monsters-png/428.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 6,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "429": {
+    "lookType": 429,
+    "src": "./assets/generated/absolute-monsters-png/429.png",
+    "portrait": "./generated/web/absolute-monsters-png/429.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "430": {
+    "lookType": 430,
+    "src": "./assets/generated/absolute-monsters-png/430.png",
+    "portrait": "./generated/web/absolute-monsters-png/430.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "431": {
+    "lookType": 431,
+    "src": "./assets/generated/absolute-monsters-png/431.png",
+    "portrait": "./generated/web/absolute-monsters-png/431.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "432": {
+    "lookType": 432,
+    "src": "./assets/generated/absolute-monsters-png/432.png",
+    "portrait": "./generated/web/absolute-monsters-png/432.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "433": {
+    "lookType": 433,
+    "src": "./assets/generated/absolute-monsters-png/433.png",
+    "portrait": "./generated/web/absolute-monsters-png/433.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "434": {
+    "lookType": 434,
+    "src": "./assets/generated/absolute-monsters-png/434.png",
+    "portrait": "./generated/web/absolute-monsters-png/434.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "435": {
+    "lookType": 435,
+    "src": "./assets/generated/absolute-monsters-png/435.png",
+    "portrait": "./generated/web/absolute-monsters-png/435.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "436": {
+    "lookType": 436,
+    "src": "./assets/generated/absolute-monsters-png/436.png",
+    "portrait": "./generated/web/absolute-monsters-png/436.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "437": {
+    "lookType": 437,
+    "src": "./assets/generated/absolute-monsters-png/437.png",
+    "portrait": "./generated/web/absolute-monsters-png/437.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "438": {
+    "lookType": 438,
+    "src": "./assets/generated/absolute-monsters-png/438.png",
+    "portrait": "./generated/web/absolute-monsters-png/438.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "439": {
+    "lookType": 439,
+    "src": "./assets/generated/absolute-monsters-png/439.png",
+    "portrait": "./generated/web/absolute-monsters-png/439.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "440": {
+    "lookType": 440,
+    "src": "./assets/generated/absolute-monsters-png/440.png",
+    "portrait": "./generated/web/absolute-monsters-png/440.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "441": {
+    "lookType": 441,
+    "src": "./assets/generated/absolute-monsters-png/441.png",
+    "portrait": "./generated/web/absolute-monsters-png/441.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "442": {
+    "lookType": 442,
+    "src": "./assets/generated/absolute-monsters-png/442.png",
+    "portrait": "./generated/web/absolute-monsters-png/442.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "443": {
+    "lookType": 443,
+    "src": "./assets/generated/absolute-monsters-png/443.png",
+    "portrait": "./generated/web/absolute-monsters-png/443.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "445": {
+    "lookType": 445,
+    "src": "./assets/generated/absolute-monsters-png/445.png",
+    "portrait": "./generated/web/absolute-monsters-png/445.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "446": {
+    "lookType": 446,
+    "src": "./assets/generated/absolute-monsters-png/446.png",
+    "portrait": "./generated/web/absolute-monsters-png/446.png",
+    "frameWidth": 160,
+    "frameHeight": 160,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 1,
+    "idleFrame": 0,
+    "walkFrames": [
+      0
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "448": {
+    "lookType": 448,
+    "src": "./assets/generated/absolute-monsters-png/448.png",
+    "portrait": "./generated/web/absolute-monsters-png/448.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "450": {
+    "lookType": 450,
+    "src": "./assets/generated/absolute-monsters-png/450.png",
+    "portrait": "./generated/web/absolute-monsters-png/450.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 1,
+    "idleFrame": 0,
+    "walkFrames": [
+      0
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "469": {
+    "lookType": 469,
+    "src": "./assets/generated/absolute-monsters-png/469.png",
+    "portrait": "./generated/web/absolute-monsters-png/469.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "470": {
+    "lookType": 470,
+    "src": "./assets/generated/absolute-monsters-png/470.png",
+    "portrait": "./generated/web/absolute-monsters-png/470.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 2,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "471": {
+    "lookType": 471,
+    "src": "./assets/generated/absolute-monsters-png/471.png",
+    "portrait": "./generated/web/absolute-monsters-png/471.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "472": {
+    "lookType": 472,
+    "src": "./assets/generated/absolute-monsters-png/472.png",
+    "portrait": "./generated/web/absolute-monsters-png/472.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "473": {
+    "lookType": 473,
+    "src": "./assets/generated/absolute-monsters-png/473.png",
+    "portrait": "./generated/web/absolute-monsters-png/473.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "474": {
+    "lookType": 474,
+    "src": "./assets/generated/absolute-monsters-png/474.png",
+    "portrait": "./generated/web/absolute-monsters-png/474.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 2,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "475": {
+    "lookType": 475,
+    "src": "./assets/generated/absolute-monsters-png/475.png",
+    "portrait": "./generated/web/absolute-monsters-png/475.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "477": {
+    "lookType": 477,
+    "src": "./assets/generated/absolute-monsters-png/477.png",
+    "portrait": "./generated/web/absolute-monsters-png/477.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "479": {
+    "lookType": 479,
+    "src": "./assets/generated/absolute-monsters-png/479.png",
+    "portrait": "./generated/web/absolute-monsters-png/479.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "480": {
+    "lookType": 480,
+    "src": "./assets/generated/absolute-monsters-png/480.png",
+    "portrait": "./generated/web/absolute-monsters-png/480.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "481": {
+    "lookType": 481,
+    "src": "./assets/generated/absolute-monsters-png/481.png",
+    "portrait": "./generated/web/absolute-monsters-png/481.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "484": {
+    "lookType": 484,
+    "src": "./assets/generated/absolute-monsters-png/484.png",
+    "portrait": "./generated/web/absolute-monsters-png/484.png",
+    "frameWidth": 64,
+    "frameHeight": 96,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "485": {
+    "lookType": 485,
+    "src": "./assets/generated/absolute-monsters-png/485.png",
+    "portrait": "./generated/web/absolute-monsters-png/485.png",
+    "frameWidth": 96,
+    "frameHeight": 96,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "488": {
+    "lookType": 488,
+    "src": "./assets/generated/absolute-monsters-png/488.png",
+    "portrait": "./generated/web/absolute-monsters-png/488.png",
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "489": {
+    "lookType": 489,
+    "src": "./assets/generated/absolute-monsters-png/489.png",
+    "portrait": "./generated/web/absolute-monsters-png/489.png",
+    "frameWidth": 64,
+    "frameHeight": 96,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 2,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "493": {
+    "lookType": 493,
+    "src": "./assets/generated/absolute-monsters-png/493.png",
+    "portrait": "./generated/web/absolute-monsters-png/493.png",
+    "frameWidth": 160,
+    "frameHeight": 160,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "494": {
+    "lookType": 494,
+    "src": "./assets/generated/absolute-monsters-png/494.png",
+    "portrait": "./generated/web/absolute-monsters-png/494.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "495": {
+    "lookType": 495,
+    "src": "./assets/generated/absolute-monsters-png/495.png",
+    "portrait": "./generated/web/absolute-monsters-png/495.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "497": {
+    "lookType": 497,
+    "src": "./assets/generated/absolute-monsters-png/497.png",
+    "portrait": "./generated/web/absolute-monsters-png/497.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "498": {
+    "lookType": 498,
+    "src": "./assets/generated/absolute-monsters-png/498.png",
+    "portrait": "./generated/web/absolute-monsters-png/498.png",
+    "frameWidth": 96,
+    "frameHeight": 96,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "499": {
+    "lookType": 499,
+    "src": "./assets/generated/absolute-monsters-png/499.png",
+    "portrait": "./generated/web/absolute-monsters-png/499.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "513": {
+    "lookType": 513,
+    "src": "./assets/generated/absolute-monsters-png/513.png",
+    "portrait": "./generated/web/absolute-monsters-png/513.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "525": {
+    "lookType": 525,
+    "src": "./assets/generated/absolute-monsters-png/525.png",
+    "portrait": "./generated/web/absolute-monsters-png/525.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "579": {
+    "lookType": 579,
+    "src": "./assets/generated/absolute-monsters-png/579.png",
+    "portrait": "./generated/web/absolute-monsters-png/579.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "584": {
+    "lookType": 584,
+    "src": "./assets/generated/absolute-monsters-png/584.png",
+    "portrait": "./generated/web/absolute-monsters-png/584.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "603": {
+    "lookType": 603,
+    "src": "./assets/generated/absolute-monsters-png/603.png",
+    "portrait": "./generated/web/absolute-monsters-png/603.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "604": {
+    "lookType": 604,
+    "src": "./assets/generated/absolute-monsters-png/604.png",
+    "portrait": "./generated/web/absolute-monsters-png/604.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "610": {
+    "lookType": 610,
+    "src": "./assets/generated/absolute-monsters-png/610.png",
+    "portrait": "./generated/web/absolute-monsters-png/610.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "614": {
+    "lookType": 614,
+    "src": "./assets/generated/absolute-monsters-png/614.png",
+    "portrait": "./generated/web/absolute-monsters-png/614.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "631": {
+    "lookType": 631,
+    "src": "./assets/generated/absolute-monsters-png/631.png",
+    "portrait": "./generated/web/absolute-monsters-png/631.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "656": {
+    "lookType": 656,
+    "src": "./assets/generated/absolute-monsters-png/656.png",
+    "portrait": "./generated/web/absolute-monsters-png/656.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "696": {
+    "lookType": 696,
+    "src": "./assets/generated/absolute-monsters-png/696.png",
+    "portrait": "./generated/web/absolute-monsters-png/696.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "708": {
+    "lookType": 708,
+    "src": "./assets/generated/absolute-monsters-png/708.png",
+    "portrait": "./generated/web/absolute-monsters-png/708.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "793": {
+    "lookType": 793,
+    "src": "./assets/generated/absolute-monsters-png/793.png",
+    "portrait": "./generated/web/absolute-monsters-png/793.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "808": {
+    "lookType": 808,
+    "src": "./assets/generated/absolute-monsters-png/808.png",
+    "portrait": "./generated/web/absolute-monsters-png/808.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "825": {
+    "lookType": 825,
+    "src": "./assets/generated/absolute-monsters-png/825.png",
+    "portrait": "./generated/web/absolute-monsters-png/825.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "826": {
+    "lookType": 826,
+    "src": "./assets/generated/absolute-monsters-png/826.png",
+    "portrait": "./generated/web/absolute-monsters-png/826.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "828": {
+    "lookType": 828,
+    "src": "./assets/generated/absolute-monsters-png/828.png",
+    "portrait": "./generated/web/absolute-monsters-png/828.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "829": {
+    "lookType": 829,
+    "src": "./assets/generated/absolute-monsters-png/829.png",
+    "portrait": "./generated/web/absolute-monsters-png/829.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "836": {
+    "lookType": 836,
+    "src": "./assets/generated/absolute-monsters-png/836.png",
+    "portrait": "./generated/web/absolute-monsters-png/836.png",
+    "frameWidth": 64,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "849": {
+    "lookType": 849,
+    "src": "./assets/generated/absolute-monsters-png/849.png",
+    "portrait": "./generated/web/absolute-monsters-png/849.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "851": {
+    "lookType": 851,
+    "src": "./assets/generated/absolute-monsters-png/851.png",
+    "portrait": "./generated/web/absolute-monsters-png/851.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "869": {
+    "lookType": 869,
+    "src": "./assets/generated/absolute-monsters-png/869.png",
+    "portrait": "./generated/web/absolute-monsters-png/869.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "871": {
+    "lookType": 871,
+    "src": "./assets/generated/absolute-monsters-png/871.png",
+    "portrait": "./generated/web/absolute-monsters-png/871.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "890": {
+    "lookType": 890,
+    "src": "./assets/generated/absolute-monsters-png/890.png",
+    "portrait": "./generated/web/absolute-monsters-png/890.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "901": {
+    "lookType": 901,
+    "src": "./assets/generated/absolute-monsters-png/901.png",
+    "portrait": "./generated/web/absolute-monsters-png/901.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "971": {
+    "lookType": 971,
+    "src": "./assets/generated/absolute-monsters-png/971.png",
+    "portrait": "./generated/web/absolute-monsters-png/971.png",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  },
+  "1048": {
+    "lookType": 1048,
+    "src": "./assets/generated/absolute-monsters-png/1048.png",
+    "portrait": "./generated/web/absolute-monsters-png/1048.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "directions": 4,
+    "directionRows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "directionOrder": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "frames": 3,
+    "idleFrame": 0,
+    "walkFrames": [
+      0,
+      1,
+      2
+    ],
+    "frameMs": 150,
+    "portraitDirection": "south",
+    "portraitRow": 2
+  }
+}

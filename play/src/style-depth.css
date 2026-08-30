@@ -1,0 +1,572 @@
+/* ==========================================================================
+   DBO IDLE — camada de profundidade da interface (V22)
+   --------------------------------------------------------------------------
+   Carregada DEPOIS de style.css. Não muda layout, grid, tamanho nem posição
+   de nada: só troca o acabamento plano do client clássico por painéis com
+   volume (bisel duplo, luz no topo, sombra projetada), barras envidraçadas,
+   slots com poço e brilho de raridade, e botões que afundam ao clicar.
+   Qualquer regra daqui pode ser removida sem quebrar o jogo.
+   ========================================================================== */
+
+:root{
+  --d-lift:0 10px 26px rgba(0,0,0,.46), 0 2px 6px rgba(0,0,0,.4);
+  --d-lift-soft:0 6px 16px rgba(0,0,0,.34);
+  --d-rim:inset 0 1px 0 rgba(255,255,255,.16);
+  --d-rim-strong:inset 0 1px 0 rgba(255,255,255,.26);
+  --d-well:inset 0 3px 7px rgba(0,0,0,.72), inset 0 -1px 0 rgba(255,255,255,.08);
+  --d-gold:#e2b45c;
+  --d-gold-soft:rgba(226,180,92,.55);
+  --d-ease:cubic-bezier(.22,.68,.34,1);
+}
+
+/* --------------------------------------------------------------------------
+   1. Moldura do client
+   -------------------------------------------------------------------------- */
+
+.classic-client{
+  background:
+    radial-gradient(1200px 620px at 50% -12%, rgba(90,132,180,.16), transparent 62%),
+    linear-gradient(180deg,#20242b,#141619 46%,#0e1013);
+}
+
+.classic-titlebar{
+  background:linear-gradient(180deg,#6b7078 0%,#4a4e55 42%,#2a2d32 43%,#1d1f23 100%);
+  box-shadow:var(--d-rim-strong), 0 4px 12px rgba(0,0,0,.5);
+  border-bottom:1px solid #0a0b0d;
+  position:relative;
+  z-index:5;
+}
+.classic-titlebar::after{
+  content:'';position:absolute;left:0;right:0;bottom:-1px;height:1px;
+  background:linear-gradient(90deg,transparent,var(--d-gold-soft),transparent);
+  opacity:.6;pointer-events:none;
+}
+.client-logo span{
+  background:radial-gradient(circle at 34% 28%,#ffd071,#e28b1d 52%,#a95c07);
+  box-shadow:0 2px 5px rgba(0,0,0,.55), inset 0 1px 0 rgba(255,255,255,.55), inset 0 -2px 4px rgba(120,60,0,.6);
+}
+
+.classic-workspace{background:radial-gradient(900px 520px at 50% 0%,#171a1f,#0b0c0e 78%)}
+
+.game-toolbar{
+  background:linear-gradient(180deg,#666b73,#4a4e55 48%,#33363b 49%,#26282d);
+  border:1px solid #14161a;
+  box-shadow:var(--d-rim), 0 3px 9px rgba(0,0,0,.42);
+}
+
+.game-viewport{
+  border:none;
+  border-radius:4px;
+  box-shadow:
+    0 0 0 1px #0a0c0f,
+    0 0 0 2px rgba(148,168,190,.18),
+    inset 0 0 0 1px rgba(0,0,0,.9),
+    0 14px 34px rgba(0,0,0,.5);
+}
+
+/* --------------------------------------------------------------------------
+   2. Caixas laterais
+   -------------------------------------------------------------------------- */
+
+.classic-box{
+  background:linear-gradient(180deg,#3a3e45,#2a2d33 34%,#232529);
+  border:1px solid #14161a;
+  border-radius:4px;
+  box-shadow:var(--d-rim), var(--d-lift-soft);
+}
+.classic-box-title{
+  background:linear-gradient(180deg,#70757e,#4c5058 46%,#34373d 47%,#282b30);
+  border-bottom:1px solid #0c0e11;
+  box-shadow:var(--d-rim-strong);
+  letter-spacing:.02em;
+}
+
+.portrait{
+  border:1px solid #0d0f12;
+  border-radius:4px;
+  background:radial-gradient(circle at 50% 22%,#26303c,#101317 76%);
+  box-shadow:var(--d-well);
+}
+/* Chão sob o mini personagem: sombra elíptica em vez de sprite flutuando. */
+.portrait::after,.classic-paperdoll .mini-character::after{
+  content:'';position:absolute;left:50%;bottom:5px;translate:-50% 0;
+  width:60%;height:9px;border-radius:50%;
+  background:radial-gradient(ellipse at center,rgba(0,0,0,.62),transparent 72%);
+  pointer-events:none;
+}
+.portrait{position:relative}
+.classic-paperdoll .mini-character{position:absolute}
+
+.classic-paperdoll{
+  background:
+    radial-gradient(120% 78% at 50% 6%, rgba(120,160,205,.16), transparent 62%),
+    linear-gradient(180deg,#1d2127,#131519);
+  border:1px solid #0d0f12;
+  border-radius:5px;
+  box-shadow:var(--d-well);
+}
+.large-paperdoll{
+  background:
+    radial-gradient(120% 70% at 50% 4%, rgba(120,160,205,.18), transparent 60%),
+    linear-gradient(180deg,#1b1f25,#101216);
+  border:1px solid #0d0f12;
+  border-radius:6px;
+  box-shadow:var(--d-well);
+}
+.large-paperdoll>img,.mini-character img{
+  filter:drop-shadow(0 8px 6px rgba(0,0,0,.55)) drop-shadow(0 0 12px rgba(140,190,255,.12));
+}
+
+/* --------------------------------------------------------------------------
+   3. Barras de HP / KI — cápsula envidraçada com brilho correndo
+   -------------------------------------------------------------------------- */
+
+.classic-bar{
+  height:15px;
+  border:1px solid #0b0d10!important;
+  border-radius:8px;
+  background:linear-gradient(180deg,#0a0c0f,#181b20);
+  box-shadow:var(--d-well);
+  overflow:hidden;
+}
+.classic-bar i{
+  position:relative;
+  border-radius:8px 3px 3px 8px;
+  transition:width .28s var(--d-ease);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.4), inset 0 -3px 5px rgba(0,0,0,.34);
+}
+.classic-bar i::after{
+  content:'';position:absolute;inset:0 0 52% 0;
+  background:linear-gradient(180deg,rgba(255,255,255,.34),rgba(255,255,255,0));
+  border-radius:inherit;pointer-events:none;
+}
+.classic-bar.hp i{background:linear-gradient(180deg,#ff7d78,#e03b3b 52%,#8d1414)}
+.classic-bar.ki i{background:linear-gradient(180deg,#7ec0ff,#2f7fe0 52%,#123a80)}
+.classic-bar span{line-height:13px;font-weight:700;text-shadow:0 1px 2px rgba(0,0,0,.95)}
+
+.status-grid span{
+  background:linear-gradient(180deg,#22262c,#191c20);
+  border:1px solid #0d0f12;
+  border-radius:4px;
+  box-shadow:var(--d-rim), inset 0 -2px 4px rgba(0,0,0,.4);
+}
+
+/* --------------------------------------------------------------------------
+   4. Slots de item e equipamento — poço com luz de borda
+   -------------------------------------------------------------------------- */
+
+.classic-item,.classic-equip,.full-item,.large-slot{
+  border:1px solid #0c0e11!important;
+  border-radius:5px!important;
+  background:linear-gradient(180deg,#171a1e,#101215)!important;
+  box-shadow:var(--d-well)!important;
+  transition:transform .16s var(--d-ease), box-shadow .16s var(--d-ease), border-color .16s var(--d-ease);
+}
+.classic-item::before,.classic-equip::before,.full-item::before,.large-slot::before{
+  content:'';position:absolute;inset:0;border-radius:inherit;pointer-events:none;
+  background:linear-gradient(180deg,rgba(255,255,255,.10),rgba(255,255,255,0) 46%);
+}
+.classic-item,.classic-equip,.full-item,.large-slot{position:relative}
+.classic-item:hover,.classic-equip:hover,.full-item:hover,.large-slot:hover{
+  transform:translateY(-2px);
+  border-color:#4d5b6b!important;
+  box-shadow:var(--d-well), 0 8px 18px rgba(0,0,0,.5)!important;
+  z-index:2;
+}
+.classic-equip.occupied{
+  border-color:#8a6f3c!important;
+  box-shadow:var(--d-well), 0 0 0 1px rgba(226,180,92,.28), 0 0 12px rgba(226,180,92,.14)!important;
+}
+.classic-item.empty,.full-item:empty{opacity:.5}
+.real-item-sprite{filter:drop-shadow(0 3px 3px rgba(0,0,0,.62))}
+
+/* Aura de raridade: halo interno + glow externo, no lugar do inset chapado. */
+.rarity-uncommon{box-shadow:var(--d-well), inset 0 0 10px rgba(49,143,78,.55), 0 0 10px rgba(49,143,78,.22)!important}
+.rarity-rare{box-shadow:var(--d-well), inset 0 0 10px rgba(57,93,206,.6), 0 0 12px rgba(57,93,206,.26)!important}
+.rarity-super_rare,.rarity-super-rare{box-shadow:var(--d-well), inset 0 0 11px rgba(30,144,255,.6), 0 0 13px rgba(30,144,255,.28)!important}
+.rarity-epic{box-shadow:var(--d-well), inset 0 0 11px rgba(159,85,255,.6), 0 0 14px rgba(159,85,255,.3)!important}
+.rarity-legendary{box-shadow:var(--d-well), inset 0 0 12px rgba(255,154,36,.6), 0 0 16px rgba(255,154,36,.32)!important}
+.rarity-super_legendary,.rarity-super-legendary{box-shadow:var(--d-well), inset 0 0 12px rgba(255,86,86,.62), 0 0 17px rgba(255,86,86,.34)!important}
+.rarity-mythic{box-shadow:var(--d-well), inset 0 0 13px rgba(255,85,255,.62), 0 0 18px rgba(255,85,255,.34)!important}
+.rarity-divine{box-shadow:var(--d-well), inset 0 0 14px rgba(255,215,0,.66), 0 0 20px rgba(255,215,0,.36)!important}
+
+/* --------------------------------------------------------------------------
+   5. Botões — bisel real, com afundamento no clique
+   -------------------------------------------------------------------------- */
+
+.game-toolbar button,
+.classic-box button,
+.classic-chat button,
+.hunt-controls button,
+.embedded-list button,
+.hunt-zone-picker button,
+.vip-products button,
+.pvp-embedded button,
+.hunt-selection-panel>footer button,
+.hunt-current-zone button{
+  border:1px solid #0c0e11;
+  border-radius:4px;
+  background:linear-gradient(180deg,#6a6f77,#4b4f56 48%,#3a3d43 49%,#2c2f34);
+  box-shadow:var(--d-rim), 0 2px 0 #17191d, 0 4px 10px rgba(0,0,0,.4);
+  text-shadow:0 1px 1px rgba(0,0,0,.7);
+  transition:transform .12s var(--d-ease), box-shadow .12s var(--d-ease), filter .12s var(--d-ease);
+}
+.game-toolbar button:hover,
+.classic-box button:hover,
+.classic-chat button:hover,
+.hunt-controls button:hover,
+.hunt-zone-picker button:hover,
+.embedded-list button:hover{filter:brightness(1.14)}
+
+.game-toolbar button:active,
+.classic-box button:active,
+.classic-chat button:active,
+.hunt-controls button:active,
+.hunt-zone-picker button:active,
+.embedded-list button:active,
+.hunt-selection-panel>footer button:active{
+  transform:translateY(2px);
+  box-shadow:inset 0 2px 5px rgba(0,0,0,.6);
+}
+.game-toolbar button.active,
+.embedded-list button.active,
+.hunt-zone-picker button.active{
+  background:linear-gradient(180deg,#a4854a,#7a5f2f 48%,#5c4622 49%,#43331a);
+  box-shadow:var(--d-rim), 0 0 0 1px rgba(226,180,92,.35), 0 0 14px rgba(226,180,92,.2);
+  color:#fff;
+}
+
+.classic-primary,.hunt-selection-panel>footer .confirm-hunt,.hunt-fab{
+  border-radius:5px!important;
+  box-shadow:var(--d-rim-strong), 0 3px 0 rgba(0,0,0,.45), 0 10px 22px rgba(0,0,0,.42)!important;
+}
+.hunt-fab{
+  background:linear-gradient(180deg,#f45c5c,#c62828 52%,#7d1414)!important;
+  border:1px solid #4d0d0d!important;
+  animation:d-fab-pulse 2.6s ease-in-out infinite;
+}
+.hunt-fab:hover,.hunt-fab.active{filter:brightness(1.1)}
+@keyframes d-fab-pulse{
+  0%,100%{box-shadow:var(--d-rim-strong), 0 3px 0 rgba(0,0,0,.45), 0 10px 22px rgba(0,0,0,.42), 0 0 0 rgba(255,80,80,0)}
+  50%{box-shadow:var(--d-rim-strong), 0 3px 0 rgba(0,0,0,.45), 0 10px 22px rgba(0,0,0,.42), 0 0 22px rgba(255,80,80,.4)}
+}
+
+/* --------------------------------------------------------------------------
+   6. Chat e campos
+   -------------------------------------------------------------------------- */
+
+.classic-chat{
+  border:1px solid #14161a;
+  border-radius:5px;
+  box-shadow:var(--d-rim), var(--d-lift-soft);
+  background:linear-gradient(180deg,#2b2e34,#1f2126);
+}
+.classic-chat-messages{
+  background:linear-gradient(180deg,#101215,#15181c);
+  box-shadow:inset 0 3px 8px rgba(0,0,0,.6);
+}
+.chat-tabs{background:linear-gradient(180deg,#4a4e55,#33363b);box-shadow:var(--d-rim)}
+.classic-chat-form input,.toolbar input,.toolbar select,.classic-chat select{
+  border:1px solid #0b0d10!important;
+  border-radius:4px;
+  background:linear-gradient(180deg,#101216,#181b20)!important;
+  box-shadow:var(--d-well);
+  transition:box-shadow .16s var(--d-ease);
+}
+.classic-chat-form input:focus,.toolbar input:focus{
+  outline:none;
+  box-shadow:var(--d-well), 0 0 0 1px rgba(226,180,92,.45), 0 0 12px rgba(226,180,92,.18);
+}
+
+/* --------------------------------------------------------------------------
+   7. HUD da Hunt sobre o canvas — vidro em vez de caixa opaca
+   -------------------------------------------------------------------------- */
+
+.hunt-current-zone,
+.quest-time-hud,
+.boss-time-hud,
+.guild-boss-tank-hud,
+.hunt-analyser-window,
+.hunt-zone-picker{
+  border:1px solid rgba(150,185,225,.22)!important;
+  border-radius:12px!important;
+  background:linear-gradient(180deg,rgba(22,34,50,.9),rgba(7,12,20,.92))!important;
+  box-shadow:0 14px 32px rgba(0,0,0,.5), var(--d-rim)!important;
+  backdrop-filter:blur(7px);
+  -webkit-backdrop-filter:blur(7px);
+}
+
+.hunt-combat-toolbar{
+  border:1px solid rgba(150,185,225,.2)!important;
+  border-radius:14px!important;
+  background:linear-gradient(180deg,rgba(32,38,47,.94),rgba(14,17,22,.96))!important;
+  box-shadow:0 -2px 0 rgba(255,255,255,.06) inset, 0 16px 38px rgba(0,0,0,.55)!important;
+  backdrop-filter:blur(9px);
+  -webkit-backdrop-filter:blur(9px);
+}
+
+.hunt-target-hud{
+  border-radius:16px!important;
+  box-shadow:
+    0 16px 40px rgba(0,0,0,.62),
+    0 0 26px rgba(197,142,44,.22),
+    inset 0 1px 0 rgba(255,255,255,.16)!important;
+}
+.hunt-target-hp{border-radius:9px;overflow:hidden;box-shadow:var(--d-well)}
+.hunt-target-hp>i{
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.36), inset 0 -3px 5px rgba(0,0,0,.3);
+  transition:width .25s var(--d-ease);
+}
+.hunt-target-portrait img{filter:drop-shadow(0 5px 6px rgba(0,0,0,.65))}
+
+/* Slots de magia: poço + anel de energia quando prontos. */
+.spell-slot-shell,.support-spell-shell,.combat-slot{
+  border-radius:9px!important;
+  box-shadow:var(--d-well), 0 4px 10px rgba(0,0,0,.4)!important;
+  transition:transform .16s var(--d-ease), box-shadow .16s var(--d-ease);
+}
+.spell-slot-shell:hover,.support-spell-shell:hover,.combat-slot:hover{transform:translateY(-2px)}
+.spell-cast-button,.support-spell-button{
+  border-radius:9px!important;
+  transition:transform .12s var(--d-ease), filter .12s var(--d-ease), box-shadow .12s var(--d-ease);
+}
+.spell-cast-button:hover,.support-spell-button:hover{filter:brightness(1.14)}
+.spell-cast-button:active,.support-spell-button:active{transform:translateY(2px)}
+
+/* --------------------------------------------------------------------------
+   8. Modais, janelas e cards
+   -------------------------------------------------------------------------- */
+
+.hunt-modal-backdrop,.container-window-backdrop{
+  background:radial-gradient(120% 100% at 50% 0%,rgba(10,20,34,.82),rgba(2,4,7,.92))!important;
+  backdrop-filter:blur(6px);
+  -webkit-backdrop-filter:blur(6px);
+}
+.hunt-selection-panel,
+.container-window,
+.guild-window,
+.game-pass-window,
+.trade-window,
+.pp-purchase-window,
+.hunt-analyser-window,
+.offline-return-dialog{
+  border:1px solid #0b0d10!important;
+  border-radius:14px!important;
+  box-shadow:
+    0 30px 80px rgba(0,0,0,.72),
+    0 0 0 1px rgba(150,185,225,.14),
+    var(--d-rim)!important;
+  animation:d-window-in .22s var(--d-ease) both;
+}
+@keyframes d-window-in{
+  from{opacity:0;transform:translateY(14px) scale(.985)}
+  to{opacity:1;transform:none}
+}
+.hunt-selection-panel>header,.guild-header{
+  background:linear-gradient(180deg,#6b7078,#494d54 46%,#33363b 47%,#282b30)!important;
+  box-shadow:var(--d-rim-strong);
+}
+
+.hunt-choice,
+.vocation-choice,
+.guild-boss-choice,
+.training-room-card,
+.hunt-page-card,
+.character-card,
+.vip-products article,
+.npc-sell-card,
+.spell-book-card,
+.progression-quest-card{
+  border-radius:11px!important;
+  box-shadow:var(--d-rim), 0 8px 20px rgba(0,0,0,.4)!important;
+  transition:transform .18s var(--d-ease), box-shadow .18s var(--d-ease), filter .18s var(--d-ease);
+}
+.hunt-choice:hover,
+.vocation-choice:hover,
+.guild-boss-choice:hover,
+.training-room-card:hover,
+.hunt-page-card:hover,
+.character-card:hover,
+.vip-products article:hover,
+.spell-book-card:hover{
+  transform:translateY(-4px);
+  box-shadow:var(--d-rim), 0 16px 34px rgba(0,0,0,.55)!important;
+  filter:brightness(1.05);
+}
+.hunt-choice.selected,.vocation-choice.selected,.character-card.selected{
+  box-shadow:var(--d-rim), 0 0 0 1px var(--d-gold-soft), 0 0 24px rgba(226,180,92,.22), 0 14px 30px rgba(0,0,0,.5)!important;
+}
+.hunt-monster-preview>span{
+  border-radius:7px;
+  box-shadow:var(--d-well);
+  border:1px solid #0c0e11!important;
+  background:linear-gradient(180deg,#171a1e,#0f1115)!important;
+}
+.hunt-monster-preview img,.embedded-fighters img{filter:drop-shadow(0 6px 6px rgba(0,0,0,.6))}
+
+.badge,.hunt-level{border-radius:999px!important;box-shadow:var(--d-rim), 0 2px 5px rgba(0,0,0,.32)}
+
+/* --------------------------------------------------------------------------
+   9. Barra de rolagem
+   -------------------------------------------------------------------------- */
+
+.classic-sidebar,.embedded-page,.classic-chat-messages,.hunt-selection-panel{
+  scrollbar-width:thin;
+  scrollbar-color:#4c525b #15171b;
+}
+.classic-sidebar::-webkit-scrollbar,
+.embedded-page::-webkit-scrollbar,
+.classic-chat-messages::-webkit-scrollbar,
+.hunt-selection-panel::-webkit-scrollbar{width:10px;height:10px}
+.classic-sidebar::-webkit-scrollbar-track,
+.embedded-page::-webkit-scrollbar-track,
+.classic-chat-messages::-webkit-scrollbar-track,
+.hunt-selection-panel::-webkit-scrollbar-track{background:#101216;border-radius:6px}
+.classic-sidebar::-webkit-scrollbar-thumb,
+.embedded-page::-webkit-scrollbar-thumb,
+.classic-chat-messages::-webkit-scrollbar-thumb,
+.hunt-selection-panel::-webkit-scrollbar-thumb{
+  border-radius:6px;
+  background:linear-gradient(180deg,#5c626c,#3a3e45);
+  border:1px solid #0d0f12;
+  box-shadow:var(--d-rim);
+}
+.classic-sidebar::-webkit-scrollbar-thumb:hover,
+.embedded-page::-webkit-scrollbar-thumb:hover{background:linear-gradient(180deg,#767d88,#4a4f57)}
+
+/* --------------------------------------------------------------------------
+   10. Acessibilidade e telas pequenas
+   -------------------------------------------------------------------------- */
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
+}
+@media (max-width:850px){
+  /* Sombras grandes custam caro em GPU mobile; mantém o relevo, corta o blur. */
+  .hunt-current-zone,.quest-time-hud,.boss-time-hud,.guild-boss-tank-hud,
+  .hunt-combat-toolbar,.hunt-zone-picker,.hunt-modal-backdrop,.container-window-backdrop{
+    backdrop-filter:none;-webkit-backdrop-filter:none;
+  }
+  .hunt-choice:hover,.vocation-choice:hover,.training-room-card:hover,
+  .hunt-page-card:hover,.character-card:hover,.spell-book-card:hover{transform:none}
+}
+
+
+/* ==========================================================================
+   V22.1 — palco 3D da arena de PvP
+   --------------------------------------------------------------------------
+   A arena continua sendo um retângulo comum de divs: NADA aqui usa transform
+   3D no container, justamente para o getBoundingClientRect() do clique
+   continuar linear. A profundidade vem da projeção que o app.js aplica em
+   left/top/--pvp-depth (constantes PVP_FAR = 0.58 e PVP_TOP = 22) e do chão
+   desenhado abaixo, que usa exatamente as mesmas constantes.
+   ========================================================================== */
+
+.pvp-arena{
+  min-height:340px;
+  border:none!important;
+  border-radius:14px!important;
+  overflow:hidden;
+  cursor:crosshair;
+  /* Fundo acima do horizonte + chão abaixo dele. O horizonte fica em 22%. */
+  background:
+    linear-gradient(180deg,#07121f 0%,#0d2136 14%,#16324a 21%,#0d1f2f 22%,#0a1826 100%)!important;
+  box-shadow:
+    inset 0 0 0 1px rgba(140,185,230,.22),
+    inset 0 26px 50px rgba(0,0,0,.55),
+    0 18px 44px rgba(0,0,0,.5)!important;
+}
+
+/* Névoa do horizonte: some a linha dura entre fundo e chão. */
+.pvp-arena:before{
+  content:"";position:absolute;inset:12% 0 auto 0;height:22%;
+  border:none!important;border-radius:0!important;box-shadow:none!important;
+  background:linear-gradient(180deg,rgba(110,165,215,0) 0%,rgba(110,165,215,.28) 55%,rgba(110,165,215,0) 100%);
+  pointer-events:none;z-index:0;
+}
+
+/* Chão em perspectiva. O trapézio do clip-path e as linhas do SVG saem da
+   mesma curva 1/z do app.js, então a grade bate com onde os lutadores pisam. */
+.pvp-grid-lines{
+  position:absolute;inset:22% 0 0 0;
+  opacity:1!important;
+  clip-path:polygon(21% 0%, 79% 0%, 100% 100%, 0% 100%);
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cg stroke='%237fb4e0' stroke-width='0.22' fill='none' opacity='0.55'%3E%3Cline x1='21.00' y1='0' x2='0.00' y2='100'/%3E%3Cline x1='25.83' y1='0' x2='8.33' y2='100'/%3E%3Cline x1='30.67' y1='0' x2='16.67' y2='100'/%3E%3Cline x1='35.50' y1='0' x2='25.00' y2='100'/%3E%3Cline x1='40.33' y1='0' x2='33.33' y2='100'/%3E%3Cline x1='45.17' y1='0' x2='41.67' y2='100'/%3E%3Cline x1='50.00' y1='0' x2='50.00' y2='100'/%3E%3Cline x1='54.83' y1='0' x2='58.33' y2='100'/%3E%3Cline x1='59.67' y1='0' x2='66.67' y2='100'/%3E%3Cline x1='64.50' y1='0' x2='75.00' y2='100'/%3E%3Cline x1='69.33' y1='0' x2='83.33' y2='100'/%3E%3Cline x1='74.17' y1='0' x2='91.67' y2='100'/%3E%3Cline x1='79.00' y1='0' x2='100.00' y2='100'/%3E%3Cline x1='19.73' y1='6.05' x2='80.27' y2='6.05'/%3E%3Cline x1='18.34' y1='12.66' x2='81.66' y2='12.66'/%3E%3Cline x1='16.82' y1='19.91' x2='83.18' y2='19.91'/%3E%3Cline x1='15.14' y1='27.88' x2='84.86' y2='27.88'/%3E%3Cline x1='13.29' y1='36.71' x2='86.71' y2='36.71'/%3E%3Cline x1='11.23' y1='46.52' x2='88.77' y2='46.52'/%3E%3Cline x1='8.92' y1='57.51' x2='91.08' y2='57.51'/%3E%3Cline x1='6.33' y1='69.88' x2='93.67' y2='69.88'/%3E%3Cline x1='3.38' y1='83.92' x2='96.62' y2='83.92'/%3E%3Cline x1='0.00' y1='100.00' x2='100.00' y2='100.00'/%3E%3C/g%3E%3C/svg%3E"),
+    linear-gradient(180deg,#24435f 0%,#16304a 45%,#0c2032 100%);
+  background-size:100% 100%,100% 100%;
+  background-repeat:no-repeat;
+  pointer-events:none;
+  z-index:0;
+}
+
+.pvp-actor{
+  /* Ancorado pelos pés: o ponto projetado é onde o lutador pisa. */
+  transform:translate(-50%,-100%) scale(var(--pvp-depth,1))!important;
+  transform-origin:bottom center;
+  transition:left .09s linear,top .09s linear,transform .09s linear;
+  will-change:left,top,transform;
+}
+
+/* Sombra projetada no chão, achatada e escalada junto com o lutador. */
+.pvp-actor::after{
+  content:"";position:absolute;left:50%;bottom:-6px;
+  width:54px;height:18px;border-radius:50%;
+  transform:translateX(-50%);
+  background:radial-gradient(ellipse at center,rgba(2,5,9,.62),rgba(2,5,9,.28) 55%,rgba(2,5,9,0) 72%);
+  pointer-events:none;z-index:-1;
+}
+
+/* Anel de identidade no piso.
+   O style.css já traz um .pvp-actor.enemy.targeted::before de 82x82 — um
+   círculo em pé em volta do inimigo. Com o chão em perspectiva esse círculo
+   passa a flutuar, então ele é achatado aqui para virar um anel deitado no
+   piso. A regra abaixo tem a MESMA especificidade da original e vem depois,
+   por isso vence; nada foi apagado do style.css. */
+.pvp-actor::before{
+  content:"";position:absolute;left:50%;bottom:-4px;
+  width:46px;height:16px;border-radius:50%;
+  border:1.5px solid rgba(96,190,255,.5);
+  box-shadow:none;
+  transform:translateX(-50%);
+  pointer-events:none;
+}
+.pvp-actor.enemy::before{border-color:rgba(255,110,90,.45)}
+.pvp-actor.enemy.targeted::before{
+  width:52px;height:18px;bottom:-5px;
+  border:2px solid rgba(255,207,86,.95);
+  border-radius:50%;
+  box-shadow:0 0 18px rgba(255,180,50,.5);
+  animation:pvp-target-ring 1.05s ease-in-out infinite;
+}
+@keyframes pvp-target-ring{
+  0%,100%{transform:translateX(-50%) scale(1);opacity:.95}
+  50%{transform:translateX(-50%) scale(1.16);opacity:.55}
+}
+
+.pvp-actor img{
+  filter:drop-shadow(0 5px 5px rgba(0,0,0,.7));
+  image-rendering:pixelated;
+}
+.pvp-actor span{
+  top:auto;bottom:100%;margin-bottom:4px;
+  background:rgba(7,16,27,.9);
+  border-color:rgba(120,170,220,.4);
+  box-shadow:0 3px 10px rgba(0,0,0,.5);
+}
+
+/* Vinheta por cima de tudo, sem escurecer o sprite: fica atrás dos atores. */
+.pvp-arena .pvp-grid-lines{
+  box-shadow:inset 0 0 90px rgba(0,0,0,.55);
+}
+
+.pvp-countdown{
+  background:radial-gradient(circle at 50% 45%,rgba(3,7,13,.55),rgba(3,7,13,.9))!important;
+  backdrop-filter:blur(2px);
+}
+.pvp-countdown strong{animation:pvp-count 1s ease-out infinite}
+@keyframes pvp-count{0%{transform:scale(1.25);opacity:.6}40%,100%{transform:scale(1);opacity:1}}
+
+@media (prefers-reduced-motion:reduce){
+  .pvp-actor.enemy.targeted:before,.pvp-countdown strong{animation:none}
+}

@@ -1,0 +1,1327 @@
+/* ==========================================================================
+   DBO IDLE — tema Dragon Ball das janelas (V22.2)
+   --------------------------------------------------------------------------
+   Carrega DEPOIS de style.css e style-depth.css. É um re-skin: o HTML e o
+   fluxo de cada janela continuam iguais, ninguém muda de lugar. O que muda é
+   o acabamento (moldura, cabeçalho, botões, slots) e o espaçamento onde
+   estava apertado. Remover o <link> devolve o visual anterior.
+
+   Paleta: laranja/dourado do gi do Goku, azul da armadura Saiyajin e o
+   ciano do ki. Fundo noturno para o dourado ter contraste.
+   ========================================================================== */
+
+:root{
+  --db-orange:#ff8f2a;
+  --db-orange-deep:#c95c05;
+  --db-gold:#ffd166;
+  --db-gold-dim:#a87a25;
+  --db-gold-line:rgba(255,209,102,.34);
+  --db-blue:#2e7fd4;
+  --db-ki:#7fe6ff;
+  --db-red:#e2453c;
+  --db-night:#060d18;
+  --db-panel:#101d31;
+  --db-panel-2:#0a1526;
+  --db-text:#e9f1fb;
+  --db-muted:#9db2c9;
+
+  --db-frame:
+    0 0 0 1px rgba(255,209,102,.30),
+    0 0 0 2px rgba(6,13,24,.9),
+    0 26px 70px rgba(0,0,0,.7),
+    inset 0 1px 0 rgba(255,255,255,.09);
+  --db-ease:cubic-bezier(.22,.68,.34,1);
+  --db-ball:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><defs><radialGradient id='g' cx='36%25' cy='30%25' r='72%25'><stop offset='0' stop-color='%23ffe9a8'/><stop offset='45%25' stop-color='%23ffb43c'/><stop offset='100%25' stop-color='%23c96b04'/></radialGradient></defs><circle cx='16' cy='16' r='15' fill='url(%23g)' stroke='%238a4a04' stroke-width='1'/><polygon points='11.00,7.60 11.84,9.84 14.23,9.95 12.36,11.44 13.00,13.75 11.00,12.43 9.00,13.75 9.64,11.44 7.77,9.95 10.16,9.84' fill='%23d02a1e'/><polygon points='21.00,7.60 21.84,9.84 24.23,9.95 22.36,11.44 23.00,13.75 21.00,12.43 19.00,13.75 19.64,11.44 17.77,9.95 20.16,9.84' fill='%23d02a1e'/><polygon points='11.00,17.60 11.84,19.84 14.23,19.95 12.36,21.44 13.00,23.75 11.00,22.43 9.00,23.75 9.64,21.44 7.77,19.95 10.16,19.84' fill='%23d02a1e'/><polygon points='21.00,17.60 21.84,19.84 24.23,19.95 22.36,21.44 23.00,23.75 21.00,22.43 19.00,23.75 19.64,21.44 17.77,19.95 20.16,19.84' fill='%23d02a1e'/><ellipse cx='11' cy='8' rx='5.5' ry='3.2' fill='%23ffffff' opacity='0.42'/></svg>");
+  --db-corner:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M0 5 L0 0 L5 0' fill='none' stroke='%23ffd166' stroke-width='1.6' opacity='0.9'/></svg>");
+}
+
+/* --------------------------------------------------------------------------
+   1. Moldura das janelas
+   -------------------------------------------------------------------------- */
+
+.container-window,
+.forge-window,
+.guild-window,
+.game-pass-window,
+.pp-purchase-window,
+.trade-window,
+.bestiary-window,
+.market-dialog,
+.vip-overlay-window,
+.daily-gift-window,
+.hunt-selection-panel,
+.hunt-analyser-window,
+.offline-return-dialog,
+.guild-boss-invite-dialog,
+.party-invite-box{
+  position:relative;
+  border:none!important;
+  border-radius:16px!important;
+  background:
+    radial-gradient(120% 80% at 50% -10%, rgba(255,143,42,.10), transparent 58%),
+    linear-gradient(165deg, var(--db-panel) 0%, var(--db-panel-2) 55%, var(--db-night) 100%)!important;
+  box-shadow:var(--db-frame)!important;
+  color:var(--db-text);
+}
+
+/* Fio de energia correndo no topo da janela. */
+.container-window::before,
+.forge-window::before,
+.guild-window::before,
+.game-pass-window::before,
+.pp-purchase-window::before,
+.trade-window::before,
+.bestiary-window::before,
+.vip-overlay-window::before,
+.daily-gift-window::before,
+.hunt-selection-panel::before{
+  content:"";position:absolute;left:14px;right:14px;top:0;height:2px;z-index:5;
+  background:linear-gradient(90deg,transparent,var(--db-orange) 22%,var(--db-gold) 50%,var(--db-orange) 78%,transparent);
+  opacity:.9;pointer-events:none;border-radius:2px;
+}
+
+/* --------------------------------------------------------------------------
+   2. Cabeçalhos — esfera de 4 estrelas + título dourado
+   -------------------------------------------------------------------------- */
+
+.container-window>header,
+.forge-window>header,
+.game-pass-window>header,
+.pp-purchase-window>header,
+.bestiary-window>header,
+.hunt-selection-panel>header,
+.guild-header,
+.market-header,
+.vip-header,
+.npc-market-header,
+.npc-shop-page>header{
+  position:relative;
+  min-height:60px;
+  padding:14px 18px 14px 58px!important;
+  border:none!important;
+  border-bottom:1px solid var(--db-gold-line)!important;
+  background:
+    radial-gradient(60px 60px at 30px 50%, rgba(255,143,42,.22), transparent 70%),
+    linear-gradient(180deg,#1a2e47,#0d1b2c)!important;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.10);
+}
+
+.container-window>header::before,
+.forge-window>header::before,
+.game-pass-window>header::before,
+.pp-purchase-window>header::before,
+.bestiary-window>header::before,
+.hunt-selection-panel>header::before,
+.guild-header::before,
+.market-header::before,
+.vip-header::before,
+.npc-market-header::before{
+  content:"";position:absolute;left:16px;top:50%;translate:0 -50%;
+  width:28px;height:28px;
+  background:var(--db-ball) center/contain no-repeat;
+  filter:drop-shadow(0 0 8px rgba(255,160,50,.55));
+  pointer-events:none;
+}
+
+.container-window>header h1,.container-window>header h2,.container-window>header strong,
+.forge-window>header h1,.forge-window>header h2,.forge-window>header strong,
+.game-pass-window>header h1,.game-pass-window>header strong,
+.pp-purchase-window>header h1,.pp-purchase-window>header strong,
+.bestiary-window>header h1,.bestiary-window>header strong,
+.hunt-selection-panel>header h1,
+.market-header h1,
+.vip-header h1,.vip-header strong{
+  color:var(--db-gold)!important;
+  letter-spacing:.10em!important;
+  text-transform:uppercase;
+  text-shadow:0 2px 6px rgba(0,0,0,.7), 0 0 18px rgba(255,180,60,.28);
+  font-weight:900;
+}
+
+/* Botão de fechar: orbe de ki vermelho. */
+.container-close-button,.npc-shop-close,.vip-close,.market-close,
+.market-dialog-close,.idle-modal-close,.training-close,
+.hunt-selection-panel>header button,
+.forge-window>header button,
+.game-pass-window>header button,
+.pp-purchase-window>header button,
+.bestiary-window>header button{
+  width:34px;height:34px;padding:0!important;
+  border:1px solid rgba(226,69,60,.65)!important;
+  border-radius:50%!important;
+  background:radial-gradient(circle at 36% 30%, #ff8a80, var(--db-red) 55%, #7d1a14)!important;
+  color:#fff!important;font-weight:900;line-height:1;
+  box-shadow:0 0 14px rgba(226,69,60,.4), inset 0 1px 0 rgba(255,255,255,.4)!important;
+  transition:transform .16s var(--db-ease), box-shadow .16s var(--db-ease);
+}
+.container-close-button:hover,.npc-shop-close:hover,.vip-close:hover,.market-close:hover,
+.hunt-selection-panel>header button:hover,
+.forge-window>header button:hover{
+  transform:scale(1.08);
+  box-shadow:0 0 22px rgba(226,69,60,.6), inset 0 1px 0 rgba(255,255,255,.5)!important;
+}
+
+/* --------------------------------------------------------------------------
+   3. Fundo atrás das janelas
+   -------------------------------------------------------------------------- */
+
+.container-window-backdrop,.forge-backdrop,.trade-backdrop,.bestiary-overlay,
+.market-dialog-backdrop,.hunt-modal-backdrop,.pp-purchase-overlay,
+.party-backdrop,.party-invite-backdrop,.guild-boss-invite-backdrop,
+.trade-invite-backdrop,.vip-overlay-window-backdrop{
+  background:
+    radial-gradient(90% 70% at 50% 0%, rgba(255,143,42,.10), transparent 60%),
+    radial-gradient(120% 100% at 50% 50%, rgba(6,14,26,.86), rgba(2,5,10,.95))!important;
+  backdrop-filter:blur(7px) saturate(120%);
+  -webkit-backdrop-filter:blur(7px) saturate(120%);
+}
+
+/* --------------------------------------------------------------------------
+   4. Slots de item — poço escuro com aro dourado
+   -------------------------------------------------------------------------- */
+
+.classic-item,.classic-equip,.full-item,.large-slot,
+.forge-item,.market-item-icon,.trade-offer-row,
+.vip-product-icon,.npc-product .safe-item-icon{
+  border-radius:8px!important;
+  background:
+    radial-gradient(120% 90% at 50% 0%, rgba(120,180,255,.07), transparent 60%),
+    linear-gradient(180deg,#0d1725,#070e18)!important;
+  box-shadow:
+    inset 0 0 0 1px rgba(255,209,102,.16),
+    inset 0 3px 8px rgba(0,0,0,.75),
+    0 2px 6px rgba(0,0,0,.4)!important;
+}
+.classic-item:hover,.classic-equip:hover,.full-item:hover,.large-slot:hover{
+  box-shadow:
+    inset 0 0 0 1px rgba(255,209,102,.55),
+    inset 0 3px 8px rgba(0,0,0,.7),
+    0 0 16px rgba(255,180,60,.22)!important;
+}
+.classic-equip.occupied{
+  box-shadow:
+    inset 0 0 0 1px rgba(255,209,102,.5),
+    inset 0 3px 8px rgba(0,0,0,.7),
+    0 0 14px rgba(255,180,60,.22)!important;
+}
+
+/* Grids com mais respiro. */
+.classic-container-grid{gap:4px!important}
+.classic-item{min-height:46px!important}
+.full-item-grid{gap:5px!important}
+.classic-paperdoll,.large-paperdoll{
+  border-radius:12px!important;
+  background:
+    radial-gradient(110% 70% at 50% 2%, rgba(255,143,42,.12), transparent 62%),
+    linear-gradient(180deg,#0e1a2b,#070e18)!important;
+  box-shadow:inset 0 0 0 1px rgba(255,209,102,.18), inset 0 4px 12px rgba(0,0,0,.7)!important;
+}
+
+/* --------------------------------------------------------------------------
+   5. Botões
+   -------------------------------------------------------------------------- */
+
+.classic-primary,
+.trade-window .primary,
+.market-dialog-primary,
+.pp-primary,
+.hunt-selection-panel>footer .confirm-hunt,
+.daily-claim,
+.guild-create-card button,
+.npc-confirm-purchase{
+  border:1px solid #ffc46a!important;
+  border-radius:9px!important;
+  background:linear-gradient(180deg,#ffb03f,var(--db-orange) 48%,var(--db-orange-deep))!important;
+  color:#2a1400!important;
+  font-weight:900;letter-spacing:.04em;
+  text-shadow:0 1px 0 rgba(255,255,255,.35);
+  box-shadow:0 3px 0 rgba(120,55,0,.55), 0 10px 24px rgba(200,90,0,.30), inset 0 1px 0 rgba(255,255,255,.5)!important;
+  transition:transform .13s var(--db-ease), filter .13s var(--db-ease);
+}
+.classic-primary:hover,.trade-window .primary:hover,.market-dialog-primary:hover,
+.pp-primary:hover,.daily-claim:hover,.npc-confirm-purchase:hover{filter:brightness(1.08)}
+.classic-primary:active,.trade-window .primary:active,.market-dialog-primary:active,
+.pp-primary:active,.daily-claim:active,.npc-confirm-purchase:active{
+  transform:translateY(3px);
+  box-shadow:0 0 0 rgba(120,55,0,.55), inset 0 2px 6px rgba(90,40,0,.45)!important;
+}
+
+.vip-products button,.npc-sell-card button,.market-card button,
+.forge-window button,.guild-window button,.game-pass-window button,
+.bestiary-window button,.trade-window button,.party-panel button{
+  border-radius:9px!important;
+  border:1px solid rgba(255,209,102,.28)!important;
+  background:linear-gradient(180deg,#1c3049,#0e1a2a)!important;
+  color:#dbe8f7!important;font-weight:800;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.08), 0 4px 10px rgba(0,0,0,.35)!important;
+  transition:border-color .16s var(--db-ease), transform .13s var(--db-ease), filter .13s var(--db-ease);
+}
+.vip-products button:hover,.npc-sell-card button:hover,.market-card button:hover,
+.forge-window button:hover,.guild-window button:hover,.game-pass-window button:hover,
+.bestiary-window button:hover,.trade-window button:hover{
+  border-color:rgba(255,209,102,.6)!important;filter:brightness(1.1);
+}
+.vip-products button:active,.market-card button:active,.forge-window button:active{transform:translateY(2px)}
+
+/* --------------------------------------------------------------------------
+   6. Cards de produto e recompensa — cantoneiras douradas
+   -------------------------------------------------------------------------- */
+
+.vip-product-card,.vip-products article,.npc-product,.npc-sell-card,
+.npc-market-card,.market-card,.market-inventory-card,.pass-reward-card,.daily-grid>*,
+.pp-range-grid>*,.guild-tech-grid>*,.bestiary-monster,.forge-result-item{
+  position:relative;
+  border:none!important;
+  border-radius:12px!important;
+  background:linear-gradient(170deg,rgba(23,40,62,.92),rgba(9,16,27,.95))!important;
+  box-shadow:
+    inset 0 0 0 1px rgba(255,209,102,.18),
+    inset 0 1px 0 rgba(255,255,255,.07),
+    0 10px 24px rgba(0,0,0,.42)!important;
+  transition:transform .18s var(--db-ease), box-shadow .18s var(--db-ease);
+}
+.vip-product-card::before,.vip-products article::before,.npc-product::before,
+.npc-market-card::before,.market-card::before,.pass-reward-card::before,.bestiary-monster::before{
+  content:"";position:absolute;left:6px;top:6px;width:14px;height:14px;
+  background:var(--db-corner) center/contain no-repeat;opacity:.7;pointer-events:none;
+}
+.vip-product-card::after,.vip-products article::after,.npc-product::after,
+.npc-market-card::after,.market-card::after,.pass-reward-card::after,.bestiary-monster::after{
+  content:"";position:absolute;right:6px;bottom:6px;width:14px;height:14px;
+  background:var(--db-corner) center/contain no-repeat;opacity:.7;pointer-events:none;
+  rotate:180deg;
+}
+.vip-product-card:hover,.vip-products article:hover,.npc-product:hover,
+.npc-market-card:hover,.market-card:hover,.market-inventory-card:hover,.pass-reward-card:hover,
+.bestiary-monster:hover,.guild-tech-grid>*:hover{
+  transform:translateY(-4px);
+  box-shadow:
+    inset 0 0 0 1px rgba(255,209,102,.45),
+    0 16px 34px rgba(0,0,0,.5),
+    0 0 24px rgba(255,170,50,.14)!important;
+}
+.vip-products{gap:12px!important}
+.npc-product-grid,.npc-product-cards{gap:12px!important}
+.daily-grid{gap:10px!important}
+.market-grid,.market-inventory-grid{gap:12px!important}
+
+/* Preço em dourado. */
+.vip-products b,.npc-product b,.market-card .price,.pp-price-summary strong{
+  color:var(--db-gold)!important;
+  text-shadow:0 0 12px rgba(255,180,60,.3);
+}
+
+/* --------------------------------------------------------------------------
+   7. Abas, textos e barras internas
+   -------------------------------------------------------------------------- */
+
+.vip-category-tabs button,.bestiary-tabs button,.npc-market-tabs button,
+.content-mode-tabs button,.vip-depot-tabs button{
+  border-radius:9px 9px 0 0!important;
+  border:1px solid transparent!important;
+  background:linear-gradient(180deg,rgba(28,46,70,.6),rgba(10,18,30,.6))!important;
+  color:var(--db-muted)!important;font-weight:800;
+}
+.vip-category-tabs button.active,.bestiary-tabs button.active,
+.npc-market-tabs button.active,.content-mode-tabs button.active,
+.vip-depot-tabs button.active{
+  border-color:rgba(255,209,102,.45)!important;
+  border-bottom-color:transparent!important;
+  background:linear-gradient(180deg,rgba(255,143,42,.20),rgba(12,22,36,.9))!important;
+  color:var(--db-gold)!important;
+  box-shadow:inset 0 2px 0 var(--db-orange);
+}
+
+.container-window h2,.forge-window h2,.guild-window h2,.market-body h2,
+.bestiary-window h2,.game-pass-window h2,.vip-store-content h2{
+  color:var(--db-gold);letter-spacing:.05em;
+}
+
+/* Barra de rolagem dourada dentro das janelas. */
+.container-window,.forge-window,.guild-window,.game-pass-window,
+.pp-purchase-window,.trade-window,.bestiary-window,.market-body,
+.vip-store-content,.npc-market-list{
+  scrollbar-width:thin;scrollbar-color:#8a6a2a #0a1220;
+}
+.container-window::-webkit-scrollbar,.forge-window::-webkit-scrollbar,
+.guild-window::-webkit-scrollbar,.game-pass-window::-webkit-scrollbar,
+.pp-purchase-window::-webkit-scrollbar,.trade-window::-webkit-scrollbar,
+.bestiary-window::-webkit-scrollbar,.market-body::-webkit-scrollbar,
+.vip-store-content::-webkit-scrollbar,.npc-market-list::-webkit-scrollbar{width:10px;height:10px}
+.container-window::-webkit-scrollbar-thumb,.forge-window::-webkit-scrollbar-thumb,
+.guild-window::-webkit-scrollbar-thumb,.game-pass-window::-webkit-scrollbar-thumb,
+.pp-purchase-window::-webkit-scrollbar-thumb,.trade-window::-webkit-scrollbar-thumb,
+.bestiary-window::-webkit-scrollbar-thumb,.market-body::-webkit-scrollbar-thumb,
+.vip-store-content::-webkit-scrollbar-thumb,.npc-market-list::-webkit-scrollbar-thumb{
+  border-radius:6px;
+  background:linear-gradient(180deg,#c79a3d,#7a5a1d);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.25);
+}
+
+/* --------------------------------------------------------------------------
+   8. Acessibilidade e telas pequenas
+   -------------------------------------------------------------------------- */
+
+@media (prefers-reduced-motion:reduce){
+  .vip-product-card:hover,.npc-product:hover,.market-card:hover,
+  .pass-reward-card:hover,.bestiary-monster:hover,
+  .classic-item:hover,.classic-equip:hover{transform:none}
+}
+@media (max-width:850px){
+  .container-window-backdrop,.forge-backdrop,.trade-backdrop,.bestiary-overlay,
+  .market-dialog-backdrop,.hunt-modal-backdrop,.pp-purchase-overlay{
+    backdrop-filter:none;-webkit-backdrop-filter:none;
+  }
+  .container-window>header,.forge-window>header,.game-pass-window>header,
+  .pp-purchase-window>header,.bestiary-window>header,.market-header,.vip-header{
+    padding-left:50px!important;min-height:54px;
+  }
+  .container-window>header::before,.forge-window>header::before,
+  .game-pass-window>header::before,.pp-purchase-window>header::before,
+  .bestiary-window>header::before,.market-header::before,.vip-header::before{
+    width:24px;height:24px;left:13px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   9. Ajustes finos de cabeçalho
+   --------------------------------------------------------------------------
+   Os cabeçalhos são flex e a maioria tem título + vários botões. Sem estas
+   regras o título em caixa alta encosta nos botões e é cortado nas janelas
+   estreitas (a Backpack é a mais apertada).
+   -------------------------------------------------------------------------- */
+
+.container-window>header,
+.forge-window>header,
+.game-pass-window>header,
+.pp-purchase-window>header,
+.bestiary-window>header,
+.hunt-selection-panel>header,
+.guild-header,
+.market-header,
+.vip-header,
+.npc-market-header,
+.npc-shop-page>header{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+.container-window>header>div:first-of-type,
+.forge-window>header>div:first-of-type,
+.game-pass-window>header>div:first-of-type,
+.pp-purchase-window>header>div:first-of-type,
+.bestiary-window>header>div:first-of-type,
+.npc-shop-page>header>div:first-of-type,
+.vip-header>div:first-of-type{
+  min-width:0;
+  flex:1 1 auto;
+}
+.container-window>header strong,
+.npc-shop-page>header strong,
+.game-pass-window>header strong,
+.bestiary-window>header strong{
+  display:block;
+  max-width:100%;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+/* A Backpack é a janela mais estreita do client: com a esfera, o título em
+   caixa alta e os três botões, sobram ~78px para o título. Aqui a esfera
+   encolhe, o recuo e o gap diminuem e o letter-spacing sai — assim
+   "BACKPACK" cabe inteiro em vez de virar reticências. */
+.container-window>header{
+  padding-left:44px!important;
+  padding-right:12px!important;
+  gap:7px;
+}
+.container-window>header::before{width:22px;height:22px;left:13px}
+.container-window>header strong{
+  font-size:13.5px;
+  letter-spacing:.01em!important;
+}
+.container-window>header small{color:var(--db-muted)}
+
+/* Botões utilitários do cabeçalho da Backpack não devem virar orbes. */
+.container-layout-lock,.container-auto-organize{
+  flex:none;
+  width:30px;height:30px;padding:0!important;
+  border-radius:8px!important;
+  border:1px solid rgba(255,209,102,.25)!important;
+  background:linear-gradient(180deg,#1c3049,#0e1a2a)!important;
+  color:#dbe8f7!important;
+}
+.container-layout-lock.active{
+  border-color:rgba(255,209,102,.7)!important;
+  box-shadow:0 0 12px rgba(255,180,60,.28)!important;
+}
+.container-close-button{flex:none}
+
+/* --------------------------------------------------------------------------
+   10. Estados que o re-skin não pode perder
+   -------------------------------------------------------------------------- */
+
+/* Na Loja VIP o "Comprar" do card É a ação principal — volta ao gi laranja. */
+.vip-product-card footer button:not(:disabled),
+.vip-products article footer button:not(:disabled){
+  border:1px solid #ffc46a!important;
+  background:linear-gradient(180deg,#ffb03f,var(--db-orange) 48%,var(--db-orange-deep))!important;
+  color:#2a1400!important;
+  text-shadow:0 1px 0 rgba(255,255,255,.35);
+  box-shadow:0 3px 0 rgba(120,55,0,.5), inset 0 1px 0 rgba(255,255,255,.45)!important;
+}
+.vip-product-card footer button:not(:disabled):active,
+.vip-products article footer button:not(:disabled):active{
+  transform:translateY(3px);
+  box-shadow:inset 0 2px 6px rgba(90,40,0,.45)!important;
+}
+
+/* Item selecionado na lista da loja: aro dourado, como era antes. */
+.npc-market-card.selected,.npc-sell-card.selected,
+.market-card.selected,.forge-item.selected,.hunt-choice.selected{
+  box-shadow:
+    inset 0 0 0 2px var(--db-gold),
+    inset 0 1px 0 rgba(255,255,255,.1),
+    0 0 26px rgba(255,180,60,.28),
+    0 12px 26px rgba(0,0,0,.45)!important;
+  background:linear-gradient(170deg,rgba(58,44,18,.9),rgba(20,15,6,.95))!important;
+}
+
+/* Botão desativado precisa parecer desativado. */
+.vip-products button:disabled,.npc-market-card:disabled,.market-card button:disabled,
+.classic-primary:disabled,.npc-confirm-purchase:disabled,.daily-claim:disabled{
+  filter:grayscale(.65) brightness(.7);
+  box-shadow:none!important;
+  cursor:not-allowed;
+  transform:none!important;
+}
+
+/* Foco visível por teclado — o re-skin não pode apagar isso. */
+.container-window button:focus-visible,.vip-products button:focus-visible,
+.npc-market-card:focus-visible,.market-card button:focus-visible,
+.forge-window button:focus-visible,.guild-window button:focus-visible{
+  outline:2px solid var(--db-ki);
+  outline-offset:2px;
+}
+
+/* ==========================================================================
+   V22.3 — janelas que ficaram de fora do re-skin V22.2
+   --------------------------------------------------------------------------
+   Ranking, Dragon Mail, Perfil do Jogador, Party, Amigos, Grimório de Spells,
+   seletor de Treino, NPC Reborn, Bulma Compradora, Configuração de Loot,
+   modais de Idle/Consumíveis, diálogo de quantidade, menu de jogador e a
+   tela de Expedição continuavam no visual V21 (molduras cinza "ridge" e
+   cabeçalhos chapados). Mesma regra do V22.2: só CSS, nada de app.js,
+   ninguém muda de lugar.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   11. Moldura das janelas restantes
+   -------------------------------------------------------------------------- */
+
+.ranking-window,
+.dragon-mail-window,
+.character-profile-window,
+.party-panel,
+.spell-book-panel,
+.training-selection-panel,
+.reborn-npc-panel,
+.vendor-panel,
+.loot-config-panel,
+.stack-quantity-dialog,
+.player-context-card,
+.idle-config-modal{
+  position:relative;
+  border:none!important;
+  border-radius:16px!important;
+  background:
+    radial-gradient(120% 80% at 50% -10%, rgba(255,143,42,.10), transparent 58%),
+    linear-gradient(165deg, var(--db-panel) 0%, var(--db-panel-2) 55%, var(--db-night) 100%)!important;
+  box-shadow:var(--db-frame)!important;
+  color:var(--db-text);
+}
+
+/* Fio de energia no topo. Nas janelas com overflow:hidden ele fica recortado
+   pela borda arredondada, que é exatamente o desejado. */
+.ranking-window::before,
+.dragon-mail-window::before,
+.character-profile-window::before,
+.party-panel::before,
+.spell-book-panel::before,
+.training-selection-panel::before,
+.reborn-npc-panel::before,
+.vendor-panel::before,
+.loot-config-panel::before,
+.stack-quantity-dialog::before,
+.idle-config-modal::before{
+  content:"";position:absolute;left:14px;right:14px;top:0;height:2px;z-index:5;
+  background:linear-gradient(90deg,transparent,var(--db-orange) 22%,var(--db-gold) 50%,var(--db-orange) 78%,transparent);
+  opacity:.9;pointer-events:none;border-radius:2px;
+}
+
+/* O modal de Idle tem gradiente próprio (ciano) que vale a pena preservar:
+   aqui só a moldura e o topo mudam, o miolo continua o mesmo. */
+.idle-config-modal{
+  background:
+    radial-gradient(120% 70% at 50% -8%, rgba(255,143,42,.10), transparent 55%),
+    linear-gradient(180deg,#090f11 0 68%,#08222b 100%)!important;
+}
+
+/* --------------------------------------------------------------------------
+   12. Cabeçalhos com a esfera de 4 estrelas
+   -------------------------------------------------------------------------- */
+
+.character-profile-window>header,
+.party-panel>header,
+.spell-book-panel>header,
+.training-selection-panel>header,
+.reborn-npc-panel>header,
+.vendor-panel>header,
+.loot-config-panel>header{
+  position:relative;
+  min-height:60px;
+  padding:14px 18px 14px 58px!important;
+  border:none!important;
+  border-bottom:1px solid var(--db-gold-line)!important;
+  background:
+    radial-gradient(60px 60px at 30px 50%, rgba(255,143,42,.22), transparent 70%),
+    linear-gradient(180deg,#1a2e47,#0d1b2c)!important;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.10);
+}
+
+.character-profile-window>header::before,
+.party-panel>header::before,
+.spell-book-panel>header::before,
+.training-selection-panel>header::before,
+.reborn-npc-panel>header::before,
+.vendor-panel>header::before,
+.loot-config-panel>header::before{
+  content:"";position:absolute;left:16px;top:50%;translate:0 -50%;
+  width:28px;height:28px;
+  background:var(--db-ball) center/contain no-repeat;
+  filter:drop-shadow(0 0 8px rgba(255,160,50,.55));
+  pointer-events:none;
+}
+
+/* A Party desenha o cabeçalho dentro do padding da própria seção, sem faixa
+   própria. Puxar a faixa para fora com margem negativa manteria o texto no
+   lugar, mas quebraria o scroll do painel — então aqui a esfera entra sem
+   faixa e o título ganha o mesmo tratamento dourado. */
+.party-panel>header{
+  min-height:0;
+  padding:2px 0 14px 46px!important;
+  background:transparent!important;
+  box-shadow:none;
+}
+.party-panel>header::before{left:2px;top:20px;width:30px;height:30px}
+
+/* Ranking e Dragon Mail já trazem ícone próprio (troféu e selo do correio):
+   ali a faixa muda, o ícone fica. */
+.ranking-window>header,
+.dragon-mail-window>header{
+  border:none!important;
+  border-bottom:1px solid var(--db-gold-line)!important;
+  background:
+    radial-gradient(90px 70px at 40px 50%, rgba(255,143,42,.20), transparent 72%),
+    linear-gradient(180deg,#1a2e47,#0d1b2c)!important;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.10);
+}
+.ranking-window>header>div:first-child>span{
+  filter:drop-shadow(0 0 10px rgba(255,180,60,.55));
+}
+.dragon-mail-window>header img{
+  border:2px solid var(--db-gold)!important;
+  box-shadow:0 0 16px rgba(255,180,60,.35);
+}
+
+.ranking-window h2,
+.dragon-mail-window>header h2,
+.character-profile-window>header h2,
+.party-panel>header h2,
+.spell-book-panel>header h2,
+.training-selection-panel>header h2,
+.reborn-npc-panel>header h2,
+.vendor-panel>header h2,
+.loot-config-panel>header h2,
+.stack-quantity-dialog h3,
+.idle-modal-header h2{
+  color:var(--db-gold)!important;
+  letter-spacing:.08em!important;
+  text-transform:uppercase;
+  text-shadow:0 2px 6px rgba(0,0,0,.7), 0 0 18px rgba(255,180,60,.28);
+  font-weight:900;
+}
+
+/* Kickers (COMUNIDADE, GRUPO, SOCIAL, FINAL DA QUEST, CENTRO DE TREINAMENTO). */
+.character-profile-window>header span,
+.party-panel>header>div>span,
+.reborn-npc-kicker,
+.training-kicker,
+.stack-quantity-dialog header small{
+  color:var(--db-orange)!important;
+  letter-spacing:.16em!important;
+  font-weight:900;
+  text-shadow:0 0 12px rgba(255,143,42,.35);
+}
+
+/* Fechar: o mesmo orbe de ki das outras janelas. */
+.ranking-header-actions button[data-action="close-ranking"],
+.dragon-mail-window>header button,
+.character-profile-window>header button,
+.party-panel>header button,
+.spell-book-panel>header button,
+.reborn-npc-panel>header button,
+.vendor-panel>header button,
+.loot-config-panel>header button,
+.player-context-close{
+  width:34px;height:34px;padding:0!important;
+  border:1px solid rgba(226,69,60,.65)!important;
+  border-radius:50%!important;
+  background:radial-gradient(circle at 36% 30%, #ff8a80, var(--db-red) 55%, #7d1a14)!important;
+  color:#fff!important;font-weight:900;line-height:1;
+  box-shadow:0 0 14px rgba(226,69,60,.4), inset 0 1px 0 rgba(255,255,255,.4)!important;
+  transition:transform .16s var(--db-ease), box-shadow .16s var(--db-ease);
+}
+.ranking-header-actions button[data-action="close-ranking"]:hover,
+.dragon-mail-window>header button:hover,
+.character-profile-window>header button:hover,
+.party-panel>header button:hover,
+.spell-book-panel>header button:hover,
+.vendor-panel>header button:hover,
+.loot-config-panel>header button:hover,
+.player-context-close:hover{
+  transform:scale(1.08);
+  box-shadow:0 0 22px rgba(226,69,60,.6), inset 0 1px 0 rgba(255,255,255,.5)!important;
+}
+
+/* Atualizar (↻) é ação, não fechamento: fica em aço azulado. */
+.ranking-header-actions button[data-ranking-refresh]{
+  width:34px;height:34px;padding:0!important;
+  border:1px solid rgba(255,209,102,.28)!important;
+  border-radius:50%!important;
+  background:linear-gradient(180deg,#1c3049,#0e1a2a)!important;
+  color:var(--db-gold)!important;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.08), 0 4px 10px rgba(0,0,0,.35)!important;
+  transition:transform .3s var(--db-ease), border-color .16s var(--db-ease);
+}
+.ranking-header-actions button[data-ranking-refresh]:hover{
+  border-color:rgba(255,209,102,.6)!important;
+  transform:rotate(180deg);
+}
+
+/* --------------------------------------------------------------------------
+   13. Ranking — abas, tabela e pódio
+   -------------------------------------------------------------------------- */
+
+.ranking-tabs{
+  border-bottom:1px solid var(--db-gold-line)!important;
+  background:linear-gradient(180deg,rgba(9,17,29,.9),rgba(6,12,22,.9))!important;
+}
+.ranking-tabs button{
+  border-radius:9px!important;
+  border:1px solid transparent!important;
+  background:linear-gradient(180deg,rgba(28,46,70,.6),rgba(10,18,30,.6))!important;
+  color:var(--db-muted)!important;
+  transition:border-color .16s var(--db-ease), color .16s var(--db-ease);
+}
+.ranking-tabs button:hover{border-color:rgba(255,209,102,.35)!important;color:#dbe8f7!important}
+.ranking-tabs button.active{
+  border-color:rgba(255,209,102,.5)!important;
+  background:linear-gradient(180deg,rgba(255,143,42,.22),rgba(12,22,36,.92))!important;
+  color:var(--db-gold)!important;
+  box-shadow:inset 0 2px 0 var(--db-orange), 0 0 16px rgba(255,170,50,.16);
+}
+
+.ranking-message{
+  border:1px solid rgba(255,209,102,.28)!important;
+  border-radius:9px!important;
+  background:linear-gradient(180deg,rgba(255,143,42,.10),rgba(9,17,29,.9))!important;
+  color:#e8d5b4!important;
+}
+
+.ranking-table .ranking-row{
+  border-bottom:1px solid rgba(255,209,102,.08)!important;
+  background:linear-gradient(90deg,rgba(14,25,40,.85),rgba(8,15,26,.85))!important;
+  transition:box-shadow .16s var(--db-ease), background .16s var(--db-ease);
+}
+.ranking-table .ranking-row:nth-child(odd){
+  background:linear-gradient(90deg,rgba(18,31,49,.85),rgba(10,18,30,.85))!important;
+}
+.ranking-table .ranking-row:not(.ranking-head):hover{
+  box-shadow:inset 0 0 0 1px rgba(255,209,102,.32);
+}
+.ranking-table .ranking-row.ranking-head{
+  border-bottom:1px solid var(--db-gold-line)!important;
+  background:linear-gradient(180deg,#1a2e47,#0d1b2c)!important;
+  color:var(--db-gold)!important;
+  letter-spacing:.1em;
+  box-shadow:0 6px 14px rgba(0,0,0,.45);
+}
+
+/* Pódio: a linha 1 da tabela é a head, então os três primeiros colocados são
+   os filhos 2, 3 e 4. Ouro, prata e bronze — sem tocar no HTML. */
+.ranking-table .ranking-row:nth-child(2),
+.ranking-table .ranking-row:nth-child(3),
+.ranking-table .ranking-row:nth-child(4){
+  position:relative;
+  border-radius:8px;
+}
+.ranking-table .ranking-row:nth-child(2){
+  background:linear-gradient(90deg,rgba(255,180,60,.22),rgba(12,22,36,.9))!important;
+  box-shadow:inset 0 0 0 1px rgba(255,209,102,.45), 0 0 22px rgba(255,170,50,.12);
+}
+.ranking-table .ranking-row:nth-child(3){
+  background:linear-gradient(90deg,rgba(196,214,232,.16),rgba(12,22,36,.9))!important;
+  box-shadow:inset 0 0 0 1px rgba(200,218,236,.35);
+}
+.ranking-table .ranking-row:nth-child(4){
+  background:linear-gradient(90deg,rgba(205,127,50,.18),rgba(12,22,36,.9))!important;
+  box-shadow:inset 0 0 0 1px rgba(205,127,50,.4);
+}
+.ranking-table .ranking-row:nth-child(2)>b:first-child{
+  color:#fff1c4!important;
+  text-shadow:0 0 14px rgba(255,190,70,.7);
+}
+.ranking-table .ranking-row:nth-child(3)>b:first-child{color:#e8f0f8!important}
+.ranking-table .ranking-row:nth-child(4)>b:first-child{color:#f0bc82!important}
+.ranking-table .ranking-row>b:first-child{color:var(--db-gold)!important}
+.ranking-table .ranking-row strong{color:#f2f7fc!important}
+
+/* --------------------------------------------------------------------------
+   14. Dragon Mail
+   -------------------------------------------------------------------------- */
+
+.dragon-mail-list article{
+  position:relative;
+  border:none!important;
+  border-radius:12px!important;
+  background:linear-gradient(170deg,rgba(23,40,62,.92),rgba(9,16,27,.95))!important;
+  box-shadow:
+    inset 0 0 0 1px rgba(255,209,102,.18),
+    inset 0 1px 0 rgba(255,255,255,.07),
+    0 10px 24px rgba(0,0,0,.42)!important;
+  transition:transform .18s var(--db-ease), box-shadow .18s var(--db-ease);
+}
+.dragon-mail-list article::before{
+  content:"";position:absolute;left:6px;top:6px;width:14px;height:14px;
+  background:var(--db-corner) center/contain no-repeat;opacity:.7;pointer-events:none;
+}
+.dragon-mail-list article:hover{
+  transform:translateY(-3px);
+  box-shadow:
+    inset 0 0 0 1px rgba(255,209,102,.45),
+    0 16px 32px rgba(0,0,0,.5),
+    0 0 22px rgba(255,170,50,.14)!important;
+}
+.dragon-mail-list article>button{
+  border:1px solid #ffc46a!important;
+  border-radius:9px!important;
+  background:linear-gradient(180deg,#ffb03f,var(--db-orange) 48%,var(--db-orange-deep))!important;
+  color:#2a1400!important;font-weight:900;
+  text-shadow:0 1px 0 rgba(255,255,255,.35);
+  box-shadow:0 3px 0 rgba(120,55,0,.5), inset 0 1px 0 rgba(255,255,255,.45)!important;
+}
+.dragon-mail-list article>button:active{
+  transform:translateY(3px);
+  box-shadow:inset 0 2px 6px rgba(90,40,0,.45)!important;
+}
+.dragon-mail-attachment{
+  border-radius:10px!important;
+  background:
+    radial-gradient(120% 90% at 50% 0%, rgba(120,180,255,.07), transparent 60%),
+    linear-gradient(180deg,#0d1725,#070e18)!important;
+  box-shadow:inset 0 0 0 1px rgba(255,209,102,.16), inset 0 3px 8px rgba(0,0,0,.75)!important;
+}
+.dragon-mail-empty{
+  border-radius:12px;
+  background:linear-gradient(170deg,rgba(18,31,49,.7),rgba(8,14,24,.85));
+  box-shadow:inset 0 0 0 1px rgba(255,209,102,.14);
+}
+.dragon-mail-empty span{
+  color:var(--db-gold);
+  text-shadow:0 0 20px rgba(255,180,60,.4);
+}
+
+/* --------------------------------------------------------------------------
+   15. Perfil do Jogador, Party e Amigos
+   -------------------------------------------------------------------------- */
+
+.character-profile-tabs{
+  background:linear-gradient(180deg,rgba(9,17,29,.9),rgba(6,12,22,.9))!important;
+  border-bottom:1px solid var(--db-gold-line);
+}
+.character-profile-tabs button{
+  border-radius:9px 9px 0 0!important;
+  border:1px solid transparent!important;
+  background:linear-gradient(180deg,rgba(28,46,70,.6),rgba(10,18,30,.6))!important;
+  color:var(--db-muted)!important;font-weight:800;
+}
+.character-profile-tabs button.active{
+  border-color:rgba(255,209,102,.45)!important;
+  border-bottom-color:transparent!important;
+  background:linear-gradient(180deg,rgba(255,143,42,.20),rgba(12,22,36,.9))!important;
+  color:var(--db-gold)!important;
+  box-shadow:inset 0 2px 0 var(--db-orange);
+}
+.profile-icon-frame{
+  box-shadow:0 0 0 2px rgba(255,209,102,.35), 0 0 26px rgba(255,170,50,.22);
+  border-radius:12px;
+}
+.profile-equipment-slot{
+  border:none!important;
+  border-radius:10px!important;
+  background:
+    radial-gradient(120% 90% at 50% 0%, rgba(120,180,255,.07), transparent 60%),
+    linear-gradient(180deg,#0d1725,#070e18)!important;
+  box-shadow:inset 0 0 0 1px rgba(255,209,102,.16), inset 0 3px 8px rgba(0,0,0,.7)!important;
+}
+.profile-equipment-slot:not(.empty){
+  box-shadow:inset 0 0 0 1px rgba(255,209,102,.42), inset 0 3px 8px rgba(0,0,0,.65)!important;
+}
+
+.party-rules span,
+.party-active{
+  border-radius:9px;
+  background:linear-gradient(180deg,rgba(28,46,70,.55),rgba(10,18,30,.7));
+  box-shadow:inset 0 0 0 1px rgba(255,209,102,.18);
+  padding:6px 10px;
+}
+.party-members article,
+.party-friends-list article{
+  border:none!important;
+  border-radius:10px!important;
+  background:linear-gradient(170deg,rgba(23,40,62,.9),rgba(9,16,27,.94))!important;
+  box-shadow:inset 0 0 0 1px rgba(255,209,102,.16), 0 6px 16px rgba(0,0,0,.35)!important;
+  padding:9px 11px;
+}
+.party-members article.leader{
+  box-shadow:inset 0 0 0 1px rgba(255,209,102,.55), 0 0 20px rgba(255,170,50,.16)!important;
+  background:linear-gradient(90deg,rgba(255,143,42,.16),rgba(10,18,30,.94))!important;
+}
+.party-friends-list{
+  border:none!important;
+  border-radius:12px!important;
+  background:linear-gradient(180deg,rgba(9,17,29,.85),rgba(5,10,19,.9))!important;
+  box-shadow:inset 0 0 0 1px rgba(255,209,102,.14)!important;
+}
+.party-friends-list>b{color:var(--db-gold)}
+.party-empty strong{color:var(--db-gold)}
+.party-empty button,
+.friends-add-row button,
+.party-name-invite button{
+  border:1px solid #ffc46a!important;
+  border-radius:9px!important;
+  background:linear-gradient(180deg,#ffb03f,var(--db-orange) 48%,var(--db-orange-deep))!important;
+  color:#2a1400!important;font-weight:900;
+  text-shadow:0 1px 0 rgba(255,255,255,.35);
+  box-shadow:0 3px 0 rgba(120,55,0,.5), inset 0 1px 0 rgba(255,255,255,.45)!important;
+}
+.friends-add-row input,
+.party-name-invite input{
+  border:1px solid rgba(255,209,102,.24)!important;
+  border-radius:9px!important;
+  background:linear-gradient(180deg,#070e18,#0b1424)!important;
+  color:var(--db-text)!important;
+}
+.friends-add-row input:focus,
+.party-name-invite input:focus{
+  border-color:var(--db-gold)!important;
+  box-shadow:0 0 0 2px rgba(255,209,102,.22)!important;
+  outline:none;
+}
+.party-panel .danger,
+.party-friends-list .subtle{
+  border-color:rgba(226,69,60,.5)!important;
+  background:linear-gradient(180deg,#3d1a1a,#210d0d)!important;
+  color:#ffd3ce!important;
+}
+
+/* Menu de contexto do jogador. */
+.player-context-card h3{color:var(--db-gold)!important;text-transform:uppercase;letter-spacing:.06em}
+.player-context-portrait{
+  border-radius:12px;
+  box-shadow:inset 0 0 0 1px rgba(255,209,102,.25), 0 0 22px rgba(255,170,50,.16);
+}
+.player-context-actions button{
+  border-radius:9px!important;
+  border:1px solid rgba(255,209,102,.28)!important;
+  background:linear-gradient(180deg,#1c3049,#0e1a2a)!important;
+  color:#dbe8f7!important;font-weight:800;
+}
+.player-context-actions button.primary{
+  border:1px solid #ffc46a!important;
+  background:linear-gradient(180deg,#ffb03f,var(--db-orange) 48%,var(--db-orange-deep))!important;
+  color:#2a1400!important;
+}
+
+/* --------------------------------------------------------------------------
+   16. Grimório de Spells
+   -------------------------------------------------------------------------- */
+
+.spell-book-card{
+  position:relative;
+  border:none!important;
+  border-radius:12px!important;
+  background:linear-gradient(170deg,rgba(23,40,62,.92),rgba(9,16,27,.95))!important;
+  box-shadow:
+    inset 0 0 0 1px rgba(255,209,102,.16),
+    inset 0 1px 0 rgba(255,255,255,.06),
+    0 8px 20px rgba(0,0,0,.4)!important;
+  transition:transform .18s var(--db-ease), box-shadow .18s var(--db-ease);
+}
+.spell-book-card:not(.locked):hover{
+  transform:translateY(-4px);
+  box-shadow:
+    inset 0 0 0 1px rgba(255,209,102,.45),
+    0 14px 30px rgba(0,0,0,.5),
+    0 0 22px rgba(127,230,255,.16)!important;
+}
+.spell-book-card.selected{
+  box-shadow:
+    inset 0 0 0 2px var(--db-gold),
+    0 0 26px rgba(255,180,60,.28),
+    0 12px 26px rgba(0,0,0,.45)!important;
+  background:linear-gradient(170deg,rgba(58,44,18,.9),rgba(20,15,6,.95))!important;
+}
+.spell-book-card.locked{
+  box-shadow:inset 0 0 0 1px rgba(140,160,185,.18)!important;
+  background:linear-gradient(170deg,rgba(12,18,28,.9),rgba(6,10,17,.95))!important;
+}
+.spell-book-card span{color:var(--db-ki)!important}
+.spell-book-card .spell-unlock-level{color:var(--db-gold)!important}
+.spell-book-icon-wrap{
+  border-radius:10px;
+  background:radial-gradient(circle at 50% 40%, rgba(127,230,255,.14), transparent 70%);
+}
+.spell-rotation-settings{
+  border-bottom:1px solid var(--db-gold-line)!important;
+  background:linear-gradient(180deg,rgba(255,143,42,.07),transparent)!important;
+}
+.spell-enable-toggle span{color:var(--db-gold)}
+
+/* --------------------------------------------------------------------------
+   17. Centro de Treinamento — seletor de sala
+   -------------------------------------------------------------------------- */
+
+.training-selection-panel>footer{
+  border:none!important;
+  border-top:1px solid var(--db-gold-line)!important;
+  background:linear-gradient(180deg,#0d1b2c,#081322)!important;
+}
+.training-selection-panel>footer strong{color:var(--db-gold)}
+.training-room-grid{gap:12px!important}
+.training-room-card{
+  position:relative;
+  border:none!important;
+  border-radius:14px!important;
+  overflow:hidden;
+  background:linear-gradient(170deg,rgba(23,40,62,.92),rgba(9,16,27,.96))!important;
+  box-shadow:
+    inset 0 0 0 1px rgba(255,209,102,.18),
+    inset 0 1px 0 rgba(255,255,255,.07),
+    0 10px 26px rgba(0,0,0,.45)!important;
+  transition:transform .18s var(--db-ease), box-shadow .18s var(--db-ease);
+}
+.training-room-card::after{
+  content:"";position:absolute;right:8px;bottom:8px;width:14px;height:14px;
+  background:var(--db-corner) center/contain no-repeat;opacity:.6;
+  pointer-events:none;rotate:180deg;
+}
+.training-room-card:hover{
+  transform:translateY(-4px);
+  box-shadow:
+    inset 0 0 0 1px rgba(255,209,102,.45),
+    0 18px 36px rgba(0,0,0,.5),
+    0 0 24px rgba(255,170,50,.16)!important;
+}
+.training-room-card.selected{
+  box-shadow:
+    inset 0 0 0 2px var(--db-gold),
+    0 0 28px rgba(255,180,60,.3),
+    0 14px 30px rgba(0,0,0,.5)!important;
+}
+.training-room-preview{
+  border-radius:10px!important;
+  box-shadow:inset 0 0 0 1px rgba(255,209,102,.16);
+}
+.training-room-card strong{color:var(--db-gold)}
+.training-skill-tags span{
+  border-radius:999px!important;
+  border:1px solid rgba(127,230,255,.3)!important;
+  background:rgba(127,230,255,.08)!important;
+  color:#bfeaff!important;
+}
+.training-card-check{
+  border-top:1px solid var(--db-gold-line)!important;
+  background:linear-gradient(180deg,rgba(255,143,42,.06),rgba(6,12,22,.9))!important;
+  color:var(--db-muted)!important;
+}
+.training-room-card.selected .training-card-check{
+  color:var(--db-gold)!important;
+  background:linear-gradient(180deg,rgba(255,143,42,.22),rgba(10,18,30,.92))!important;
+}
+.training-footer-actions .confirm{
+  border:1px solid #ffc46a!important;
+  border-radius:9px!important;
+  background:linear-gradient(180deg,#ffb03f,var(--db-orange) 48%,var(--db-orange-deep))!important;
+  color:#2a1400!important;font-weight:900;
+  text-shadow:0 1px 0 rgba(255,255,255,.35);
+  box-shadow:0 3px 0 rgba(120,55,0,.55), inset 0 1px 0 rgba(255,255,255,.5)!important;
+}
+.training-footer-actions .confirm:active{
+  transform:translateY(3px);
+  box-shadow:inset 0 2px 6px rgba(90,40,0,.45)!important;
+}
+.training-footer-actions button:not(.confirm){
+  border-radius:9px!important;
+  border:1px solid rgba(255,209,102,.28)!important;
+  background:linear-gradient(180deg,#1c3049,#0e1a2a)!important;
+  color:#dbe8f7!important;font-weight:800;
+}
+
+/* HUD sobre o canvas de treino. */
+.training-header>div{
+  padding:10px 14px;
+  border-radius:12px;
+  background:linear-gradient(180deg,rgba(10,18,30,.82),rgba(4,9,17,.88));
+  box-shadow:inset 0 0 0 1px rgba(255,209,102,.22), 0 10px 26px rgba(0,0,0,.45);
+  backdrop-filter:blur(6px);
+  -webkit-backdrop-filter:blur(6px);
+}
+.training-header strong{color:var(--db-gold)}
+.training-header button{
+  pointer-events:auto;
+  border:1px solid rgba(226,69,60,.6)!important;
+  border-radius:10px!important;
+  background:linear-gradient(180deg,#7a2620,#3d100d)!important;
+  color:#ffd9d4!important;font-weight:900;letter-spacing:.06em;
+  box-shadow:0 3px 0 rgba(70,15,10,.6), inset 0 1px 0 rgba(255,255,255,.18)!important;
+}
+.training-rate-badge{
+  border:1px solid rgba(255,209,102,.45)!important;
+  border-radius:999px!important;
+  background:linear-gradient(180deg,rgba(255,143,42,.28),rgba(10,18,30,.9))!important;
+  color:var(--db-gold)!important;
+  box-shadow:0 0 18px rgba(255,170,50,.22);
+}
+
+/* --------------------------------------------------------------------------
+   18. NPC Reborn, Bulma Compradora, Loot e diálogo de quantidade
+   -------------------------------------------------------------------------- */
+
+.reborn-npc-panel footer,
+.vendor-panel footer,
+.loot-config-panel footer{
+  border:none!important;
+  border-top:1px solid var(--db-gold-line)!important;
+  background:linear-gradient(180deg,#0d1b2c,#081322)!important;
+}
+.reborn-npc-portrait{
+  border-radius:12px;
+  box-shadow:inset 0 0 0 1px rgba(255,209,102,.25), 0 0 24px rgba(255,170,50,.18);
+}
+.reborn-npc-rules span{
+  border-radius:9px;
+  padding:6px 10px;
+  background:linear-gradient(180deg,rgba(28,46,70,.55),rgba(10,18,30,.75));
+  box-shadow:inset 0 0 0 1px rgba(255,209,102,.18);
+}
+.reborn-npc-rules b,
+.reborn-vocation-preview strong{color:var(--db-gold)}
+.reborn-npc-panel footer button,
+.vendor-panel footer button,
+.loot-config-panel footer button{
+  border:1px solid #ffc46a!important;
+  border-radius:9px!important;
+  background:linear-gradient(180deg,#ffb03f,var(--db-orange) 48%,var(--db-orange-deep))!important;
+  color:#2a1400!important;font-weight:900;
+  text-shadow:0 1px 0 rgba(255,255,255,.35);
+  box-shadow:0 3px 0 rgba(120,55,0,.5), inset 0 1px 0 rgba(255,255,255,.45)!important;
+}
+
+/* A linha do vendedor tem 5 filhos (ícone, nome, preço, cadeado, vender) numa
+   grade de 4 colunas — o botão "Vender" caía para uma segunda linha e cobria o
+   texto. Cinco colunas resolvem sem tocar no HTML. */
+.vendor-row{
+  grid-template-columns:42px 1fr auto auto auto!important;
+  gap:10px!important;
+  padding:8px 10px!important;
+  border:none!important;
+  border-radius:10px!important;
+  background:linear-gradient(170deg,rgba(23,40,62,.9),rgba(9,16,27,.94))!important;
+  box-shadow:inset 0 0 0 1px rgba(255,209,102,.14), 0 6px 14px rgba(0,0,0,.32)!important;
+  transition:box-shadow .16s var(--db-ease);
+}
+.vendor-row:hover{box-shadow:inset 0 0 0 1px rgba(255,209,102,.4), 0 8px 18px rgba(0,0,0,.4)!important}
+.vendor-row.sale-locked{
+  box-shadow:inset 0 0 0 1px rgba(226,69,60,.4)!important;
+  background:linear-gradient(170deg,rgba(58,24,24,.7),rgba(12,8,10,.94))!important;
+}
+.vendor-row b{color:var(--db-gold)!important}
+.vendor-row button{
+  border-radius:8px!important;
+  border:1px solid rgba(255,209,102,.28)!important;
+  background:linear-gradient(180deg,#1c3049,#0e1a2a)!important;
+  color:#dbe8f7!important;font-weight:800;
+}
+.vendor-row button[data-sell-item]:not(:disabled){
+  border-color:#ffc46a!important;
+  background:linear-gradient(180deg,#ffb03f,var(--db-orange) 48%,var(--db-orange-deep))!important;
+  color:#2a1400!important;
+}
+
+.loot-config-list label{
+  border-radius:10px!important;
+  border:none!important;
+  background:linear-gradient(170deg,rgba(23,40,62,.9),rgba(9,16,27,.94))!important;
+  box-shadow:inset 0 0 0 1px rgba(255,209,102,.14)!important;
+  transition:box-shadow .16s var(--db-ease);
+}
+.loot-config-list label:hover{box-shadow:inset 0 0 0 1px rgba(255,209,102,.4)!important}
+.loot-config-list label.ignored{
+  box-shadow:inset 0 0 0 1px rgba(226,69,60,.38)!important;
+  filter:grayscale(.4);
+}
+
+.stack-quantity-icon{
+  border-radius:10px!important;
+  background:
+    radial-gradient(120% 90% at 50% 0%, rgba(120,180,255,.07), transparent 60%),
+    linear-gradient(180deg,#0d1725,#070e18)!important;
+  box-shadow:inset 0 0 0 1px rgba(255,209,102,.18), inset 0 3px 8px rgba(0,0,0,.7)!important;
+}
+.stack-quantity-value strong{
+  color:var(--db-gold)!important;
+  text-shadow:0 0 18px rgba(255,180,60,.35);
+}
+.stack-quantity-actions .primary{
+  border:1px solid #ffc46a!important;
+  border-radius:9px!important;
+  background:linear-gradient(180deg,#ffb03f,var(--db-orange) 48%,var(--db-orange-deep))!important;
+  color:#2a1400!important;font-weight:900;
+  box-shadow:0 3px 0 rgba(120,55,0,.5), inset 0 1px 0 rgba(255,255,255,.45)!important;
+}
+.stack-quantity-actions button:not(.primary){
+  border-radius:9px!important;
+  border:1px solid rgba(255,209,102,.28)!important;
+  background:linear-gradient(180deg,#1c3049,#0e1a2a)!important;
+  color:#dbe8f7!important;
+}
+
+/* Modais de Idle / consumíveis. */
+.idle-modal-header{border-bottom:1px solid var(--db-gold-line)}
+.idle-modal-header h2 em{color:var(--db-orange)!important}
+.idle-selected-row{
+  border-radius:10px!important;
+  background:linear-gradient(170deg,rgba(23,40,62,.88),rgba(9,16,27,.94))!important;
+  box-shadow:inset 0 0 0 1px rgba(255,209,102,.16)!important;
+}
+.idle-selected-row strong{color:var(--db-gold)}
+
+/* --------------------------------------------------------------------------
+   19. Expedição de Quest
+   -------------------------------------------------------------------------- */
+
+.quest-expedition-map-panel,
+.quest-expedition-info{
+  border:none!important;
+  border-radius:14px!important;
+  background:
+    radial-gradient(120% 70% at 50% -6%, rgba(255,143,42,.08), transparent 58%),
+    linear-gradient(165deg,#101d31,#070e1a)!important;
+  box-shadow:inset 0 0 0 1px rgba(255,209,102,.16), inset 0 0 30px rgba(0,0,0,.45)!important;
+}
+.quest-expedition-info h3{
+  color:var(--db-gold);
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+.quest-expedition-progress span{
+  border-radius:8px;
+  padding:5px 9px;
+  background:linear-gradient(180deg,rgba(28,46,70,.55),rgba(10,18,30,.75));
+  box-shadow:inset 0 0 0 1px rgba(255,209,102,.16);
+}
+.quest-expedition-progress b{color:var(--db-gold)}
+.quest-reward-card{
+  border:none!important;
+  border-radius:12px!important;
+  background:linear-gradient(170deg,rgba(58,44,18,.55),rgba(9,16,27,.95))!important;
+  box-shadow:inset 0 0 0 1px rgba(255,209,102,.3), 0 10px 24px rgba(0,0,0,.4)!important;
+}
+.quest-reward-card strong{color:var(--db-gold)}
+
+/* --------------------------------------------------------------------------
+   20. Fundos e estados das janelas novas
+   -------------------------------------------------------------------------- */
+
+.ranking-overlay,
+.dragon-mail-overlay,
+.profile-backdrop,
+.friends-backdrop,
+.player-context-backdrop,
+.spell-book-backdrop,
+.training-modal-backdrop{
+  background:
+    radial-gradient(90% 70% at 50% 0%, rgba(255,143,42,.10), transparent 60%),
+    radial-gradient(120% 100% at 50% 50%, rgba(6,14,26,.86), rgba(2,5,10,.95))!important;
+  backdrop-filter:blur(7px) saturate(120%);
+  -webkit-backdrop-filter:blur(7px) saturate(120%);
+}
+
+/* Rolagem dourada também nas listas destas janelas. */
+.ranking-table::-webkit-scrollbar,
+.dragon-mail-list::-webkit-scrollbar,
+.spell-book-grid::-webkit-scrollbar,
+.vendor-list::-webkit-scrollbar,
+.loot-config-list::-webkit-scrollbar,
+.party-panel::-webkit-scrollbar{width:10px;height:10px}
+.ranking-table::-webkit-scrollbar-thumb,
+.dragon-mail-list::-webkit-scrollbar-thumb,
+.spell-book-grid::-webkit-scrollbar-thumb,
+.vendor-list::-webkit-scrollbar-thumb,
+.loot-config-list::-webkit-scrollbar-thumb,
+.party-panel::-webkit-scrollbar-thumb{
+  border-radius:999px;
+  background:linear-gradient(180deg,rgba(255,180,60,.5),rgba(160,100,20,.5));
+}
+
+/* Desativado continua parecendo desativado. */
+.dragon-mail-list article>button:disabled,
+.vendor-row button:disabled,
+.party-members button:disabled,
+.training-footer-actions .confirm:disabled,
+.stack-quantity-actions button:disabled{
+  filter:grayscale(.65) brightness(.7);
+  box-shadow:none!important;
+  cursor:not-allowed;
+  transform:none!important;
+}
+
+/* Foco de teclado — o re-skin não pode apagar isso. */
+.ranking-window button:focus-visible,
+.dragon-mail-window button:focus-visible,
+.character-profile-window button:focus-visible,
+.party-panel button:focus-visible,
+.spell-book-panel button:focus-visible,
+.training-selection-panel button:focus-visible,
+.vendor-panel button:focus-visible,
+.loot-config-panel button:focus-visible,
+.reborn-npc-panel button:focus-visible,
+.stack-quantity-dialog button:focus-visible,
+.player-context-card button:focus-visible{
+  outline:2px solid var(--db-ki);
+  outline-offset:2px;
+}
+
+@media (prefers-reduced-motion:reduce){
+  .dragon-mail-list article:hover,
+  .spell-book-card:not(.locked):hover,
+  .training-room-card:hover{transform:none}
+  .ranking-header-actions button[data-ranking-refresh]:hover{transform:none}
+}
+
+/* V21.26 — permanent Reborn path choice */
+.reborn-path-options{border-top:1px solid rgba(255,255,255,.06)}
+.reborn-path-card .reborn-action:focus-visible{outline:2px solid var(--db-gold);outline-offset:2px}

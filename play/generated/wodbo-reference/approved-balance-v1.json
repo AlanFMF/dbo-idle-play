@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-08-05",
+  "source": "https://old.wodbo.net",
+  "notes": [
+    "Only values visible in the public tables are marked official.",
+    "Monster attack values are derived locally because the creatures table publishes level, health and experience but not attack.",
+    "Sprites and lookTypes continue to come from the Absolute client/server files."
+  ],
+  "skills": {
+    "kiLevel": {
+      "officialRole": "Increased Ki damage.",
+      "training": "Using techniques.",
+      "sourceUrl": "https://old.wodbo.net/skills"
+    },
+    "attackSpeed": {
+      "officialRole": "Faster melee and distance attack.",
+      "training": "Training with a punching bag holding tones bands.",
+      "sourceUrl": "https://old.wodbo.net/skills"
+    },
+    "critical": {
+      "officialRole": "Increased chance for critical melee and distance attack.",
+      "training": "Training with punching bag with sword.",
+      "sourceUrl": "https://old.wodbo.net/skills"
+    },
+    "strength": {
+      "officialRole": "Increased melee damage.",
+      "training": "Training with punching bag with gloves.",
+      "sourceUrl": "https://old.wodbo.net/skills"
+    },
+    "kiBlasting": {
+      "officialRole": "Increased distance damage.",
+      "training": "Training with punching bag with ki attackers.",
+      "sourceUrl": "https://old.wodbo.net/skills"
+    },
+    "defense": {
+      "officialRole": "Increased defense for melee and distance attack.",
+      "training": "Special capsules for defense training.",
+      "sourceUrl": "https://old.wodbo.net/skills"
+    },
+    "barrier": {
+      "officialRole": "Increased defense for Ki attack.",
+      "training": "Special capsules for barrier training.",
+      "sourceUrl": "https://old.wodbo.net/skills"
+    }
+  },
+  "items": {
+    "server_12717": {
+      "matchedName": "jin sword",
+      "level": 1,
+      "attack": 4,
+      "defense": 2,
+      "sourceUrl": "https://old.wodbo.net/items",
+      "status": "official-table-match"
+    },
+    "server_12639": {
+      "matchedName": "black coat",
+      "level": 1,
+      "armor": 25,
+      "hp": 250,
+      "skillBonuses": {
+        "critical": 2,
+        "strength": 2,
+        "kiBlasting": 2
+      },
+      "sourceUrl": "https://old.wodbo.net/items",
+      "status": "official-table-match"
+    }
+  },
+  "monsters": {
+    "dino": {
+      "matchedName": "Triceratops LvL 1",
+      "requiredLevel": 1,
+      "health": 120,
+      "experience": 30,
+      "sourceUrl": "https://old.wodbo.net/creatures",
+      "status": "official-table-match"
+    },
+    "bandit-scout": {
+      "matchedName": "Bandit LvL 2",
+      "requiredLevel": 2,
+      "health": 200,
+      "experience": 40,
+      "sourceUrl": "https://old.wodbo.net/creatures",
+      "status": "official-table-match"
+    },
+    "bandit-swordman": {
+      "matchedName": "Bandit LvL 3",
+      "requiredLevel": 3,
+      "health": 280,
+      "experience": 75,
+      "sourceUrl": "https://old.wodbo.net/creatures",
+      "status": "official-table-match"
+    },
+    "bandit-human": {
+      "matchedName": "Bandit LvL 4",
+      "requiredLevel": 4,
+      "health": 350,
+      "experience": 90,
+      "sourceUrl": "https://old.wodbo.net/creatures",
+      "status": "official-table-match"
+    },
+    "dinosaur": {
+      "matchedName": "Dinosaur LvL 1",
+      "requiredLevel": 5,
+      "health": 500,
+      "experience": 65,
+      "sourceUrl": "https://old.wodbo.net/creatures",
+      "status": "official-table-match"
+    }
+  }
+}

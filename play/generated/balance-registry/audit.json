@@ -1,0 +1,212 @@
+{
+  "vocationsImported": 981,
+  "experienceStagesImported": 11,
+  "skillStageCategories": 8,
+  "serverConfig": {
+    "newPlayerLevel": 1,
+    "protectionLevel": 300,
+    "criticalHitChance": 1,
+    "criticalHitMultiplier": 1,
+    "deathLostPercent": 15,
+    "timeBetweenActions": 200,
+    "timeBetweenExActions": 500,
+    "rateExperience": 8,
+    "rateSkill": 3,
+    "rateMagic": 2,
+    "rateLoot": 100,
+    "rateSpawn": 3,
+    "pzLocked": 60000,
+    "huntingDuration": 10000,
+    "showHealingDamage": true
+  },
+  "criticalRules": {
+    "storageId": 48903,
+    "rollMin": 0,
+    "rollMax": 1000,
+    "damageMultiplier": 2.0,
+    "chancePerStoragePoint": 0.000999000999000999
+  },
+  "formulaMode": "authoritative coefficients + browser compatibility adapter",
+  "skillStages": {
+    "fist": [
+      {
+        "minLevel": 0,
+        "rate": 30.0
+      },
+      {
+        "minLevel": 50,
+        "rate": 0.0
+      },
+      {
+        "minLevel": 80,
+        "rate": 0.0
+      },
+      {
+        "minLevel": 100,
+        "rate": 0.0
+      },
+      {
+        "minLevel": 120,
+        "rate": 0.0
+      }
+    ],
+    "club": [
+      {
+        "minLevel": 0,
+        "rate": 10.0
+      },
+      {
+        "minLevel": 60,
+        "rate": 10.0
+      },
+      {
+        "minLevel": 80,
+        "rate": 4.0
+      },
+      {
+        "minLevel": 100,
+        "rate": 2.0
+      },
+      {
+        "minLevel": 120,
+        "rate": 1.0
+      }
+    ],
+    "sword": [
+      {
+        "minLevel": 0,
+        "rate": 10.0
+      },
+      {
+        "minLevel": 60,
+        "rate": 10.0
+      },
+      {
+        "minLevel": 80,
+        "rate": 4.0
+      },
+      {
+        "minLevel": 100,
+        "rate": 2.0
+      },
+      {
+        "minLevel": 120,
+        "rate": 1.0
+      }
+    ],
+    "axe": [
+      {
+        "minLevel": 0,
+        "rate": 10.0
+      },
+      {
+        "minLevel": 60,
+        "rate": 8.0
+      },
+      {
+        "minLevel": 80,
+        "rate": 4.0
+      },
+      {
+        "minLevel": 100,
+        "rate": 2.0
+      },
+      {
+        "minLevel": 120,
+        "rate": 1.0
+      }
+    ],
+    "distance": [
+      {
+        "minLevel": 0,
+        "rate": 10.0
+      },
+      {
+        "minLevel": 60,
+        "rate": 10.0
+      },
+      {
+        "minLevel": 80,
+        "rate": 4.0
+      },
+      {
+        "minLevel": 100,
+        "rate": 2.0
+      },
+      {
+        "minLevel": 120,
+        "rate": 1.0
+      }
+    ],
+    "shielding": [
+      {
+        "minLevel": 0,
+        "rate": 10.0
+      },
+      {
+        "minLevel": 60,
+        "rate": 10.0
+      },
+      {
+        "minLevel": 80,
+        "rate": 4.0
+      },
+      {
+        "minLevel": 100,
+        "rate": 2.0
+      },
+      {
+        "minLevel": 120,
+        "rate": 1.0
+      }
+    ],
+    "fishing": [
+      {
+        "minLevel": 0,
+        "rate": 10.0
+      },
+      {
+        "minLevel": 60,
+        "rate": 10.0
+      },
+      {
+        "minLevel": 80,
+        "rate": 4.0
+      },
+      {
+        "minLevel": 100,
+        "rate": 2.0
+      },
+      {
+        "minLevel": 120,
+        "rate": 1.0
+      }
+    ],
+    "magicLevel": [
+      {
+        "minLevel": 0,
+        "rate": 4.0
+      },
+      {
+        "minLevel": 100,
+        "rate": 3.0
+      },
+      {
+        "minLevel": 120,
+        "rate": 2.0
+      },
+      {
+        "minLevel": 135,
+        "rate": 1.0
+      },
+      {
+        "minLevel": 150,
+        "rate": 1.0
+      },
+      {
+        "minLevel": 170,
+        "rate": 0.0
+      }
+    ]
+  }
+}

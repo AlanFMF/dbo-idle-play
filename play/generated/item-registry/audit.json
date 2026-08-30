@@ -1,0 +1,145 @@
+{
+  "stats": {
+    "itemDefinitions": 12724,
+    "withAsset": 12706,
+    "withStats": 709,
+    "equipment": 570,
+    "weapons": 353,
+    "containers": 835,
+    "consumables": 15,
+    "withRequirements": 195,
+    "withBuyPrice": 70,
+    "withSellPrice": 4,
+    "withDescription": 12724,
+    "npcPriceSources": 75,
+    "rarityDistribution": {
+      "common": 12178,
+      "uncommon": 155,
+      "rare": 184,
+      "epic": 14,
+      "legendary": 193
+    }
+  },
+  "scriptFilesExtracted": 487,
+  "examples": {
+    "Eye Mask": {
+      "serverId": 12621,
+      "type": "helmet",
+      "stats": {
+        "armor": 5.0,
+        "hpRegenPerSecond": 50.0,
+        "kiRegenPerSecond": 50.0
+      },
+      "requirements": {
+        "level": 0,
+        "magicLevel": 0,
+        "premium": false,
+        "vocations": []
+      },
+      "buyPrice": null,
+      "sellPrice": null,
+      "description": "Health and KI Regeneration +50/s",
+      "rarity": "rare"
+    },
+    "Black Coat": {
+      "serverId": 12639,
+      "type": "armor",
+      "stats": {
+        "armor": 15.0,
+        "hpRegenPerSecond": 400.0,
+        "kiRegenPerSecond": 400.0
+      },
+      "requirements": {
+        "level": 0,
+        "magicLevel": 0,
+        "premium": false,
+        "vocations": []
+      },
+      "buyPrice": null,
+      "sellPrice": null,
+      "description": "Health and KI Regeneration +400/s",
+      "rarity": "legendary"
+    },
+    "Yellow Glove": {
+      "serverId": 12699,
+      "type": "weapon",
+      "stats": {
+        "defense": 3.0,
+        "attack": 3.0
+      },
+      "requirements": {
+        "level": 0,
+        "magicLevel": 0,
+        "premium": false,
+        "vocations": []
+      },
+      "buyPrice": null,
+      "sellPrice": null,
+      "description": "Yellow Glove",
+      "rarity": "common"
+    },
+    "Blue Ki": {
+      "serverId": 12747,
+      "type": "weapon",
+      "stats": {
+        "attackSpeed": 400.0,
+        "range": 7
+      },
+      "requirements": {
+        "level": 0,
+        "magicLevel": 0,
+        "premium": false,
+        "vocations": []
+      },
+      "buyPrice": null,
+      "sellPrice": null,
+      "description": "Fast Attack",
+      "rarity": "legendary"
+    },
+    "HP Potion": {
+      "serverId": 12775,
+      "type": "item",
+      "stats": {},
+      "requirements": {
+        "level": 0,
+        "magicLevel": 0,
+        "premium": false,
+        "vocations": []
+      },
+      "buyPrice": null,
+      "sellPrice": null,
+      "description": "Life +1000",
+      "rarity": "common"
+    },
+    "Ki Potion": {
+      "serverId": 12776,
+      "type": "item",
+      "stats": {},
+      "requirements": {
+        "level": 0,
+        "magicLevel": 0,
+        "premium": false,
+        "vocations": []
+      },
+      "buyPrice": null,
+      "sellPrice": null,
+      "description": "Ki +1000",
+      "rarity": "common"
+    },
+    "Senzu Bean": {
+      "serverId": 12779,
+      "type": "item",
+      "stats": {},
+      "requirements": {
+        "level": 0,
+        "magicLevel": 0,
+        "premium": false,
+        "vocations": []
+      },
+      "buyPrice": null,
+      "sellPrice": null,
+      "description": "Hp/Mp + 80k.",
+      "rarity": "common"
+    }
+  }
+}

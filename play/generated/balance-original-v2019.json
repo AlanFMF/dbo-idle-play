@@ -1,0 +1,301 @@
+{
+  "version": "0.20.19",
+  "policy": "original-server-relative-scale",
+  "zones": [
+    {
+      "id": "absolute-01",
+      "name": "Bosque dos Dinos",
+      "level": 5,
+      "monsters": 4,
+      "medianHitsToKill": 9.9,
+      "medianSoloTtdSeconds": 20.3,
+      "medianKillsPerLevel": 14.2
+    },
+    {
+      "id": "absolute-02",
+      "name": "Ruínas dos Vampiros",
+      "level": 11,
+      "monsters": 8,
+      "medianHitsToKill": 10.6,
+      "medianSoloTtdSeconds": 19.5,
+      "medianKillsPerLevel": 14.8
+    },
+    {
+      "id": "absolute-03",
+      "name": "Laboratório Android",
+      "level": 16,
+      "monsters": 8,
+      "medianHitsToKill": 11.1,
+      "medianSoloTtdSeconds": 19.5,
+      "medianKillsPerLevel": 14.1
+    },
+    {
+      "id": "absolute-04",
+      "name": "Cemitério dos Fantasmas",
+      "level": 28,
+      "monsters": 8,
+      "medianHitsToKill": 11.6,
+      "medianSoloTtdSeconds": 18.6,
+      "medianKillsPerLevel": 14.6
+    },
+    {
+      "id": "absolute-05",
+      "name": "Montanhas Congeladas",
+      "level": 44,
+      "monsters": 8,
+      "medianHitsToKill": 12.1,
+      "medianSoloTtdSeconds": 18.2,
+      "medianKillsPerLevel": 14.1
+    },
+    {
+      "id": "absolute-06",
+      "name": "Pântano dos Saibamans",
+      "level": 53,
+      "monsters": 7,
+      "medianHitsToKill": 12.3,
+      "medianSoloTtdSeconds": 16.8,
+      "medianKillsPerLevel": 15.8
+    },
+    {
+      "id": "absolute-07",
+      "name": "Fortaleza dos Invasores",
+      "level": 63,
+      "monsters": 5,
+      "medianHitsToKill": 12.5,
+      "medianSoloTtdSeconds": 17.3,
+      "medianKillsPerLevel": 14
+    },
+    {
+      "id": "absolute-08",
+      "name": "Dimensão de Janemba",
+      "level": 72,
+      "monsters": 7,
+      "medianHitsToKill": 12.8,
+      "medianSoloTtdSeconds": 16.5,
+      "medianKillsPerLevel": 15.2
+    },
+    {
+      "id": "absolute-09",
+      "name": "Território Tsuful",
+      "level": 79,
+      "monsters": 6,
+      "medianHitsToKill": 12.7,
+      "medianSoloTtdSeconds": 18.2,
+      "medianKillsPerLevel": 15
+    },
+    {
+      "id": "absolute-10",
+      "name": "Laboratório de Cell",
+      "level": 85,
+      "monsters": 7,
+      "medianHitsToKill": 11.8,
+      "medianSoloTtdSeconds": 17.9,
+      "medianKillsPerLevel": 13.4
+    },
+    {
+      "id": "absolute-11",
+      "name": "Vale dos Dragões",
+      "level": 91,
+      "monsters": 8,
+      "medianHitsToKill": 12.9,
+      "medianSoloTtdSeconds": 17.5,
+      "medianKillsPerLevel": 14
+    },
+    {
+      "id": "absolute-12",
+      "name": "Deserto de Yamu",
+      "level": 98,
+      "monsters": 7,
+      "medianHitsToKill": 13.8,
+      "medianSoloTtdSeconds": 15.7,
+      "medianKillsPerLevel": 14.3
+    },
+    {
+      "id": "absolute-13",
+      "name": "Planeta de Cooler",
+      "level": 103,
+      "monsters": 7,
+      "medianHitsToKill": 13.7,
+      "medianSoloTtdSeconds": 18.3,
+      "medianKillsPerLevel": 13.3
+    },
+    {
+      "id": "absolute-14",
+      "name": "Base dos Cyborgs",
+      "level": 117,
+      "monsters": 8,
+      "medianHitsToKill": 13.2,
+      "medianSoloTtdSeconds": 17.4,
+      "medianKillsPerLevel": 14
+    },
+    {
+      "id": "absolute-15",
+      "name": "Templo dos Kaios",
+      "level": 131,
+      "monsters": 3,
+      "medianHitsToKill": 20.4,
+      "medianSoloTtdSeconds": 14.2,
+      "medianKillsPerLevel": 14.8
+    },
+    {
+      "id": "absolute-16",
+      "name": "Inferno dos Guerreiros",
+      "level": 146,
+      "monsters": 7,
+      "medianHitsToKill": 14.1,
+      "medianSoloTtdSeconds": 17,
+      "medianKillsPerLevel": 16.7
+    },
+    {
+      "id": "absolute-17",
+      "name": "Planeta Tsuful",
+      "level": 169,
+      "monsters": 5,
+      "medianHitsToKill": 8,
+      "medianSoloTtdSeconds": 10.7,
+      "medianKillsPerLevel": 19.8
+    },
+    {
+      "id": "absolute-18",
+      "name": "Vale dos Oozarus",
+      "level": 194,
+      "monsters": 6,
+      "medianHitsToKill": 13.5,
+      "medianSoloTtdSeconds": 18.4,
+      "medianKillsPerLevel": 14.1
+    },
+    {
+      "id": "absolute-19",
+      "name": "Mundo dos Deuses",
+      "level": 219,
+      "monsters": 7,
+      "medianHitsToKill": 13.8,
+      "medianSoloTtdSeconds": 17.5,
+      "medianKillsPerLevel": 12.7
+    },
+    {
+      "id": "absolute-20",
+      "name": "Fenda do Caos",
+      "level": 237,
+      "monsters": 8,
+      "medianHitsToKill": 13.9,
+      "medianSoloTtdSeconds": 16.5,
+      "medianKillsPerLevel": 14.6
+    },
+    {
+      "id": "absolute-21",
+      "name": "Arena Lendária",
+      "level": 247,
+      "monsters": 6,
+      "medianHitsToKill": 13.6,
+      "medianSoloTtdSeconds": 16.6,
+      "medianKillsPerLevel": 14
+    },
+    {
+      "id": "absolute-22",
+      "name": "Planeta Destruído",
+      "level": 266,
+      "monsters": 7,
+      "medianHitsToKill": 13.8,
+      "medianSoloTtdSeconds": 18,
+      "medianKillsPerLevel": 13.5
+    },
+    {
+      "id": "absolute-23",
+      "name": "Dimensão Suprema",
+      "level": 289,
+      "monsters": 5,
+      "medianHitsToKill": 14.4,
+      "medianSoloTtdSeconds": 16.5,
+      "medianKillsPerLevel": 15.3
+    },
+    {
+      "id": "absolute-24",
+      "name": "Domínio dos Shenrons",
+      "level": 314,
+      "monsters": 4,
+      "medianHitsToKill": 12.8,
+      "medianSoloTtdSeconds": 18.7,
+      "medianKillsPerLevel": 12.8
+    },
+    {
+      "id": "absolute-25",
+      "name": "Bosque dos Dinos",
+      "level": 346,
+      "monsters": 3,
+      "medianHitsToKill": 14.3,
+      "medianSoloTtdSeconds": 15.8,
+      "medianKillsPerLevel": 14.2
+    },
+    {
+      "id": "absolute-26",
+      "name": "Ruínas dos Vampiros",
+      "level": 406,
+      "monsters": 4,
+      "medianHitsToKill": 20,
+      "medianSoloTtdSeconds": 18,
+      "medianKillsPerLevel": 14.8
+    },
+    {
+      "id": "absolute-27",
+      "name": "Laboratório Android",
+      "level": 676,
+      "monsters": 7,
+      "medianHitsToKill": 18.8,
+      "medianSoloTtdSeconds": 14.5,
+      "medianKillsPerLevel": 18.4
+    },
+    {
+      "id": "absolute-28",
+      "name": "Cemitério dos Fantasmas",
+      "level": 979,
+      "monsters": 5,
+      "medianHitsToKill": 15.5,
+      "medianSoloTtdSeconds": 21.2,
+      "medianKillsPerLevel": 28.6
+    },
+    {
+      "id": "absolute-29",
+      "name": "Montanhas Congeladas",
+      "level": 1751,
+      "monsters": 5,
+      "medianHitsToKill": 16.1,
+      "medianSoloTtdSeconds": 15.3,
+      "medianKillsPerLevel": 7.8
+    },
+    {
+      "id": "absolute-30",
+      "name": "Pântano dos Saibamans",
+      "level": 4733,
+      "monsters": 1,
+      "medianHitsToKill": 17.2,
+      "medianSoloTtdSeconds": 13.5,
+      "medianKillsPerLevel": 14
+    }
+  ],
+  "itemStatsPreserved": 12750,
+  "inferredItemLevelGates": 89,
+  "examples": {
+    "strongMakankosappo": {
+      "stats": {
+        "attack": 4
+      },
+      "requiredLevel": 44
+    },
+    "goldenFreezaBoots": {
+      "stats": {
+        "armor": 300,
+        "speed": 35,
+        "hpRegenPerSecond": 9000,
+        "kiRegenPerSecond": 9000,
+        "skillBonuses": {
+          "kiLevel": 5
+        },
+        "defense": 300,
+        "hpRegen": 9000,
+        "kiRegen": 9000
+      },
+      "requiredLevel": 0
+    }
+  }
+}

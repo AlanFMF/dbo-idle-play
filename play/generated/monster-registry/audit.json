@@ -1,0 +1,14 @@
+{
+  "stats": {
+    "monsterDefinitions": 254,
+    "spawnEntries": 15076,
+    "monsterSpawns": 14884,
+    "npcSpawns": 192,
+    "withLookType": 254,
+    "withLoot": 235,
+    "withAttacks": 253,
+    "withSummons": 5,
+    "missingFiles": 0,
+    "parseErrors": 0
+  }
+}

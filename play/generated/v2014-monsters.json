@@ -1,0 +1,1506 @@
+[
+  {
+    "zoneId": "earth-outskirts",
+    "zoneName": "Arredores de Earth",
+    "id": "dino",
+    "name": "Dino",
+    "lookType": 390,
+    "sprite": "./generated/web/absolute-monsters-png/390.png"
+  },
+  {
+    "zoneId": "earth-outskirts",
+    "zoneName": "Arredores de Earth",
+    "id": "bandit-scout",
+    "name": "Bandit Scout",
+    "lookType": 386,
+    "sprite": "./generated/web/absolute-monsters-png/386.png"
+  },
+  {
+    "zoneId": "earth-outskirts",
+    "zoneName": "Arredores de Earth",
+    "id": "bandit-swordman",
+    "name": "Bandit Swordman",
+    "lookType": 387,
+    "sprite": "./generated/web/absolute-monsters-png/387.png"
+  },
+  {
+    "zoneId": "earth-outskirts",
+    "zoneName": "Arredores de Earth",
+    "id": "bandit-human",
+    "name": "Bandit Human",
+    "lookType": 472,
+    "sprite": "./generated/web/absolute-monsters-png/472.png"
+  },
+  {
+    "zoneId": "earth-outskirts",
+    "zoneName": "Arredores de Earth",
+    "id": "dinosaur",
+    "name": "Dinosaur",
+    "lookType": 431,
+    "sprite": "./generated/web/absolute-monsters-png/431.png"
+  },
+  {
+    "zoneId": "bandit-camp",
+    "zoneName": "Acampamento Bandit",
+    "id": "bandit",
+    "name": "Bandit",
+    "lookType": 388,
+    "sprite": "./generated/web/absolute-monsters-png/388.png"
+  },
+  {
+    "zoneId": "bandit-camp",
+    "zoneName": "Acampamento Bandit",
+    "id": "bandit-gun",
+    "name": "Bandit Gun",
+    "lookType": 475,
+    "sprite": "./generated/web/absolute-monsters-png/475.png"
+  },
+  {
+    "zoneId": "absolute-01",
+    "zoneName": "Bosque dos Dinos",
+    "id": "dino",
+    "name": "Dino",
+    "lookType": 390,
+    "sprite": "./generated/web/absolute-monsters-png/390.png"
+  },
+  {
+    "zoneId": "absolute-01",
+    "zoneName": "Bosque dos Dinos",
+    "id": "wolf-beast",
+    "name": "Wolf Beast",
+    "lookType": 393,
+    "sprite": "./generated/web/absolute-monsters-png/393.png"
+  },
+  {
+    "zoneId": "absolute-01",
+    "zoneName": "Bosque dos Dinos",
+    "id": "bandit-scout",
+    "name": "Bandit Scout",
+    "lookType": 386,
+    "sprite": "./generated/web/absolute-monsters-png/386.png"
+  },
+  {
+    "zoneId": "absolute-01",
+    "zoneName": "Bosque dos Dinos",
+    "id": "crocodile",
+    "name": "Crocodile",
+    "lookType": 471,
+    "sprite": "./generated/web/absolute-monsters-png/471.png"
+  },
+  {
+    "zoneId": "absolute-02",
+    "zoneName": "Ruínas dos Vampiros",
+    "id": "fighter",
+    "name": "Fighter",
+    "lookType": 409,
+    "sprite": "./generated/web/absolute-monsters-png/409.png"
+  },
+  {
+    "zoneId": "absolute-02",
+    "zoneName": "Ruínas dos Vampiros",
+    "id": "android",
+    "name": "Android",
+    "lookType": 46,
+    "sprite": "./generated/web/absolute-monsters-png/46.png"
+  },
+  {
+    "zoneId": "absolute-02",
+    "zoneName": "Ruínas dos Vampiros",
+    "id": "mummy",
+    "name": "Mummy",
+    "lookType": 401,
+    "sprite": "./generated/web/absolute-monsters-png/401.png"
+  },
+  {
+    "zoneId": "absolute-02",
+    "zoneName": "Ruínas dos Vampiros",
+    "id": "human",
+    "name": "Human",
+    "lookType": 473,
+    "sprite": "./generated/web/absolute-monsters-png/473.png"
+  },
+  {
+    "zoneId": "absolute-02",
+    "zoneName": "Ruínas dos Vampiros",
+    "id": "triceratops",
+    "name": "Triceratops",
+    "lookType": 430,
+    "sprite": "./generated/web/absolute-monsters-png/430.png"
+  },
+  {
+    "zoneId": "absolute-02",
+    "zoneName": "Ruínas dos Vampiros",
+    "id": "dinosaur",
+    "name": "Dinosaur",
+    "lookType": 431,
+    "sprite": "./generated/web/absolute-monsters-png/431.png"
+  },
+  {
+    "zoneId": "absolute-02",
+    "zoneName": "Ruínas dos Vampiros",
+    "id": "bandit-swordman",
+    "name": "Bandit Swordman",
+    "lookType": 387,
+    "sprite": "./generated/web/absolute-monsters-png/387.png"
+  },
+  {
+    "zoneId": "absolute-02",
+    "zoneName": "Ruínas dos Vampiros",
+    "id": "vampire",
+    "name": "Vampire",
+    "lookType": 397,
+    "sprite": "./generated/web/absolute-monsters-png/397.png"
+  },
+  {
+    "zoneId": "absolute-03",
+    "zoneName": "Laboratório Android",
+    "id": "zombie",
+    "name": "Zombie",
+    "lookType": 479,
+    "sprite": "./generated/web/absolute-monsters-png/479.png"
+  },
+  {
+    "zoneId": "absolute-03",
+    "zoneName": "Laboratório Android",
+    "id": "wolf",
+    "name": "Wolf",
+    "lookType": 393,
+    "sprite": "./generated/web/absolute-monsters-png/393.png"
+  },
+  {
+    "zoneId": "absolute-03",
+    "zoneName": "Laboratório Android",
+    "id": "bandit-gun",
+    "name": "Bandit Gun",
+    "lookType": 475,
+    "sprite": "./generated/web/absolute-monsters-png/475.png"
+  },
+  {
+    "zoneId": "absolute-03",
+    "zoneName": "Laboratório Android",
+    "id": "bandit-human",
+    "name": "Bandit Human",
+    "lookType": 472,
+    "sprite": "./generated/web/absolute-monsters-png/472.png"
+  },
+  {
+    "zoneId": "absolute-03",
+    "zoneName": "Laboratório Android",
+    "id": "tao-pai-pai",
+    "name": "Tao Pai Pai",
+    "lookType": 469,
+    "sprite": "./generated/web/absolute-monsters-png/469.png"
+  },
+  {
+    "zoneId": "absolute-03",
+    "zoneName": "Laboratório Android",
+    "id": "assassin",
+    "name": "Assassin",
+    "lookType": 384,
+    "sprite": "./generated/web/absolute-monsters-png/384.png"
+  },
+  {
+    "zoneId": "absolute-03",
+    "zoneName": "Laboratório Android",
+    "id": "android-warrior",
+    "name": "Android Warrior",
+    "lookType": 47,
+    "sprite": "./generated/web/absolute-monsters-png/47.png"
+  },
+  {
+    "zoneId": "absolute-03",
+    "zoneName": "Laboratório Android",
+    "id": "android-fly",
+    "name": "Android Fly",
+    "lookType": 470,
+    "sprite": "./generated/web/absolute-monsters-png/470.png"
+  },
+  {
+    "zoneId": "absolute-04",
+    "zoneName": "Cemitério dos Fantasmas",
+    "id": "terminator",
+    "name": "Terminator",
+    "lookType": 122,
+    "sprite": "./generated/web/absolute-monsters-png/122.png"
+  },
+  {
+    "zoneId": "absolute-04",
+    "zoneName": "Cemitério dos Fantasmas",
+    "id": "bandit",
+    "name": "Bandit",
+    "lookType": 388,
+    "sprite": "./generated/web/absolute-monsters-png/388.png"
+  },
+  {
+    "zoneId": "absolute-04",
+    "zoneName": "Cemitério dos Fantasmas",
+    "id": "scorpion",
+    "name": "Scorpion",
+    "lookType": 435,
+    "sprite": "./generated/web/absolute-monsters-png/435.png"
+  },
+  {
+    "zoneId": "absolute-04",
+    "zoneName": "Cemitério dos Fantasmas",
+    "id": "saibamen",
+    "name": "Saibamen",
+    "lookType": 399,
+    "sprite": "./generated/web/absolute-monsters-png/399.png"
+  },
+  {
+    "zoneId": "absolute-04",
+    "zoneName": "Cemitério dos Fantasmas",
+    "id": "destroyer",
+    "name": "Destroyer",
+    "lookType": 48,
+    "sprite": "./generated/web/absolute-monsters-png/48.png"
+  },
+  {
+    "zoneId": "absolute-04",
+    "zoneName": "Cemitério dos Fantasmas",
+    "id": "tank",
+    "name": "Tank",
+    "lookType": 438,
+    "sprite": "./generated/web/absolute-monsters-png/438.png"
+  },
+  {
+    "zoneId": "absolute-04",
+    "zoneName": "Cemitério dos Fantasmas",
+    "id": "poison-fly",
+    "name": "Poison Fly",
+    "lookType": 413,
+    "sprite": "./generated/web/absolute-monsters-png/413.png"
+  },
+  {
+    "zoneId": "absolute-04",
+    "zoneName": "Cemitério dos Fantasmas",
+    "id": "ghost",
+    "name": "Ghost",
+    "lookType": 398,
+    "sprite": "./generated/web/absolute-monsters-png/398.png"
+  },
+  {
+    "zoneId": "absolute-05",
+    "zoneName": "Montanhas Congeladas",
+    "id": "ice-elemental",
+    "name": "Ice Elemental",
+    "lookType": 428,
+    "sprite": "./generated/web/absolute-monsters-png/428.png"
+  },
+  {
+    "zoneId": "absolute-05",
+    "zoneName": "Montanhas Congeladas",
+    "id": "fire-elemental",
+    "name": "Fire Elemental",
+    "lookType": 427,
+    "sprite": "./generated/web/absolute-monsters-png/427.png"
+  },
+  {
+    "zoneId": "absolute-05",
+    "zoneName": "Montanhas Congeladas",
+    "id": "soldier",
+    "name": "Soldier",
+    "lookType": 400,
+    "sprite": "./generated/web/absolute-monsters-png/400.png"
+  },
+  {
+    "zoneId": "absolute-05",
+    "zoneName": "Montanhas Congeladas",
+    "id": "pui-pui",
+    "name": "Pui Pui",
+    "lookType": 426,
+    "sprite": "./generated/web/absolute-monsters-png/426.png"
+  },
+  {
+    "zoneId": "absolute-05",
+    "zoneName": "Montanhas Congeladas",
+    "id": "wind-elemental",
+    "name": "Wind Elemental",
+    "lookType": 441,
+    "sprite": "./generated/web/absolute-monsters-png/441.png"
+  },
+  {
+    "zoneId": "absolute-05",
+    "zoneName": "Montanhas Congeladas",
+    "id": "dodoria",
+    "name": "Dodoria",
+    "lookType": 395,
+    "sprite": "./generated/web/absolute-monsters-png/395.png"
+  },
+  {
+    "zoneId": "absolute-05",
+    "zoneName": "Montanhas Congeladas",
+    "id": "namekjin",
+    "name": "Namekjin",
+    "lookType": 34,
+    "sprite": "./generated/web/absolute-monsters-png/34.png"
+  },
+  {
+    "zoneId": "absolute-05",
+    "zoneName": "Montanhas Congeladas",
+    "id": "bardock",
+    "name": "Bardock",
+    "lookType": 188,
+    "sprite": "./generated/web/absolute-monsters-png/188.png"
+  },
+  {
+    "zoneId": "absolute-06",
+    "zoneName": "Pântano dos Saibamans",
+    "id": "ghost-ssj3",
+    "name": "Ghost SSJ3",
+    "lookType": 421,
+    "sprite": "./generated/web/absolute-monsters-png/421.png"
+  },
+  {
+    "zoneId": "absolute-06",
+    "zoneName": "Pântano dos Saibamans",
+    "id": "robotron",
+    "name": "Robotron",
+    "lookType": 439,
+    "sprite": "./generated/web/absolute-monsters-png/439.png"
+  },
+  {
+    "zoneId": "absolute-06",
+    "zoneName": "Pântano dos Saibamans",
+    "id": "zarbon",
+    "name": "Zarbon",
+    "lookType": 391,
+    "sprite": "./generated/web/absolute-monsters-png/391.png"
+  },
+  {
+    "zoneId": "absolute-06",
+    "zoneName": "Pântano dos Saibamans",
+    "id": "raditz",
+    "name": "Raditz",
+    "lookType": 267,
+    "sprite": "./generated/web/absolute-monsters-png/267.png"
+  },
+  {
+    "zoneId": "absolute-06",
+    "zoneName": "Pântano dos Saibamans",
+    "id": "c19",
+    "name": "C19",
+    "lookType": 423,
+    "sprite": "./generated/web/absolute-monsters-png/423.png"
+  },
+  {
+    "zoneId": "absolute-06",
+    "zoneName": "Pântano dos Saibamans",
+    "id": "ancient-triceratops",
+    "name": "Ancient Triceratops",
+    "lookType": 430,
+    "sprite": "./generated/web/absolute-monsters-png/430.png"
+  },
+  {
+    "zoneId": "absolute-06",
+    "zoneName": "Pântano dos Saibamans",
+    "id": "water-saibamen",
+    "name": "Water Saibamen",
+    "lookType": 404,
+    "sprite": "./generated/web/absolute-monsters-png/404.png"
+  },
+  {
+    "zoneId": "absolute-07",
+    "zoneName": "Fortaleza dos Invasores",
+    "id": "swampper",
+    "name": "Swampper",
+    "lookType": 404,
+    "sprite": "./generated/web/absolute-monsters-png/404.png"
+  },
+  {
+    "zoneId": "absolute-07",
+    "zoneName": "Fortaleza dos Invasores",
+    "id": "ancient-dinosaur",
+    "name": "Ancient Dinosaur",
+    "lookType": 431,
+    "sprite": "./generated/web/absolute-monsters-png/431.png"
+  },
+  {
+    "zoneId": "absolute-07",
+    "zoneName": "Fortaleza dos Invasores",
+    "id": "namekjin-warrior",
+    "name": "Namekjin Warrior",
+    "lookType": 39,
+    "sprite": "./generated/web/absolute-monsters-png/39.png"
+  },
+  {
+    "zoneId": "absolute-07",
+    "zoneName": "Fortaleza dos Invasores",
+    "id": "yakon",
+    "name": "Yakon",
+    "lookType": 394,
+    "sprite": "./generated/web/absolute-monsters-png/394.png"
+  },
+  {
+    "zoneId": "absolute-07",
+    "zoneName": "Fortaleza dos Invasores",
+    "id": "invader",
+    "name": "Invader",
+    "lookType": 405,
+    "sprite": "./generated/web/absolute-monsters-png/405.png"
+  },
+  {
+    "zoneId": "absolute-08",
+    "zoneName": "Dimensão de Janemba",
+    "id": "omega-destroyer",
+    "name": "Omega Destroyer",
+    "lookType": 286,
+    "sprite": "./generated/web/absolute-monsters-png/286.png"
+  },
+  {
+    "zoneId": "absolute-08",
+    "zoneName": "Dimensão de Janemba",
+    "id": "fat-boo",
+    "name": "Fat Boo",
+    "lookType": 98,
+    "sprite": "./generated/web/absolute-monsters-png/98.png"
+  },
+  {
+    "zoneId": "absolute-08",
+    "zoneName": "Dimensão de Janemba",
+    "id": "bojack",
+    "name": "Bojack",
+    "lookType": 408,
+    "sprite": "./generated/web/absolute-monsters-png/408.png"
+  },
+  {
+    "zoneId": "absolute-08",
+    "zoneName": "Dimensão de Janemba",
+    "id": "c16",
+    "name": "C16",
+    "lookType": 275,
+    "sprite": "./generated/web/absolute-monsters-png/275.png"
+  },
+  {
+    "zoneId": "absolute-08",
+    "zoneName": "Dimensão de Janemba",
+    "id": "c17",
+    "name": "C17",
+    "lookType": 49,
+    "sprite": "./generated/web/absolute-monsters-png/49.png"
+  },
+  {
+    "zoneId": "absolute-08",
+    "zoneName": "Dimensão de Janemba",
+    "id": "namekjin-cultist",
+    "name": "Namekjin Cultist",
+    "lookType": 170,
+    "sprite": "./generated/web/absolute-monsters-png/170.png"
+  },
+  {
+    "zoneId": "absolute-08",
+    "zoneName": "Dimensão de Janemba",
+    "id": "trunks-ssj2",
+    "name": "Trunks SSJ2",
+    "lookType": 73,
+    "sprite": "./generated/web/absolute-monsters-png/73.png"
+  },
+  {
+    "zoneId": "absolute-09",
+    "zoneName": "Território Tsuful",
+    "id": "baby",
+    "name": "Baby",
+    "lookType": 177,
+    "sprite": "./generated/web/absolute-monsters-png/177.png"
+  },
+  {
+    "zoneId": "absolute-09",
+    "zoneName": "Território Tsuful",
+    "id": "c18",
+    "name": "C18",
+    "lookType": 123,
+    "sprite": "./generated/web/absolute-monsters-png/123.png"
+  },
+  {
+    "zoneId": "absolute-09",
+    "zoneName": "Território Tsuful",
+    "id": "hellfire",
+    "name": "Hellfire",
+    "lookType": 404,
+    "sprite": "./generated/web/absolute-monsters-png/404.png"
+  },
+  {
+    "zoneId": "absolute-09",
+    "zoneName": "Território Tsuful",
+    "id": "ultra-namekjin",
+    "name": "Ultra Namekjin",
+    "lookType": 35,
+    "sprite": "./generated/web/absolute-monsters-png/35.png"
+  },
+  {
+    "zoneId": "absolute-09",
+    "zoneName": "Território Tsuful",
+    "id": "humanoid-cyborg",
+    "name": "Humanoid Cyborg",
+    "lookType": 440,
+    "sprite": "./generated/web/absolute-monsters-png/440.png"
+  },
+  {
+    "zoneId": "absolute-09",
+    "zoneName": "Território Tsuful",
+    "id": "ancestral-guardian",
+    "name": "Ancestral Guardian",
+    "lookType": 408,
+    "sprite": "./generated/web/absolute-monsters-png/408.png"
+  },
+  {
+    "zoneId": "absolute-10",
+    "zoneName": "Laboratório de Cell",
+    "id": "ginyu-squad",
+    "name": "Ginyu Squad",
+    "lookType": 443,
+    "sprite": "./generated/web/absolute-monsters-png/443.png"
+  },
+  {
+    "zoneId": "absolute-10",
+    "zoneName": "Laboratório de Cell",
+    "id": "ginyu-squad",
+    "name": "Ginyu Squad",
+    "lookType": 443,
+    "sprite": "./generated/web/absolute-monsters-png/443.png"
+  },
+  {
+    "zoneId": "absolute-10",
+    "zoneName": "Laboratório de Cell",
+    "id": "ghost",
+    "name": "Ghost",
+    "lookType": 398,
+    "sprite": "./generated/web/absolute-monsters-png/398.png"
+  },
+  {
+    "zoneId": "absolute-10",
+    "zoneName": "Laboratório de Cell",
+    "id": "crusader",
+    "name": "Crusader",
+    "lookType": 438,
+    "sprite": "./generated/web/absolute-monsters-png/438.png"
+  },
+  {
+    "zoneId": "absolute-10",
+    "zoneName": "Laboratório de Cell",
+    "id": "kibito",
+    "name": "Kibito",
+    "lookType": 221,
+    "sprite": "./generated/web/absolute-monsters-png/221.png"
+  },
+  {
+    "zoneId": "absolute-10",
+    "zoneName": "Laboratório de Cell",
+    "id": "gohan-ssj2",
+    "name": "Gohan SSJ2",
+    "lookType": 58,
+    "sprite": "./generated/web/absolute-monsters-png/58.png"
+  },
+  {
+    "zoneId": "absolute-10",
+    "zoneName": "Laboratório de Cell",
+    "id": "c19-and-c20",
+    "name": "C19 And C20",
+    "lookType": 437,
+    "sprite": "./generated/web/absolute-monsters-png/437.png"
+  },
+  {
+    "zoneId": "absolute-11",
+    "zoneName": "Vale dos Dragões",
+    "id": "elder-namekjin",
+    "name": "Elder Namekjin",
+    "lookType": 41,
+    "sprite": "./generated/web/absolute-monsters-png/41.png"
+  },
+  {
+    "zoneId": "absolute-11",
+    "zoneName": "Vale dos Dragões",
+    "id": "djin",
+    "name": "Djin",
+    "lookType": 412,
+    "sprite": "./generated/web/absolute-monsters-png/412.png"
+  },
+  {
+    "zoneId": "absolute-11",
+    "zoneName": "Vale dos Dragões",
+    "id": "dabura",
+    "name": "Dabura",
+    "lookType": 432,
+    "sprite": "./generated/web/absolute-monsters-png/432.png"
+  },
+  {
+    "zoneId": "absolute-11",
+    "zoneName": "Vale dos Dragões",
+    "id": "namekjin-scout",
+    "name": "Namekjin Scout",
+    "lookType": 171,
+    "sprite": "./generated/web/absolute-monsters-png/171.png"
+  },
+  {
+    "zoneId": "absolute-11",
+    "zoneName": "Vale dos Dragões",
+    "id": "evil-boo",
+    "name": "Evil Boo",
+    "lookType": 99,
+    "sprite": "./generated/web/absolute-monsters-png/99.png"
+  },
+  {
+    "zoneId": "absolute-11",
+    "zoneName": "Vale dos Dragões",
+    "id": "maniraptora",
+    "name": "Maniraptora",
+    "lookType": 406,
+    "sprite": "./generated/web/absolute-monsters-png/406.png"
+  },
+  {
+    "zoneId": "absolute-11",
+    "zoneName": "Vale dos Dragões",
+    "id": "demon",
+    "name": "Demon",
+    "lookType": 403,
+    "sprite": "./generated/web/absolute-monsters-png/403.png"
+  },
+  {
+    "zoneId": "absolute-11",
+    "zoneName": "Vale dos Dragões",
+    "id": "undead-dragon",
+    "name": "Undead Dragon",
+    "lookType": 407,
+    "sprite": "./generated/web/absolute-monsters-png/407.png"
+  },
+  {
+    "zoneId": "absolute-12",
+    "zoneName": "Deserto de Yamu",
+    "id": "boar",
+    "name": "Boar",
+    "lookType": 396,
+    "sprite": "./generated/web/absolute-monsters-png/396.png"
+  },
+  {
+    "zoneId": "absolute-12",
+    "zoneName": "Deserto de Yamu",
+    "id": "clone",
+    "name": "Clone",
+    "lookType": 2,
+    "sprite": "./generated/web/absolute-monsters-png/2.png"
+  },
+  {
+    "zoneId": "absolute-12",
+    "zoneName": "Deserto de Yamu",
+    "id": "robot",
+    "name": "Robot",
+    "lookType": 122,
+    "sprite": "./generated/web/absolute-monsters-png/122.png"
+  },
+  {
+    "zoneId": "absolute-12",
+    "zoneName": "Deserto de Yamu",
+    "id": "boo",
+    "name": "Boo",
+    "lookType": 100,
+    "sprite": "./generated/web/absolute-monsters-png/100.png"
+  },
+  {
+    "zoneId": "absolute-12",
+    "zoneName": "Deserto de Yamu",
+    "id": "majin-boo",
+    "name": "Majin Boo",
+    "lookType": 104,
+    "sprite": "./generated/web/absolute-monsters-png/104.png"
+  },
+  {
+    "zoneId": "absolute-12",
+    "zoneName": "Deserto de Yamu",
+    "id": "space-soldier",
+    "name": "Space Soldier",
+    "lookType": 418,
+    "sprite": "./generated/web/absolute-monsters-png/418.png"
+  },
+  {
+    "zoneId": "absolute-12",
+    "zoneName": "Deserto de Yamu",
+    "id": "yamu",
+    "name": "Yamu",
+    "lookType": 445,
+    "sprite": "./generated/web/absolute-monsters-png/445.png"
+  },
+  {
+    "zoneId": "absolute-13",
+    "zoneName": "Planeta de Cooler",
+    "id": "licantropo",
+    "name": "Licantropo",
+    "lookType": 410,
+    "sprite": "./generated/web/absolute-monsters-png/410.png"
+  },
+  {
+    "zoneId": "absolute-13",
+    "zoneName": "Planeta de Cooler",
+    "id": "strong-namek",
+    "name": "Strong Namek",
+    "lookType": 36,
+    "sprite": "./generated/web/absolute-monsters-png/36.png"
+  },
+  {
+    "zoneId": "absolute-13",
+    "zoneName": "Planeta de Cooler",
+    "id": "dr-gero",
+    "name": "Dr. Gero",
+    "lookType": 422,
+    "sprite": "./generated/web/absolute-monsters-png/422.png"
+  },
+  {
+    "zoneId": "absolute-13",
+    "zoneName": "Planeta de Cooler",
+    "id": "dragon",
+    "name": "Dragon",
+    "lookType": 406,
+    "sprite": "./generated/web/absolute-monsters-png/406.png"
+  },
+  {
+    "zoneId": "absolute-13",
+    "zoneName": "Planeta de Cooler",
+    "id": "spopovitch",
+    "name": "Spopovitch",
+    "lookType": 442,
+    "sprite": "./generated/web/absolute-monsters-png/442.png"
+  },
+  {
+    "zoneId": "absolute-13",
+    "zoneName": "Planeta de Cooler",
+    "id": "atlantid",
+    "name": "Atlantid",
+    "lookType": 385,
+    "sprite": "./generated/web/absolute-monsters-png/385.png"
+  },
+  {
+    "zoneId": "absolute-13",
+    "zoneName": "Planeta de Cooler",
+    "id": "cooler",
+    "name": "Cooler",
+    "lookType": 160,
+    "sprite": "./generated/web/absolute-monsters-png/160.png"
+  },
+  {
+    "zoneId": "absolute-14",
+    "zoneName": "Base dos Cyborgs",
+    "id": "super-bojack",
+    "name": "Super Bojack",
+    "lookType": 424,
+    "sprite": "./generated/web/absolute-monsters-png/424.png"
+  },
+  {
+    "zoneId": "absolute-14",
+    "zoneName": "Base dos Cyborgs",
+    "id": "c20",
+    "name": "C20",
+    "lookType": 425,
+    "sprite": "./generated/web/absolute-monsters-png/425.png"
+  },
+  {
+    "zoneId": "absolute-14",
+    "zoneName": "Base dos Cyborgs",
+    "id": "black-dragon",
+    "name": "Black Dragon",
+    "lookType": 389,
+    "sprite": "./generated/web/absolute-monsters-png/389.png"
+  },
+  {
+    "zoneId": "absolute-14",
+    "zoneName": "Base dos Cyborgs",
+    "id": "gotenks-ssj3",
+    "name": "Gotenks SSJ3",
+    "lookType": 141,
+    "sprite": "./generated/web/absolute-monsters-png/141.png"
+  },
+  {
+    "zoneId": "absolute-14",
+    "zoneName": "Base dos Cyborgs",
+    "id": "paikuhan",
+    "name": "Paikuhan",
+    "lookType": 417,
+    "sprite": "./generated/web/absolute-monsters-png/417.png"
+  },
+  {
+    "zoneId": "absolute-14",
+    "zoneName": "Base dos Cyborgs",
+    "id": "acqua",
+    "name": "Acqua",
+    "lookType": 383,
+    "sprite": "./generated/web/absolute-monsters-png/383.png"
+  },
+  {
+    "zoneId": "absolute-14",
+    "zoneName": "Base dos Cyborgs",
+    "id": "super-paikuhan",
+    "name": "Super Paikuhan",
+    "lookType": 415,
+    "sprite": "./generated/web/absolute-monsters-png/415.png"
+  },
+  {
+    "zoneId": "absolute-14",
+    "zoneName": "Base dos Cyborgs",
+    "id": "frontal-cyborg",
+    "name": "Frontal Cyborg",
+    "lookType": 414,
+    "sprite": "./generated/web/absolute-monsters-png/414.png"
+  },
+  {
+    "zoneId": "absolute-15",
+    "zoneName": "Templo dos Kaios",
+    "id": "uu-shenlong",
+    "name": "Uu Shenlong",
+    "lookType": 481,
+    "sprite": "./generated/web/absolute-monsters-png/481.png"
+  },
+  {
+    "zoneId": "absolute-15",
+    "zoneName": "Templo dos Kaios",
+    "id": "goku-ssj3",
+    "name": "Goku SSJ3",
+    "lookType": 7,
+    "sprite": "./generated/web/absolute-monsters-png/7.png"
+  },
+  {
+    "zoneId": "absolute-15",
+    "zoneName": "Templo dos Kaios",
+    "id": "supreme-kaio",
+    "name": "Supreme Kaio",
+    "lookType": 222,
+    "sprite": "./generated/web/absolute-monsters-png/222.png"
+  },
+  {
+    "zoneId": "absolute-16",
+    "zoneName": "Inferno dos Guerreiros",
+    "id": "vegetto",
+    "name": "Vegetto",
+    "lookType": 312,
+    "sprite": "./generated/web/absolute-monsters-png/312.png"
+  },
+  {
+    "zoneId": "absolute-16",
+    "zoneName": "Inferno dos Guerreiros",
+    "id": "goku-ginyu",
+    "name": "Goku Ginyu",
+    "lookType": 419,
+    "sprite": "./generated/web/absolute-monsters-png/419.png"
+  },
+  {
+    "zoneId": "absolute-16",
+    "zoneName": "Inferno dos Guerreiros",
+    "id": "tsuful",
+    "name": "Tsuful",
+    "lookType": 183,
+    "sprite": "./generated/web/absolute-monsters-png/183.png"
+  },
+  {
+    "zoneId": "absolute-16",
+    "zoneName": "Inferno dos Guerreiros",
+    "id": "gogeta-ssj2",
+    "name": "Gogeta SSJ2",
+    "lookType": 6,
+    "sprite": "./generated/web/absolute-monsters-png/6.png"
+  },
+  {
+    "zoneId": "absolute-16",
+    "zoneName": "Inferno dos Guerreiros",
+    "id": "frozen-king",
+    "name": "Frozen King",
+    "lookType": 404,
+    "sprite": "./generated/web/absolute-monsters-png/404.png"
+  },
+  {
+    "zoneId": "absolute-16",
+    "zoneName": "Inferno dos Guerreiros",
+    "id": "ryan-shenlong",
+    "name": "Ryan Shenlong",
+    "lookType": 477,
+    "sprite": "./generated/web/absolute-monsters-png/477.png"
+  },
+  {
+    "zoneId": "absolute-16",
+    "zoneName": "Inferno dos Guerreiros",
+    "id": "hell-scorpion",
+    "name": "Hell Scorpion",
+    "lookType": 435,
+    "sprite": "./generated/web/absolute-monsters-png/435.png"
+  },
+  {
+    "zoneId": "absolute-17",
+    "zoneName": "Planeta Tsuful",
+    "id": "chii-shenlong",
+    "name": "Chii Shenlong",
+    "lookType": 480,
+    "sprite": "./generated/web/absolute-monsters-png/480.png"
+  },
+  {
+    "zoneId": "absolute-17",
+    "zoneName": "Planeta Tsuful",
+    "id": "hell-ghost",
+    "name": "Hell Ghost",
+    "lookType": 420,
+    "sprite": "./generated/web/absolute-monsters-png/420.png"
+  },
+  {
+    "zoneId": "absolute-17",
+    "zoneName": "Planeta Tsuful",
+    "id": "namekjin-mindcontroller",
+    "name": "Namekjin Mindcontroller",
+    "lookType": 42,
+    "sprite": "./generated/web/absolute-monsters-png/42.png"
+  },
+  {
+    "zoneId": "absolute-17",
+    "zoneName": "Planeta Tsuful",
+    "id": "false-saiyan",
+    "name": "False Saiyan",
+    "lookType": 194,
+    "sprite": "./generated/web/absolute-monsters-png/194.png"
+  },
+  {
+    "zoneId": "absolute-17",
+    "zoneName": "Planeta Tsuful",
+    "id": "evil-tsuful",
+    "name": "Evil Tsuful",
+    "lookType": 185,
+    "sprite": "./generated/web/absolute-monsters-png/185.png"
+  },
+  {
+    "zoneId": "absolute-18",
+    "zoneName": "Vale dos Oozarus",
+    "id": "raditz-ssj4",
+    "name": "Raditz SSJ4",
+    "lookType": 269,
+    "sprite": "./generated/web/absolute-monsters-png/269.png"
+  },
+  {
+    "zoneId": "absolute-18",
+    "zoneName": "Vale dos Oozarus",
+    "id": "giru",
+    "name": "Giru",
+    "lookType": 450,
+    "sprite": "./generated/web/absolute-monsters-png/450.png"
+  },
+  {
+    "zoneId": "absolute-18",
+    "zoneName": "Vale dos Oozarus",
+    "id": "turles-ssj4",
+    "name": "Turles SSJ4",
+    "lookType": 289,
+    "sprite": "./generated/web/absolute-monsters-png/289.png"
+  },
+  {
+    "zoneId": "absolute-18",
+    "zoneName": "Vale dos Oozarus",
+    "id": "trunks-ssj4",
+    "name": "Trunks SSJ4",
+    "lookType": 78,
+    "sprite": "./generated/web/absolute-monsters-png/78.png"
+  },
+  {
+    "zoneId": "absolute-18",
+    "zoneName": "Vale dos Oozarus",
+    "id": "gohan-ssj4",
+    "name": "Gohan SSJ4",
+    "lookType": 66,
+    "sprite": "./generated/web/absolute-monsters-png/66.png"
+  },
+  {
+    "zoneId": "absolute-18",
+    "zoneName": "Vale dos Oozarus",
+    "id": "adora-droper",
+    "name": "Adora Droper",
+    "lookType": 696,
+    "sprite": "./generated/web/absolute-monsters-png/696.png"
+  },
+  {
+    "zoneId": "absolute-19",
+    "zoneName": "Mundo dos Deuses",
+    "id": "rou-dai-kaioshin",
+    "name": "Rou Dai Kaioshin",
+    "lookType": 224,
+    "sprite": "./generated/web/absolute-monsters-png/224.png"
+  },
+  {
+    "zoneId": "absolute-19",
+    "zoneName": "Mundo dos Deuses",
+    "id": "bardock-ssj4",
+    "name": "Bardock SSJ4",
+    "lookType": 197,
+    "sprite": "./generated/web/absolute-monsters-png/197.png"
+  },
+  {
+    "zoneId": "absolute-19",
+    "zoneName": "Mundo dos Deuses",
+    "id": "android-i",
+    "name": "Android I",
+    "lookType": 50,
+    "sprite": "./generated/web/absolute-monsters-png/50.png"
+  },
+  {
+    "zoneId": "absolute-19",
+    "zoneName": "Mundo dos Deuses",
+    "id": "goku-ssj4",
+    "name": "Goku SSJ4",
+    "lookType": 14,
+    "sprite": "./generated/web/absolute-monsters-png/14.png"
+  },
+  {
+    "zoneId": "absolute-19",
+    "zoneName": "Mundo dos Deuses",
+    "id": "vegetto-preto",
+    "name": "Vegetto Preto",
+    "lookType": 631,
+    "sprite": "./generated/web/absolute-monsters-png/631.png"
+  },
+  {
+    "zoneId": "absolute-19",
+    "zoneName": "Mundo dos Deuses",
+    "id": "black-droper",
+    "name": "Black Droper",
+    "lookType": 325,
+    "sprite": "./generated/web/absolute-monsters-png/325.png"
+  },
+  {
+    "zoneId": "absolute-19",
+    "zoneName": "Mundo dos Deuses",
+    "id": "blue-droper",
+    "name": "Blue Droper",
+    "lookType": 308,
+    "sprite": "./generated/web/absolute-monsters-png/308.png"
+  },
+  {
+    "zoneId": "absolute-20",
+    "zoneName": "Fenda do Caos",
+    "id": "gold-ingot-droper",
+    "name": "Gold Ingot Droper",
+    "lookType": 869,
+    "sprite": "./generated/web/absolute-monsters-png/869.png"
+  },
+  {
+    "zoneId": "absolute-20",
+    "zoneName": "Fenda do Caos",
+    "id": "green-droper",
+    "name": "Green Droper",
+    "lookType": 513,
+    "sprite": "./generated/web/absolute-monsters-png/513.png"
+  },
+  {
+    "zoneId": "absolute-20",
+    "zoneName": "Fenda do Caos",
+    "id": "orichalcum-droper",
+    "name": "Orichalcum Droper",
+    "lookType": 828,
+    "sprite": "./generated/web/absolute-monsters-png/828.png"
+  },
+  {
+    "zoneId": "absolute-20",
+    "zoneName": "Fenda do Caos",
+    "id": "phoenix-droper",
+    "name": "Phoenix Droper",
+    "lookType": 808,
+    "sprite": "./generated/web/absolute-monsters-png/808.png"
+  },
+  {
+    "zoneId": "absolute-20",
+    "zoneName": "Fenda do Caos",
+    "id": "super-c17",
+    "name": "Super C17",
+    "lookType": 53,
+    "sprite": "./generated/web/absolute-monsters-png/53.png"
+  },
+  {
+    "zoneId": "absolute-20",
+    "zoneName": "Fenda do Caos",
+    "id": "strong-boo",
+    "name": "Strong Boo",
+    "lookType": 105,
+    "sprite": "./generated/web/absolute-monsters-png/105.png"
+  },
+  {
+    "zoneId": "absolute-20",
+    "zoneName": "Fenda do Caos",
+    "id": "hell-fighter",
+    "name": "Hell Fighter",
+    "lookType": 416,
+    "sprite": "./generated/web/absolute-monsters-png/416.png"
+  },
+  {
+    "zoneId": "absolute-20",
+    "zoneName": "Fenda do Caos",
+    "id": "kuririn",
+    "name": "Kuririn",
+    "lookType": 209,
+    "sprite": "./generated/web/absolute-monsters-png/209.png"
+  },
+  {
+    "zoneId": "absolute-21",
+    "zoneName": "Arena Lendária",
+    "id": "baby-bills",
+    "name": "Baby Bills",
+    "lookType": 584,
+    "sprite": "./generated/web/absolute-monsters-png/584.png"
+  },
+  {
+    "zoneId": "absolute-21",
+    "zoneName": "Arena Lendária",
+    "id": "gogeta-ssj4",
+    "name": "Gogeta SSJ4",
+    "lookType": 15,
+    "sprite": "./generated/web/absolute-monsters-png/15.png"
+  },
+  {
+    "zoneId": "absolute-21",
+    "zoneName": "Arena Lendária",
+    "id": "trunks-ssj5",
+    "name": "Trunks SSJ5",
+    "lookType": 79,
+    "sprite": "./generated/web/absolute-monsters-png/79.png"
+  },
+  {
+    "zoneId": "absolute-21",
+    "zoneName": "Arena Lendária",
+    "id": "super-c18",
+    "name": "Super C18",
+    "lookType": 126,
+    "sprite": "./generated/web/absolute-monsters-png/126.png"
+  },
+  {
+    "zoneId": "absolute-21",
+    "zoneName": "Arena Lendária",
+    "id": "gotenks-ssj4",
+    "name": "Gotenks SSJ4",
+    "lookType": 148,
+    "sprite": "./generated/web/absolute-monsters-png/148.png"
+  },
+  {
+    "zoneId": "absolute-21",
+    "zoneName": "Arena Lendária",
+    "id": "demonic",
+    "name": "Demonic",
+    "lookType": 494,
+    "sprite": "./generated/web/absolute-monsters-png/494.png"
+  },
+  {
+    "zoneId": "absolute-22",
+    "zoneName": "Planeta Destruído",
+    "id": "raditz-ssj5",
+    "name": "Raditz SSJ5",
+    "lookType": 270,
+    "sprite": "./generated/web/absolute-monsters-png/270.png"
+  },
+  {
+    "zoneId": "absolute-22",
+    "zoneName": "Planeta Destruído",
+    "id": "gohan-ssj5",
+    "name": "Gohan SSJ5",
+    "lookType": 67,
+    "sprite": "./generated/web/absolute-monsters-png/67.png"
+  },
+  {
+    "zoneId": "absolute-22",
+    "zoneName": "Planeta Destruído",
+    "id": "bardock-ssj5",
+    "name": "Bardock SSJ5",
+    "lookType": 198,
+    "sprite": "./generated/web/absolute-monsters-png/198.png"
+  },
+  {
+    "zoneId": "absolute-22",
+    "zoneName": "Planeta Destruído",
+    "id": "furie-namek",
+    "name": "Furie Namek",
+    "lookType": 43,
+    "sprite": "./generated/web/absolute-monsters-png/43.png"
+  },
+  {
+    "zoneId": "absolute-22",
+    "zoneName": "Planeta Destruído",
+    "id": "android-ii",
+    "name": "Android II",
+    "lookType": 474,
+    "sprite": "./generated/web/absolute-monsters-png/474.png"
+  },
+  {
+    "zoneId": "absolute-22",
+    "zoneName": "Planeta Destruído",
+    "id": "tsuful-ssj5",
+    "name": "Tsuful SSJ5",
+    "lookType": 186,
+    "sprite": "./generated/web/absolute-monsters-png/186.png"
+  },
+  {
+    "zoneId": "absolute-22",
+    "zoneName": "Planeta Destruído",
+    "id": "purple-dragon",
+    "name": "Purple Dragon",
+    "lookType": 407,
+    "sprite": "./generated/web/absolute-monsters-png/407.png"
+  },
+  {
+    "zoneId": "absolute-23",
+    "zoneName": "Dimensão Suprema",
+    "id": "turles-ssj5",
+    "name": "Turles SSJ5",
+    "lookType": 290,
+    "sprite": "./generated/web/absolute-monsters-png/290.png"
+  },
+  {
+    "zoneId": "absolute-23",
+    "zoneName": "Dimensão Suprema",
+    "id": "goku-ssj5",
+    "name": "Goku SSJ5",
+    "lookType": 16,
+    "sprite": "./generated/web/absolute-monsters-png/16.png"
+  },
+  {
+    "zoneId": "absolute-23",
+    "zoneName": "Dimensão Suprema",
+    "id": "lord-frost",
+    "name": "Lord Frost",
+    "lookType": 1048,
+    "sprite": "./generated/web/absolute-monsters-png/1048.png"
+  },
+  {
+    "zoneId": "absolute-23",
+    "zoneName": "Dimensão Suprema",
+    "id": "dabura-kids",
+    "name": "Dabura Kids",
+    "lookType": 849,
+    "sprite": "./generated/web/absolute-monsters-png/849.png"
+  },
+  {
+    "zoneId": "absolute-23",
+    "zoneName": "Dimensão Suprema",
+    "id": "soldier-cyborg",
+    "name": "Soldier Cyborg",
+    "lookType": 400,
+    "sprite": "./generated/web/absolute-monsters-png/400.png"
+  },
+  {
+    "zoneId": "absolute-24",
+    "zoneName": "Domínio dos Shenrons",
+    "id": "android-iii",
+    "name": "Android III",
+    "lookType": 497,
+    "sprite": "./generated/web/absolute-monsters-png/497.png"
+  },
+  {
+    "zoneId": "absolute-24",
+    "zoneName": "Domínio dos Shenrons",
+    "id": "dabura-kids",
+    "name": "Dabura Kids",
+    "lookType": 849,
+    "sprite": "./generated/web/absolute-monsters-png/849.png"
+  },
+  {
+    "zoneId": "absolute-24",
+    "zoneName": "Domínio dos Shenrons",
+    "id": "saiyan",
+    "name": "Saiyan",
+    "lookType": 495,
+    "sprite": "./generated/web/absolute-monsters-png/495.png"
+  },
+  {
+    "zoneId": "absolute-24",
+    "zoneName": "Domínio dos Shenrons",
+    "id": "protetor-do-amuleto",
+    "name": "Protetor do Amuleto",
+    "lookType": 851,
+    "sprite": "./generated/web/absolute-monsters-png/851.png"
+  },
+  {
+    "zoneId": "absolute-25",
+    "zoneName": "Bosque dos Dinos",
+    "id": "furie-gogeta",
+    "name": "Furie Gogeta",
+    "lookType": 525,
+    "sprite": "./generated/web/absolute-monsters-png/525.png"
+  },
+  {
+    "zoneId": "absolute-25",
+    "zoneName": "Bosque dos Dinos",
+    "id": "cooler-rage",
+    "name": "Cooler Rage",
+    "lookType": 162,
+    "sprite": "./generated/web/absolute-monsters-png/162.png"
+  },
+  {
+    "zoneId": "absolute-25",
+    "zoneName": "Bosque dos Dinos",
+    "id": "android-iv",
+    "name": "Android IV",
+    "lookType": 499,
+    "sprite": "./generated/web/absolute-monsters-png/499.png"
+  },
+  {
+    "zoneId": "absolute-26",
+    "zoneName": "Ruínas dos Vampiros",
+    "id": "frost-doggen-max",
+    "name": "Frost Doggen Max",
+    "lookType": 836,
+    "sprite": "./generated/web/absolute-monsters-png/836.png"
+  },
+  {
+    "zoneId": "absolute-26",
+    "zoneName": "Ruínas dos Vampiros",
+    "id": "giru-puto",
+    "name": "Giru Puto",
+    "lookType": 450,
+    "sprite": "./generated/web/absolute-monsters-png/450.png"
+  },
+  {
+    "zoneId": "absolute-26",
+    "zoneName": "Ruínas dos Vampiros",
+    "id": "super-cyborg",
+    "name": "Super Cyborg",
+    "lookType": 48,
+    "sprite": "./generated/web/absolute-monsters-png/48.png"
+  },
+  {
+    "zoneId": "absolute-26",
+    "zoneName": "Ruínas dos Vampiros",
+    "id": "lost-saiyan",
+    "name": "Lost Saiyan",
+    "lookType": 118,
+    "sprite": "./generated/web/absolute-monsters-png/118.png"
+  },
+  {
+    "zoneId": "absolute-27",
+    "zoneName": "Laboratório Android",
+    "id": "android-v",
+    "name": "Android V",
+    "lookType": 498,
+    "sprite": "./generated/web/absolute-monsters-png/498.png"
+  },
+  {
+    "zoneId": "absolute-27",
+    "zoneName": "Laboratório Android",
+    "id": "hydrosaur",
+    "name": "Hydrosaur",
+    "lookType": 485,
+    "sprite": "./generated/web/absolute-monsters-png/485.png"
+  },
+  {
+    "zoneId": "absolute-27",
+    "zoneName": "Laboratório Android",
+    "id": "cavaleiro-negro",
+    "name": "Cavaleiro Negro",
+    "lookType": 825,
+    "sprite": "./generated/web/absolute-monsters-png/825.png"
+  },
+  {
+    "zoneId": "absolute-27",
+    "zoneName": "Laboratório Android",
+    "id": "ultra-cyborg",
+    "name": "Ultra Cyborg",
+    "lookType": 286,
+    "sprite": "./generated/web/absolute-monsters-png/286.png"
+  },
+  {
+    "zoneId": "absolute-27",
+    "zoneName": "Laboratório Android",
+    "id": "android-defense",
+    "name": "Android Defense",
+    "lookType": 474,
+    "sprite": "./generated/web/absolute-monsters-png/474.png"
+  },
+  {
+    "zoneId": "absolute-27",
+    "zoneName": "Laboratório Android",
+    "id": "zombie-event",
+    "name": "Zombie Event",
+    "lookType": 479,
+    "sprite": "./generated/web/absolute-monsters-png/479.png"
+  },
+  {
+    "zoneId": "absolute-27",
+    "zoneName": "Laboratório Android",
+    "id": "warlock",
+    "name": "Warlock",
+    "lookType": 489,
+    "sprite": "./generated/web/absolute-monsters-png/489.png"
+  },
+  {
+    "zoneId": "absolute-28",
+    "zoneName": "Cemitério dos Fantasmas",
+    "id": "fire-guardian1",
+    "name": "Fire Guardian1",
+    "lookType": 484,
+    "sprite": "./generated/web/absolute-monsters-png/484.png"
+  },
+  {
+    "zoneId": "absolute-28",
+    "zoneName": "Cemitério dos Fantasmas",
+    "id": "fire-guardian2",
+    "name": "Fire Guardian2",
+    "lookType": 484,
+    "sprite": "./generated/web/absolute-monsters-png/484.png"
+  },
+  {
+    "zoneId": "absolute-28",
+    "zoneName": "Cemitério dos Fantasmas",
+    "id": "fire-guardian3",
+    "name": "Fire Guardian3",
+    "lookType": 484,
+    "sprite": "./generated/web/absolute-monsters-png/484.png"
+  },
+  {
+    "zoneId": "absolute-28",
+    "zoneName": "Cemitério dos Fantasmas",
+    "id": "hawk",
+    "name": "Hawk",
+    "lookType": 488,
+    "sprite": "./generated/web/absolute-monsters-png/488.png"
+  },
+  {
+    "zoneId": "absolute-28",
+    "zoneName": "Cemitério dos Fantasmas",
+    "id": "titanius",
+    "name": "Titanius",
+    "lookType": 493,
+    "sprite": "./generated/web/absolute-monsters-png/493.png"
+  },
+  {
+    "zoneId": "absolute-29",
+    "zoneName": "Montanhas Congeladas",
+    "id": "demonius",
+    "name": "Demonius",
+    "lookType": 901,
+    "sprite": "./generated/web/absolute-monsters-png/901.png"
+  },
+  {
+    "zoneId": "absolute-29",
+    "zoneName": "Montanhas Congeladas",
+    "id": "diundrah",
+    "name": "Diundrah",
+    "lookType": 826,
+    "sprite": "./generated/web/absolute-monsters-png/826.png"
+  },
+  {
+    "zoneId": "absolute-29",
+    "zoneName": "Montanhas Congeladas",
+    "id": "black",
+    "name": "Black",
+    "lookType": 604,
+    "sprite": "./generated/web/absolute-monsters-png/604.png"
+  },
+  {
+    "zoneId": "absolute-29",
+    "zoneName": "Montanhas Congeladas",
+    "id": "black-fusion",
+    "name": "Black Fusion",
+    "lookType": 604,
+    "sprite": "./generated/web/absolute-monsters-png/604.png"
+  },
+  {
+    "zoneId": "absolute-29",
+    "zoneName": "Montanhas Congeladas",
+    "id": "goku-black",
+    "name": "Goku Black",
+    "lookType": 656,
+    "sprite": "./generated/web/absolute-monsters-png/656.png"
+  },
+  {
+    "zoneId": "absolute-30",
+    "zoneName": "Pântano dos Saibamans",
+    "id": "shenlong",
+    "name": "Shenlong",
+    "lookType": 446,
+    "sprite": "./generated/web/absolute-monsters-png/446.png"
+  }
+]

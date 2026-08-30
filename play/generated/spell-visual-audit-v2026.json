@@ -1,0 +1,2820 @@
+{
+  "version": "20.26",
+  "generatedAt": "2026-08-09T02:45:59.446Z",
+  "summary": {
+    "spellCount": 296,
+    "directionalCorrected": 34,
+    "supportBuffsStandardized": 14,
+    "iconsChanged": 285,
+    "missingIcons": 0
+  },
+  "policy": {
+    "buffDurationMs": 60000,
+    "buffCooldownMs": 120000,
+    "speedAttackSpeedMultiplier": 1.2,
+    "sharedAttributeCooldownGroup": "idle:attribute-buff",
+    "sharedSpeedCooldownGroup": "idle:speed-buff",
+    "iconRegistryTranslation": "Lua/TFS source ID + 1 => DAT preview registry ID",
+    "directionTranslation": "requested game direction d => source directional key (d + 2) % 4"
+  },
+  "directional": [
+    {
+      "id": "kamehameha",
+      "name": "Kamehameha",
+      "level": 100,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "hell-cannon",
+      "name": "Hell Cannon",
+      "level": 100,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "mystic-flash",
+      "name": "Mystic Flash",
+      "level": 100,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "dead-flash",
+      "name": "Dead Flash",
+      "level": 100,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "final-flash",
+      "name": "Final Flash",
+      "level": 100,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "generic-ki-blast",
+      "name": "Generic Ki Blast",
+      "level": 100,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "masenko",
+      "name": "Masenko",
+      "level": 100,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "genki-dama",
+      "name": "Genki Dama",
+      "level": 150,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "super-kamehameha",
+      "name": "Super Kamehameha",
+      "level": 200,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "beijinho-do-bergamo",
+      "name": "Beijinho Do Bergamo",
+      "level": 400,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "beijinho-do-liquer",
+      "name": "Beijinho Do Liquer",
+      "level": 400,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "beijinho-do-palha-o",
+      "name": "Beijinho Do PalhaÃ§o",
+      "level": 400,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "beijinho-do-majora",
+      "name": "Beijinho Do Majora",
+      "level": 400,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "double-kamehameha",
+      "name": "Double Kamehameha",
+      "level": 200,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "chybie-generic-ki-blast",
+      "name": "Chybie Generic Ki Blast",
+      "level": 200,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "barakuitsu-rio",
+      "name": "Barakuitsu Rio",
+      "level": 200,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "kamehameha-10x",
+      "name": "Kamehameha 10x",
+      "level": 200,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "big-bang-kamehameha",
+      "name": "Big Bang Kamehameha",
+      "level": 250,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "super-final-flash",
+      "name": "Super Final Flash",
+      "level": 250,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "barakuitsu-chou",
+      "name": "Barakuitsu Chou",
+      "level": 400,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "death-razor",
+      "name": "Death Razor",
+      "level": 400,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "ohayo-kamehameha",
+      "name": "Ohayo Kamehameha",
+      "level": 400,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "saiko-chou",
+      "name": "Saiko Chou",
+      "level": 400,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "death-cannon",
+      "name": "Death Cannon",
+      "level": 400,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "chou-kamehameha",
+      "name": "Chou Kamehameha",
+      "level": 400,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "ultra-final-flash",
+      "name": "Ultra Final Flash",
+      "level": 400,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "ultra-masenko",
+      "name": "Ultra Masenko",
+      "level": 400,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "mystic-cannon",
+      "name": "Mystic Cannon",
+      "level": 400,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "ultra-dead-flash",
+      "name": "Ultra Dead Flash",
+      "level": 400,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "divindade-kamehameha",
+      "name": "Divindade Kamehameha",
+      "level": 400,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "ultra-mystic-flash",
+      "name": "Ultra Mystic Flash",
+      "level": 400,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "ultimate-dodonpa",
+      "name": "Ultimate Dodonpa",
+      "level": 400,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "final-hell-cannon",
+      "name": "Final Hell Cannon",
+      "level": 400,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    },
+    {
+      "id": "divindark-kamehameha",
+      "name": "Divindark Kamehameha",
+      "level": 400,
+      "directions": 4,
+      "fix": "source-key-remapped-180deg"
+    }
+  ],
+  "support": [
+    {
+      "id": "speed-up",
+      "name": "Speed Up",
+      "level": 1,
+      "conditions": [
+        "CONDITION_HASTE"
+      ],
+      "durationMs": 60000,
+      "cooldownMs": 120000,
+      "cooldownBlockGroups": [
+        "idle:speed-buff"
+      ],
+      "cooldownSetGroups": [
+        {
+          "group": "idle:speed-buff",
+          "durationMs": 120000
+        }
+      ],
+      "icon": "./assets/generated/full-registry/previews/effect/28.png",
+      "visualEvents": []
+    },
+    {
+      "id": "power-up",
+      "name": "Power Up",
+      "level": 50,
+      "conditions": [
+        "CONDITION_ATTRIBUTES"
+      ],
+      "durationMs": 60000,
+      "cooldownMs": 120000,
+      "cooldownBlockGroups": [
+        "exhaustion:13101",
+        "idle:attribute-buff"
+      ],
+      "cooldownSetGroups": [
+        {
+          "group": "exhaustion:13101",
+          "durationMs": 120000
+        },
+        {
+          "group": "idle:attribute-buff",
+          "durationMs": 120000
+        }
+      ],
+      "icon": "./assets/generated/full-registry/previews/effect/108.png",
+      "visualEvents": [
+        {
+          "anchor": "self",
+          "offsetX": 0,
+          "offsetY": 0,
+          "effectId": 107,
+          "startDelayMs": 1,
+          "repeatCount": 120,
+          "intervalMs": 500
+        }
+      ]
+    },
+    {
+      "id": "big-power-up",
+      "name": "Big Power Up",
+      "level": 100,
+      "conditions": [
+        "CONDITION_ATTRIBUTES"
+      ],
+      "durationMs": 60000,
+      "cooldownMs": 120000,
+      "cooldownBlockGroups": [
+        "exhaustion:13101",
+        "idle:attribute-buff"
+      ],
+      "cooldownSetGroups": [
+        {
+          "group": "exhaustion:13101",
+          "durationMs": 120000
+        },
+        {
+          "group": "idle:attribute-buff",
+          "durationMs": 120000
+        }
+      ],
+      "icon": "./assets/generated/full-registry/previews/effect/117.png",
+      "visualEvents": [
+        {
+          "anchor": "self",
+          "offsetX": 0,
+          "offsetY": 0,
+          "effectId": 116,
+          "startDelayMs": 1,
+          "repeatCount": 120,
+          "intervalMs": 500
+        }
+      ]
+    },
+    {
+      "id": "super-speed",
+      "name": "Super Speed",
+      "level": 100,
+      "conditions": [
+        "CONDITION_HASTE"
+      ],
+      "durationMs": 60000,
+      "cooldownMs": 120000,
+      "cooldownBlockGroups": [
+        "idle:speed-buff"
+      ],
+      "cooldownSetGroups": [
+        {
+          "group": "idle:speed-buff",
+          "durationMs": 120000
+        }
+      ],
+      "icon": "./assets/generated/full-registry/previews/effect/241.png",
+      "visualEvents": [
+        {
+          "anchor": "self",
+          "offsetX": 1,
+          "offsetY": 1,
+          "effectId": 240,
+          "startDelayMs": 0,
+          "repeatCount": 1,
+          "intervalMs": 0
+        }
+      ]
+    },
+    {
+      "id": "mega-power-up",
+      "name": "Mega Power Up",
+      "level": 150,
+      "conditions": [
+        "CONDITION_ATTRIBUTES"
+      ],
+      "durationMs": 60000,
+      "cooldownMs": 120000,
+      "cooldownBlockGroups": [
+        "exhaustion:13101",
+        "idle:attribute-buff"
+      ],
+      "cooldownSetGroups": [
+        {
+          "group": "exhaustion:13101",
+          "durationMs": 120000
+        },
+        {
+          "group": "idle:attribute-buff",
+          "durationMs": 120000
+        }
+      ],
+      "icon": "./assets/generated/full-registry/previews/effect/84.png",
+      "visualEvents": [
+        {
+          "anchor": "self",
+          "offsetX": 1,
+          "offsetY": 0,
+          "effectId": 83,
+          "startDelayMs": 1,
+          "repeatCount": 100,
+          "intervalMs": 600
+        }
+      ]
+    },
+    {
+      "id": "giga-power-up",
+      "name": "Giga Power Up",
+      "level": 200,
+      "conditions": [
+        "CONDITION_ATTRIBUTES"
+      ],
+      "durationMs": 60000,
+      "cooldownMs": 120000,
+      "cooldownBlockGroups": [
+        "exhaustion:13101",
+        "idle:attribute-buff"
+      ],
+      "cooldownSetGroups": [
+        {
+          "group": "exhaustion:13101",
+          "durationMs": 120000
+        },
+        {
+          "group": "idle:attribute-buff",
+          "durationMs": 120000
+        }
+      ],
+      "icon": "./assets/generated/full-registry/previews/effect/108.png",
+      "visualEvents": [
+        {
+          "anchor": "self",
+          "offsetX": 0,
+          "offsetY": 0,
+          "effectId": 107,
+          "startDelayMs": 1,
+          "repeatCount": 120,
+          "intervalMs": 500
+        }
+      ]
+    },
+    {
+      "id": "enchant-ki-area",
+      "name": "Enchant Ki Area",
+      "level": 250,
+      "conditions": [
+        "CONDITION_ATTRIBUTES"
+      ],
+      "durationMs": 60000,
+      "cooldownMs": 120000,
+      "cooldownBlockGroups": [
+        "exhaustion:13118",
+        "idle:attribute-buff"
+      ],
+      "cooldownSetGroups": [
+        {
+          "group": "exhaustion:13118",
+          "durationMs": 120000
+        },
+        {
+          "group": "idle:attribute-buff",
+          "durationMs": 120000
+        }
+      ],
+      "icon": "./assets/generated/full-registry/previews/effect/3.png",
+      "visualEvents": [
+        {
+          "anchor": "self",
+          "offsetX": 0,
+          "offsetY": 0,
+          "effectId": 2,
+          "startDelayMs": 0,
+          "repeatCount": 1,
+          "intervalMs": 0
+        }
+      ]
+    },
+    {
+      "id": "kame-power",
+      "name": "Kame Power",
+      "level": 400,
+      "conditions": [
+        "CONDITION_ATTRIBUTES"
+      ],
+      "durationMs": 60000,
+      "cooldownMs": 120000,
+      "cooldownBlockGroups": [
+        "exhaustion:13101",
+        "idle:attribute-buff"
+      ],
+      "cooldownSetGroups": [
+        {
+          "group": "exhaustion:13101",
+          "durationMs": 120000
+        },
+        {
+          "group": "idle:attribute-buff",
+          "durationMs": 120000
+        }
+      ],
+      "icon": "./assets/generated/full-registry/previews/effect/113.png",
+      "visualEvents": [
+        {
+          "anchor": "self",
+          "offsetX": 0,
+          "offsetY": 0,
+          "effectId": 112,
+          "startDelayMs": 1,
+          "repeatCount": 120,
+          "intervalMs": 500
+        }
+      ]
+    },
+    {
+      "id": "ultimate-power-up",
+      "name": "Ultimate Power Up",
+      "level": 400,
+      "conditions": [
+        "CONDITION_ATTRIBUTES"
+      ],
+      "durationMs": 60000,
+      "cooldownMs": 120000,
+      "cooldownBlockGroups": [
+        "exhaustion:13101",
+        "idle:attribute-buff"
+      ],
+      "cooldownSetGroups": [
+        {
+          "group": "exhaustion:13101",
+          "durationMs": 120000
+        },
+        {
+          "group": "idle:attribute-buff",
+          "durationMs": 120000
+        }
+      ],
+      "icon": "./assets/generated/full-registry/previews/effect/113.png",
+      "visualEvents": [
+        {
+          "anchor": "self",
+          "offsetX": 1,
+          "offsetY": 0,
+          "effectId": 112,
+          "startDelayMs": 1,
+          "repeatCount": 100,
+          "intervalMs": 600
+        }
+      ]
+    },
+    {
+      "id": "absalon-power-up",
+      "name": "Absalon Power Up",
+      "level": 600,
+      "conditions": [
+        "CONDITION_ATTRIBUTES"
+      ],
+      "durationMs": 60000,
+      "cooldownMs": 120000,
+      "cooldownBlockGroups": [
+        "exhaustion:13101",
+        "idle:attribute-buff"
+      ],
+      "cooldownSetGroups": [
+        {
+          "group": "exhaustion:13101",
+          "durationMs": 120000
+        },
+        {
+          "group": "idle:attribute-buff",
+          "durationMs": 120000
+        }
+      ],
+      "icon": "./assets/generated/full-registry/previews/effect/262.png",
+      "visualEvents": [
+        {
+          "anchor": "self",
+          "offsetX": 1,
+          "offsetY": 0,
+          "effectId": 261,
+          "startDelayMs": 1,
+          "repeatCount": 100,
+          "intervalMs": 600
+        }
+      ]
+    },
+    {
+      "id": "rose-power-up",
+      "name": "Rose Power Up",
+      "level": 600,
+      "conditions": [
+        "CONDITION_ATTRIBUTES"
+      ],
+      "durationMs": 60000,
+      "cooldownMs": 120000,
+      "cooldownBlockGroups": [
+        "exhaustion:13101",
+        "idle:attribute-buff"
+      ],
+      "cooldownSetGroups": [
+        {
+          "group": "exhaustion:13101",
+          "durationMs": 120000
+        },
+        {
+          "group": "idle:attribute-buff",
+          "durationMs": 120000
+        }
+      ],
+      "icon": "./assets/generated/full-registry/previews/effect/74.png",
+      "visualEvents": [
+        {
+          "anchor": "self",
+          "offsetX": 1,
+          "offsetY": 0,
+          "effectId": 73,
+          "startDelayMs": 1,
+          "repeatCount": 100,
+          "intervalMs": 600
+        }
+      ]
+    },
+    {
+      "id": "golden-power-up",
+      "name": "Golden Power Up",
+      "level": 600,
+      "conditions": [
+        "CONDITION_ATTRIBUTES"
+      ],
+      "durationMs": 60000,
+      "cooldownMs": 120000,
+      "cooldownBlockGroups": [
+        "exhaustion:13101",
+        "idle:attribute-buff"
+      ],
+      "cooldownSetGroups": [
+        {
+          "group": "exhaustion:13101",
+          "durationMs": 120000
+        },
+        {
+          "group": "idle:attribute-buff",
+          "durationMs": 120000
+        }
+      ],
+      "icon": "./assets/generated/full-registry/previews/effect/78.png",
+      "visualEvents": [
+        {
+          "anchor": "self",
+          "offsetX": 1,
+          "offsetY": 0,
+          "effectId": 77,
+          "startDelayMs": 1,
+          "repeatCount": 100,
+          "intervalMs": 600
+        }
+      ]
+    },
+    {
+      "id": "blue-power-up",
+      "name": "Blue Power Up",
+      "level": 600,
+      "conditions": [
+        "CONDITION_ATTRIBUTES"
+      ],
+      "durationMs": 60000,
+      "cooldownMs": 120000,
+      "cooldownBlockGroups": [
+        "exhaustion:13101",
+        "idle:attribute-buff"
+      ],
+      "cooldownSetGroups": [
+        {
+          "group": "exhaustion:13101",
+          "durationMs": 120000
+        },
+        {
+          "group": "idle:attribute-buff",
+          "durationMs": 120000
+        }
+      ],
+      "icon": "./assets/generated/full-registry/previews/effect/76.png",
+      "visualEvents": [
+        {
+          "anchor": "self",
+          "offsetX": 1,
+          "offsetY": 0,
+          "effectId": 75,
+          "startDelayMs": 1,
+          "repeatCount": 100,
+          "intervalMs": 600
+        }
+      ]
+    },
+    {
+      "id": "strong-ki",
+      "name": "Strong Ki",
+      "level": 400,
+      "conditions": [
+        "CONDITION_ATTRIBUTES"
+      ],
+      "durationMs": 60000,
+      "cooldownMs": 120000,
+      "cooldownBlockGroups": [
+        "exhaustion:13101",
+        "idle:attribute-buff"
+      ],
+      "cooldownSetGroups": [
+        {
+          "group": "exhaustion:13101",
+          "durationMs": 120000
+        },
+        {
+          "group": "idle:attribute-buff",
+          "durationMs": 120000
+        }
+      ],
+      "icon": "./assets/generated/full-registry/previews/effect/114.png",
+      "visualEvents": [
+        {
+          "anchor": "self",
+          "offsetX": 0,
+          "offsetY": 0,
+          "effectId": 113,
+          "startDelayMs": 1,
+          "repeatCount": 120,
+          "intervalMs": 500
+        }
+      ]
+    }
+  ],
+  "icons": [
+    {
+      "id": "magic-wall",
+      "name": "Magic Wall",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/2.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/3.png",
+      "changed": true
+    },
+    {
+      "id": "aura",
+      "name": "Aura",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/91.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/92.png",
+      "changed": true
+    },
+    {
+      "id": "gaura",
+      "name": "Gaura",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/91.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/92.png",
+      "changed": true
+    },
+    {
+      "id": "jump",
+      "name": "Jump",
+      "rawIcon": "./assets/generated/spells/jump.webp",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/11.png",
+      "changed": true
+    },
+    {
+      "id": "sense",
+      "name": "Sense",
+      "rawIcon": "./assets/generated/spells/sense.webp",
+      "correctedIcon": "./assets/generated/spells/sense.webp",
+      "changed": false
+    },
+    {
+      "id": "regeneration",
+      "name": "Regeneration",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/87.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/88.png",
+      "changed": true
+    },
+    {
+      "id": "mystic-defense",
+      "name": "Mystic Defense",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/245.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/246.png",
+      "changed": true
+    },
+    {
+      "id": "mystic-defense-vip",
+      "name": "Mystic Defense Vip",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/246.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/247.png",
+      "changed": true
+    },
+    {
+      "id": "mystic-kai",
+      "name": "Mystic Kai",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/10.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/11.png",
+      "changed": true
+    },
+    {
+      "id": "speed-up",
+      "name": "Speed Up",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/27.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/28.png",
+      "changed": true
+    },
+    {
+      "id": "renzoku-energy-dan",
+      "name": "Renzoku Energy Dan",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/27.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/87.png",
+      "changed": true
+    },
+    {
+      "id": "super-renzoku-energy-dan",
+      "name": "Super Renzoku Energy Dan",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/27.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/87.png",
+      "changed": true
+    },
+    {
+      "id": "charge",
+      "name": "Charge",
+      "rawIcon": "./assets/generated/spells/charge.webp",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/114.png",
+      "changed": true
+    },
+    {
+      "id": "super-charge",
+      "name": "Super Charge",
+      "rawIcon": "./assets/generated/spells/super-charge.webp",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/114.png",
+      "changed": true
+    },
+    {
+      "id": "powerdown",
+      "name": "PowerDown",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/24.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/25.png",
+      "changed": true
+    },
+    {
+      "id": "bakuhatsuha",
+      "name": "Bakuhatsuha",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/17.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/18.png",
+      "changed": true
+    },
+    {
+      "id": "sword-bash",
+      "name": "Sword Bash",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/10.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/9.png",
+      "changed": true
+    },
+    {
+      "id": "bakurichimacha",
+      "name": "Bakurichimacha",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/2.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/30.png",
+      "changed": true
+    },
+    {
+      "id": "jinruizetsu",
+      "name": "Jinruizetsu",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/2.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/30.png",
+      "changed": true
+    },
+    {
+      "id": "mafuba",
+      "name": "Mafuba",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/14.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/15.png",
+      "changed": true
+    },
+    {
+      "id": "demon-bash",
+      "name": "Demon Bash",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/31.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/6.png",
+      "changed": true
+    },
+    {
+      "id": "taiyoken",
+      "name": "Taiyoken",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/10.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/11.png",
+      "changed": true
+    },
+    {
+      "id": "makosen",
+      "name": "Makosen",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/26.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/7.png",
+      "changed": true
+    },
+    {
+      "id": "daichiretsuzan",
+      "name": "Daichiretsuzan",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/24.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/23.png",
+      "changed": true
+    },
+    {
+      "id": "barrier",
+      "name": "Barrier",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/49.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/50.png",
+      "changed": true
+    },
+    {
+      "id": "big-bang-attack",
+      "name": "Big Bang Attack",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/39.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/33.png",
+      "changed": true
+    },
+    {
+      "id": "kienzan",
+      "name": "Kienzan",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/12.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/4.png",
+      "changed": true
+    },
+    {
+      "id": "blaster",
+      "name": "Blaster",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/29.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/35.png",
+      "changed": true
+    },
+    {
+      "id": "power-up",
+      "name": "Power Up",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/2.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/108.png",
+      "changed": true
+    },
+    {
+      "id": "explosive",
+      "name": "Explosive",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/5.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/6.png",
+      "changed": true
+    },
+    {
+      "id": "big-explosion",
+      "name": "Big Explosion",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/63.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/64.png",
+      "changed": true
+    },
+    {
+      "id": "kyushu",
+      "name": "Kyushu",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/28.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/29.png",
+      "changed": true
+    },
+    {
+      "id": "big-power-up",
+      "name": "Big Power Up",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/2.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/117.png",
+      "changed": true
+    },
+    {
+      "id": "super-speed",
+      "name": "Super Speed",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/240.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/241.png",
+      "changed": true
+    },
+    {
+      "id": "fire-wave",
+      "name": "Fire Wave",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/50.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/37.png",
+      "changed": true
+    },
+    {
+      "id": "rush-attack",
+      "name": "Rush Attack",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/40.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/251.png",
+      "changed": true
+    },
+    {
+      "id": "crusher-ball",
+      "name": "Crusher Ball",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/38.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/30.png",
+      "changed": true
+    },
+    {
+      "id": "nokona-panchi",
+      "name": "Nokona Panchi",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/54.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/55.png",
+      "changed": true
+    },
+    {
+      "id": "kamehameha",
+      "name": "Kamehameha",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/128.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/129.png",
+      "changed": true
+    },
+    {
+      "id": "death-ball",
+      "name": "Death Ball",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/43.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/21.png",
+      "changed": true
+    },
+    {
+      "id": "devastation-strike",
+      "name": "Devastation Strike",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/51.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/25.png",
+      "changed": true
+    },
+    {
+      "id": "rose-strike",
+      "name": "Rose Strike",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/44.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/23.png",
+      "changed": true
+    },
+    {
+      "id": "ribrianne-blast",
+      "name": "Ribrianne Blast",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/67.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/283.png",
+      "changed": true
+    },
+    {
+      "id": "ribrianne-furie",
+      "name": "Ribrianne Furie",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/124.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/125.png",
+      "changed": true
+    },
+    {
+      "id": "burning-attack",
+      "name": "Burning Attack",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/40.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/53.png",
+      "changed": true
+    },
+    {
+      "id": "chobakuretsumaha",
+      "name": "Chobakuretsumaha",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/3.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/32.png",
+      "changed": true
+    },
+    {
+      "id": "big-three-cannon",
+      "name": "Big Three Cannon",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/49.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/35.png",
+      "changed": true
+    },
+    {
+      "id": "galactic-donut",
+      "name": "Galactic Donut",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/47.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/33.png",
+      "changed": true
+    },
+    {
+      "id": "kaukusudan",
+      "name": "Kaukusudan",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/13.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/10.png",
+      "changed": true
+    },
+    {
+      "id": "shoge-chiha",
+      "name": "Shoge Chiha",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/24.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/23.png",
+      "changed": true
+    },
+    {
+      "id": "demon-ball",
+      "name": "Demon Ball",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/48.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/6.png",
+      "changed": true
+    },
+    {
+      "id": "ryuken",
+      "name": "Ryuken",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/35.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/36.png",
+      "changed": true
+    },
+    {
+      "id": "create-hp-potion",
+      "name": "Create HP Potion",
+      "rawIcon": "./assets/generated/spells/create-hp-potion.webp",
+      "correctedIcon": "./assets/generated/spells/create-hp-potion.webp",
+      "changed": false
+    },
+    {
+      "id": "create-ki-potion",
+      "name": "Create Ki Potion",
+      "rawIcon": "./assets/generated/spells/create-ki-potion.webp",
+      "correctedIcon": "./assets/generated/spells/create-ki-potion.webp",
+      "changed": false
+    },
+    {
+      "id": "heal-friend",
+      "name": "Heal Friend",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/4.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/5.png",
+      "changed": true
+    },
+    {
+      "id": "double-ball",
+      "name": "Double Ball",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/45.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/33.png",
+      "changed": true
+    },
+    {
+      "id": "regeneration-area",
+      "name": "Regeneration Area",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/87.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/88.png",
+      "changed": true
+    },
+    {
+      "id": "bomb",
+      "name": "Bomb",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/17.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/35.png",
+      "changed": true
+    },
+    {
+      "id": "brave-slash",
+      "name": "Brave Slash",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/57.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/58.png",
+      "changed": true
+    },
+    {
+      "id": "hell-cannon",
+      "name": "Hell Cannon",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/140.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/141.png",
+      "changed": true
+    },
+    {
+      "id": "mystic-flash",
+      "name": "Mystic Flash",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/158.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/159.png",
+      "changed": true
+    },
+    {
+      "id": "dead-flash",
+      "name": "Dead Flash",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/140.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/141.png",
+      "changed": true
+    },
+    {
+      "id": "final-flash",
+      "name": "Final Flash",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/146.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/147.png",
+      "changed": true
+    },
+    {
+      "id": "generic-ki-blast",
+      "name": "Generic Ki Blast",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/173.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/174.png",
+      "changed": true
+    },
+    {
+      "id": "masenko",
+      "name": "Masenko",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/179.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/180.png",
+      "changed": true
+    },
+    {
+      "id": "mega-power-up",
+      "name": "Mega Power Up",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/2.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/84.png",
+      "changed": true
+    },
+    {
+      "id": "dynamic-kick",
+      "name": "Dynamic Kick",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/54.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/55.png",
+      "changed": true
+    },
+    {
+      "id": "daiburuboru",
+      "name": "Daiburuboru",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/8.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/32.png",
+      "changed": true
+    },
+    {
+      "id": "grand-smasher",
+      "name": "Grand Smasher",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/59.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/39.png",
+      "changed": true
+    },
+    {
+      "id": "energy-shyotu",
+      "name": "Energy Shyotu",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/24.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/23.png",
+      "changed": true
+    },
+    {
+      "id": "meteor",
+      "name": "Meteor",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/49.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/6.png",
+      "changed": true
+    },
+    {
+      "id": "missile-shoot",
+      "name": "Missile Shoot",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/18.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/250.png",
+      "changed": true
+    },
+    {
+      "id": "create-senzu-leaf",
+      "name": "Create Senzu Leaf",
+      "rawIcon": "./assets/generated/spells/create-senzu-leaf.webp",
+      "correctedIcon": "./assets/generated/spells/create-senzu-leaf.webp",
+      "changed": false
+    },
+    {
+      "id": "genki-dama",
+      "name": "Genki Dama",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/67.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/68.png",
+      "changed": true
+    },
+    {
+      "id": "demon-rage",
+      "name": "Demon Rage",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/45.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/35.png",
+      "changed": true
+    },
+    {
+      "id": "destruction-rage",
+      "name": "Destruction Rage",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/45.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/49.png",
+      "changed": true
+    },
+    {
+      "id": "rose-rage",
+      "name": "Rose Rage",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/54.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/92.png",
+      "changed": true
+    },
+    {
+      "id": "energy-last",
+      "name": "Energy Last",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/14.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/missile/15.png",
+      "changed": true
+    },
+    {
+      "id": "triple-kienzan",
+      "name": "Triple Kienzan",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/69.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/4.png",
+      "changed": true
+    },
+    {
+      "id": "spirit-ball",
+      "name": "Spirit Ball",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/17.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/18.png",
+      "changed": true
+    },
+    {
+      "id": "create-makankosappo",
+      "name": "Create Makankosappo",
+      "rawIcon": "./assets/generated/spells/create-makankosappo.webp",
+      "correctedIcon": "./assets/generated/spells/create-makankosappo.webp",
+      "changed": false
+    },
+    {
+      "id": "explose-target",
+      "name": "Explose Target",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/45.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/35.png",
+      "changed": true
+    },
+    {
+      "id": "absalon-target",
+      "name": "Absalon Target",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/13.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/206.png",
+      "changed": true
+    },
+    {
+      "id": "deadly-razor",
+      "name": "Deadly Razor",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/68.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/59.png",
+      "changed": true
+    },
+    {
+      "id": "blue-razor",
+      "name": "Blue Razor",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/55.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/54.png",
+      "changed": true
+    },
+    {
+      "id": "eraser-blow",
+      "name": "Eraser Blow",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/70.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/32.png",
+      "changed": true
+    },
+    {
+      "id": "super-kamehameha",
+      "name": "Super Kamehameha",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/128.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/129.png",
+      "changed": true
+    },
+    {
+      "id": "full-spirit",
+      "name": "Full Spirit",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/17.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/18.png",
+      "changed": true
+    },
+    {
+      "id": "turtle-devastation",
+      "name": "Turtle Devastation",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/22.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/40.png",
+      "changed": true
+    },
+    {
+      "id": "ruthless-spikes",
+      "name": "Ruthless Spikes",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/54.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/55.png",
+      "changed": true
+    },
+    {
+      "id": "ruthless-blow",
+      "name": "Ruthless Blow",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/51.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/49.png",
+      "changed": true
+    },
+    {
+      "id": "death-nodo",
+      "name": "Death Nodo",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/152.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/153.png",
+      "changed": true
+    },
+    {
+      "id": "heat-dome-attack",
+      "name": "Heat Dome Attack",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/38.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/30.png",
+      "changed": true
+    },
+    {
+      "id": "brave-gatling",
+      "name": "Brave Gatling",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/16.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/27.png",
+      "changed": true
+    },
+    {
+      "id": "dodon-ray",
+      "name": "Dodon Ray",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/29.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/30.png",
+      "changed": true
+    },
+    {
+      "id": "botamo-attack",
+      "name": "Botamo Attack",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/14.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/39.png",
+      "changed": true
+    },
+    {
+      "id": "giga-power-up",
+      "name": "Giga Power Up",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/2.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/108.png",
+      "changed": true
+    },
+    {
+      "id": "saiko-nodo",
+      "name": "Saiko Nodo",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/66.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/67.png",
+      "changed": true
+    },
+    {
+      "id": "iwan-nodo",
+      "name": "Iwan Nodo",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/66.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/67.png",
+      "changed": true
+    },
+    {
+      "id": "saikosai-boru",
+      "name": "Saikosai Boru",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/60.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/244.png",
+      "changed": true
+    },
+    {
+      "id": "helles-boru",
+      "name": "Helles Boru",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/59.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/17.png",
+      "changed": true
+    },
+    {
+      "id": "galactic-buster-attack",
+      "name": "Galactic Buster Attack",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/108.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/109.png",
+      "changed": true
+    },
+    {
+      "id": "infernal-rage",
+      "name": "Infernal Rage",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/8.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/9.png",
+      "changed": true
+    },
+    {
+      "id": "extinct-attack",
+      "name": "Extinct Attack",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/49.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/50.png",
+      "changed": true
+    },
+    {
+      "id": "soudou-yari",
+      "name": "Soudou Yari",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/16.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/20.png",
+      "changed": true
+    },
+    {
+      "id": "saiyajin-blast",
+      "name": "Saiyajin Blast",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/40.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/4.png",
+      "changed": true
+    },
+    {
+      "id": "super-explosion-wave",
+      "name": "Super Explosion Wave",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/188.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/189.png",
+      "changed": true
+    },
+    {
+      "id": "nova",
+      "name": "Nova",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/58.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/35.png",
+      "changed": true
+    },
+    {
+      "id": "nova-blast",
+      "name": "Nova Blast",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/58.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/35.png",
+      "changed": true
+    },
+    {
+      "id": "ultimate-shine",
+      "name": "Ultimate Shine",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/44.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/50.png",
+      "changed": true
+    },
+    {
+      "id": "psycho-barrier",
+      "name": "Psycho Barrier",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/20.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/21.png",
+      "changed": true
+    },
+    {
+      "id": "create-senzu-root",
+      "name": "Create Senzu Root",
+      "rawIcon": "./assets/generated/spells/create-senzu-root.webp",
+      "correctedIcon": "./assets/generated/spells/create-senzu-root.webp",
+      "changed": false
+    },
+    {
+      "id": "namekjin-wave",
+      "name": "Namekjin Wave",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/46.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/32.png",
+      "changed": true
+    },
+    {
+      "id": "brave-sword-attack",
+      "name": "Brave Sword Attack",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/18.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/250.png",
+      "changed": true
+    },
+    {
+      "id": "burning-shot",
+      "name": "Burning Shot",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/201.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/202.png",
+      "changed": true
+    },
+    {
+      "id": "brave-furie",
+      "name": "Brave Furie",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/10.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/11.png",
+      "changed": true
+    },
+    {
+      "id": "namekjin-rage",
+      "name": "Namekjin Rage",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/7.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/8.png",
+      "changed": true
+    },
+    {
+      "id": "hellzone-granade",
+      "name": "Hellzone Granade",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/65.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/66.png",
+      "changed": true
+    },
+    {
+      "id": "furie",
+      "name": "Furie",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/8.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/9.png",
+      "changed": true
+    },
+    {
+      "id": "monaka-attack",
+      "name": "Monaka Attack",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/70.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/32.png",
+      "changed": true
+    },
+    {
+      "id": "renzoku-kikouha",
+      "name": "Renzoku Kikouha",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/37.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/52.png",
+      "changed": true
+    },
+    {
+      "id": "mirai-schock-wave",
+      "name": "Mirai Schock Wave",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/2.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/27.png",
+      "changed": true
+    },
+    {
+      "id": "gattai-blast",
+      "name": "Gattai Blast",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/46.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/288.png",
+      "changed": true
+    },
+    {
+      "id": "mirai-shot",
+      "name": "Mirai Shot",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/12.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/208.png",
+      "changed": true
+    },
+    {
+      "id": "storm-fellow",
+      "name": "Storm Fellow",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/203.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/204.png",
+      "changed": true
+    },
+    {
+      "id": "gattai-rage",
+      "name": "Gattai Rage",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/192.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/193.png",
+      "changed": true
+    },
+    {
+      "id": "deus-destruction",
+      "name": "Deus Destruction",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/11.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/12.png",
+      "changed": true
+    },
+    {
+      "id": "clown-funny-attack",
+      "name": "Clown Funny attack",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/30.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/291.png",
+      "changed": true
+    },
+    {
+      "id": "earth-destruction",
+      "name": "Earth Destruction",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/62.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/274.png",
+      "changed": true
+    },
+    {
+      "id": "liquer-attack",
+      "name": "Liquer Attack",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/63.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/273.png",
+      "changed": true
+    },
+    {
+      "id": "majora-attack",
+      "name": "Majora Attack",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/63.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/273.png",
+      "changed": true
+    },
+    {
+      "id": "saiyamoshi-attack",
+      "name": "Saiyamoshi Attack",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/82.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/312.png",
+      "changed": true
+    },
+    {
+      "id": "full-power-destruction",
+      "name": "Full Power Destruction",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/274.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/275.png",
+      "changed": true
+    },
+    {
+      "id": "yamashot",
+      "name": "Yamashot",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/83.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/306.png",
+      "changed": true
+    },
+    {
+      "id": "universe-shot",
+      "name": "Universe Shot",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/53.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/272.png",
+      "changed": true
+    },
+    {
+      "id": "que-tiro-foi-esse",
+      "name": "Que Tiro Foi Esse",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/53.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/272.png",
+      "changed": true
+    },
+    {
+      "id": "sama-whiss-attack",
+      "name": "Sama Whiss Attack",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/123.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/124.png",
+      "changed": true
+    },
+    {
+      "id": "kitera-attack",
+      "name": "Kitera Attack",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/284.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/285.png",
+      "changed": true
+    },
+    {
+      "id": "angel-shot",
+      "name": "Angel Shot",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/5.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/197.png",
+      "changed": true
+    },
+    {
+      "id": "sama-explosion",
+      "name": "Sama Explosion",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/282.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/283.png",
+      "changed": true
+    },
+    {
+      "id": "time-skip",
+      "name": "Time Skip",
+      "rawIcon": "./assets/generated/spells/time-skip.webp",
+      "correctedIcon": "./assets/generated/spells/time-skip.webp",
+      "changed": false
+    },
+    {
+      "id": "hitto-triple-shot",
+      "name": "Hitto Triple Shot",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/67.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/missile/68.png",
+      "changed": true
+    },
+    {
+      "id": "time-skip-target",
+      "name": "Time Skip Target",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/25.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/26.png",
+      "changed": true
+    },
+    {
+      "id": "time-skip-attack",
+      "name": "Time Skip Attack",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/67.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/289.png",
+      "changed": true
+    },
+    {
+      "id": "sherius-karma",
+      "name": "Sherius Karma",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/12.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/284.png",
+      "changed": true
+    },
+    {
+      "id": "kakarott-karma",
+      "name": "Kakarott Karma",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/12.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/284.png",
+      "changed": true
+    },
+    {
+      "id": "seu-amor-me-pegou",
+      "name": "Seu Amor Me Pegou",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/33.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/305.png",
+      "changed": true
+    },
+    {
+      "id": "morre-fdp",
+      "name": "Morre Fdp",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/54.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/283.png",
+      "changed": true
+    },
+    {
+      "id": "dragon-furie",
+      "name": "Dragon Furie",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/29.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/30.png",
+      "changed": true
+    },
+    {
+      "id": "kakarott-furie",
+      "name": "Kakarott Furie",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/274.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/275.png",
+      "changed": true
+    },
+    {
+      "id": "palhashot",
+      "name": "Palhashot",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/62.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/127.png",
+      "changed": true
+    },
+    {
+      "id": "priest-wave",
+      "name": "Priest Wave",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/66.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/80.png",
+      "changed": true
+    },
+    {
+      "id": "justice-wave",
+      "name": "Justice Wave",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/66.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/80.png",
+      "changed": true
+    },
+    {
+      "id": "priest-frost-furie",
+      "name": "Priest Frost Furie",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/204.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/205.png",
+      "changed": true
+    },
+    {
+      "id": "jiren-nodo",
+      "name": "Jiren Nodo",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/286.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/287.png",
+      "changed": true
+    },
+    {
+      "id": "omnius-shot",
+      "name": "Omnius Shot",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/65.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/212.png",
+      "changed": true
+    },
+    {
+      "id": "cukatail-attack",
+      "name": "Cukatail Attack",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/11.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/191.png",
+      "changed": true
+    },
+    {
+      "id": "iwan-attack",
+      "name": "Iwan Attack",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/11.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/191.png",
+      "changed": true
+    },
+    {
+      "id": "bergamo-blast",
+      "name": "Bergamo Blast",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/282.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/283.png",
+      "changed": true
+    },
+    {
+      "id": "beijinho-do-bergamo",
+      "name": "Beijinho Do Bergamo",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/285.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/286.png",
+      "changed": true
+    },
+    {
+      "id": "beijinho-do-liquer",
+      "name": "Beijinho Do Liquer",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/285.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/286.png",
+      "changed": true
+    },
+    {
+      "id": "beijinho-do-palha-o",
+      "name": "Beijinho Do PalhaÃ§o",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/285.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/286.png",
+      "changed": true
+    },
+    {
+      "id": "beijinho-do-majora",
+      "name": "Beijinho Do Majora",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/285.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/286.png",
+      "changed": true
+    },
+    {
+      "id": "bergamo-triple-rage",
+      "name": "Bergamo Triple Rage",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/67.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/missile/68.png",
+      "changed": true
+    },
+    {
+      "id": "kitera-blasting",
+      "name": "Kitera Blasting",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/67.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/missile/68.png",
+      "changed": true
+    },
+    {
+      "id": "angel-destruction",
+      "name": "Angel Destruction",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/11.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/12.png",
+      "changed": true
+    },
+    {
+      "id": "rage-explosion",
+      "name": "Rage Explosion",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/274.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/275.png",
+      "changed": true
+    },
+    {
+      "id": "super-ki-blast",
+      "name": "Super Ki Blast",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/39.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/33.png",
+      "changed": true
+    },
+    {
+      "id": "fusion-storm",
+      "name": "Fusion Storm",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/37.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/38.png",
+      "changed": true
+    },
+    {
+      "id": "negative-karma-ball",
+      "name": "Negative Karma Ball",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/42.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/26.png",
+      "changed": true
+    },
+    {
+      "id": "super-hell-granade",
+      "name": "Super Hell Granade",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/29.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/35.png",
+      "changed": true
+    },
+    {
+      "id": "guided-scatter-shot",
+      "name": "Guided Scatter Shot",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/18.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/10.png",
+      "changed": true
+    },
+    {
+      "id": "fire-storm",
+      "name": "Fire Storm",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/36.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/37.png",
+      "changed": true
+    },
+    {
+      "id": "mystic-bash",
+      "name": "Mystic Bash",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/6.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/22.png",
+      "changed": true
+    },
+    {
+      "id": "boo-pink-ball",
+      "name": "Boo Pink Ball",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/44.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/30.png",
+      "changed": true
+    },
+    {
+      "id": "double-kamehameha",
+      "name": "Double Kamehameha",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/53.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/54.png",
+      "changed": true
+    },
+    {
+      "id": "reflect",
+      "name": "Reflect",
+      "rawIcon": "./assets/generated/spells/reflect.webp",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/97.png",
+      "changed": true
+    },
+    {
+      "id": "sword-furie",
+      "name": "Sword Furie",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/9.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/10.png",
+      "changed": true
+    },
+    {
+      "id": "chybie-generic-ki-blast",
+      "name": "Chybie Generic Ki Blast",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/173.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/174.png",
+      "changed": true
+    },
+    {
+      "id": "barakuitsu-rio",
+      "name": "Barakuitsu Rio",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/134.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/135.png",
+      "changed": true
+    },
+    {
+      "id": "kamehameha-10x",
+      "name": "Kamehameha 10x",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/158.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/159.png",
+      "changed": true
+    },
+    {
+      "id": "gyarikku-hou",
+      "name": "Gyarikku Hou",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/32.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/23.png",
+      "changed": true
+    },
+    {
+      "id": "full-power-energy-wave",
+      "name": "Full Power Energy Wave",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/108.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/109.png",
+      "changed": true
+    },
+    {
+      "id": "chou-makosen",
+      "name": "Chou Makosen",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/5.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/7.png",
+      "changed": true
+    },
+    {
+      "id": "supreme-blast",
+      "name": "Supreme Blast",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/39.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/33.png",
+      "changed": true
+    },
+    {
+      "id": "shockwave",
+      "name": "Shockwave",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/22.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/23.png",
+      "changed": true
+    },
+    {
+      "id": "super-kienzan-blast",
+      "name": "Super Kienzan Blast",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/69.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/33.png",
+      "changed": true
+    },
+    {
+      "id": "dark-furie",
+      "name": "Dark Furie",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/23.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/24.png",
+      "changed": true
+    },
+    {
+      "id": "god-power",
+      "name": "God Power",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/60.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/54.png",
+      "changed": true
+    },
+    {
+      "id": "pink-ball",
+      "name": "Pink Ball",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/44.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/30.png",
+      "changed": true
+    },
+    {
+      "id": "vanishing-rage",
+      "name": "Vanishing Rage",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/30.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/31.png",
+      "changed": true
+    },
+    {
+      "id": "explosion",
+      "name": "Explosion",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/64.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/65.png",
+      "changed": true
+    },
+    {
+      "id": "twin-energy-ball",
+      "name": "Twin Energy Ball",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/54.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/54.png",
+      "changed": true
+    },
+    {
+      "id": "massive-explosion",
+      "name": "Massive Explosion",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/5.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/6.png",
+      "changed": true
+    },
+    {
+      "id": "create-strong-makankosappo",
+      "name": "Create Strong Makankosappo",
+      "rawIcon": "./assets/generated/spells/create-strong-makankosappo.webp",
+      "correctedIcon": "./assets/generated/spells/create-strong-makankosappo.webp",
+      "changed": false
+    },
+    {
+      "id": "kikoho-blast",
+      "name": "Kikoho Blast",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/39.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/53.png",
+      "changed": true
+    },
+    {
+      "id": "sword-throw",
+      "name": "Sword Throw",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/10.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/9.png",
+      "changed": true
+    },
+    {
+      "id": "demon-furie",
+      "name": "Demon Furie",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/241.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/242.png",
+      "changed": true
+    },
+    {
+      "id": "bergamo-furie",
+      "name": "Bergamo Furie",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/70.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/71.png",
+      "changed": true
+    },
+    {
+      "id": "rage-psychic-whip",
+      "name": "Rage Psychic Whip",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/16.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/27.png",
+      "changed": true
+    },
+    {
+      "id": "great-saiyaman-attack",
+      "name": "Great Saiyaman Attack",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/22.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/4.png",
+      "changed": true
+    },
+    {
+      "id": "super-saiyaman-furie",
+      "name": "Super Saiyaman Furie",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/16.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/17.png",
+      "changed": true
+    },
+    {
+      "id": "genki-renzoku",
+      "name": "Genki Renzoku",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/41.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/14.png",
+      "changed": true
+    },
+    {
+      "id": "black-renzoku",
+      "name": "Black Renzoku",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/53.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/292.png",
+      "changed": true
+    },
+    {
+      "id": "black-furie",
+      "name": "Black Furie",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/23.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/24.png",
+      "changed": true
+    },
+    {
+      "id": "oblivion-ball",
+      "name": "Oblivion Ball",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/73.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/95.png",
+      "changed": true
+    },
+    {
+      "id": "rose-ball",
+      "name": "Rose Ball",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/38.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/30.png",
+      "changed": true
+    },
+    {
+      "id": "super-ryuken",
+      "name": "Super Ryuken",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/35.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/36.png",
+      "changed": true
+    },
+    {
+      "id": "burning-wave",
+      "name": "Burning Wave",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/50.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/51.png",
+      "changed": true
+    },
+    {
+      "id": "burning-furie",
+      "name": "Burning Furie",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/200.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/201.png",
+      "changed": true
+    },
+    {
+      "id": "teleport",
+      "name": "Teleport",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/10.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/11.png",
+      "changed": true
+    },
+    {
+      "id": "mega-bomb",
+      "name": "Mega Bomb",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/59.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/60.png",
+      "changed": true
+    },
+    {
+      "id": "deadly-bomb",
+      "name": "Deadly Bomb",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/42.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/6.png",
+      "changed": true
+    },
+    {
+      "id": "auto-destruction",
+      "name": "Auto Destruction",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/34.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/35.png",
+      "changed": true
+    },
+    {
+      "id": "champa-blast",
+      "name": "Champa Blast",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/65.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/30.png",
+      "changed": true
+    },
+    {
+      "id": "evil-kienzan",
+      "name": "Evil Kienzan",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/27.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/21.png",
+      "changed": true
+    },
+    {
+      "id": "hell-granade",
+      "name": "Hell Granade",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/21.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/35.png",
+      "changed": true
+    },
+    {
+      "id": "chybie-blast",
+      "name": "Chybie Blast",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/17.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/17.png",
+      "changed": true
+    },
+    {
+      "id": "disperse-kamikaze",
+      "name": "Disperse Kamikaze",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/18.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/19.png",
+      "changed": true
+    },
+    {
+      "id": "artillery-destruction",
+      "name": "Artillery Destruction",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/45.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/46.png",
+      "changed": true
+    },
+    {
+      "id": "barakuitsu-blast",
+      "name": "Barakuitsu Blast",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/11.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/32.png",
+      "changed": true
+    },
+    {
+      "id": "meteor-bash",
+      "name": "Meteor Bash",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/49.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/6.png",
+      "changed": true
+    },
+    {
+      "id": "barakuitsu-furie",
+      "name": "Barakuitsu Furie",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/31.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/32.png",
+      "changed": true
+    },
+    {
+      "id": "mega-barrier",
+      "name": "Mega Barrier",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/48.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/54.png",
+      "changed": true
+    },
+    {
+      "id": "final-shine",
+      "name": "Final Shine",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/21.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/7.png",
+      "changed": true
+    },
+    {
+      "id": "kabe-rage",
+      "name": "Kabe Rage",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/36.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/48.png",
+      "changed": true
+    },
+    {
+      "id": "roshi-attack",
+      "name": "Roshi Attack",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/40.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/251.png",
+      "changed": true
+    },
+    {
+      "id": "concentrate-razor",
+      "name": "Concentrate Razor",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/72.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/73.png",
+      "changed": true
+    },
+    {
+      "id": "physies-razor",
+      "name": "Physies Razor",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/2.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/92.png",
+      "changed": true
+    },
+    {
+      "id": "physies-target",
+      "name": "Physies Target",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/2.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/92.png",
+      "changed": true
+    },
+    {
+      "id": "time-skip-paralyze",
+      "name": "Time Skip Paralyze",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/10.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/11.png",
+      "changed": true
+    },
+    {
+      "id": "dynamic-punch",
+      "name": "Dynamic Punch",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/44.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/45.png",
+      "changed": true
+    },
+    {
+      "id": "big-regeneration",
+      "name": "Big Regeneration",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/87.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/88.png",
+      "changed": true
+    },
+    {
+      "id": "saikosai-hakai",
+      "name": "Saikosai Hakai",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/68.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/59.png",
+      "changed": true
+    },
+    {
+      "id": "iwan-hakai",
+      "name": "Iwan Hakai",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/68.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/59.png",
+      "changed": true
+    },
+    {
+      "id": "infernal-punch",
+      "name": "Infernal Punch",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/60.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/263.png",
+      "changed": true
+    },
+    {
+      "id": "big-bang-kamehameha",
+      "name": "Big Bang Kamehameha",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/128.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/129.png",
+      "changed": true
+    },
+    {
+      "id": "final-ryuken-rage",
+      "name": "Final Ryuken Rage",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/39.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/35.png",
+      "changed": true
+    },
+    {
+      "id": "brave-cannon",
+      "name": "Brave Cannon",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/45.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/37.png",
+      "changed": true
+    },
+    {
+      "id": "muted",
+      "name": "Muted",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/2.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/3.png",
+      "changed": true
+    },
+    {
+      "id": "enchant-ki-area",
+      "name": "Enchant Ki Area",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/86.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/3.png",
+      "changed": true
+    },
+    {
+      "id": "omega-cannon",
+      "name": "Omega Cannon",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/45.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/6.png",
+      "changed": true
+    },
+    {
+      "id": "eletric",
+      "name": "Eletric",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/2.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/87.png",
+      "changed": true
+    },
+    {
+      "id": "super-ghost-kamikaze-attack",
+      "name": "Super Ghost Kamikaze Attack",
+      "rawIcon": "./assets/generated/spells/super-ghost-kamikaze-attack.webp",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/11.png",
+      "changed": true
+    },
+    {
+      "id": "giru",
+      "name": "Giru",
+      "rawIcon": "./assets/generated/spells/giru.webp",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/11.png",
+      "changed": true
+    },
+    {
+      "id": "cell-jr",
+      "name": "Cell Jr",
+      "rawIcon": "./assets/generated/spells/cell-jr.webp",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/11.png",
+      "changed": true
+    },
+    {
+      "id": "robot",
+      "name": "Robot",
+      "rawIcon": "./assets/generated/spells/robot.webp",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/11.png",
+      "changed": true
+    },
+    {
+      "id": "clone",
+      "name": "Clone",
+      "rawIcon": "./assets/generated/spells/clone.webp",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/11.png",
+      "changed": true
+    },
+    {
+      "id": "super-final-flash",
+      "name": "Super Final Flash",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/146.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/147.png",
+      "changed": true
+    },
+    {
+      "id": "demon-blast",
+      "name": "Demon Blast",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/43.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/6.png",
+      "changed": true
+    },
+    {
+      "id": "psychic-whip",
+      "name": "Psychic Whip",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/52.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/14.png",
+      "changed": true
+    },
+    {
+      "id": "chybie-kikoho",
+      "name": "Chybie Kikoho",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/47.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/53.png",
+      "changed": true
+    },
+    {
+      "id": "massive-sword-attack",
+      "name": "Massive Sword Attack",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/37.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/38.png",
+      "changed": true
+    },
+    {
+      "id": "calamity-blaster",
+      "name": "Calamity Blaster",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/49.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/53.png",
+      "changed": true
+    },
+    {
+      "id": "mystic-blast",
+      "name": "Mystic Blast",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/6.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/5.png",
+      "changed": true
+    },
+    {
+      "id": "small-genki-dama",
+      "name": "Small Genki Dama",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/55.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/14.png",
+      "changed": true
+    },
+    {
+      "id": "divine-missile",
+      "name": "Divine Missile",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/98.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/92.png",
+      "changed": true
+    },
+    {
+      "id": "kamikaze-explosion",
+      "name": "Kamikaze Explosion",
+      "rawIcon": "./assets/generated/full-registry/previews/missile/15.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/35.png",
+      "changed": true
+    },
+    {
+      "id": "create-senzu-bean",
+      "name": "Create Senzu Bean",
+      "rawIcon": "./assets/generated/spells/create-senzu-bean.webp",
+      "correctedIcon": "./assets/generated/spells/create-senzu-bean.webp",
+      "changed": false
+    },
+    {
+      "id": "barakuitsu-chou",
+      "name": "Barakuitsu Chou",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/230.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/231.png",
+      "changed": true
+    },
+    {
+      "id": "create-power-fruit",
+      "name": "Create Power Fruit",
+      "rawIcon": "./assets/generated/spells/create-power-fruit.webp",
+      "correctedIcon": "./assets/generated/spells/create-power-fruit.webp",
+      "changed": false
+    },
+    {
+      "id": "kame-power",
+      "name": "Kame Power",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/2.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/113.png",
+      "changed": true
+    },
+    {
+      "id": "death-razor",
+      "name": "Death Razor",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/74.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/75.png",
+      "changed": true
+    },
+    {
+      "id": "ohayo-kamehameha",
+      "name": "Ohayo Kamehameha",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/76.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/77.png",
+      "changed": true
+    },
+    {
+      "id": "saiko-chou",
+      "name": "Saiko Chou",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/68.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/69.png",
+      "changed": true
+    },
+    {
+      "id": "death-cannon",
+      "name": "Death Cannon",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/234.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/235.png",
+      "changed": true
+    },
+    {
+      "id": "ultimate-power-up",
+      "name": "Ultimate Power Up",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/2.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/113.png",
+      "changed": true
+    },
+    {
+      "id": "absalon-power-up",
+      "name": "Absalon Power Up",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/2.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/262.png",
+      "changed": true
+    },
+    {
+      "id": "rose-power-up",
+      "name": "Rose Power Up",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/2.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/74.png",
+      "changed": true
+    },
+    {
+      "id": "golden-power-up",
+      "name": "Golden Power Up",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/2.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/78.png",
+      "changed": true
+    },
+    {
+      "id": "blue-power-up",
+      "name": "Blue Power Up",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/2.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/76.png",
+      "changed": true
+    },
+    {
+      "id": "majin-regeneration",
+      "name": "Majin Regeneration",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/74.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/75.png",
+      "changed": true
+    },
+    {
+      "id": "saiyajin-regeneration",
+      "name": "Saiyajin Regeneration",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/78.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/79.png",
+      "changed": true
+    },
+    {
+      "id": "perfect-regeneration",
+      "name": "Perfect Regeneration",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/76.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/77.png",
+      "changed": true
+    },
+    {
+      "id": "chou-kamehameha",
+      "name": "Chou Kamehameha",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/212.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/213.png",
+      "changed": true
+    },
+    {
+      "id": "ultra-final-flash",
+      "name": "Ultra Final Flash",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/146.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/147.png",
+      "changed": true
+    },
+    {
+      "id": "ultra-masenko",
+      "name": "Ultra Masenko",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/218.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/219.png",
+      "changed": true
+    },
+    {
+      "id": "ghost-blaster",
+      "name": "Ghost Blaster",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/18.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/19.png",
+      "changed": true
+    },
+    {
+      "id": "mystic-cannon",
+      "name": "Mystic Cannon",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/226.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/227.png",
+      "changed": true
+    },
+    {
+      "id": "ultra-dead-flash",
+      "name": "Ultra Dead Flash",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/140.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/141.png",
+      "changed": true
+    },
+    {
+      "id": "divindade-kamehameha",
+      "name": "Divindade Kamehameha",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/222.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/223.png",
+      "changed": true
+    },
+    {
+      "id": "strong-ki",
+      "name": "Strong Ki",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/2.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/114.png",
+      "changed": true
+    },
+    {
+      "id": "ultra-mystic-flash",
+      "name": "Ultra Mystic Flash",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/234.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/235.png",
+      "changed": true
+    },
+    {
+      "id": "ultimate-dodonpa",
+      "name": "Ultimate Dodonpa",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/230.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/231.png",
+      "changed": true
+    },
+    {
+      "id": "final-hell-cannon",
+      "name": "Final Hell Cannon",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/215.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/216.png",
+      "changed": true
+    },
+    {
+      "id": "namekian-regeneration",
+      "name": "Namekian Regeneration",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/82.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/83.png",
+      "changed": true
+    },
+    {
+      "id": "create-magic-senzu",
+      "name": "Create Magic Senzu",
+      "rawIcon": "./assets/generated/spells/create-magic-senzu.webp",
+      "correctedIcon": "./assets/generated/spells/create-magic-senzu.webp",
+      "changed": false
+    },
+    {
+      "id": "shunkanido",
+      "name": "Shunkanido",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/10.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/55.png",
+      "changed": true
+    },
+    {
+      "id": "divindark-kamehameha",
+      "name": "Divindark Kamehameha",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/236.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/237.png",
+      "changed": true
+    },
+    {
+      "id": "raging-strike",
+      "name": "Raging Strike",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/71.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/72.png",
+      "changed": true
+    },
+    {
+      "id": "dragon-fist-attack",
+      "name": "Dragon Fist Attack",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/61.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/62.png",
+      "changed": true
+    },
+    {
+      "id": "mega-shunkanido",
+      "name": "Mega Shunkanido",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/10.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/99.png",
+      "changed": true
+    },
+    {
+      "id": "absalon-explosion",
+      "name": "Absalon Explosion",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/80.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/81.png",
+      "changed": true
+    },
+    {
+      "id": "god-shunkanido",
+      "name": "God Shunkanido",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/53.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/81.png",
+      "changed": true
+    },
+    {
+      "id": "combo-impact",
+      "name": "Combo Impact",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/46.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/47.png",
+      "changed": true
+    },
+    {
+      "id": "embrace-evil-stream",
+      "name": "Embrace Evil Stream",
+      "rawIcon": "./assets/generated/full-registry/previews/effect/37.png",
+      "correctedIcon": "./assets/generated/full-registry/previews/effect/38.png",
+      "changed": true
+    }
+  ]
+}

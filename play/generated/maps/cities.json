@@ -1,0 +1,26 @@
+{
+  "earth": {
+    "displayName": "Earth City",
+    "otbmTownName": "Small City",
+    "townId": 1,
+    "spawn": {
+      "x": 655,
+      "y": 399,
+      "z": 7
+    },
+    "map": "generated/maps/absolute-temple.json",
+    "protectionZone": true
+  },
+  "frozen": {
+    "displayName": "Frozen City",
+    "otbmTownName": "Frozen City",
+    "townId": 2,
+    "spawn": {
+      "x": 446,
+      "y": 655,
+      "z": 7
+    },
+    "map": "generated/maps/earth-pz.json",
+    "protectionZone": true
+  }
+}

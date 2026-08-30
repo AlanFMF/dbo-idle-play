@@ -1,0 +1,88 @@
+{
+  "source": "https://old.wodbo.net/items",
+  "reviewedAt": "2026-08-05",
+  "starterItems": {
+    "starter_helmet": {
+      "name": "Sun Glasses",
+      "clientId": 2461,
+      "serverId": 3828
+    },
+    "starter_armor": {
+      "name": "Fighter Armor",
+      "clientId": 2535,
+      "serverId": 1786
+    },
+    "starter_legs": {
+      "name": "Panties",
+      "clientId": 2507,
+      "serverId": 3840
+    },
+    "starter_boots": {
+      "name": "Hercules Boots",
+      "clientId": 2524,
+      "serverId": 1775
+    },
+    "starter_gloves": {
+      "name": "Yellow Gloves",
+      "clientId": 2378,
+      "serverId": 1670
+    },
+    "starter_sword": {
+      "name": "Small Sword",
+      "clientId": 2376,
+      "serverId": 1668
+    },
+    "starter_blaster": {
+      "name": "Blue Ki",
+      "clientId": 2190,
+      "serverId": 1551
+    },
+    "starter_backpack": {
+      "name": "Backpack",
+      "clientId": 1988,
+      "serverId": 1415
+    }
+  },
+  "officialStats": {
+    "Sun Glasses": {
+      "armor": 1,
+      "hp": 100,
+      "ki": 100,
+      "hpRegen": 15,
+      "kiRegen": 15
+    },
+    "Fighter Armor": {
+      "armor": 10,
+      "hp": 100,
+      "ki": 100,
+      "hpRegen": 30,
+      "kiRegen": 30
+    },
+    "Panties": {
+      "armor": 1,
+      "hpRegen": 5,
+      "kiRegen": 5
+    },
+    "Hercules Boots": {
+      "armor": 2,
+      "hp": 100,
+      "ki": 100,
+      "hpRegen": 15,
+      "kiRegen": 15
+    },
+    "Yellow Gloves": {
+      "attack": 2,
+      "defense": 2
+    },
+    "Small Sword": {
+      "attack": 2,
+      "defense": 1
+    },
+    "Blue Ki": {
+      "attack": 4
+    },
+    "Backpack": {
+      "capacity": 20
+    }
+  }
+}

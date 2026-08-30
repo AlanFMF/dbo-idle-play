@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "clientVersion": 854,
+  "datSignature": 1277983123,
+  "sprSignature": 1277298068,
+  "signaturesMatch": false,
+  "spriteIdWidth": 16,
+  "sprSpriteCount": 63258,
+  "sourceHashes": {
+    "Tibia.dat": "68bb600615a12be02920968df4649572609492738fdfe85d6ca18913f75d22df",
+    "Tibia.spr": "0c75e476ffbd69b02cce4deadde0dc630e10c82ebb37d804bcad245ae23379f9",
+    "items.otb": "cf7d5384105c2e621861a9097397fd6803ba1268ea834cc8aecf1e0bcfc9c0bd"
+  },
+  "counts": {
+    "itemMaxClientId": 12618,
+    "itemDefinitions": 12519,
+    "outfitDefinitions": 1115,
+    "effectDefinitions": 317,
+    "missileDefinitions": 84
+  },
+  "stats": {
+    "item": {
+      "definitions": 12519,
+      "totalVariations": 24638,
+      "uniqueSpriteReferences": 25999
+    },
+    "outfit": {
+      "definitions": 1115,
+      "totalVariations": 13145,
+      "uniqueSpriteReferences": 18592
+    },
+    "effect": {
+      "definitions": 317,
+      "totalVariations": 2313,
+      "uniqueSpriteReferences": 16172
+    },
+    "missile": {
+      "definitions": 84,
+      "totalVariations": 927,
+      "uniqueSpriteReferences": 2050
+    }
+  },
+  "registries": {
+    "items": "./generated/asset-registry/items.json",
+    "outfits": "./generated/asset-registry/outfits.json",
+    "effects": "./generated/asset-registry/effects.json",
+    "missiles": "./generated/asset-registry/missiles.json",
+    "itemIdMap": "./generated/asset-registry/item-id-map.json"
+  }
+}

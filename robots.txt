@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alanfmf.github.io/dbo-idle-play/sitemap.xml

@@ -1,0 +1,415 @@
+{
+  "removed": [
+    {
+      "zoneId": "absolute-06",
+      "zoneName": "Pântano dos Saibamans",
+      "removed": [
+        {
+          "id": "prince-oozaru",
+          "name": "Prince Oozaru",
+          "sourceFile": "Prince Oozaru.xml",
+          "lookType": 20
+        }
+      ]
+    },
+    {
+      "zoneId": "absolute-07",
+      "zoneName": "Fortaleza dos Invasores",
+      "removed": [
+        {
+          "id": "saiyan-oozaru",
+          "name": "Saiyan Oozaru",
+          "sourceFile": "Saiyan Oozaru.xml",
+          "lookType": 189
+        },
+        {
+          "id": "freeza",
+          "name": "Freeza",
+          "sourceFile": "Freeza.xml",
+          "lookType": 92
+        },
+        {
+          "id": "cell-jr",
+          "name": "Cell Jr",
+          "sourceFile": "Cell Jr.xml",
+          "lookType": 81
+        }
+      ]
+    },
+    {
+      "zoneId": "absolute-08",
+      "zoneName": "Dimensão de Janemba",
+      "removed": [
+        {
+          "id": "kid-janemba",
+          "name": "Kid Janemba",
+          "sourceFile": "Kid Janemba.xml",
+          "lookType": 235
+        }
+      ]
+    },
+    {
+      "zoneId": "absolute-09",
+      "zoneName": "Território Tsuful",
+      "removed": [
+        {
+          "id": "broly",
+          "name": "Broly",
+          "sourceFile": "Broly.xml",
+          "lookType": 436
+        },
+        {
+          "id": "oozaru",
+          "name": "Oozaru",
+          "sourceFile": "Oozaru.xml",
+          "lookType": 56
+        }
+      ]
+    },
+    {
+      "zoneId": "absolute-10",
+      "zoneName": "Laboratório de Cell",
+      "removed": [
+        {
+          "id": "cell",
+          "name": "Cell",
+          "sourceFile": "Cell.xml",
+          "lookType": 83
+        }
+      ]
+    },
+    {
+      "zoneId": "absolute-12",
+      "zoneName": "Deserto de Yamu",
+      "removed": [
+        {
+          "id": "cell-jr",
+          "name": "Cell Jr",
+          "sourceFile": "Clone Cell Jr.xml",
+          "lookType": 81
+        }
+      ]
+    },
+    {
+      "zoneId": "absolute-13",
+      "zoneName": "Planeta de Cooler",
+      "removed": [
+        {
+          "id": "janemba",
+          "name": "Janemba",
+          "sourceFile": "Janemba.xml",
+          "lookType": 237
+        }
+      ]
+    },
+    {
+      "zoneId": "absolute-15",
+      "zoneName": "Templo dos Kaios",
+      "removed": [
+        {
+          "id": "san-shenron",
+          "name": "San Shenron",
+          "sourceFile": "San Shenron.xml",
+          "lookType": 303
+        },
+        {
+          "id": "golden-djin",
+          "name": "Golden Djin",
+          "sourceFile": "Golden Djin.xml",
+          "lookType": 411
+        },
+        {
+          "id": "majin-vegeta",
+          "name": "Majin Vegeta",
+          "sourceFile": "Majin Vegeta.xml",
+          "lookType": 23
+        },
+        {
+          "id": "suu-shenron",
+          "name": "Suu Shenron",
+          "sourceFile": "Suu Shenron.xml",
+          "lookType": 304
+        },
+        {
+          "id": "fat-janemba",
+          "name": "Fat Janemba",
+          "sourceFile": "Fat Janemba.xml",
+          "lookType": 236
+        }
+      ]
+    },
+    {
+      "zoneId": "absolute-16",
+      "zoneName": "Inferno dos Guerreiros",
+      "removed": [
+        {
+          "id": "perfect-cell",
+          "name": "Perfect Cell",
+          "sourceFile": "Perfect Cell.xml",
+          "lookType": 85
+        }
+      ]
+    },
+    {
+      "zoneId": "absolute-17",
+      "zoneName": "Planeta Tsuful",
+      "removed": [
+        {
+          "id": "baby-oozaru",
+          "name": "Baby Oozaru",
+          "sourceFile": "Baby Oozaru.xml",
+          "lookType": 184
+        },
+        {
+          "id": "vegeta-ssj4",
+          "name": "Vegeta SSJ4",
+          "sourceFile": "Vegeta SSJ4.xml",
+          "lookType": 29
+        },
+        {
+          "id": "li-shenron",
+          "name": "Li Shenron",
+          "sourceFile": "Li Shenron.xml",
+          "lookType": 305
+        }
+      ]
+    },
+    {
+      "zoneId": "absolute-18",
+      "zoneName": "Vale dos Oozarus",
+      "removed": [
+        {
+          "id": "broly-ssj4",
+          "name": "Broly SSJ4",
+          "sourceFile": "Broly SSJ4.xml",
+          "lookType": 117
+        },
+        {
+          "id": "golden-oozaru",
+          "name": "Golden Oozaru",
+          "sourceFile": "Golden Oozaru.xml",
+          "lookType": 433
+        }
+      ]
+    },
+    {
+      "zoneId": "absolute-19",
+      "zoneName": "Mundo dos Deuses",
+      "removed": [
+        {
+          "id": "king-vegeta",
+          "name": "King Vegeta",
+          "sourceFile": "King Vegeta.xml",
+          "lookType": 402
+        }
+      ]
+    },
+    {
+      "zoneId": "absolute-21",
+      "zoneName": "Arena Lendária",
+      "removed": [
+        {
+          "id": "broly-ssj5",
+          "name": "Broly SSJ5",
+          "sourceFile": "Broly SSJ5.xml",
+          "lookType": 119
+        },
+        {
+          "id": "vegeta-ssj5",
+          "name": "Vegeta SSJ5",
+          "sourceFile": "Vegeta SSJ5.xml",
+          "lookType": 30
+        }
+      ]
+    },
+    {
+      "zoneId": "absolute-22",
+      "zoneName": "Planeta Destruído",
+      "removed": [
+        {
+          "id": "freeza-rage",
+          "name": "Freeza Rage",
+          "sourceFile": "Lord Freeza.xml",
+          "lookType": 96
+        }
+      ]
+    },
+    {
+      "zoneId": "absolute-23",
+      "zoneName": "Dimensão Suprema",
+      "removed": [
+        {
+          "id": "furie-cell",
+          "name": "Furie Cell",
+          "sourceFile": "Furie Cell.xml",
+          "lookType": 86
+        },
+        {
+          "id": "ultra-god-bills",
+          "name": "Ultra God Bills",
+          "sourceFile": "Ultra god bills.xml",
+          "lookType": 584
+        },
+        {
+          "id": "hell-janemba",
+          "name": "Hell Janemba",
+          "sourceFile": "Hell Janemba.xml",
+          "lookType": 429
+        }
+      ]
+    },
+    {
+      "zoneId": "absolute-24",
+      "zoneName": "Domínio dos Shenrons",
+      "removed": [
+        {
+          "id": "furie-janemba",
+          "name": "Furie Janemba",
+          "sourceFile": "Furie Janemba.xml",
+          "lookType": 239
+        },
+        {
+          "id": "sidra-quest-monster",
+          "name": "Sidra Quest Monster",
+          "sourceFile": "Sidra Quest Monster.xml",
+          "lookType": 829
+        },
+        {
+          "id": "black-janemba",
+          "name": "Black Janemba",
+          "sourceFile": "Black Janemba.xml",
+          "lookType": 240
+        },
+        {
+          "id": "c8-quest-monster",
+          "name": "C8 Quest Monster",
+          "sourceFile": "C8 Quest Monster.xml",
+          "lookType": 579
+        }
+      ]
+    },
+    {
+      "zoneId": "absolute-25",
+      "zoneName": "Bosque dos Dinos",
+      "removed": [
+        {
+          "id": "vegetto-quest-monster",
+          "name": "Vegetto Quest Monster",
+          "sourceFile": "Vegetto Quest Monster.xml",
+          "lookType": 312
+        },
+        {
+          "id": "hell-janemba-vip",
+          "name": "Hell Janemba VIP",
+          "sourceFile": "Hell Janemba VIP.xml",
+          "lookType": 890
+        },
+        {
+          "id": "ramushi-quest-monster",
+          "name": "Ramushi Quest Monster",
+          "sourceFile": "Ramushi Quest Monster.xml",
+          "lookType": 871
+        },
+        {
+          "id": "goku-god",
+          "name": "Goku God",
+          "sourceFile": "Phoenix.xml",
+          "lookType": 14
+        },
+        {
+          "id": "li-shenron-max",
+          "name": "Li Shenron Max",
+          "sourceFile": "Li Shenron Max.xml",
+          "lookType": 306
+        }
+      ]
+    },
+    {
+      "zoneId": "absolute-26",
+      "zoneName": "Ruínas dos Vampiros",
+      "removed": [
+        {
+          "id": "tapion-quest-monster",
+          "name": "Tapion Quest Monster",
+          "sourceFile": "Cukatail Quest Monster.xml",
+          "lookType": 326
+        },
+        {
+          "id": "ultra-god-bills-vip",
+          "name": "Ultra God Bills VIP",
+          "sourceFile": "Ultra god bills vip.xml",
+          "lookType": 584
+        },
+        {
+          "id": "gamemaxter",
+          "name": "Gamemaxter",
+          "sourceFile": "Rola God.xml",
+          "lookType": 448
+        },
+        {
+          "id": "zamasu",
+          "name": "Zamasu",
+          "sourceFile": "Zamasu.xml",
+          "lookType": 610
+        }
+      ]
+    },
+    {
+      "zoneId": "absolute-27",
+      "zoneName": "Laboratório Android",
+      "removed": [
+        {
+          "id": "black-gattai",
+          "name": "Black Gattai",
+          "sourceFile": "Black Gattai.xml",
+          "lookType": 614
+        }
+      ]
+    },
+    {
+      "zoneId": "absolute-28",
+      "zoneName": "Cemitério dos Fantasmas",
+      "removed": [
+        {
+          "id": "black-janemba-boss",
+          "name": "Black Janemba Boss",
+          "sourceFile": "Black Janemba Boss.xml",
+          "lookType": 793
+        },
+        {
+          "id": "liquer-boss",
+          "name": "Liquer Boss",
+          "sourceFile": "Liquer Boss.xml",
+          "lookType": 971
+        },
+        {
+          "id": "hitto-boss",
+          "name": "Hitto Boss",
+          "sourceFile": "Hitto Boss.xml",
+          "lookType": 708
+        }
+      ]
+    },
+    {
+      "zoneId": "absolute-29",
+      "zoneName": "Montanhas Congeladas",
+      "removed": [
+        {
+          "id": "golden-freeza",
+          "name": "Golden Freeza",
+          "sourceFile": "Golden Freeza.xml",
+          "lookType": 603
+        },
+        {
+          "id": "gattai-black-boss",
+          "name": "Gattai Black Boss",
+          "sourceFile": "Gattai Black Boss.xml",
+          "lookType": 614
+        }
+      ]
+    }
+  ],
+  "remainingZones": 32,
+  "invalidRemaining": [],
+  "missingSpriteMetadata": []
+}

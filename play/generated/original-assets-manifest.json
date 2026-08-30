@@ -1,0 +1,40 @@
+{
+  "source": "DBO Absolute BY TRINT",
+  "files": [
+    {
+      "path": "source-assets/absolute/items/items.otb",
+      "bytes": 519126,
+      "sha256": "cf7d5384105c2e621861a9097397fd6803ba1268ea834cc8aecf1e0bcfc9c0bd"
+    },
+    {
+      "path": "source-assets/absolute/world/DBZO-house.xml",
+      "bytes": 22839,
+      "sha256": "ba8526aa1556fd4c0fdafad3f24a0a490bb5aa34213f2354169c45d4755ba9be"
+    },
+    {
+      "path": "source-assets/absolute/world/DBZO.otbm",
+      "bytes": 29698858,
+      "sha256": "339ca0dc0672cb72044e4d2c7f05dd0875af621895db319fc96dcb5d40f1a308"
+    },
+    {
+      "path": "source-assets/absolute/world/DBZO-spawn.xml",
+      "bytes": 1432046,
+      "sha256": "fee842e168cce511e0321d3b0bf2c7505a36f1b944b43a00dc0134244db8882f"
+    },
+    {
+      "path": "source-assets/absolute/client/Tibia.pic",
+      "bytes": 1953278,
+      "sha256": "e593f4d6768b186a792fefaa1d50a3c6c5d6b79bb1223f78bccf8dfacc01890a"
+    },
+    {
+      "path": "source-assets/absolute/client/Tibia.dat",
+      "bytes": 366030,
+      "sha256": "68bb600615a12be02920968df4649572609492738fdfe85d6ca18913f75d22df"
+    },
+    {
+      "path": "source-assets/absolute/client/Tibia.spr",
+      "bytes": 84764272,
+      "sha256": "0c75e476ffbd69b02cce4deadde0dc630e10c82ebb37d804bcad245ae23379f9"
+    }
+  ]
+}

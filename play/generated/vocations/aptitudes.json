@@ -1,0 +1,615 @@
+{
+  "source": "vocations.xml",
+  "generatedFor": "DBO Idle V12.17",
+  "profiles": {
+    "goku": {
+      "vocationId": 1,
+      "name": "Goku",
+      "raw": {
+        "meleeDamage": 5.0,
+        "distDamage": 1.0,
+        "magDamage": 0.8,
+        "magHealingDamage": 0.5
+      },
+      "aptitudes": {
+        "strength": 1.25,
+        "kiBlasting": 0.89,
+        "kiLevel": 0.872,
+        "healing": 0.845
+      },
+      "growth": {
+        "hpPerLevel": 400,
+        "kiPerLevel": 230,
+        "attackSpeedMs": 1200
+      }
+    },
+    "vegeta": {
+      "vocationId": 17,
+      "name": "Vegeta",
+      "raw": {
+        "meleeDamage": 5.0,
+        "distDamage": 1.0,
+        "magDamage": 0.8,
+        "magHealingDamage": 0.5
+      },
+      "aptitudes": {
+        "strength": 1.25,
+        "kiBlasting": 0.89,
+        "kiLevel": 0.872,
+        "healing": 0.845
+      },
+      "growth": {
+        "hpPerLevel": 400,
+        "kiPerLevel": 230,
+        "attackSpeedMs": 1200
+      }
+    },
+    "piccolo": {
+      "vocationId": 32,
+      "name": "Piccolo",
+      "raw": {
+        "meleeDamage": 1.0,
+        "distDamage": 5.0,
+        "magDamage": 0.8,
+        "magHealingDamage": 0.5
+      },
+      "aptitudes": {
+        "strength": 0.89,
+        "kiBlasting": 1.25,
+        "kiLevel": 0.872,
+        "healing": 0.845
+      },
+      "growth": {
+        "hpPerLevel": 400,
+        "kiPerLevel": 230,
+        "attackSpeedMs": 1200
+      }
+    },
+    "c17": {
+      "vocationId": 45,
+      "name": "C17",
+      "raw": {
+        "meleeDamage": 5.0,
+        "distDamage": 1.0,
+        "magDamage": 0.8,
+        "magHealingDamage": 0.5
+      },
+      "aptitudes": {
+        "strength": 1.25,
+        "kiBlasting": 0.89,
+        "kiLevel": 0.872,
+        "healing": 0.845
+      },
+      "growth": {
+        "hpPerLevel": 400,
+        "kiPerLevel": 230,
+        "attackSpeedMs": 1200
+      }
+    },
+    "gohan": {
+      "vocationId": 57,
+      "name": "Gohan",
+      "raw": {
+        "meleeDamage": 5.0,
+        "distDamage": 1.0,
+        "magDamage": 0.8,
+        "magHealingDamage": 0.5
+      },
+      "aptitudes": {
+        "strength": 1.25,
+        "kiBlasting": 0.89,
+        "kiLevel": 0.872,
+        "healing": 0.845
+      },
+      "growth": {
+        "hpPerLevel": 400,
+        "kiPerLevel": 230,
+        "attackSpeedMs": 1200
+      }
+    },
+    "trunks": {
+      "vocationId": 71,
+      "name": "Trunks",
+      "raw": {
+        "meleeDamage": 5.0,
+        "distDamage": 1.0,
+        "magDamage": 0.8,
+        "magHealingDamage": 0.5
+      },
+      "aptitudes": {
+        "strength": 1.25,
+        "kiBlasting": 0.89,
+        "kiLevel": 0.872,
+        "healing": 0.845
+      },
+      "growth": {
+        "hpPerLevel": 400,
+        "kiPerLevel": 230,
+        "attackSpeedMs": 1200
+      }
+    },
+    "cell": {
+      "vocationId": 83,
+      "name": "Cell",
+      "raw": {
+        "meleeDamage": 40.0,
+        "distDamage": 5.0,
+        "magDamage": 0.8,
+        "magHealingDamage": 0.5
+      },
+      "aptitudes": {
+        "strength": 1.25,
+        "kiBlasting": 0.8563,
+        "kiLevel": 0.809,
+        "healing": 0.8056
+      },
+      "growth": {
+        "hpPerLevel": 400,
+        "kiPerLevel": 230,
+        "attackSpeedMs": 1200
+      }
+    },
+    "freeza": {
+      "vocationId": 95,
+      "name": "Freeza",
+      "raw": {
+        "meleeDamage": 5.0,
+        "distDamage": 1.0,
+        "magDamage": 0.8,
+        "magHealingDamage": 0.5
+      },
+      "aptitudes": {
+        "strength": 1.25,
+        "kiBlasting": 0.89,
+        "kiLevel": 0.872,
+        "healing": 0.845
+      },
+      "growth": {
+        "hpPerLevel": 350,
+        "kiPerLevel": 230,
+        "attackSpeedMs": 1200
+      }
+    },
+    "majin buu": {
+      "vocationId": 111,
+      "name": "Majin Buu",
+      "raw": {
+        "meleeDamage": 5.0,
+        "distDamage": 1.0,
+        "magDamage": 0.8,
+        "magHealingDamage": 0.5
+      },
+      "aptitudes": {
+        "strength": 1.25,
+        "kiBlasting": 0.89,
+        "kiLevel": 0.872,
+        "healing": 0.845
+      },
+      "growth": {
+        "hpPerLevel": 400,
+        "kiPerLevel": 230,
+        "attackSpeedMs": 1200
+      }
+    },
+    "broly": {
+      "vocationId": 127,
+      "name": "Broly",
+      "raw": {
+        "meleeDamage": 5.0,
+        "distDamage": 1.0,
+        "magDamage": 0.8,
+        "magHealingDamage": 0.5
+      },
+      "aptitudes": {
+        "strength": 1.25,
+        "kiBlasting": 0.89,
+        "kiLevel": 0.872,
+        "healing": 0.845
+      },
+      "growth": {
+        "hpPerLevel": 400,
+        "kiPerLevel": 230,
+        "attackSpeedMs": 1200
+      }
+    },
+    "c18": {
+      "vocationId": 140,
+      "name": "C18",
+      "raw": {
+        "meleeDamage": 5.0,
+        "distDamage": 1.0,
+        "magDamage": 0.8,
+        "magHealingDamage": 0.5
+      },
+      "aptitudes": {
+        "strength": 1.25,
+        "kiBlasting": 0.89,
+        "kiLevel": 0.872,
+        "healing": 0.845
+      },
+      "growth": {
+        "hpPerLevel": 400,
+        "kiPerLevel": 230,
+        "attackSpeedMs": 1200
+      }
+    },
+    "uub": {
+      "vocationId": 152,
+      "name": "Uub",
+      "raw": {
+        "meleeDamage": 5.0,
+        "distDamage": 1.0,
+        "magDamage": 0.8,
+        "magHealingDamage": 0.5
+      },
+      "aptitudes": {
+        "strength": 1.25,
+        "kiBlasting": 0.89,
+        "kiLevel": 0.872,
+        "healing": 0.845
+      },
+      "growth": {
+        "hpPerLevel": 400,
+        "kiPerLevel": 230,
+        "attackSpeedMs": 1200
+      }
+    },
+    "goten": {
+      "vocationId": 164,
+      "name": "Goten",
+      "raw": {
+        "meleeDamage": 5.0,
+        "distDamage": 1.0,
+        "magDamage": 0.8,
+        "magHealingDamage": 0.5
+      },
+      "aptitudes": {
+        "strength": 1.25,
+        "kiBlasting": 0.89,
+        "kiLevel": 0.872,
+        "healing": 0.845
+      },
+      "growth": {
+        "hpPerLevel": 400,
+        "kiPerLevel": 230,
+        "attackSpeedMs": 1200
+      }
+    },
+    "chibi trunks": {
+      "vocationId": 178,
+      "name": "Chibi Trunks",
+      "raw": {
+        "meleeDamage": 5.0,
+        "distDamage": 1.0,
+        "magDamage": 0.8,
+        "magHealingDamage": 0.5
+      },
+      "aptitudes": {
+        "strength": 1.25,
+        "kiBlasting": 0.89,
+        "kiLevel": 0.872,
+        "healing": 0.845
+      },
+      "growth": {
+        "hpPerLevel": 400,
+        "kiPerLevel": 230,
+        "attackSpeedMs": 1200
+      }
+    },
+    "cooler": {
+      "vocationId": 192,
+      "name": "Cooler",
+      "raw": {
+        "meleeDamage": 5.0,
+        "distDamage": 1.0,
+        "magDamage": 0.8,
+        "magHealingDamage": 0.5
+      },
+      "aptitudes": {
+        "strength": 1.25,
+        "kiBlasting": 0.89,
+        "kiLevel": 0.872,
+        "healing": 0.845
+      },
+      "growth": {
+        "hpPerLevel": 350,
+        "kiPerLevel": 230,
+        "attackSpeedMs": 1200
+      }
+    },
+    "dende": {
+      "vocationId": 206,
+      "name": "Dende",
+      "raw": {
+        "meleeDamage": 1.0,
+        "distDamage": 5.0,
+        "magDamage": 0.8,
+        "magHealingDamage": 0.8
+      },
+      "aptitudes": {
+        "strength": 0.89,
+        "kiBlasting": 1.25,
+        "kiLevel": 0.872,
+        "healing": 0.872
+      },
+      "growth": {
+        "hpPerLevel": 300,
+        "kiPerLevel": 230,
+        "attackSpeedMs": 1200
+      }
+    },
+    "tsuful": {
+      "vocationId": 218,
+      "name": "Tsuful",
+      "raw": {
+        "meleeDamage": 5.0,
+        "distDamage": 1.0,
+        "magDamage": 0.8,
+        "magHealingDamage": 0.5
+      },
+      "aptitudes": {
+        "strength": 1.25,
+        "kiBlasting": 0.89,
+        "kiLevel": 0.872,
+        "healing": 0.845
+      },
+      "growth": {
+        "hpPerLevel": 400,
+        "kiPerLevel": 230,
+        "attackSpeedMs": 1200
+      }
+    },
+    "bardock": {
+      "vocationId": 230,
+      "name": "Bardock",
+      "raw": {
+        "meleeDamage": 5.0,
+        "distDamage": 1.0,
+        "magDamage": 0.8,
+        "magHealingDamage": 0.5
+      },
+      "aptitudes": {
+        "strength": 1.25,
+        "kiBlasting": 0.89,
+        "kiLevel": 0.872,
+        "healing": 0.845
+      },
+      "growth": {
+        "hpPerLevel": 400,
+        "kiPerLevel": 230,
+        "attackSpeedMs": 1200
+      }
+    },
+    "kuririn": {
+      "vocationId": 244,
+      "name": "Kuririn",
+      "raw": {
+        "meleeDamage": 5.0,
+        "distDamage": 1.0,
+        "magDamage": 0.8,
+        "magHealingDamage": 0.5
+      },
+      "aptitudes": {
+        "strength": 1.25,
+        "kiBlasting": 0.89,
+        "kiLevel": 0.872,
+        "healing": 0.845
+      },
+      "growth": {
+        "hpPerLevel": 400,
+        "kiPerLevel": 230,
+        "attackSpeedMs": 1200
+      }
+    },
+    "pan": {
+      "vocationId": 256,
+      "name": "Pan",
+      "raw": {
+        "meleeDamage": 5.0,
+        "distDamage": 1.0,
+        "magDamage": 0.8,
+        "magHealingDamage": 0.5
+      },
+      "aptitudes": {
+        "strength": 1.25,
+        "kiBlasting": 0.89,
+        "kiLevel": 0.872,
+        "healing": 0.845
+      },
+      "growth": {
+        "hpPerLevel": 400,
+        "kiPerLevel": 230,
+        "attackSpeedMs": 1200
+      }
+    },
+    "kaio": {
+      "vocationId": 268,
+      "name": "Kaio",
+      "raw": {
+        "meleeDamage": 1.0,
+        "distDamage": 5.0,
+        "magDamage": 0.8,
+        "magHealingDamage": 0.8
+      },
+      "aptitudes": {
+        "strength": 0.89,
+        "kiBlasting": 1.25,
+        "kiLevel": 0.872,
+        "healing": 0.872
+      },
+      "growth": {
+        "hpPerLevel": 300,
+        "kiPerLevel": 230,
+        "attackSpeedMs": 1200
+      }
+    },
+    "videl": {
+      "vocationId": 280,
+      "name": "Videl",
+      "raw": {
+        "meleeDamage": 5.0,
+        "distDamage": 1.0,
+        "magDamage": 0.8,
+        "magHealingDamage": 0.5
+      },
+      "aptitudes": {
+        "strength": 1.25,
+        "kiBlasting": 0.89,
+        "kiLevel": 0.872,
+        "healing": 0.845
+      },
+      "growth": {
+        "hpPerLevel": 400,
+        "kiPerLevel": 230,
+        "attackSpeedMs": 1200
+      }
+    },
+    "janemba": {
+      "vocationId": 292,
+      "name": "Janemba",
+      "raw": {
+        "meleeDamage": 5.0,
+        "distDamage": 1.0,
+        "magDamage": 0.8,
+        "magHealingDamage": 0.5
+      },
+      "aptitudes": {
+        "strength": 1.25,
+        "kiBlasting": 0.89,
+        "kiLevel": 0.872,
+        "healing": 0.845
+      },
+      "growth": {
+        "hpPerLevel": 350,
+        "kiPerLevel": 230,
+        "attackSpeedMs": 1200
+      }
+    },
+    "tenshinhan": {
+      "vocationId": 304,
+      "name": "Tenshinhan",
+      "raw": {
+        "meleeDamage": 5.0,
+        "distDamage": 1.0,
+        "magDamage": 0.8,
+        "magHealingDamage": 0.5
+      },
+      "aptitudes": {
+        "strength": 1.25,
+        "kiBlasting": 0.89,
+        "kiLevel": 0.872,
+        "healing": 0.845
+      },
+      "growth": {
+        "hpPerLevel": 400,
+        "kiPerLevel": 230,
+        "attackSpeedMs": 1200
+      }
+    },
+    "jenk": {
+      "vocationId": 316,
+      "name": "Jenk",
+      "raw": {
+        "meleeDamage": 5.0,
+        "distDamage": 1.0,
+        "magDamage": 0.8,
+        "magHealingDamage": 0.5
+      },
+      "aptitudes": {
+        "strength": 1.25,
+        "kiBlasting": 0.89,
+        "kiLevel": 0.872,
+        "healing": 0.845
+      },
+      "growth": {
+        "hpPerLevel": 400,
+        "kiPerLevel": 230,
+        "attackSpeedMs": 1200
+      }
+    },
+    "raditz": {
+      "vocationId": 328,
+      "name": "Raditz",
+      "raw": {
+        "meleeDamage": 5.0,
+        "distDamage": 1.0,
+        "magDamage": 0.8,
+        "magHealingDamage": 0.5
+      },
+      "aptitudes": {
+        "strength": 1.25,
+        "kiBlasting": 0.89,
+        "kiLevel": 0.872,
+        "healing": 0.845
+      },
+      "growth": {
+        "hpPerLevel": 400,
+        "kiPerLevel": 230,
+        "attackSpeedMs": 1200
+      }
+    },
+    "c16": {
+      "vocationId": 340,
+      "name": "C16",
+      "raw": {
+        "meleeDamage": 5.0,
+        "distDamage": 1.0,
+        "magDamage": 0.8,
+        "magHealingDamage": 1.0
+      },
+      "aptitudes": {
+        "strength": 1.25,
+        "kiBlasting": 0.89,
+        "kiLevel": 0.872,
+        "healing": 0.89
+      },
+      "growth": {
+        "hpPerLevel": 400,
+        "kiPerLevel": 230,
+        "attackSpeedMs": 1200
+      }
+    },
+    "turles": {
+      "vocationId": 352,
+      "name": "Turles",
+      "raw": {
+        "meleeDamage": 5.0,
+        "distDamage": 1.0,
+        "magDamage": 0.8,
+        "magHealingDamage": 0.5
+      },
+      "aptitudes": {
+        "strength": 1.25,
+        "kiBlasting": 0.89,
+        "kiLevel": 0.872,
+        "healing": 0.845
+      },
+      "growth": {
+        "hpPerLevel": 400,
+        "kiPerLevel": 230,
+        "attackSpeedMs": 1200
+      }
+    },
+    "bulma": {
+      "vocationId": 364,
+      "name": "Bulma",
+      "raw": {
+        "meleeDamage": 5.0,
+        "distDamage": 1.0,
+        "magDamage": 0.8,
+        "magHealingDamage": 0.5
+      },
+      "aptitudes": {
+        "strength": 1.25,
+        "kiBlasting": 0.89,
+        "kiLevel": 0.872,
+        "healing": 0.845
+      },
+      "growth": {
+        "hpPerLevel": 350,
+        "kiPerLevel": 230,
+        "attackSpeedMs": 1200
+      }
+    }
+  }
+}

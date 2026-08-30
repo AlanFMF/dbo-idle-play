@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "clientVersion": 854,
+  "regions": [
+    {
+      "id": "earth-pz",
+      "name": "Earth PZ",
+      "image": "generated/web/maps/earth-pz.png",
+      "center": {
+        "x": 106,
+        "y": 149,
+        "z": 10
+      },
+      "width": 25,
+      "height": 19,
+      "tileSize": 32
+    }
+  ],
+  "items": {
+    "12779": "generated/web/items/12779.png",
+    "2662": "generated/web/items/2662.png",
+    "2463": "generated/web/items/2463.png",
+    "2640": "generated/web/items/2640.png",
+    "2400": "generated/web/items/2400.png",
+    "2477": "generated/web/items/2477.png",
+    "2643": "generated/web/items/2643.png",
+    "2164": "generated/web/items/2164.png",
+    "2171": "generated/web/items/2171.png",
+    "1988": "generated/web/items/1988.png",
+    "2516": "generated/web/items/2516.png",
+    "2544": "generated/web/items/2544.png"
+  }
+}

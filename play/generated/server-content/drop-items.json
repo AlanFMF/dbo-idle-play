@@ -1,0 +1,158 @@
+{
+  "server_2148": {
+    "id": "server_2148",
+    "serverId": 2148,
+    "name": "Cent",
+    "type": "currency",
+    "rarity": "common",
+    "icon": "C",
+    "description": "Item original do servidor #2148.",
+    "value": 1,
+    "sourceAttributes": {
+      "weight": "10",
+      "worth": "1"
+    }
+  },
+  "server_2152": {
+    "id": "server_2152",
+    "serverId": 2152,
+    "name": "Dollar",
+    "type": "currency",
+    "rarity": "common",
+    "icon": "D",
+    "description": "Item original do servidor #2152.",
+    "value": 100,
+    "sourceAttributes": {
+      "weight": "10",
+      "worth": "100"
+    }
+  },
+  "server_2666": {
+    "id": "server_2666",
+    "serverId": 2666,
+    "name": "Meat",
+    "type": "food",
+    "rarity": "common",
+    "icon": "M",
+    "description": "Item original do servidor #2666.",
+    "value": 0,
+    "sourceAttributes": {
+      "weight": "100",
+      "showcount": "0"
+    }
+  },
+  "server_2671": {
+    "id": "server_2671",
+    "serverId": 2671,
+    "name": "Ham",
+    "type": "food",
+    "rarity": "common",
+    "icon": "H",
+    "description": "Item original do servidor #2671.",
+    "value": 0,
+    "sourceAttributes": {
+      "weight": "100",
+      "showcount": "0"
+    }
+  },
+  "server_12621": {
+    "id": "server_12621",
+    "serverId": 12621,
+    "name": "Eye Mask",
+    "type": "helmet",
+    "rarity": "rare",
+    "icon": "EM",
+    "description": "Health and KI Regeneration +50/s",
+    "value": 0,
+    "sourceAttributes": {
+      "description": "Health and KI Regeneration +50/s",
+      "healthGain": "50",
+      "healthTicks": "1000",
+      "manaGain": "50",
+      "manaTicks": "1000",
+      "weight": "1000",
+      "armor": "5",
+      "slotType": "head"
+    },
+    "stats": {
+      "defense": 5,
+      "healthRegen": 50,
+      "kiRegen": 50
+    }
+  },
+  "server_12639": {
+    "id": "server_12639",
+    "serverId": 12639,
+    "name": "Black Coat",
+    "type": "armor",
+    "rarity": "rare",
+    "icon": "BC",
+    "description": "Health and KI Regeneration +400/s",
+    "value": 0,
+    "sourceAttributes": {
+      "description": "Health and KI Regeneration +400/s",
+      "weight": "5000",
+      "armor": "15",
+      "healthGain": "400",
+      "healthTicks": "1000",
+      "manaGain": "400",
+      "manaTicks": "1000",
+      "slotType": "body"
+    },
+    "stats": {
+      "defense": 15,
+      "healthRegen": 400,
+      "kiRegen": 400
+    }
+  },
+  "server_12717": {
+    "id": "server_12717",
+    "serverId": 12717,
+    "name": "Jin Sword",
+    "type": "weapon",
+    "rarity": "uncommon",
+    "icon": "JS",
+    "description": "Item original do servidor #12717.",
+    "value": 0,
+    "sourceAttributes": {
+      "weight": "2500",
+      "defense": "3",
+      "attack": "4",
+      "weaponType": "sword"
+    },
+    "stats": {
+      "attack": 4,
+      "defense": 3
+    }
+  },
+  "server_12775": {
+    "id": "server_12775",
+    "serverId": 12775,
+    "name": "HP Potion",
+    "type": "consumable",
+    "rarity": "common",
+    "icon": "HP",
+    "description": "Life +1000",
+    "value": 0,
+    "sourceAttributes": {
+      "description": "Life +1000",
+      "weight": "10"
+    },
+    "restoreHp": 1000
+  },
+  "server_12776": {
+    "id": "server_12776",
+    "serverId": 12776,
+    "name": "Ki Potion",
+    "type": "consumable",
+    "rarity": "common",
+    "icon": "KP",
+    "description": "Ki +1000",
+    "value": 0,
+    "sourceAttributes": {
+      "description": "Ki +1000",
+      "weight": "10"
+    },
+    "restoreKi": 1000
+  }
+}
