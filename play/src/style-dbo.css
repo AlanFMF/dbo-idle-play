@@ -64,6 +64,18 @@
   color:var(--db-text);
 }
 
+/* O Hunt Analyser entrou no bloco acima so pela moldura, mas ele nao e um
+   painel dentro de um backdrop como os outros da lista: e uma janela solta,
+   arrastavel, que se posiciona sozinha com position:fixed (style.css) e com
+   left/top inline gravados ao arrastar. O position:relative herdado dali
+   jogava a janela de volta para o fluxo do documento, onde ela ocupava
+   espaco e empurrava a interface inteira do jogo. Aqui a moldura fica e a
+   posicao volta a ser fixa — mesma especificidade, mais abaixo no arquivo,
+   entao esta regra vence sem precisar de !important. */
+.hunt-analyser-window{
+  position:fixed;
+}
+
 /* Fio de energia correndo no topo da janela. */
 .container-window::before,
 .forge-window::before,
